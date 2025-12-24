@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Chatbot UI</title>
+    <title>Zevpoint Chatbot</title>
+
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -16,11 +17,11 @@
         }
 
         #chat-container {
-            width: 400px;
-            height: 600px;
+            width: 420px;
+            height: 620px;
             background: white;
-            border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border-radius: 14px;
+            box-shadow: 0 6px 18px rgba(0,0,0,0.12);
             display: flex;
             flex-direction: column;
             overflow: hidden;
@@ -28,27 +29,40 @@
 
         #chat-header {
             background: #4a90e2;
-            padding: 15px;
+            padding: 14px;
             color: white;
-            font-size: 18px;
-            text-align: center;
+            font-size: 17px;
             font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #new-chat {
+            background: rgba(255,255,255,0.2);
+            border: none;
+            color: white;
+            padding: 6px 10px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 12px;
         }
 
         #messages {
             flex: 1;
-            padding: 15px;
+            padding: 14px;
             overflow-y: auto;
             background: #fafafa;
         }
 
         .message {
-            margin-bottom: 12px;
-            max-width: 80%;
-            padding: 10px;
-            border-radius: 12px;
+            margin-bottom: 10px;
+            max-width: 78%;
+            padding: 10px 12px;
+            border-radius: 14px;
             font-size: 14px;
             line-height: 1.4;
+            word-wrap: break-word;
         }
 
         .user {
@@ -62,9 +76,26 @@
             margin-right: auto;
         }
 
+        #typing {
+            padding: 6px 14px;
+            font-size: 12px;
+            color: gray;
+            display: none;
+        }
+
+        #status {
+            padding: 6px 14px;
+            font-size: 12px;
+            color: #b33;
+            display: none;
+            background: #fff6f6;
+            border-top: 1px solid #ffdede;
+        }
+
         #input-area {
             display: flex;
             padding: 10px;
+            border-top: 1px solid #eee;
             background: #fff;
         }
 
@@ -72,78 +103,109 @@
             flex: 1;
             padding: 10px;
             border: 1px solid #ccc;
-            border-radius: 8px;
+            border-radius: 10px;
+            font-size: 14px;
         }
 
         #send-btn {
-            padding: 10px 15px;
+            padding: 10px 14px;
             margin-left: 8px;
             background: #4a90e2;
             color: white;
             border: none;
-            border-radius: 8px;
+            border-radius: 10px;
             cursor: pointer;
+            font-size: 14px;
         }
 
-        #typing {
-            padding: 0 15px;
-            font-size: 12px;
-            color: gray;
-            display: none;
-        }
-
-        #status {
-            padding: 8px 12px;
-            font-size: 12px;
-            color: #b33;
-            display: none;
-            background: #fff6f6;
-            border-top: 1px solid #ffdede;
+        #send-btn:disabled {
+            background: #a0c4f0;
+            cursor: not-allowed;
         }
     </style>
 </head>
+
 <body>
 
 <div id="chat-container">
-    <div id="chat-header">Zevpoint Chatbot</div>
+    <div id="chat-header">
+        <span>Zevpoint Advisor</span>
+        <button id="new-chat">New Chat</button>
+    </div>
+
     <div id="messages"></div>
-    <div id="typing">Zevpoint Advisor is typing...</div>
-    <div id="status" role="status" aria-live="polite"></div>
+    <div id="typing">Zevpoint Advisor is typing…</div>
+    <div id="status"></div>
 
     <div id="input-area">
-        <input type="text" id="input-box" placeholder="Type your message..." />
+        <input type="text" id="input-box" placeholder="Type your message…" />
         <button id="send-btn">Send</button>
     </div>
 </div>
 
 <script>
-    // ----- CHANGE ONLY THIS IF YOU HAVE A CUSTOM URL -----
-    const apiUrl = "https://zp-chatbot-v2-ewapbch4bmcgh6eu.southindia-01.azurewebsites.net/api/httptrigger";
-    // ----------------------------------------------------
+/* ----------------------------------
+   CONFIG
+---------------------------------- */
 
-    const messagesDiv = document.getElementById("messages");
-    const inputBox = document.getElementById("input-box");
-    const sendBtn = document.getElementById("send-btn");
-    const typingIndicator = document.getElementById("typing");
-    const statusDiv = document.getElementById("status");
+const apiUrl = "https://YOUR_AZURE_FUNCTION_URL/api/httptrigger";
 
-    function addMessage(content, role) {
-        const div = document.createElement("div");
-        div.className = "message " + role;
-        div.innerText = content;
-        messagesDiv.appendChild(div);
-        messagesDiv.scrollTop = messagesDiv.scrollHeight;
+/* ----------------------------------
+   USER & SESSION HANDLING
+---------------------------------- */
+
+// Persistent user (same customer)
+let userId = localStorage.getItem("chat_user_id");
+if (!userId) {
+    userId = crypto.randomUUID();
+    localStorage.setItem("chat_user_id", userId);
+}
+
+// Per-tab session (new chat)
+let sessionId = crypto.randomUUID();
+
+/* ----------------------------------
+   DOM ELEMENTS
+---------------------------------- */
+
+const messagesDiv = document.getElementById("messages");
+const inputBox = document.getElementById("input-box");
+const sendBtn = document.getElementById("send-btn");
+const typingIndicator = document.getElementById("typing");
+const statusDiv = document.getElementById("status");
+const newChatBtn = document.getElementById("new-chat");
+
+/* ----------------------------------
+   HELPERS
+---------------------------------- */
+
+function addMessage(content, role) {
+    const div = document.createElement("div");
+    div.className = "message " + role;
+    div.innerText = content;
+    messagesDiv.appendChild(div);
+    messagesDiv.scrollTop = messagesDiv.scrollHeight;
+}
+
+function showStatus(msg) {
+    if (!msg) {
+        statusDiv.style.display = "none";
+        statusDiv.innerText = "";
+        return;
     }
+    statusDiv.style.display = "block";
+    statusDiv.innerText = msg;
+}
 
-    function showStatus(msg) {
-        if (!msg) {
-            statusDiv.style.display = "none";
-            statusDiv.innerText = "";
-            return;
-        }
-        statusDiv.style.display = "block";
-        statusDiv.innerText = msg;
-    }
+function setLoading(isLoading) {
+    typingIndicator.style.display = isLoading ? "block" : "none";
+    sendBtn.disabled = isLoading;
+    inputBox.disabled = isLoading;
+}
+
+/* ----------------------------------
+   SEND MESSAGE
+---------------------------------- */
 
 async function sendMessage() {
     const userMessage = inputBox.value.trim();
@@ -151,8 +213,8 @@ async function sendMessage() {
 
     addMessage(userMessage, "user");
     inputBox.value = "";
-    typingIndicator.style.display = "block";
     showStatus("");
+    setLoading(true);
 
     try {
         const response = await fetch(apiUrl, {
@@ -160,50 +222,52 @@ async function sendMessage() {
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({
                 message: userMessage,
-                user_id: "web_user"
+                user_id: userId,
+                session_id: sessionId
             })
         });
 
-        // Try to parse JSON body (may be missing or non-JSON)
-        let data = null;
-        try {
-            data = await response.json();
-        } catch (e) {
-            data = null;
-        }
-
-        typingIndicator.style.display = "none";
+        const data = await response.json();
+        setLoading(false);
 
         if (!response.ok) {
-            const errMsg = (data && data.error) ? data.error : `HTTP ${response.status} ${response.statusText}`;
-            addMessage(`⚠️ Server error: ${errMsg}`, "bot");
-            console.error('Server error', response.status, data);
-
-            // Show more verbose status for debugging
-            showStatus(`Server returned ${response.status}: ${errMsg}`);
+            addMessage(`⚠️ ${data.error || "Server error"}`, "bot");
+            showStatus(`Server error (${response.status})`);
             return;
         }
 
-        // Show either the answer or any error text returned by the server
-        const reply = (data && (data.response || data.error)) ? (data.response || data.error) : "⚠️ No response from server";
-        addMessage(reply, "bot");
+        addMessage(data.response || "⚠️ No response", "bot");
 
     } catch (err) {
-        typingIndicator.style.display = "none";
-        addMessage("⚠️ Error connecting to server", "bot");
+        setLoading(false);
+        addMessage("⚠️ Unable to connect to server", "bot");
+        showStatus("Network error. Check console.");
         console.error(err);
-        showStatus('Network error: could not reach the server. Check console for details.');
     }
 }
 
-    sendBtn.onclick = sendMessage;
+/* ----------------------------------
+   EVENTS
+---------------------------------- */
 
-    inputBox.addEventListener("keypress", function (e) {
-        if (e.key === "Enter") sendMessage();
-    });
+sendBtn.onclick = sendMessage;
 
-// Optional: for debugging, print the API url in the console (remove in production)
-console.info('Chat UI API URL:', apiUrl);
+inputBox.addEventListener("keypress", e => {
+    if (e.key === "Enter") sendMessage();
+});
+
+newChatBtn.onclick = () => {
+    sessionId = crypto.randomUUID();
+    messagesDiv.innerHTML = "";
+    showStatus("Started a new chat");
+};
+
+/* ----------------------------------
+   DEBUG (REMOVE IN PROD)
+---------------------------------- */
+
+console.info("user_id:", userId);
+console.info("session_id:", sessionId);
 </script>
 
 </body>
