@@ -336,7 +336,7 @@ def enrich_query_with_context(
     # Check if query is vague (short or lacks specific entities)
     query_words = query_lower.split()
     is_vague = (
-        len(query_words) <= 5 and
+        len(query_words) <= 6 and
         not any(re.search(p, query_lower) for p in PRODUCT_PATTERNS) and
         not any(re.search(p, query_lower) for p in VEHICLE_PATTERNS)
     )
@@ -353,6 +353,26 @@ def enrich_query_with_context(
         enrichments.append(context['product'])
     if context['vehicle']:
         enrichments.append(context['vehicle'])
+
+    # Also detect what type of info user is asking for and add relevant terms
+    # This helps when user asks vague follow-ups like "pricing" or "details"
+    info_type_expansions = {
+        # Price-related
+        ("price", "pricing", "cost", "rate", "kitna", "kitne", "quote"): "price cost rs",
+        # Installation-related
+        ("install", "installation", "setup", "fitting"): "installation service requirements",
+        # Warranty-related
+        ("warranty", "guarantee"): "warranty years coverage",
+        # Specification-related
+        ("spec", "specification", "details", "features", "info"): "specifications features",
+        # Delivery-related
+        ("delivery", "shipping", "dispatch"): "delivery dispatch days",
+    }
+
+    for keywords, expansion in info_type_expansions.items():
+        if any(kw in query_lower for kw in keywords):
+            enrichments.append(expansion)
+            break
 
     if enrichments:
         enriched = f"{query} {' '.join(enrichments)}"
@@ -472,6 +492,11 @@ def rewrite_query_simple(q: str) -> str:
     wiring_keywords = ["wiring", "electrical", "wire", "cable", "mcb", "earthing", "phase", "socket", "power supply"]
     if any(kw in q.lower() for kw in wiring_keywords):
         rewritten = f"{rewritten} installation service survey site assessment requirements"
+
+    # Expand pricing/cost queries to match "Price:" in documents
+    pricing_keywords = ["pricing", "price", "cost", "rate", "quote", "how much", "kitna", "kitne"]
+    if any(kw in q.lower() for kw in pricing_keywords):
+        rewritten = f"{rewritten} price cost rs rupees"
 
     return rewritten.strip()
 

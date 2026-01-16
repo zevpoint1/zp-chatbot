@@ -30,7 +30,8 @@ When someone wants to set up a charging station:
 - This is a business inquiry - don't ask about their personal vehicle
 - DC chargers are the default for commercial (Navigator 30, Nova 60, Nova 120, Nova 240)
 - Key info: power rating needed, payment terms (40% advance, 60% before dispatch), 1-2 day dispatch
-- Quote prices only from documents - if not found, offer to connect with commercial team
+- DC charger prices ARE available - check the retrieved product info carefully before saying prices aren't available
+- Only offer to connect with commercial team if specific info genuinely isn't in the retrieved documents
 
 HOME QUERIES
 
