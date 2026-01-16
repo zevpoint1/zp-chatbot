@@ -1177,13 +1177,13 @@ INSTRUCTIONS:
 # ========================
 # Fallback Response Generators
 # ========================
-def _generate_llm_failure_fallback(context: str, question: str, intents: List[str]) -> str:
+def _generate_llm_failure_fallback(context: str, question: str, intents: List[str], conversation_history: Optional[List[Dict[str, str]]] = None) -> str:
     """
     Generate fallback response when LLM API fails.
     Uses retrieved context to provide a simple answer.
     """
     if not context:
-        return _generate_fallback_response(intents, question)
+        return _generate_fallback_response(intents, question, conversation_history)
 
     # Extract key information from context
     context_preview = context[:500] + "..." if len(context) > 500 else context
@@ -1195,12 +1195,24 @@ def _generate_llm_failure_fallback(context: str, question: str, intents: List[st
     )
 
 
-def _generate_fallback_response(intents: List[str], question: str) -> str:
+def _generate_fallback_response(intents: List[str], question: str, conversation_history: Optional[List[Dict[str, str]]] = None) -> str:
     """
     Generate a helpful fallback response when no information is found.
-    Uses intent to provide contextually appropriate message.
+    Uses intent and conversation context to provide appropriate message.
     """
+    # Import here to avoid circular imports
+    from shared.prompt_manager import extract_conversation_context
+
+    # Get conversation context to avoid asking questions we already know
+    ctx = extract_conversation_context(conversation_history) if conversation_history else {}
+
     if "sales" in intents:
+        # If we already know the vehicle, don't ask again
+        if ctx.get("vehicle"):
+            return (
+                "I couldn't find specific details for that. "
+                "Could you tell me more about what you're looking for?"
+            )
         return (
             "I don't have specific information about that in my knowledge base. "
             "However, I'd be happy to help you find the right EV charger! "
@@ -1307,23 +1319,63 @@ def answer_question(
         metrics.retrieved_count = len(all_hits)
         
         if not all_hits:
-            logger.warning("No results retrieved from vector search")
+            logger.warning("No results retrieved from vector search - using conversation context only")
 
-            # Fallback: Try to provide a helpful response based on intent
-            fallback_answer = _generate_fallback_response(intents, user_question)
+            # Still call LLM with conversation history but without RAG context
+            # This handles conversational follow-ups like "smart" or "yes"
+            try:
+                system_prompt = build_prompt(
+                    intents=intents,
+                    question=user_question,
+                    context=None,  # No RAG context
+                    conversation_history=conversation_history
+                )
 
-            return PipelineResult(
-                answer=fallback_answer,
-                sources=[],
-                metrics=metrics,
-                filters=filters,
-                rewritten_queries=rewritten_queries,
-                retrieved_chunks=[],
-                intents=intents,
-                confidence_score=0.0,
-                search_time_ms=metrics.search_time_ms,
-                llm_time_ms=metrics.llm_generation_time * 1000
-            )
+                messages = [{"role": "system", "content": system_prompt}]
+
+                # Add conversation history
+                if conversation_history:
+                    for msg in conversation_history[-10:]:
+                        messages.append({"role": msg["role"], "content": msg["content"]})
+
+                messages.append({"role": "user", "content": user_question})
+
+                response = client.chat.completions.create(
+                    model=Config.OPENAI_MODEL,
+                    messages=messages,
+                    temperature=Config.TEMPERATURE,
+                    max_tokens=Config.MAX_RESPONSE_TOKENS
+                )
+
+                answer = response.choices[0].message.content.strip()
+
+                return PipelineResult(
+                    answer=answer,
+                    sources=[],
+                    metrics=metrics,
+                    filters=filters,
+                    rewritten_queries=rewritten_queries,
+                    retrieved_chunks=[],
+                    intents=intents,
+                    confidence_score=0.5,  # Medium confidence without RAG
+                    search_time_ms=metrics.search_time_ms,
+                    llm_time_ms=0.0
+                )
+            except Exception as e:
+                logger.error(f"LLM fallback failed: {e}")
+                fallback_answer = _generate_fallback_response(intents, user_question, conversation_history)
+                return PipelineResult(
+                    answer=fallback_answer,
+                    sources=[],
+                    metrics=metrics,
+                    filters=filters,
+                    rewritten_queries=rewritten_queries,
+                    retrieved_chunks=[],
+                    intents=intents,
+                    confidence_score=0.0,
+                    search_time_ms=metrics.search_time_ms,
+                    llm_time_ms=0.0
+                )
         
         # 6. Rerank
         rerank_start = time.time()
