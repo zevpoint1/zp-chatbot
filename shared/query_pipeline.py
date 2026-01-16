@@ -278,10 +278,11 @@ PRODUCT_PATTERNS = [
 
 VEHICLE_PATTERNS = [
     r'\b(nexon|curvv|tiago|tigor|punch)\b',
-    r'\b(xuv\s*400|e20|everito)\b',
-    r'\b(zs\s*ev|comet|windsor)\b',
-    r'\b(kona|ioniq)\b',
-    r'\b(ec3|atto|e6)\b',
+    r'\b(xuv\s*400|e20|everito|be6|xev\s*9e)\b',
+    r'\b(zs\s*ev|comet|windsor|cyberster|m9)\b',
+    r'\b(kona|ioniq|creta)\b',
+    r'\b(ec3|atto|e6|seal|emax)\b',
+    r'\b(ev6|carens)\b',
 ]
 
 
@@ -446,22 +447,32 @@ def rewrite_query_simple(q: str) -> str:
     - Remove common stopwords
     - Preserve key semantic tokens
     - Add query hints for question-like inputs
+    - Expand installation queries to include service document terms
     """
     q = normalize_query(q)
-    
+
     # Minimal stopword list - keep words that might be semantically important
     stopwords = {
         "the", "a", "an", "is", "are", "was", "were",
         "of", "in", "on", "at", "to", "for", "with",
     }
-    
+
     tokens = [t for t in q.split() if t not in stopwords or len(t) > 3]
     rewritten = " ".join(tokens)
-    
+
     # Add retrieval hint for question-style queries
     if "?" in q or (tokens and tokens[0] in {"how", "what", "why", "when", "who", "where"}):
         rewritten = f"{rewritten} query"
-    
+
+    # Expand installation queries to include service-related terms
+    if "install" in q.lower():
+        rewritten = f"{rewritten} installation service cost booking rzp"
+
+    # Expand wiring/electrical uncertainty queries to retrieve installation services
+    wiring_keywords = ["wiring", "electrical", "wire", "cable", "mcb", "earthing", "phase", "socket", "power supply"]
+    if any(kw in q.lower() for kw in wiring_keywords):
+        rewritten = f"{rewritten} installation service survey site assessment requirements"
+
     return rewritten.strip()
 
 
