@@ -1,0 +1,109 @@
+===============================================
+ZEVPOINT COMMERCIAL & SALES INFORMATION
+Document ID: ZEVPOINT-COMMERCIAL-001
+===============================================
+
+COMMERCIAL CHARGING STATION QUERIES
+-----------------------------------
+When customer says "I want to open a charging station" or similar:
+- This is a B2B/commercial inquiry, NOT a consumer home charger query
+- Do NOT ask about their personal EV or home setup
+- Focus on: charger type (DC/AC), power rating needed
+
+COMMERCIAL DC CHARGERS (For Charging Stations)
+----------------------------------------------
+Charging station = DC chargers by default (AC is rare exception)
+
+Available DC Chargers:
+- Navigator 30: 30kW, single CCS2 gun, entry-level DC
+- Nova 60: 60kW, dual CCS2 guns, simultaneous charging
+- Nova 120: 120kW, dual CCS2 guns, high-speed
+- Nova 240: 240kW, dual CCS2 guns, ultra-fast highway
+
+All DC chargers include:
+- OCPP 1.6 support for network management
+- UPI and card payment integration
+- RFID authentication
+- 7-inch display
+- 2-year on-site warranty
+- 48-hour priority service
+
+DC CHARGER DISPATCH AND PAYMENT
+-------------------------------
+Dispatch: 1-2 days after order confirmation
+Payment Terms:
+- 40% advance on order confirmation
+- 60% balance before dispatch
+Doorstep delivery available across India
+
+COMMERCIAL AC CHARGERS (For Parking/Fleet)
+------------------------------------------
+- Duos 7.5: 7.5kW, OCPP, commercial features, Rs.34,999
+- Duos 22: 22kW, OCPP, 3-phase, commercial, Rs.44,999
+
+WHY CHOOSE ZEVPOINT
+-------------------
+1. Made in India: Designed and tested for Indian conditions (dust, heat, rain)
+2. Proven Track Record: Installed 104 chargers at Amazon Hyderabad - India's largest corporate EV charger installation, Clients include NVIDIA, Merck, ITC, Aditya Birla, Hyatt Hotels, M arriott Hotels
+3. Quality Certifications: CE, TUV, UL, ARAI certified
+4. IP66 Weatherproof: Works in all weather conditions
+5. Doorstep Service: Pan-India service network
+6. Warranty: 2-5 years depending on component
+7. Fast Dispatch: AC chargers ship within 24 hours, DC in 1-2 days
+8. Smart Features: App control, RFID, scheduling, current adjustment
+9. Universal Compatibility: Works with all EV brands
+
+PAYMENT OPTIONS (ALL PRODUCTS)
+------------------------------
+- Online payment (website)
+- UPI
+- Credit/Debit cards
+- No-cost EMI: 3 months on credit card
+- Cash on Delivery (COD): Not Available for DC Chargers
+  Note: COD purchases are non-returnable
+
+HOW TO ORDER
+------------
+Website: www.zevpoint.com
+Phone: +91 9779750538 (Sales)
+WhatsApp: wa.link/zevpoint
+
+DELIVERY TIMELINE
+-----------------
+AC Chargers (Portable/Wall): Ships within 24 hours, delivery 3-7 days
+DC Chargers: Dispatch 1-2 days after order, delivery depends on location
+
+WARRANTY SUMMARY
+----------------
+AC Chargers:
+- Cable & Enclosure: 5 years
+- Electronics & Components: 2 years
+
+DC Chargers:
+- Complete charger: 2 years on-site warranty
+- Accessories: No warranty
+
+All Products:
+- Lifetime technical support included
+- Service line: +91 9779752450
+
+RETURN POLICY SUMMARY
+---------------------
+AC Chargers: 7-day return if unused, original packaging, all accessories
+DC Chargers: NO RETURNS under any circumstances
+COD/Sale/EMI purchases: Non-returnable
+Bulk orders (2+ units): Non-returnable
+
+For detailed policy, refer to ZEVPOINT COMPREHENSIVE POLICY DOCUMENT
+
+CONTACT INFORMATION
+-------------------
+Sales: +91 9779750538
+Service: +91 9779752450
+Email: support@zevpoint.com
+WhatsApp: wa.link/zevpoint
+Website: www.zevpoint.com
+
+===============================================
+END OF DOCUMENT
+===============================================
