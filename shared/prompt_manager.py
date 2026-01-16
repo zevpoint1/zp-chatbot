@@ -91,6 +91,7 @@ def extract_conversation_context(conversation_history: Optional[List[Dict[str, s
             user_text += " " + msg.get("content", "").lower()
 
     # Vehicle detection with categories
+    # Include common typos and variations
     vehicle_map = {
         # Category A (3.3 kW)
         "nexon prime": ("Nexon Prime", "A"),
@@ -102,7 +103,7 @@ def extract_conversation_context(conversation_history: Optional[List[Dict[str, s
         # Category B (7 kW)
         "nexon ev": ("Nexon EV", "B"),
         "nexon max": ("Nexon Max", "B"),
-        "nexon": ("Nexon EV", "B"),  # Default nexon to Category B
+        "nexon": ("Nexon EV", "B"),
         "punch": ("Punch EV", "B"),
         "curvv": ("Curvv EV", "B"),
         "harrier": ("Harrier EV", "B"),
@@ -115,32 +116,55 @@ def extract_conversation_context(conversation_history: Optional[List[Dict[str, s
         "atto": ("BYD Atto 3", "B"),
         "seal": ("BYD Seal", "B"),
 
-        # Category C (11 kW)
+        # Category C (11 kW) - with common typos
         "creta ev": ("Hyundai Creta EV", "C"),
         "creta": ("Hyundai Creta EV", "C"),
         "ioniq": ("Ioniq 5", "C"),
         "ev6": ("Kia EV6", "C"),
+        "be 6": ("Mahindra BE6", "C"),
         "be6": ("Mahindra BE6", "C"),
         "xev 9e": ("XEV 9e", "C"),
         "xev9e": ("XEV 9e", "C"),
+        "xe9": ("XEV 9e", "C"),
+        "xev9": ("XEV 9e", "C"),
+        "9e": ("XEV 9e", "C"),
         "i4": ("BMW i4", "C"),
         "xc40": ("Volvo XC40", "C"),
         "model y": ("Tesla Model Y", "C"),
     }
 
+    # Also check assistant responses for confirmed vehicles
+    # This catches cases where user typed shorthand but bot confirmed full name
+    assistant_text = ""
+    for msg in conversation_history:
+        if msg.get("role") == "assistant":
+            assistant_text += " " + msg.get("content", "").lower()
+
+    # Combined text for searching (user input + bot confirmations)
+    combined_text = user_text + " " + assistant_text
+
     # Check for Nexon Prime specifically (before generic nexon)
-    if "nexon prime" in user_text or "prime" in user_text:
+    if "nexon prime" in combined_text or ("prime" in user_text and "nexon" in combined_text):
         context["vehicle"] = "Nexon Prime"
         context["vehicle_category"] = "A"
-    elif "nexon max" in user_text or "max" in user_text:
+    elif "nexon max" in combined_text or ("max" in user_text and "nexon" in combined_text):
         context["vehicle"] = "Nexon Max"
         context["vehicle_category"] = "B"
     else:
+        # First check user text, then check if bot confirmed a vehicle
         for keyword, (vehicle, category) in vehicle_map.items():
             if keyword in user_text:
                 context["vehicle"] = vehicle
                 context["vehicle_category"] = category
                 break
+
+        # If not found in user text, check bot's confirmations
+        if not context["vehicle"]:
+            for keyword, (vehicle, category) in vehicle_map.items():
+                if keyword in assistant_text:
+                    context["vehicle"] = vehicle
+                    context["vehicle_category"] = category
+                    break
 
     # Preference detection
     if "portable" in user_text:
