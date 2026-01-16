@@ -1,0 +1,641 @@
+===============================================
+COMPREHENSIVE POLICY DOCUMENT: Zevpoint Customer Policies
+Document ID: ZEVPOINT-POLICIES-COMPREHENSIVE-001
+===============================================
+
+TABLE OF CONTENTS
+-----------------
+SECTION 1: SHIPPING & DELIVERY POLICY
+SECTION 2: RETURN & EXCHANGE POLICY
+SECTION 3: WARRANTY POLICY
+SECTION 4: CUSTOMER SUPPORT CONTACT INFORMATION
+SECTION 5: POLICY COMPARISON & QUICK REFERENCE
+
+===============================================
+SECTION 1: SHIPPING & DELIVERY POLICY
+===============================================
+
+STANDARD SHIPPING FOR AC CHARGERS
+----------------------------------
+Processing Time:
+All orders for AC chargers (portable, wall-mounted, and All-in-One chargers) are processed and shipped within 24 hours of order receipt. Fast order processing ensures customers receive products quickly.
+
+Shipping Partners:
+Zevpoint partners with reputed third-party courier services to ensure reliable and timely delivery. Courier partners selected for their reputation and service quality.
+
+Tracking Information:
+Tracking details shared via email as soon as order is processed. Customers can monitor shipment progress in real-time. Email provided during checkout is essential for receiving tracking updates.
+
+Email Communication:
+Highly recommended to provide email address at checkout. Ensures timely updates about order status, shipping progress, and delivery confirmation. All important communications sent via email.
+
+Delivery Centers:
+Zevpoint has delivery centers at the following locations for faster regional shipping:
+- Bengaluru
+- Chandigarh
+- Delhi-NCR (New Delhi, Noida, Gurgaon, Ghaziabad)
+- Kolkata
+- Hyderabad
+- Mumbai
+
+DC CHARGERS SHIPPING (SPECIAL TERMS)
+-------------------------------------
+Different Processing Time:
+DC Chargers (Navigator 30, Nova 60, Nova 120, Nova 240) have different shipping terms. Orders for DC chargers are processed and shipped within 2-3 weeks (not 24 hours like AC chargers). Longer processing time due to specialized equipment, careful packing, and complex logistics.
+
+Specialized Packaging:
+All DC chargers are securely packed and labeled before shipping. Include all necessary accessories. Professional packaging ensures safe transport of heavy commercial equipment.
+
+Tracking for DC Chargers:
+Tracking details shared via email within 2-3 weeks of order placement. Customers informed when DC charger shipment is dispatched.
+
+DC Charger Note:
+Shipping and exchange terms mentioned below for AC chargers do NOT apply to DC Chargers. DC Chargers have separate specific terms - refer to individual DC charger product pages for complete details.
+
+CASH ON DELIVERY (COD) OPTION
+------------------------------
+COD Availability:
+Zevpoint offers Cash on Delivery (COD) option across India. COD enables customers to pay at time of delivery rather than advance online payment.
+
+How to Order via COD:
+Contact Zevpoint at +91 9779750538 to place COD order. COD orders cannot be placed directly on website - phone contact required.
+
+Confirmation Advance Required:
+Small confirmation advance payment required to secure COD order. Advance confirms customer's genuine intent to receive order. Advance amount is small portion of total order value.
+
+Order Processing After Advance:
+Once confirmation advance received, order is processed normally. Tracking details shared via email. Product shipped to customer address.
+
+Balance Payment on Delivery:
+Balance payment (total order value minus confirmation advance) collected by courier company at delivery. Customer pays remaining amount in cash when product delivered to doorstep. Courier provides receipt for payment.
+
+COD Order Cancellation:
+If customer cancels COD order after confirmation advance paid, the confirmation advance shall be forfeited (not refunded). This policy prevents misuse of COD system.
+
+Important COD Restrictions:
+Products purchased via COD payment method are NON-RETURNABLE (see Return Policy section). COD purchases are final sale. Customers should be certain about purchase before ordering via COD.
+
+DELIVERY EXPECTATIONS
+---------------------
+Standard Delivery Timeline:
+Most orders delivered within 3-7 business days depending on location. Metro cities typically receive faster delivery. Remote locations may take longer.
+
+Delivery Attempt:
+Courier makes delivery attempt at provided address. Customer should be available to receive delivery. If customer not available, courier may leave note or contact customer for redelivery.
+
+Accepting Delivery:
+Inspect package before accepting delivery. If package appears tampered with or damaged, do NOT accept the package. Immediately contact Zevpoint support at support@zevpoint.com or +91 9779750538.
+
+OTP Verification:
+For some deliveries, OTP (One-Time Password) required for confirmation. Do NOT share OTP with delivery person if you have not received the product. OTP sharing confirms you received product.
+
+===============================================
+SECTION 2: RETURN & EXCHANGE POLICY
+===============================================
+
+RETURN POLICY OVERVIEW
+----------------------
+Return Window: 7 days from date of receipt of the order
+Policy Purpose: Customer satisfaction while maintaining clear guidelines
+Important: Not all products are returnable - see exclusions below
+
+RETURN ELIGIBILITY REQUIREMENTS
+--------------------------------
+Items must meet ALL of the following conditions:
+
+Original Condition:
+Product must be in original, unused condition. No signs of use, wear, installation, or operation. Cannot be installed, mounted, or connected to any electrical system. Product must look and function as if just received from factory.
+
+Original Packaging:
+Product must be in original manufacturer packaging. All boxes, cartons, protective materials must be intact. No damage to packaging during customer possession. Retail-ready packaging condition required.
+
+Complete Contents:
+All accessories included with product must be returned including cables, connectors, mounting hardware, carry bags, wall brackets, CEE sockets, RFID cards, user manuals, warranty cards, installation guides, or any other included items. Missing accessories may result in return rejection.
+
+Proof of Purchase:
+Valid proof of purchase required for all returns. Invoice, order confirmation email, or receipt showing order number, purchase date, and product details.
+
+Within 7-Day Window:
+Must contact Zevpoint Customer Support within 7 days of receiving order. 7-day period starts from delivery date, not order date.
+
+NON-RETURNABLE ITEMS (CRITICAL)
+--------------------------------
+The following items CANNOT be returned under ANY circumstances:
+
+1. Items Purchased During Sales Period:
+Any product purchased during sale periods with discounted pricing. Items purchased with discount codes, coupon codes, or promotional codes. Clearly marked as final sale at time of purchase.
+
+2. Cash on Delivery (COD) Purchases:
+Products purchased with COD payment method are NON-RETURNABLE. COD is final sale regardless of other factors. Customers should be certain before ordering via COD.
+
+3. No Cost EMI Purchases:
+Products purchased with No Cost EMI offers are NON-RETURNABLE. EMI promotional purchases are final sale.
+
+4. Bulk Orders:
+Orders containing 2 or more chargers in a single order transaction. Bulk orders are considered final sale and non-returnable. If ordering multiple units, understand they cannot be returned.
+
+5. DC Chargers (All Models):
+ALL DC fast chargers are NON-RETURNABLE under all circumstances including Navigator 30 (30kW), Nova 60 (60kW), Nova 120 (120kW), and Nova 240 (240kW). DC chargers cannot be returned regardless of purchase method, payment type, or reason. DC chargers are commercial equipment with special ordering and are final sale.
+
+6. EV Accessories:
+All EV accessories and add-on products are NON-RETURNABLE. Accessories include cables, adapters, mounting hardware, carry bags, or any accessory items. Accessories are final sale items.
+
+RETURN PROCESS STEP-BY-STEP
+----------------------------
+Follow these steps to initiate and complete a return:
+
+Step 1 - Contact Customer Support (Within 7 Days):
+Email: support@zevpoint.com OR Call: +91 9779750538 (Sales line)
+Must be initiated within 7 days of receiving order. Have order number ready when contacting.
+
+Step 2 - Provide Return Information:
+Provide order number and purchase proof. Clearly explain reason for return request. Provide relevant details - if claiming product defect, provide photos or videos showing issue. Be specific about what is wrong or why you want to return.
+
+Step 3 - Receive Return Authorization:
+Customer Support team reviews return request against eligibility criteria. If request approved, customer receives Return Authorization Number (RAN). Instructions for return shipping provided including address and packaging requirements. If request denied, specific reason for denial explained.
+
+Step 4 - Package Product Properly:
+Place product carefully in original packaging with all protective materials. Include ALL accessories, cables, documentation, and components. Ensure product is unused and undamaged. Include Return Authorization Number (RAN) clearly marked on or inside package. Seal package securely for safe shipping.
+
+Step 5 - Ship Product Back:
+Use shipping method recommended by Zevpoint support team. Properly address package to return address provided. Keep tracking number and proof of shipment. Record shipping agent details and contact information. Consider insuring high-value returns. Customer responsible for safe transit until Zevpoint receives package.
+
+Step 6 - Inspection by Zevpoint:
+Zevpoint receives returned package at facility. Product inspected thoroughly upon receipt. Verification that product meets ALL return eligibility criteria including unused condition, original packaging, complete accessories. Customer notified via email of inspection results (approval or rejection).
+
+Step 7 - Refund Processing (If Approved):
+If return approved after inspection, refund process initiated. Credit applied to original payment method used for purchase. Refund processed within 5 working days of return approval. Bank may take additional 2-5 business days to reflect refund in customer's account.
+
+RETURN SHIPPING COSTS
+----------------------
+Who Pays for Return Shipping:
+
+Zevpoint Bears Cost When:
+- Product delivered is defective or malfunctioning
+- Product received is incorrect (wrong model, wrong specifications)
+- Product different from what was ordered
+- Shipping damage during delivery to customer
+- Any error or fault on Zevpoint's part
+
+Customer Bears Cost When:
+- Customer changed mind about purchase
+- Customer ordered wrong product (customer's ordering error)
+- Product works correctly but customer doesn't want it
+- Any reason other than product defect or Zevpoint error
+- Customer dissatisfaction not related to product defect
+
+Important Shipping Recommendations:
+Record tracking details for all returns. Note shipping agent name, contact information, and tracking number. Recommended to insure high-value returns for protection. Keep proof of shipment until refund confirmed in bank account. Transit losses without proper documentation are customer's responsibility.
+
+REFUND PROCESS AND TIMELINE
+----------------------------
+Refund Method:
+Refund issued to same payment method used for original purchase. If paid by credit card, refunded to same credit card. If paid by debit card, refunded to same debit card. If paid by UPI, refunded to same UPI-linked account. If paid by net banking, refunded to same bank account. Cannot change refund method from original payment method.
+
+Refund Timeline:
+Inspection completed: 2-3 business days after Zevpoint receives return. Email notification sent: Approval or rejection communicated within 1 business day of inspection. Refund processing: Within 5 working days of approval notification. Bank processing: Additional 2-5 business days for refund to reflect in account. Total timeline: Approximately 7-15 business days from return received to money in account.
+
+Partial Refunds:
+If product returned with missing accessories, partial refund may be offered. If product has minor issues but mostly acceptable, partial refund option. Deductions clearly explained in notification email. Customer can accept partial refund or have product returned without refund.
+
+Refund Rejection:
+If return rejected, specific reasons explained. Common rejection reasons: product used or installed, packaging damaged or missing, accessories missing, outside 7-day window, non-returnable category. If rejected, product may be returned to customer at customer's expense.
+
+EXCHANGE POLICY
+---------------
+Exchange Window:
+Exchanges allowed within 7 days of delivery (same as return window). Product must be unused, in original packaging, with all accessories.
+
+Initiating Exchange:
+Contact Zevpoint support team at support@zevpoint.com or +91 9779750538. Provide order details and specify what you want to exchange for. Support team guides through exchange process.
+
+Exchange for Same Product:
+If customer wants same product as replacement due to defect, exchange process similar to return. May be faster than return-refund-repurchase. Replacement product shipped once defective product received and verified.
+
+Exchange for Different Product:
+If customer wants different Zevpoint product (different model or specifications), contact support team. If new product costs more, customer pays difference. If new product costs less, refund of difference processed. Subject to availability of desired product in inventory.
+
+Exchange Shipping Costs:
+For exchanges, shipping costs covered by Zevpoint if product is damaged or defective. For all other exchange reasons, customer responsible for return shipping to Zevpoint. Zevpoint covers shipping of replacement product to customer.
+
+Exchange Limitations:
+Exchanges subject to same eligibility criteria as returns. Cannot exchange non-returnable items including sale items, COD purchases, No Cost EMI purchases, bulk orders (2+ units), DC chargers, or accessories. Exchange must be initiated within 7-day window from delivery.
+
+MISUSE OF RETURN/EXCHANGE POLICY
+---------------------------------
+Policy Intent:
+Zevpoint's return and exchange policies intended solely for genuine product-related concerns. Policies designed to protect customers from defective products and ordering errors, not for customer abuse.
+
+Prohibited Behaviors:
+- Attempting to coerce Zevpoint into providing complimentary accessories as condition for not returning product
+- Requesting discounts or special benefits in exchange for keeping defective product
+- Using return/exchange threat to extract additional benefits beyond policy
+- Abusive, threatening, or manipulative communication with Customer Support
+- Returning products after using them extensively or installing them
+- Serial returning of multiple products without valid genuine reasons
+- False claims of defects when product works correctly
+- Attempting to return non-returnable items through coercion
+
+Consequences of Policy Misuse:
+- Zevpoint reserves right to refuse returns/exchanges in cases of identified misuse
+- Future service may be restricted or denied for customers engaging in coercive behavior
+- Customer accounts exhibiting abuse patterns may be flagged or blocked
+- Legal action may be pursued in cases of fraud or severe misuse
+- Warranty support may be withheld for customers with policy abuse history
+
+Valid vs Invalid Reasons:
+VALID Return/Exchange Reasons: Product genuinely defective or malfunctioning, product doesn't power on or work as designed, product damaged during shipping, wrong product received (Zevpoint error), product does not match specifications advertised.
+
+INVALID Return/Exchange Reasons: Used product extensively and now want refund, want free accessories in exchange for not returning, threaten to return unless given discount, purchased wrong product due to own error but product works correctly, changed mind after installation, want upgrade to newer model for free.
+
+===============================================
+SECTION 3: WARRANTY POLICY
+===============================================
+
+WARRANTY OVERVIEW
+-----------------
+Zevpoint believes in quality and durability of its products. Limited warranty covers manufacturing defects and malfunctions under normal use conditions. Warranty period starts from date of purchase (not delivery date). Warranty is separate from 7-day return policy.
+
+DIFFERENCE BETWEEN WARRANTY AND RETURN POLICY
+----------------------------------------------
+Return Policy (7 Days):
+- For change of mind, wrong purchase, or immediate defects
+- Must be unused and in original packaging
+- Very short window: 7 days from delivery
+- Product must meet strict eligibility criteria
+- Primarily for customer purchase mistakes or immediate issues
+
+Warranty (2-5 Years Depending on Component):
+- For defects that develop during normal use over time
+- Covers manufacturing defects and component failures
+- Much longer period: 2 years for electronics, 5 years for cable/enclosure
+- Does NOT require original packaging
+- Does NOT require product to be unused - covers issues during actual use
+- Use warranty when product worked initially but developed problems later
+
+When to Use Which:
+Use Return Policy: Product defective immediately out of box, you changed your mind, you ordered wrong product, you received wrong item. Use Warranty: Product worked fine initially but stopped working after weeks/months, components failed during normal use, charging cable damaged during normal operation.
+
+WARRANTY COVERAGE SCOPE
+------------------------
+What Warranty Covers:
+Manufacturing defects in materials or workmanship. Components that fail during normal use and proper operation. Malfunctions that occur under normal operating conditions. Issues arising from faulty materials used in manufacturing process.
+
+What Warranty Does NOT Cover:
+Damage from misuse, abuse, accidents, or improper installation. Damage from unauthorized repairs or modifications. Normal wear and tear or cosmetic damage. Damage from environmental factors or acts of nature. Damage from using product with incompatible accessories. Damage caused by power surges, incorrect wiring, or supply-side electrical faults. Physical damage to connectors including rusting or water damage (cable warranty exclusion). Damage from improper installation or non-adherence to instruction manual.
+
+WARRANTY PERIODS BY COMPONENT
+------------------------------
+AC Chargers (Portable, Wall-Mounted, All-in-One):
+
+Cable and Enclosure: 5-Year Warranty
+- Covers manufacturing defects and performance issues under normal usage
+- Applies to charging cable and charger enclosure/housing
+- Does NOT cover physical damage including rusting, water damage to connectors, or environmental factors
+- Cable must be used properly and stored correctly when not in use
+- Important: Not applicable for DC Chargers
+
+Charger Module, Connectivity, Displays, Components: 2-Year Warranty
+- Covers defects in materials and workmanship for electronics
+- Includes charger power module, WiFi/Bluetooth connectivity modules, LCD/LED displays, RFID readers, and all other internal components
+- Does NOT cover damage from power surges, improper installation, incorrect wiring, supply-side electrical faults, or burnouts
+- Does NOT cover damage from non-adherence to instruction manual
+
+DC Chargers (Navigator, Nova series):
+DC chargers have separate warranty terms. Complete DC charger covered by 2-year warranty against manufacturing defects and functional issues. DC charger accessories have NO warranty coverage. Warranty does NOT cover damage from improper use, power surges, supply-side electrical faults, burnouts, or unauthorized modifications. Refer to individual DC charger product pages for complete warranty details.
+
+LIFETIME TECHNICAL SUPPORT
+---------------------------
+Included with All Products:
+Zevpoint offers lifetime technical support for all products. Available to assist with issues or questions throughout product lifespan. Dedicated support team helps ensure charger operates smoothly and efficiently.
+
+What Technical Support Includes:
+Troubleshooting assistance for operational issues. Installation guidance and advice. Configuration help for smart features (WiFi, Bluetooth, app). Usage questions and best practices. Diagnostic assistance to determine if issue is warranty-covered.
+
+How to Access Technical Support:
+Contact support@zevpoint.com or call +91 9779750538 (Sales line) or +91 9779752450 (Service line). Technical support available during business hours. Response typically within 24 hours on business days.
+
+WARRANTY ELIGIBILITY REQUIREMENTS
+----------------------------------
+Original Purchaser Only:
+Warranty valid only for original purchaser of product. Warranty is non-transferable - does not transfer if product resold or gifted. Proof of original purchase required for warranty claims.
+
+Proof of Purchase Required:
+Sales receipt, invoice, or order confirmation required. Must show purchase date, product details, and original purchaser information. Without proof of purchase, warranty claim cannot be processed.
+
+Proper Installation and Usage:
+Products must be installed according to provided instruction manual. Products must be operated within specified parameters. Installation by qualified electrician recommended for safety and warranty validity. Improper installation may void warranty.
+
+Normal Use Conditions:
+Warranty covers defects arising during normal use. Abuse, misuse, or operation outside specifications not covered. Environmental factors beyond normal conditions not covered.
+
+WARRANTY CLAIM PROCESS
+-----------------------
+Step 1 - Initial Contact (Within Warranty Period):
+Contact Zevpoint customer support within warranty period. Email support@zevpoint.com or call +91 9779752450 (Service line). Provide product details, proof of purchase, and detailed description of issue.
+
+Step 2 - Remote Diagnosis Attempt:
+Zevpoint attempts to diagnose and resolve issue remotely as first step. Technical support via phone call or video assistance. Many issues resolved remotely without product return. Remote troubleshooting minimizes customer inconvenience and speeds resolution.
+
+Step 3 - Assessment and Service Decision:
+If issue cannot be resolved remotely, Zevpoint assesses situation. Determination made whether: (a) Issue can be addressed on-site at customer location, OR (b) Product must be returned to Zevpoint for inspection/repair. This determination made solely at Zevpoint's discretion based on nature of issue and available service options.
+
+Step 4A - On-Site Service (If Applicable):
+For issues that can be resolved on-site, Zevpoint arranges technician visit. Service performed at customer location. Minimizes customer inconvenience.
+
+Step 4B - Return for Repair (If Required):
+For issues requiring factory inspection/repair, product return arranged. Zevpoint facilitates free reverse pickup from customer location. Customer does NOT pay for return shipping of warranty-covered product. Repaired or replacement product delivered back to same address free of charge.
+
+Step 5 - Inspection and Repair:
+Product inspected at Zevpoint facility. Issue evaluated to confirm warranty coverage. If covered: Product repaired or replaced. If not covered: Customer informed of reason and options (paid repair or return product).
+
+Step 6 - Return of Repaired/Replaced Product:
+Repaired or replacement product safely packaged. Shipped back to customer at no charge. Customer receives repaired unit or brand-new replacement.
+
+REVERSE PICKUP AND SHIPPING
+----------------------------
+Free Reverse Pickup (Warranty Claims):
+For warranty-covered issues requiring product return, Zevpoint facilitates free reverse pickup from customer location. Courier picks up product from customer address. Customer does NOT pay shipping costs for warranty product returns.
+
+Self-Shipping (If Reverse Pickup Unavailable):
+In rare cases where reverse pickup cannot be arranged due to logistical constraints, carrier delays, or service unavailability in customer area, customers may be requested to self-ship product to Zevpoint-specified address. Such self-shipping must be pre-approved by Zevpoint support team.
+
+Shipping Cost Reimbursement:
+If customer required to self-ship warranty product with prior approval, shipping costs may be reimbursed or adjusted at Zevpoint's discretion. Reimbursement provided as cashback, vouchers, or another method deemed suitable by Zevpoint. Customer must provide necessary proof of shipping expenses for verification. Zevpoint reserves right to assess reasonableness of shipping charges and adjust reimbursement accordingly.
+
+Return Shipping Address:
+Specific return address provided by Zevpoint support during warranty claim process. Do not ship warranty returns without prior authorization and address confirmation.
+
+UNINSTALLATION RESPONSIBILITY
+------------------------------
+Customer Responsibility for Uninstallation:
+Uninstallation of charger for any warranty claim remains customer's responsibility. For wall-mounted chargers, customer arranges removal from wall. For hardwired chargers, customer arranges disconnection from electrical system. Professional electrician recommended for safe uninstallation. Zevpoint does NOT provide uninstallation service.
+
+Reinstallation After Warranty Service:
+Reinstallation of repaired/replaced charger also customer's responsibility. Professional electrician recommended for safe installation. Proper installation per instruction manual required to maintain warranty validity.
+
+WARRANTY REMEDIES
+-----------------
+If Manufacturing Defect Confirmed:
+Zevpoint will, at its sole discretion: (a) Repair the defective product, OR (b) Replace the defective product with new or refurbished unit of equal functionality.
+
+Remaining Warranty Period:
+Repaired or replaced product covered by remaining warranty period from original purchase date. Warranty period does NOT restart with repair/replacement. Example: If product fails in year 3 of 5-year warranty, repaired unit has 2 years remaining warranty.
+
+Product Substitution:
+Zevpoint reserves right to substitute discontinued or out-of-stock products with similar products of equal or higher value. Customer notified of substitution before processing. Substitution at Zevpoint's discretion.
+
+PENDING DUES AND WARRANTY HOLD
+-------------------------------
+Warranty Suspension for Unpaid Dues:
+If any outstanding dues remain unpaid by customer after receiving product, warranty shall be temporarily suspended until all pending payments settled in full. Unpaid dues include but not limited to: product payment balance, service charges, installation charges, or any other associated costs.
+
+Warranty Hold Period:
+Zevpoint reserves right to withhold any warranty claims, repairs, or replacements during period of unpaid dues. Warranty services will not be provided until payment cleared.
+
+Warranty Resumption:
+Once all dues cleared and payment confirmed, warranty period shall resume as per original terms. Important: No extension granted for hold duration - time during hold still counts toward warranty period. Example: If product has 2 years remaining warranty and held for 3 months due to unpaid dues, after payment cleared there are still only 2 years remaining (not 2 years + 3 months).
+
+WARRANTY VOID CONDITIONS
+-------------------------
+Warranty Completely Void If:
+
+Tampering or Modification:
+Product tampered with, modified, or repaired by unauthorized personnel. Any opening of charger enclosure by non-Zevpoint technicians. Modifications to hardware or software. Unauthorized repairs void warranty completely.
+
+Serial Number Removal:
+Product's serial number or warranty sticker removed, altered, or defaced. Serial number required for warranty validation. Removed or altered serial number voids all warranty coverage.
+
+Violation of User Manual:
+Product used in violation of instruction manual or user guide. Product used for purposes other than intended use. Non-adherence to installation and operation instructions. Warranty void if product operated outside specifications.
+
+Improper Installation:
+Installation by unqualified personnel. Incorrect wiring or connection. Non-compliance with electrical codes. Installation not following instruction manual. Improper installation voids warranty.
+
+WARRANTY LIMITATIONS AND EXCLUSIONS
+------------------------------------
+Limitation of Liability:
+Zevpoint's liability under warranty limited strictly to repair or replacement of defective product as stated in warranty conditions. No other remedies or compensation provided.
+
+No Consequential Damages:
+Zevpoint NOT liable for any indirect, incidental, or consequential damages arising from use of products including but not limited to: loss of data, loss of profits, business interruption, personal injury, property damage, or any other consequential losses.
+
+Disclaimer:
+Warranty provides limited remedies as described. No other warranties expressed or implied beyond those explicitly stated. To extent permitted by law, Zevpoint disclaims all other warranties.
+
+WARRANTY POLICY CHANGES
+------------------------
+Subject to Change:
+Warranty conditions subject to change without prior notice. Changes may be made to improve customer service or adjust to operational requirements.
+
+Current Information:
+For most up-to-date warranty information, customers encouraged to: refer to warranty documentation provided with product, contact Zevpoint customer support at support@zevpoint.com or +91 9779752450, or check Zevpoint website warranty page.
+
+===============================================
+SECTION 4: CUSTOMER SUPPORT CONTACT INFORMATION
+===============================================
+
+PRIMARY CONTACT METHODS
+------------------------
+Email Support: support@zevpoint.com
+- Best for detailed inquiries, warranty claims, return requests, technical questions
+- Response time: Within 24 hours on business days
+- Include order number and relevant details in email
+
+Sales Phone: +91 9779750538
+- Sales inquiries, product questions, COD orders, general information
+- Available during business hours Monday through Saturday
+
+Service Phone: +91 9779752450
+- Technical support, warranty claims, installation assistance
+- Available during business hours Monday through Saturday
+
+WhatsApp: +91 9779750538
+- Quick questions and order status updates
+- Link: wa.link/zevpoint
+
+DELIVERY CENTERS AND SERVICE LOCATIONS
+---------------------------------------
+Zevpoint has delivery centers and service presence in:
+- Bengaluru (Bangalore)
+- Chandigarh
+- Delhi-NCR (includes New Delhi, Noida, Gurgaon, Ghaziabad)
+- Kolkata
+- Hyderabad
+- Mumbai
+
+BUSINESS HOURS
+--------------
+Monday through Saturday: Business hours
+Sunday: Limited availability
+National Holidays: Closed
+
+RESPONSE TIME EXPECTATIONS
+---------------------------
+Email Inquiries: Within 24 hours on business days
+Phone Support: Immediate during business hours
+Return Requests: Review within 24-48 hours
+Warranty Claims: Initial response within 24-48 hours
+Technical Support: Same business day or next business day
+
+ZEVPOINT HOME MOBILE APP
+-------------------------
+Download the Zevpoint Home app for smart charger management:
+Android: Google Play Store - search "Zevpoint Home"
+iOS: Apple App Store - search "Zevpoint Home"
+
+App provides smart charger control, scheduling, monitoring, and more for compatible smart chargers.
+
+===============================================
+SECTION 5: POLICY COMPARISON & QUICK REFERENCE
+===============================================
+
+RETURN POLICY VS WARRANTY: KEY DIFFERENCES
+-------------------------------------------
+| Aspect | Return Policy | Warranty |
+|--------|--------------|----------|
+| Time Period | 7 days from delivery | 2-5 years from purchase |
+| Product Condition | Must be unused | Can be used normally |
+| Packaging Required | Yes, original packaging | No packaging required |
+| What It Covers | Change of mind, immediate defects, wrong orders | Manufacturing defects developing during use |
+| Accessories | Must return all | Not applicable |
+| When to Use | Immediately after purchase if unsatisfied | During normal use when product fails |
+
+QUICK REFERENCE: WHICH PRODUCTS ARE RETURNABLE?
+------------------------------------------------
+RETURNABLE (if within 7 days and eligibility met):
+✓ AC Portable Chargers (Aveo, Dash series) - if not on sale, not COD, not bulk
+✓ AC Wall Chargers (Polar, Duos series) - if not on sale, not COD, not bulk  
+✓ All-in-One Chargers (Spyder AIO, Dash AIO) - if not on sale, not COD, not bulk
+
+NOT RETURNABLE (under any circumstances):
+✗ DC Chargers (Navigator 30, Nova 60, Nova 120, Nova 240) - NEVER returnable
+✗ Products purchased during sales or with discount codes
+✗ Products purchased via Cash on Delivery (COD)
+✗ Products purchased with No Cost EMI
+✗ Bulk orders (2+ chargers in one order)
+✗ EV Accessories - ALL accessories are final sale
+
+QUICK REFERENCE: WARRANTY PERIODS
+----------------------------------
+AC Chargers:
+- Cable & Enclosure: 5 years
+- Electronics & Components: 2 years
+- Technical Support: Lifetime
+
+DC Chargers:
+- Complete Charger: 2 years
+- Accessories: No warranty
+- Technical Support: Lifetime
+
+QUICK REFERENCE: WHO PAYS SHIPPING?
+------------------------------------
+Returns:
+- Defective product: Zevpoint pays return shipping
+- Change of mind: Customer pays return shipping
+
+Exchanges:
+- Defective product: Zevpoint pays both ways
+- Other reasons: Customer pays return shipping, Zevpoint pays replacement shipping
+
+Warranty:
+- Warranty-covered issues: Zevpoint pays all shipping (reverse pickup + return delivery)
+- Non-warranty issues: Customer may need to pay shipping
+
+POLICY DECISION FLOWCHART
+--------------------------
+Product has issue immediately after receiving:
+→ Within 7 days + Unused + Original packaging + Eligible category?
+  → YES: Use Return Policy (contact support@zevpoint.com)
+  → NO: Check Warranty instead
+
+Product worked fine but developed issue during use:
+→ Within warranty period (2-5 years depending on component)?
+  → YES: Use Warranty (contact support@zevpoint.com or +91 9779752450)
+  → NO: Contact for paid repair options or purchase new unit
+
+Want to exchange for different product:
+→ Within 7 days + Unused + Original packaging + Eligible category?
+  → YES: Use Exchange Policy (contact support@zevpoint.com)
+  → NO: Cannot exchange, consider purchasing desired product separately
+
+Changed mind about purchase:
+→ Within 7 days + Unused + Original packaging + Not (sale/COD/EMI/bulk/DC/accessory)?
+  → YES: Use Return Policy, but customer pays return shipping
+  → NO: Cannot return, product is final sale
+
+COMMON SCENARIOS AND SOLUTIONS
+-------------------------------
+Scenario 1: "I received my Aveo Pro charger yesterday but ordered the wrong model"
+Solution: Contact support within 7 days for return (if not sale/COD/bulk). Product must be unused in original packaging. Customer pays return shipping for wrong order.
+
+Scenario 2: "My Polar Pro worked fine for 6 months but now won't turn on"
+Solution: Contact service line for warranty claim. Likely covered by 2-year electronics warranty. Zevpoint pays shipping. Remote diagnosis first.
+
+Scenario 3: "I bought Nova 60 DC charger but need to return it"
+Solution: Cannot return. DC chargers are non-returnable under all circumstances. Consider carefully before purchasing DC chargers.
+
+Scenario 4: "I bought 2 Aveo chargers in one order, can I return one?"
+Solution: Cannot return. Bulk orders (2+ items) are non-returnable. Purchases of multiple items are final sale.
+
+Scenario 5: "I bought charger on sale/COD, can I return?"
+Solution: Cannot return. Sale items and COD purchases are non-returnable. These are final sale categories.
+
+Scenario 6: "My charging cable has visible damage after 3 years of use"
+Solution: Contact for warranty claim. Cable covered by 5-year warranty (for AC chargers). Physical damage may not be covered. Assessment required.
+
+Scenario 7: "I installed my wall charger but it's not working"
+Solution: Contact technical support first (+91 9779752450). Many issues resolved remotely. If genuinely defective, warranty covers (but customer uninstalls for return).
+
+Scenario 8: "I want to exchange my Aveo 3.6 for Aveo Pro"
+Solution: If within 7 days, unused, original packaging, not sale/COD: Contact support for exchange. Pay difference in price. Subject to Aveo Pro availability.
+
+IMPORTANT REMINDERS
+-------------------
+Before Purchasing:
+- DC chargers cannot be returned - verify requirements carefully
+- Sale items, COD, and bulk orders cannot be returned
+- Accessories are final sale
+- Check product specifications carefully before ordering
+
+After Receiving Order:
+- Inspect immediately for visible damage
+- Test product BEFORE installation if considering return possibility
+- Keep all packaging materials for 7 days if return possible
+- Contact support immediately if any issues
+
+Installation:
+- Once installed, return may not be possible
+- Professional installation recommended
+- Follow instruction manual exactly
+- Improper installation voids warranty
+
+Long-Term Use:
+- Warranty covers manufacturing defects during use
+- Keep proof of purchase for entire warranty period
+- Contact support promptly if issues develop
+- Regular maintenance extends product life
+
+POLICY CONTACT SUMMARY
+----------------------
+For Any Policy Questions:
+Email: support@zevpoint.com
+Phone (Sales): +91 9779750538
+Phone (Service): +91 9779752450
+
+Always Have Ready:
+- Order number
+- Purchase proof/invoice
+- Product details
+- Clear description of issue or request
+
+Best Practices:
+- Contact support early in 7-day return window
+- Be professional and clear in communications  
+- Provide photos/videos for defect claims
+- Keep records of all communications
+- Follow provided instructions carefully
+
+===============================================
+END OF COMPREHENSIVE POLICY DOCUMENT
+===============================================

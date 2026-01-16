@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Azure Connection</title>
+    <style>
+        body { font-family: Arial; padding: 20px; }
+        button { padding: 10px 20px; background: #4a90e2; color: white; border: none; border-radius: 5px; cursor: pointer; margin: 5px; }
+        pre { background: #f5f5f5; padding: 15px; border-radius: 5px; overflow-x: auto; }
+        .success { color: green; }
+        .error { color: red; }
+        .info { color: blue; }
+    </style>
+</head>
+<body>
+    <h1>Azure Function Connection Test</h1>
+
+    <p><strong>Function URL:</strong><br>
+    <code>https://zp-chatbot-v2-ewapbch4bmcgh6eu.southindia-01.azurewebsites.net/api/HttpTrigger</code></p>
+
+    <button onclick="testConnection()">🧪 Test Connection</button>
+    <button onclick="testConversation()">💬 Test Conversation</button>
+    <button onclick="clearResults()">🗑️ Clear Results</button>
+
+    <div id="status"></div>
+    <div id="results"></div>
+
+    <script>
+        const apiUrl = "https://zp-chatbot-v2-ewapbch4bmcgh6eu.southindia-01.azurewebsites.net/api/HttpTrigger";
+
+        function log(message, type = "info") {
+            const div = document.createElement("div");
+            div.className = type;
+            div.innerHTML = `[${new Date().toLocaleTimeString()}] ${message}`;
+            document.getElementById("results").appendChild(div);
+        }
+
+        function clearResults() {
+            document.getElementById("results").innerHTML = "";
+            document.getElementById("status").innerHTML = "";
+        }
+
+        async function testConnection() {
+            clearResults();
+            document.getElementById("status").innerHTML = "<p class='info'>⏳ Testing connection to Azure...</p>";
+
+            try {
+                log("📡 Sending request to Azure Function...", "info");
+
+                const response = await fetch(apiUrl, {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({
+                        message: "test connection",
+                        user_id: "test_user"
+                    })
+                });
+
+                log(`✅ Response received! Status: ${response.status} ${response.statusText}`, "success");
+
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+
+                const data = await response.json();
+
+                log("✅ Connection successful!", "success");
+                log("<strong>Response Data:</strong>", "success");
+
+                document.getElementById("status").innerHTML = "<p class='success'>✅ Azure Function is working!</p>";
+
+                const pre = document.createElement("pre");
+                pre.textContent = JSON.stringify(data, null, 2);
+                document.getElementById("results").appendChild(pre);
+
+                // Check response structure
+                if (data.response) log("✅ Response field present", "success");
+                if (data.sources) log(`✅ Sources: ${data.sources.length} found`, "success");
+                if (data.confidence !== undefined) log(`✅ Confidence: ${(data.confidence * 100).toFixed(1)}%`, "success");
+                if (data.metadata) log("✅ Metadata present", "success");
+                if (data.metadata?.session_id) log(`✅ Session ID: ${data.metadata.session_id}`, "success");
+
+            } catch (err) {
+                log(`❌ Error: ${err.message}`, "error");
+                document.getElementById("status").innerHTML = `<p class='error'>❌ Connection failed: ${err.message}</p>`;
+
+                if (err.message.includes("Failed to fetch") || err.message.includes("NetworkError")) {
+                    log("⚠️ This is likely a CORS error. Enable CORS in Azure:", "error");
+                    log("1. Azure Portal → Function App → CORS", "error");
+                    log("2. Add: * (or http://localhost:8080)", "error");
+                    log("3. Save and wait 1 minute", "error");
+                } else if (err.message.includes("401")) {
+                    log("⚠️ Authentication error - function key may be required", "error");
+                } else if (err.message.includes("404")) {
+                    log("⚠️ Function not found - check the URL", "error");
+                } else if (err.message.includes("500")) {
+                    log("⚠️ Server error - check Azure Function logs", "error");
+                }
+
+                console.error("Full error:", err);
+            }
+        }
+
+        async function testConversation() {
+            clearResults();
+            document.getElementById("status").innerHTML = "<p class='info'>⏳ Testing conversation flow...</p>";
+
+            const messages = [
+                "kia",
+                "ev6",
+                "portable"
+            ];
+
+            let sessionId = null;
+
+            for (let i = 0; i < messages.length; i++) {
+                const msg = messages[i];
+                log(`<strong>User:</strong> ${msg}`, "info");
+
+                try {
+                    const payload = {
+                        message: msg,
+                        user_id: "test_user"
+                    };
+
+                    if (sessionId) {
+                        payload.session_id = sessionId;
+                    }
+
+                    const response = await fetch(apiUrl, {
+                        method: "POST",
+                        headers: { "Content-Type": "application/json" },
+                        body: JSON.stringify(payload)
+                    });
+
+                    const data = await response.json();
+
+                    // Extract session_id
+                    sessionId = data.session_id || data.metadata?.session_id;
+
+                    log(`<strong>Bot:</strong> ${data.response}`, "success");
+
+                    if (data.metadata?.vehicle) {
+                        log(`✅ Remembered vehicle: ${data.metadata.vehicle}`, "success");
+                    }
+
+                    // Wait between messages
+                    if (i < messages.length - 1) {
+                        await new Promise(resolve => setTimeout(resolve, 1000));
+                    }
+
+                } catch (err) {
+                    log(`❌ Error: ${err.message}`, "error");
+                    break;
+                }
+            }
+
+            document.getElementById("status").innerHTML = "<p class='success'>✅ Conversation test complete!</p>";
+        }
+    </script>
+</body>
+</html>

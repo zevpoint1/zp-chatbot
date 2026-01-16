@@ -1,0 +1,389 @@
+"""
+Azure Function: RAG-powered chatbot with conversation memory
+
+This replaces your static knowledge_base.txt approach with real-time RAG retrieval
+"""
+
+import azure.functions as func
+import logging
+import os
+import json
+from typing import List, Dict, Any, Optional
+from datetime import datetime
+from prompt_manager import extract_vehicle_info
+
+# Import RAG pipeline
+from query_pipeline import answer_question
+
+# Import state functions
+from conversation_state import (
+    update_conversation_state,
+    should_send_followup,
+    get_followup_message,
+    get_state_description  # ← NEW
+)
+
+# For conversation memory
+try:
+    from azure.data.tables import TableServiceClient
+    TABLES_AVAILABLE = True
+except ImportError:
+    TABLES_AVAILABLE = False
+    logging.warning("azure.data.tables not available - memory disabled")
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+# CORS headers
+CORS_HEADERS = {
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
+    "Access-Control-Allow-Headers": "*",
+}
+
+
+
+
+# ----------------------------
+# CONVERSATION MEMORY HELPERS
+# ----------------------------
+
+def get_table_client():
+    """Get Azure Table Storage client for conversation history"""
+    if not TABLES_AVAILABLE:
+        return None
+    
+    conn_str = os.getenv("CHAT_STORAGE")
+    if not conn_str:
+        logger.warning("CHAT_STORAGE not configured - memory disabled")
+        return None
+    
+    table_name = "ChatHistory"
+    try:
+        service = TableServiceClient.from_connection_string(conn_str)
+        return service.get_table_client(table_name)
+    except Exception as e:
+        logger.error(f"Failed to connect to Table Storage: {e}")
+        return None
+
+
+def load_user_memory(user_id: str):
+    table = get_table_client()
+    if not table:
+        return [], "ACTIVE", 0, None, None, None  # ← Changed: 6 values now
+
+    try:
+        entity = table.get_entity(partition_key="chat", row_key=user_id)
+        history = json.loads(entity.get("conversation", "[]"))
+
+        state = entity.get("conversation_state", "ACTIVE")
+        followup_count = int(entity.get("followup_count", 0))
+        last_ts = entity.get("last_user_timestamp")
+
+        last_user_timestamp = (
+            datetime.fromisoformat(last_ts) if last_ts else None
+        )
+        
+        # ← NEW: Get last bot message info
+        last_bot_msg = entity.get("last_bot_message")
+        bot_ts = entity.get("last_bot_timestamp")
+        last_bot_timestamp = (
+            datetime.fromisoformat(bot_ts) if bot_ts else None
+        )
+
+        # ← Changed: Return 6 values instead of 4
+        return history, state, followup_count, last_user_timestamp, last_bot_msg, last_bot_timestamp
+
+    except Exception:
+        return [], "ACTIVE", 0, None, None, None  # ← Changed: 6 values now
+
+
+
+def save_user_memory(user_id, history, state, followup_count, last_user_timestamp):
+    """
+    Save conversation history for a user
+    """
+    table = get_table_client()
+    if not table:
+        return
+    
+    # ← NEW: Extract last bot message from history
+    last_bot_msg = None
+    if history:
+        # Find most recent assistant message
+        for msg in reversed(history):
+            if msg.get("role") == "assistant":
+                last_bot_msg = msg.get("content")
+                break
+    
+    try:
+        entity = {
+            "PartitionKey": "chat",
+            "RowKey": user_id,
+            "conversation": json.dumps(history),
+            "conversation_state": state,
+            "followup_count": followup_count,
+            "last_user_timestamp": last_user_timestamp.isoformat() if last_user_timestamp else None,
+            "last_bot_message": last_bot_msg,  # ← NEW
+            "last_bot_timestamp": datetime.utcnow().isoformat(),  # ← NEW
+            "updated_at": datetime.utcnow().isoformat()
+        }
+
+        table.upsert_entity(entity)
+        logger.info(f"Saved {len(history)} messages for user {user_id} (state: {state})")
+    except Exception as e:
+        logger.error(f"Failed to save conversation: {e}")
+
+def truncate_history(history: List[Dict[str, str]], max_messages: int = 10) -> List[Dict[str, str]]:
+    """
+    Keep only recent messages to avoid context overflow
+    
+    Args:
+        history: Full conversation history
+        max_messages: Maximum messages to keep
+        
+    Returns:
+        Truncated history
+    """
+    if len(history) <= max_messages:
+        return history
+    
+    # Keep the most recent exchanges
+    return history[-max_messages:]
+
+
+# ----------------------------
+# MAIN AZURE FUNCTION
+# ----------------------------
+
+def main(req: func.HttpRequest) -> func.HttpResponse:
+    logger.info("=" * 60)
+    logger.info("🚀 FUNCTION TRIGGERED")
+    logger.info("=" * 60)
+
+    # Handle CORS preflight
+    if req.method == "OPTIONS":
+        return func.HttpResponse("", status_code=200, headers=CORS_HEADERS)
+
+    try:
+        # ----------------------------
+        # 1. Parse request
+        # ----------------------------
+        try:
+            req_body = req.get_json()
+        except ValueError:
+            req_body = {}
+
+        user_message = req.params.get("message") or req_body.get("message")
+        user_id = req.params.get("user_id") or req_body.get("user_id") or "anonymous"
+        use_memory = req.params.get("memory", "true").lower() == "true"
+
+        if not user_message:
+            return func.HttpResponse(
+                json.dumps({"error": "Missing message"}),
+                status_code=400,
+                mimetype="application/json",
+                headers=CORS_HEADERS
+            )
+
+        logger.info(f"User {user_id}: {user_message}")
+
+        # ----------------------------
+        # 2. Load memory + state
+        # ----------------------------
+        conversation_history = []
+        state = "ACTIVE"
+        followup_count = 0
+        last_user_timestamp = None
+        last_bot_message = None  # ← NEW
+        last_bot_timestamp = None  # ← NEW
+
+        if use_memory:
+            (
+                conversation_history,
+                state,
+                followup_count,
+                last_user_timestamp,
+                last_bot_message,  # ← NEW
+                last_bot_timestamp  # ← NEW
+            ) = load_user_memory(user_id)
+
+            conversation_history = truncate_history(conversation_history, max_messages=10)
+
+        # ----------------------------
+        # 3. UPDATE STATE 
+        # ----------------------------
+        state, followup_count, last_user_timestamp = update_conversation_state(
+            current_state=state,
+            user_message=user_message,
+            last_user_timestamp=last_user_timestamp,
+            followup_count=followup_count
+        )
+
+        logger.info(f"Conversation State → {state}")
+
+        # ----------------------------
+        # 4. HANDLE FOLLOW-UPS 
+        # ----------------------------
+        # Calculate time since last bot message
+        
+        time_since_bot = None
+        if last_bot_timestamp:
+            time_since_bot = datetime.utcnow() - last_bot_timestamp
+        
+        if should_send_followup(state, last_bot_message, time_since_bot):  # ← Changed
+            followup_msg = get_followup_message(
+                state,
+                extract_vehicle_info(conversation_history).get("vehicle_name")
+            )
+
+            if followup_msg:
+                save_user_memory(
+                    user_id,
+                    conversation_history,
+                    state,
+                    followup_count,
+                    last_user_timestamp
+                )
+
+                return func.HttpResponse(
+                    json.dumps({"response": followup_msg}),
+                    mimetype="application/json",
+                    headers=CORS_HEADERS
+                )
+
+        # ----------------------------
+        # 5. Call RAG pipeline (LLM)
+        # ----------------------------
+        result = answer_question(
+            user_question=user_message,
+            conversation_history=conversation_history,
+            top_k=4
+        )
+
+
+        bot_reply = result.answer
+
+        # ----------------------------
+        # 6. Update conversation history
+        # ----------------------------
+        if use_memory:
+            conversation_history.append({"role": "user", "content": user_message})
+            conversation_history.append({"role": "assistant", "content": bot_reply})
+
+            save_user_memory(
+                user_id,
+                conversation_history,
+                state,
+                followup_count,
+                last_user_timestamp
+            )
+
+        # ----------------------------
+        # 7. Return response
+        # ----------------------------
+         # Extract vehicle info for metadata
+        vehicle_info = extract_vehicle_info(conversation_history)
+        
+        return func.HttpResponse(
+            json.dumps(
+                {
+                    "response": bot_reply,
+                    "metadata": {
+                        "state": state,
+                        "state_description": get_state_description(state),  # ← NEW
+                        "followup_count": followup_count,
+                        "vehicle": vehicle_info.get("vehicle_name"),  # ← NEW
+                        "installation_type": vehicle_info.get("installation_type"),  # ← NEW
+                        "message_count": len(conversation_history),  # ← NEW
+                        "user_id": user_id,
+                        "timestamp": datetime.utcnow().isoformat()
+                    }
+                },
+                ensure_ascii=False
+            ),
+
+            mimetype="application/json",
+            headers=CORS_HEADERS
+        )
+
+    except Exception as e:
+        logger.error("HttpTrigger crashed", exc_info=True)
+        return func.HttpResponse(
+            json.dumps({"error": str(e)}),
+            status_code=500,
+            mimetype="application/json",
+            headers=CORS_HEADERS
+    )
+
+
+# ----------------------------
+# HELPER: Clear user memory
+# ----------------------------
+
+def clear_user_memory(user_id: str) -> bool:
+    """
+    Clear conversation history for a user
+    
+    Args:
+        user_id: User identifier
+        
+    Returns:
+        True if successful
+    """
+    table = get_table_client()
+    if not table:
+        return False
+    
+    try:
+        table.delete_entity(partition_key="chat", row_key=user_id)
+        logger.info(f"Cleared memory for user {user_id}")
+        return True
+    except Exception as e:
+        logger.error(f"Failed to clear memory: {e}")
+        return False
+
+
+# ----------------------------
+# LOCAL TESTING
+# ----------------------------
+
+if __name__ == "__main__":
+    """
+    Test the function locally
+    
+    Usage:
+        python __init__.py
+    """
+    import sys
+    
+    # Mock request for testing
+    class MockRequest:
+        def __init__(self, message, user_id="test_user"):
+            self.method = "POST"
+            self.params = {"message": message, "user_id": user_id}
+        
+        def get_json(self):
+            return self.params
+    
+    # Test cases
+    print("Testing Azure Function locally...\n")
+    
+    test_questions = [
+        "What are electric vehicle safety features?",
+        "How do I charge an EV?",
+        "What's the range of modern EVs?"
+    ]
+    
+    for question in test_questions:
+        print(f"\n{'='*60}")
+        print(f"Question: {question}")
+        print(f"{'='*60}")
+        
+        req = MockRequest(question)
+        response = main(req)
+        
+        result = json.loads(response.get_body().decode())
+        print(f"\nAnswer: {result.get('response')}")
+        print(f"Sources: {result.get('sources')}")
+        print(f"Metadata: {result.get('metadata')}")

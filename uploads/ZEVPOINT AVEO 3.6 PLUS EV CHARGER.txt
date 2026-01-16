@@ -1,0 +1,154 @@
+===============================================
+PRODUCT DOCUMENT: Zevpoint Aveo 3.6+ EV Charger
+Document ID: ZEVPOINT-AVEO36PLUS-001
+===============================================
+
+PRODUCT IDENTIFICATION
+----------------------
+Product Name: Aveo 3.6 Plus (also written as Aveo 3.6+)
+Manufacturer: Zevpoint
+Category: Smart Portable AC EV Charger
+Power Rating: 3.6 kilowatts
+Model Variant: Plus variant with smart connectivity features
+Price: Rs. 17,999.00 (inclusive of all taxes)
+
+PRODUCT DESCRIPTION
+-------------------
+The Zevpoint Aveo 3.6 Plus is a smart portable AC electric vehicle charger with 3.6 kilowatt power output. This is the only 3.6 kW charger in the market that offers Manual control via touch buttons along with smart charging features used with WiFi and Bluetooth connectivity. The Aveo 3.6 Plus features a mobile app for monitoring and controlling charging sessions, making it ideal for both home charging and travel. The charger includes IP66 rating for enhanced durability, a wall mounting bracket, and a carry bag for portability.
+
+SMART CONNECTIVITY FEATURES
+---------------------------
+The Aveo 3.6 Plus is a smart connected charger with the following connectivity capabilities:
+
+WiFi Connectivity: Built-in WiFi allows remote monitoring and control of charging sessions
+Bluetooth Connectivity: Local Bluetooth connection for device pairing and setup
+Mobile App Integration: Compatible with Zevpoint Home app available on both Apple App Store and Google Play Store
+
+Smart App Features and Capabilities:
+- Remote control of charging sessions from your smartphone
+- Real-time monitoring of charging status and power consumption
+- Control charging speed from 8A (1.6kW) to 16A (3.6kW)
+- Schedule charging to start and stop at specific times
+- View complete charging history and records
+- Track energy usage and charging statistics
+- Control charging parameters remotely
+
+App Setup Process: Download the Zevpoint Home app from Apple Store or Play Store, complete registration or sign in to your account, enable Bluetooth and WiFi on your mobile device, and connect the app to your Aveo 3.6 Plus charger.
+
+ELECTRICAL SPECIFICATIONS
+--------------------------
+The Aveo 3.6 Plus charger operates with the following electrical parameters:
+
+Power Output: 3.6 kilowatts
+Current Options: Switchable current adjustment to any desired level. This flexibility allows you to adjust current in areas where full load is not available or when limited electrical capacity is present.
+Input Voltage: Accepts 220 to 240 volts AC
+Phase Configuration: Single phase electrical system
+Connector Standard: Type 2 connector following IEC 62196 standard
+Charging Cable: 6 meter length cable included (longer than standard models)
+
+PHYSICAL CHARACTERISTICS
+-------------------------
+The Aveo 3.6 Plus has the following physical dimensions and properties:
+
+Size: 297 millimeters length by 106 millimeters width by 54 millimeters height
+Weight: 3.5 kilograms total weight
+Environmental Protection: IP66 rating for superior water resistance and dust resistance 
+
+INCLUDED ACCESSORIES
+--------------------
+The Aveo 3.6 Plus package includes the following items:
+- Aveo 3.6 Plus charger unit with 6 meter Type 2 cable
+- Wall mounting bracket for permanent installation
+- Carry bag for portable use and travel
+- User manual and documentation
+
+SAFETY AND PROTECTION FEATURES
+-------------------------------
+The Aveo 3.6 Plus includes multiple advanced safety mechanisms:
+Thermal Protection: Overheat prevention system with temperature monitoring prevents damage from excessive heat buildup during extended charging sessions
+Electrical Protection: Short circuit protection with instant automatic disconnection in fault conditions
+Overcurrent Protection: Prevents damage from excessive current draw beyond rated capacity
+Overvoltage Protection: Guards against input voltage spikes and power surges from the electrical grid
+Undervoltage Protection: Prevents operation when input voltage drops below safe levels
+Ground Fault Protection: Proper grounding support with continuous earth monitoring ensures electrical safety
+Leakage Protection: Residual current detection prevents electric shock hazards
+Weather Protection: IP66 water immersion protection allows operation in heavy rain and wet conditions
+Environmental Protection: IP66 complete dust sealing prevents particle ingress in dusty environments
+Smart Monitoring: App-based safety oversight provides additional protection through remote monitoring
+
+INSTALLATION REQUIREMENTS
+--------------------------
+To safely install and operate the Aveo 3.6 Plus, the following requirements must be met:
+
+Power Socket: A dedicated 16 ampere electrical socket is required. This socket must have sufficient connected load capacity to handle the charger's power requirements.
+
+Electrical Wiring: The wiring must use appropriate cable sizing based on local electrical codes. Minimum 4 square millimeter cable is recommended for safe current carrying capacity.
+
+Earthing System: Proper earthing (grounding) is mandatory for safe operation. The earthing must comply with local electrical safety codes and standards.
+
+Protection Devices: Protection devices are required for installation:
+
+- Surge Protection Device (SPD) 270V 20kA-40kA to protect against voltage spikes and surges
+
+Network Requirements: For smart features, WiFi network connectivity is required at the installation location. The charger should be within range of your WiFi router for app connectivity.
+
+Installation Options: The Aveo 3.6 Plus can be wall-mounted using the included bracket for permanent home installation, or kept portable using the carry bag for travel use.
+
+TRAVEL AND PORTABILITY FEATURES
+--------------------------------
+The Aveo 3.6 Plus is specifically designed as a travel-friendly charger:
+
+Perfect Travel Companion: Compact size and included carry bag make it easy to carry everywhere
+Flexible Current Adjustment: Can adapt to different power availability at various locations
+Long 6 Meter Cable: Provides flexibility in parking positions relative to power outlets
+Durable IP66 Rating: Withstands outdoor conditions during travel
+
+
+USE CASES
+---------
+The Aveo 3.6 Plus is suitable for multiple charging scenarios:
+
+Home Charging: Use with wall bracket for permanent home installation with smart scheduling
+Travel Charging: Carry in bag for road trips, visiting family, or workplace charging
+Emergency Backup: Keep as backup charger when primary charging is unavailable
+Limited Load Areas: Adjustable current settings work in locations with restricted electrical capacity
+Rental Properties: Portable design ideal for renters who cannot install permanent chargers
+Multi-Vehicle Households: Share one portable charger between multiple electric vehicles
+Replacement of your car's default portable charger which you got with the car, but upgraded in terms of features & value
+
+
+PRODUCT COMPARISON WITH AVEO 3.6
+---------------------------------
+The Aveo 3.6 Plus is an upgraded version of the base Aveo 3.6 model with the following key differences:
+
+Smart Connectivity: The Plus model includes WiFi and Bluetooth with app control, while the base Aveo 3.6 does not have smart features.
+Cable Length: Aveo 3.6 Plus has 6 meter cable versus 5 meter cable on base model.
+Current Adjustment: Aveo 3.6 Plus offers flexible current adjustment to any level from 8A to 16A, while base Aveo 3.6 has fixed switchable settings at 8A, 10A, and 16A.
+Included Accessories: Plus model includes wall bracket and carry bag as standard.
+Price: Aveo 3.6 Plus is priced at Rs. 17,999
+
+MOBILE APP TECHNICAL DETAILS
+-----------------------------
+The Zevpoint Home app for controlling Aveo 3.6 Plus has the following technical specifications:
+
+Platform Availability: Available on both iOS (Apple App Store) and Android (Google Play Store)
+App Name: Zevpoint Home
+Required Permissions: Bluetooth access, WiFi access, location services (for device pairing)
+Connectivity Requirements: Requires 2.4 GHz WiFi network (check compatibility with your router)
+Account Required: User registration and account creation necessary for app use
+Data Tracking: App tracks charging sessions, power consumption, energy usage history
+Remote Access: Can control charger remotely when connected to internet
+Offline Functionality: Basic monitoring may work via Bluetooth when WiFi unavailable
+
+Video demonstration & product experience
+
+Complete playlist covering unboxing, demonstration of features of ev chargers is available on zevpoint's YouTube channel, the link for which is shared :
+
+https://www.youtube.com/playlist?list=PL_5jfOb-nyjKtRYxGOdPzLBnRt49gDyBc
+
+Warranty:
+
+Zevpoint provides warranty coverage for the Aveo 3.6 as follows:
+
+Cable and Housing Components: 5 year warranty period
+Electronic Components and Other Parts: 2 year warranty period

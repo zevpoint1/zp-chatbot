@@ -1,0 +1,334 @@
+===============================================
+PRODUCT DOCUMENT: Zevpoint Duos EV Charger
+Document ID: ZEVPOINT-DUOS-001
+Last Updated: December 2024
+===============================================
+
+PRODUCT IDENTIFICATION
+----------------------
+Product Name: Duos (also written as DUOS)
+Manufacturer: Zevpoint
+Category: Wall-Mounted AC EV Charger (Wallbox) with OCPP Support
+Power Rating: 7.5 kilowatts (7.2 kW)
+Model Type: Smart wall-mounted charger with Home-Commercial Toggle Switch
+Price: Rs. 34,999.00 (inclusive of all taxes)
+Product Tagline: India's First OCPP-Enabled EV Charger with Home-Commercial Toggle Switch
+Market Position: Smart charging solution for both personal and business needs
+
+PRODUCT DESCRIPTION
+-------------------
+The Zevpoint Duos is a groundbreaking wall-mounted electric vehicle charger that represents India's first OCPP-enabled EV charger with a seamless Home-Commercial Toggle Switch. This innovative dual-mode functionality allows the Duos to serve as both a private home charger and a commercial networked charging station, all in one device.
+
+Whether you're charging your electric vehicle at home for personal use or operating in a commercial setting as part of a networked charging infrastructure, the Duos adapts instantly with just one physical toggle switch. This gives you unprecedented flexibility to use a single charger for both personal and business needs without requiring separate hardware purchases or complex software reconfiguration.
+
+The Duos is engineered for performance, safety, and convenience. It is more than just a charger - it is a smart charging solution that bridges the gap between residential and commercial charging applications. The ability to toggle between home mode and commercial OCPP mode makes the Duos unique in the Indian EV charging market.
+
+The Duos is designed for users who want professional-grade features, networked charging capabilities, and the flexibility to use their charger in different contexts. It's perfect for home-based businesses, small charging networks, property owners who want to monetize their charger, or anyone who needs both private and commercial charging functionality.
+
+REVOLUTIONARY HOME-COMMERCIAL TOGGLE SWITCH
+--------------------------------------------
+The Duos's most distinctive feature is its physical toggle switch that instantly changes operating modes:
+
+Home Mode:
+When the toggle switch is set to Home Mode, the Duos operates as a standard smart home charger similar to other Zevpoint wall chargers. In this mode, the charger functions independently without requiring network connectivity or central management system. Features available in Home Mode include Plug and Charge automatic operation, Zevpoint Home mobile app control via Bluetooth, RFID card access control for family members, local scheduling and current adjustment, and energy monitoring through the app. Home Mode is ideal for personal vehicle charging at your residence with full privacy and independent operation.
+
+Commercial Mode (OCPP):
+When the toggle switch is set to Commercial Mode, the Duos becomes an OCPP-compliant networked charging station that connects to a central Charge Point Management System (CPMS). OCPP stands for Open Charge Point Protocol, which is the industry-standard communication protocol that allows charging stations to communicate with central management software platforms. In Commercial Mode, the Duos can be managed remotely through CPMS platforms, support payment processing for public charging, provide detailed usage analytics and reporting, integrate with billing systems for monetization, allow remote diagnostics and troubleshooting, enable dynamic load management across multiple chargers, and support fleet management requirements.
+
+Toggle Switch Operation:
+The physical toggle switch is located on the Duos wallbox unit for easy access. Switching between modes requires only flipping the toggle switch - no software reconfiguration or app settings needed. The charger automatically recognizes the mode change and adjusts its operation accordingly. The mode switch can be changed at any time based on current needs.
+
+Why Toggle Switch Innovation Matters:
+Traditional chargers are designed for either home use OR commercial use, requiring users to purchase separate hardware for different scenarios. The Duos eliminates this limitation by providing both capabilities in one device. This is particularly valuable for: home-based business owners who want to offer charging to customers while also charging personal vehicles, property owners who want flexibility to switch between private use and revenue-generating public access, small businesses that need charging for company vehicles during day and employee vehicles after hours, and users planning future commercial applications but starting with home use.
+
+The toggle switch provides instant mode switching without requiring firmware updates, software reconfiguration, or technical expertise. This user-friendly approach makes commercial charging accessible to non-technical users.
+
+OCPP PROTOCOL SUPPORT AND CAPABILITIES
+---------------------------------------
+The Duos supports OCPP (Open Charge Point Protocol), making it compatible with commercial charging networks:
+
+What is OCPP:
+OCPP stands for Open Charge Point Protocol. It is an open-source application protocol that allows charging stations to communicate with a central management system regardless of manufacturer. Think of OCPP as a universal language that allows chargers from different manufacturers to work with charging management software from different vendors. OCPP was developed through industry collaboration to prevent vendor lock-in and enable interoperability.
+
+Why OCPP Matters:
+Without OCPP, charging stations can only work with proprietary management systems from the same manufacturer, limiting flexibility and choice. OCPP enables users to choose the best hardware and software independently, integrate chargers from multiple manufacturers into one network, switch management platforms without replacing hardware, and access advanced features like remote monitoring, billing, and load management. OCPP is becoming the industry standard, with most new commercial chargers supporting this protocol.
+
+OCPP Features Enabled on Duos:
+When operating in Commercial Mode with OCPP enabled, the Duos supports: remote start and stop of charging sessions via CPMS, real-time status monitoring and reporting, transaction records with detailed session data, remote configuration and firmware updates, smart charging and load management, reservation systems for scheduled charging, payment integration for monetization, user authentication via RFID or app, energy metering and consumption tracking, fault reporting and remote diagnostics, and fleet management functionality.
+
+CPMS Integration:
+The Duos connects to Charge Point Management System (CPMS) platforms via internet connection when in Commercial Mode. Popular CPMS platforms that work with OCPP-compliant chargers include open-source solutions like OpenChargeMap, commercial platforms like Clenergy EV, fleet management systems, and property management integrations. Users can choose any OCPP-compatible CPMS based on their specific needs and budget.
+
+Commercial Use Cases:
+OCPP support enables the Duos to be used for: retail charging where customers pay per kWh or per session, workplace charging with employee access control and billing, fleet charging with vehicle assignment tracking, property charging in apartments or condos with tenant billing, hospitality charging at hotels or restaurants, parking facility charging with payment integration, and small charging networks with centralized management.
+
+OCPP Version:
+The Duos typically supports OCPP 1.6 or OCPP 2.0 (verify specific version with Zevpoint). OCPP 1.6 is widely supported by most CPMS platforms. OCPP 2.0 includes advanced features like ISO 15118 Plug and Charge capability.
+
+SMART CONNECTIVITY AND APP FEATURES
+------------------------------------
+The Duos includes comprehensive smart connectivity:
+
+Connectivity Options:
+WiFi Connectivity: Built-in WiFi for internet connection (required for OCPP Commercial Mode)
+Bluetooth Connectivity: Local Bluetooth for app control in Home Mode
+Ethernet: May include ethernet port for wired network connection (more reliable for commercial applications)
+Mobile Data: Some versions may support 4G connectivity for locations without WiFi
+
+Zevpoint Home Mobile App (Home Mode):
+When operating in Home Mode, the Duos works with the Zevpoint Home app similar to other Zevpoint smart chargers. App features include: start and stop charging remotely, monitor charging status in real-time, set charging schedules for off-peak rates, view energy consumption and history, adjust charging current settings, manage RFID card authorizations, receive notifications for charge completion and faults, and configure charger settings.
+
+CPMS Platform Access (Commercial Mode):
+When operating in Commercial Mode, the Duos is managed through the CPMS platform web interface or mobile app (depending on chosen CPMS provider). CPMS features typically include: dashboard showing all connected chargers, real-time monitoring of all charging sessions, detailed analytics and reports, billing and payment processing, user management and authentication, pricing configuration for different user groups, load management across multiple chargers, remote troubleshooting and maintenance, and API access for custom integrations.
+
+Network Requirements:
+For Commercial Mode OCPP operation, stable internet connection is required (WiFi or ethernet). For Home Mode, Bluetooth connectivity sufficient for local app control, but WiFi enables additional features.
+
+ELECTRICAL SPECIFICATIONS
+--------------------------
+The Duos charger operates with the following electrical parameters:
+
+Power Output: 7.5 kilowatts maximum output (also referred to as 7.2 kW)
+Maximum Current: 32 amperes
+Current Adjustment: Adjustable from 6A to 32A via app or CPMS depending on mode
+Input Voltage: 220 volts AC single-phase
+Input Frequency: 50 Hertz (standard for India)
+Phase Configuration: Single-phase electrical system
+Connector Standard: Type 2 (IEC 62196-2) to vehicle
+Charging Cable: 20 feet (approximately 6 meters) integrated Type 2 cable - longer than most wall chargers
+Cable Management: Integrated cable holder on wallbox
+Power Factor: High power factor greater than 0.95
+Efficiency: Greater than 92% conversion efficiency
+
+The 20-foot (6-meter) cable is longer than standard wall chargers which typically have 5-meter cables. This extra length provides more flexibility for various parking configurations.
+
+PHYSICAL CHARACTERISTICS
+-------------------------
+The Duos wallbox has the following physical properties:
+
+Dimensions: 480 millimeters height by 400 millimeters width by 160 millimeters depth (larger than compact wallboxes due to advanced electronics)
+Weight: 6.5 kilograms total weight
+Mounting: Designed for permanent wall mounting installation
+Form Factor: Robust wallbox design with commercial-grade construction
+Build Material: Durable fire-retardant housing suitable for commercial environments
+Operating Temperature: Functions in extreme temperatures from minus 35 degrees Celsius to plus 60 degrees Celsius
+Environmental Protection: IP rating suitable for outdoor installation (water and dust resistant)
+Display: LCD display screen showing charging parameters and mode status
+Controls: Physical toggle switch for Home/Commercial mode selection, physical buttons, and app/CPMS control
+Mode Indicator: Visual indicator showing whether charger is in Home or Commercial mode
+
+The larger physical size compared to basic wallboxes accommodates the additional electronics required for OCPP communication and commercial-grade features.
+
+EMERGENCY STOP SWITCH
+----------------------
+The Duos includes a physical emergency stop switch:
+
+Emergency Switch Function:
+Physical emergency stop button allows instant manual disconnection of charging in emergency situations. Works independently of software controls for fail-safe operation. Essential safety feature for commercial installations where various users may operate the charger.
+
+When to Use:
+Electrical faults or safety hazards, emergency vehicle relocation, unusual charger behavior, or any situation requiring immediate charging cessation.
+
+Commercial Safety Requirement:
+Emergency stop switches are often required by commercial electrical codes and insurance policies for public charging installations. The Duos includes this feature as standard equipment.
+
+INSTALLATION REQUIREMENTS
+--------------------------
+The Duos requires professional permanent installation:
+
+Mounting Location:
+Wall mounting at commercial-standard height for accessibility. Location should accommodate 20-foot cable reach. For commercial installations, consider visibility, weather protection, security, accessibility compliance, and signage requirements.
+
+Power Supply Requirements:
+Dedicated single-phase electrical supply with 220-240V. Circuit must support continuous 32A load. Dedicated circuit mandatory - never share with other loads. For commercial installations, consider capacity for future expansion.
+
+Electrical Wiring:
+Minimum 6 square millimeter 3-core copper cable. For commercial installations or hot climates, use 10 square millimeter. Cable insulation rated for 90°C minimum. UV-resistant or conduit protection for outdoor runs.
+
+Earthing System:
+Proper earthing mandatory with resistance below 5 ohms. Commercial installations may require lower earth resistance (check local codes). Annual testing recommended for commercial applications.
+
+Circuit Protection:
+40 ampere double-pole MCB mandatory. Surge Protection Device (SPD) mandatory. RCD (Residual Current Device) rated at 30mA mandatory. Commercial installations may require additional protection per local codes.
+
+Network Infrastructure:
+For Commercial Mode OCPP operation, reliable internet connectivity required. Ethernet connection preferred over WiFi for commercial reliability. Ensure adequate network bandwidth for real-time CPMS communication. Consider backup connectivity options for critical commercial installations.
+
+Professional Installation:
+Wall-mounted chargers require licensed electrician installation. Commercial installations may require electrical permits and inspections. Consult local electrical codes and building department. Some jurisdictions require special permits for commercial charging equipment.
+
+CHARGING PERFORMANCE AND SPEED
+-------------------------------
+The Duos delivers standard 7.5 kW fast charging performance:
+
+Charging Speed:
+At 7.5 kilowatt output, adds approximately 30 to 35 kilometers range per hour for most EVs. Actual range depends on vehicle efficiency, battery condition, temperature, and driving patterns.
+
+Performance consistency across modes (Home or Commercial Mode charging speed is identical - mode only affects management, not power delivery).
+
+RFID ACCESS CONTROL
+--------------------
+The Duos includes RFID card reader functionality:
+
+RFID in Home Mode:
+Program family member cards for home access control. Manage authorized users through Zevpoint Home app. Track which family member charged and when. Prevent unauthorized neighborhood use.
+
+RFID in Commercial Mode:
+Essential for user authentication and billing. Each user has unique RFID card or app-based virtual card. CPMS tracks sessions by user ID for billing. Supports various pricing schemes per user group. Enables white-label charging services.
+
+RFID Card Compatibility:
+Typically supports standard 13.56 MHz RFID cards (Mifare or similar). RFID cards may be included with charger or purchased separately. Unlimited number of cards can be programmed into system.
+
+USE CASES AND APPLICATIONS
+---------------------------
+The Duos's dual-mode capability enables unique use cases:
+
+Home-Based Business:
+Run business from home with customer parking. Toggle to Commercial Mode during business hours for customer charging with billing. Toggle to Home Mode after hours for personal vehicle charging. Single charger serves both purposes without separate hardware.
+
+Small Business with Employee Charging:
+Commercial Mode during work hours for customer or fleet charging. Home Mode after hours to allow owner to charge personal vehicle. Or vice versa - employee charging during day, customer charging after hours.
+
+Property Rental with Monetization Option:
+Start in Home Mode for personal use. Enable Commercial Mode when property is rented to generate income from tenant charging. Toggle back to Home Mode when property is owner-occupied.
+
+Future-Proofing Investment:
+Purchase Duos now for home use in Home Mode. Business grows or circumstances change. Switch to Commercial Mode to monetize charger without replacing hardware. Protects investment for future scenarios.
+
+Multi-Unit Dwelling:
+Install Duos in shared parking area. Commercial Mode enables resident billing and access control. Property management uses CPMS to manage tenant accounts and collect charging fees. More cost-effective than individual meters per parking spot.
+
+Small Charging Network:
+Install multiple Duos units at various locations. All units connected to single CPMS in Commercial Mode. Centralized management of entire network. Unified billing and reporting.
+
+Hospitality Charging:
+Hotels, B&Bs, or vacation rentals install Duos. Toggle to Commercial Mode to charge guests with billing. Toggle to Home Mode when owner occupies property.
+
+Fleet and Personal Mix:
+Small business with company vehicles and owner personal vehicles. Commercial Mode for company vehicle tracking and cost allocation. Home Mode for owner's personal vehicle charging.
+
+PRODUCT COMPARISON WITH OTHER ZEVPOINT CHARGERS
+------------------------------------------------
+The Duos differs from other Zevpoint chargers:
+
+Duos vs Polar Pro:
+- OCPP: Duos has OCPP support, Polar Pro does not
+- Modes: Duos has Home/Commercial toggle, Polar Pro is home-focused
+- Cable: Duos has 20 feet cable, Polar Pro has 5 meters (Duos has longer cable)
+- Commercial Features: Duos supports CPMS integration, Polar Pro does not
+- Network: Duos requires WiFi for full features, Polar Pro uses Bluetooth
+- Price: Duos costs more (Rs. 34,999 vs Rs. 29,999) for commercial capabilities
+- Use Case: Duos for commercial/dual use, Polar Pro for pure home use
+
+Duos vs Duos 22:
+- Power: Duos 22 delivers 22kW three-phase, standard Duos delivers 7.5kW single-phase
+- Phase: Duos 22 requires three-phase power, standard Duos uses single-phase
+- Installation: Duos 22 needs robust three-phase infrastructure
+- Price: Duos 22 costs more (Rs. 44,999 vs Rs. 34,999)
+- Use Case: Both have OCPP, choose based on power needs and electrical infrastructure
+
+Duos vs Other Wall Chargers:
+- OCPP Support: Duos is only Zevpoint wall charger with OCPP at 7.5kW power level
+- Toggle Switch: Unique feature not found on other Zevpoint wall chargers
+- Commercial Ready: Duos is commercial-ready out of box, others are home-focused
+- Network Connectivity: Duos has more robust networking for CPMS communication
+
+Key Differentiation:
+The Duos occupies a unique position as Zevpoint's only 7.5kW OCPP-enabled charger with dual-mode capability. It appeals to users who:
+- Need both home and commercial charging capabilities
+- Want to monetize their charger
+- Require networked charging with central management
+- Plan future commercial use but start with home charging
+- Manage small charging networks or fleets
+- Need OCPP compliance for integration with CPMS platforms
+- Want professional-grade features at residential power level
+
+DISPLAY SCREEN FEATURES
+------------------------
+The Duos includes LCD display:
+
+Display Information:
+- Current operating mode (Home or Commercial)
+- Input voltage and current
+- Power output in real-time
+- Charging session duration
+- Energy delivered this session
+- Total lifetime energy
+- Charging status and fault codes
+- User ID when using RFID
+- Network connection status (Commercial Mode)
+
+Commercial Mode Display:
+Additional information when connected to CPMS including session cost (if pricing configured), user account balance (if supported), QR code for app-based authentication, and CPMS messages.
+
+SAFETY AND PROTECTION FEATURES
+-------------------------------
+The Duos includes comprehensive safety:
+
+Overheat Prevention: Thermal monitoring and protection
+Short Circuit Protection: Instant fault disconnection
+Ground Protection: Continuous earth monitoring
+Leakage Protection: RCD functionality for shock prevention
+Over-Temperature Protection: Automatic current reduction or shutdown
+Overvoltage Protection: Grid surge protection
+Undervoltage Protection: Brownout protection
+Emergency Stop Switch: Physical hardware disconnect
+Water Resistance: Outdoor installation capable
+Dust Resistance: Protected against dust ingress
+RFID Access Control: Prevents unauthorized use
+Network Security: Secure OCPP communication with encryption
+Commercial-Grade Safety: Meets requirements for public installation
+
+CERTIFICATIONS AND COMPLIANCE
+------------------------------
+The Duos meets industry standards:
+
+CE Certified: European safety compliance
+TUV Certified: Independent safety testing
+Indian Standards: Meets Indian electrical codes
+OCPP Compliant: Open Charge Alliance standards
+Type 2 Standard: IEC 62196-2 compliance
+Commercial Grade: Suitable for public installation
+
+MAINTENANCE AND CARE
+--------------------
+Maintaining the Duos:
+
+Regular Inspection:
+Monthly inspection of wallbox, cable, and connectors. Verify display and toggle switch function properly. Check network connectivity status. Review CPMS logs for faults (Commercial Mode).
+
+Cable Maintenance:
+Inspect 20-foot cable for damage. Ensure cable holder securely stores cable. Check for signs of vehicle drive-over or pinching.
+
+Mode Switch Testing:
+Periodically test Home/Commercial toggle to ensure proper mode switching. Verify mode indicator shows correct status.
+
+Network Maintenance:
+Check WiFi or ethernet connection stability. Update firmware via CPMS when available. Monitor CPMS connectivity health.
+
+Commercial Operation Maintenance:
+For commercial installations, establish preventive maintenance schedule. Clean RFID reader regularly. Test emergency stop function quarterly. Review transaction logs for anomalies.
+
+Professional Service:
+Contact Zevpoint for electrical issues, network problems, OCPP communication failures, or physical damage.
+
+COMPETITIVE ADVANTAGES
+----------------------
+Duos unique benefits:
+
+India's First: First OCPP-enabled charger with Home-Commercial toggle in India
+Dual-Mode Flexibility: One charger serves both private and commercial needs
+OCPP Support: Industry-standard protocol for maximum compatibility
+Physical Toggle: Instant mode switching without software reconfiguration
+Commercial Ready: CPMS integration without additional hardware
+Future-Proof Investment: Start home, expand to commercial without new charger
+Long Cable: 20-foot cable provides exceptional parking flexibility
+Network Management: Remote monitoring, diagnostics, and updates
+Monetization Capable: Built-in billing and payment support via CPMS
+Small Network Friendly: Perfect for 1-10 charger installations
+Professional Grade: Commercial features at residential power level
+Trusted Platform: Zevpoint quality with OCPP standardization
+
+===============================================
+END OF DOCUMENT
+===============================================

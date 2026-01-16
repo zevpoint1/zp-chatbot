@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python local_server.py:*)",
+      "Bash(curl:*)",
+      "Bash(python:*)",
+      "Bash(cat:*)",
+      "Bash(az functionapp cors add:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push)",
+      "Bash(git pull:*)",
+      "Bash(gh repo view:*)",
+      "Bash(ls:*)",
+      "Bash(func azure functionapp publish:*)",
+      "Bash(git init:*)"
+    ]
+  }
+}

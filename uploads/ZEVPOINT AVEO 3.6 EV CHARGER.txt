@@ -1,0 +1,101 @@
+
+
+PRODUCT IDENTIFICATION
+----------------------
+Product Name: Aveo 3.6
+Manufacturer: Zevpoint
+Category: Portable AC EV Charger
+Power Rating: 3.6 kilowatts
+Model Variant: Base model 
+
+PRODUCT DESCRIPTION
+-------------------
+The Zevpoint Aveo 3.6 is a portable AC electric vehicle charger with 3.6 kW power output. This charger features a metallic finish and is designed for single-phase charging applications with Type 2 connector compatibility.
+
+ELECTRICAL SPECIFICATIONS
+--------------------------
+The Aveo 3.6 charger operates with the following electrical parameters:
+
+Power Output: 3.6 kilowatts
+Current Options: The charger has switchable current settings at 8 amperes, 10 amperes, or 16 amperes
+Input Voltage: Accepts 220 to 240 volts AC
+Phase Configuration: Single phase electrical system
+Connector Standard: Type 2 connector following IEC 62196 standard
+Plug Type: 16 ampere rated 3-pin plug
+Charging Cable: 5 meter length cable included
+
+PHYSICAL CHARACTERISTICS
+-------------------------
+The Aveo 3.6 has the following physical dimensions and properties:
+
+Size: 250 millimeters length by 120 millimeters width by 80 millimeters height
+Weight: 2.5 kilograms total weight
+Color: Metallic finish
+Environmental Protection: IP66 rating for both water resistance and dust resistance
+
+SAFETY AND PROTECTION FEATURES
+-------------------------------
+The Aveo 3.6 includes multiple safety mechanisms:
+
+Thermal Protection: Overheat prevention system with temperature monitoring prevents damage from excessive heat buildup during extended charging sessions
+Electrical Protection: Short circuit protection with instant automatic disconnection in fault conditions
+Overcurrent Protection: Prevents damage from excessive current draw beyond rated capacity
+Overvoltage Protection: Guards against input voltage spikes and power surges from the electrical grid
+Undervoltage Protection: Prevents operation when input voltage drops below safe levels
+Ground Fault Protection: Proper grounding support with continuous earth monitoring ensures electrical safety
+Leakage Protection: Residual current detection prevents electric shock hazards
+Weather Protection: IP66 water immersion protection allows operation in heavy rain and wet conditions
+Environmental Protection: IP66 complete dust sealing prevents particle ingress in dusty environments
+
+TRAVEL AND PORTABILITY FEATURES
+--------------------------------
+The Aveo 3.6 is specifically designed as a travel-friendly charger:
+
+Perfect Travel Companion: Compact size and rugged material of construction make it handy & use it anywhere
+Flexible Current Adjustment: Can adapt to different power availability at various locations
+Long 6 Meter Cable: Provides flexibility in parking positions relative to power outlets
+Durable IP66 Rating: Withstands outdoor conditions during travel
+
+
+USE CASES
+---------
+The Aveo 3.6 is suitable for multiple charging scenarios:
+
+Home Charging: For people who want to charge easily & slowly overnight
+Travel Charging: Carry in bag for road trips, visiting family, or workplace charging
+Emergency Backup: Keep as backup charger when primary charging is unavailable
+Limited Load Areas: Adjustable current settings work in locations with restricted electrical capacity
+Rental Properties: Portable design ideal for renters who cannot install permanent chargers
+Multi-Vehicle Households: Share one portable charger between multiple electric vehicles
+Replacement of your car's default portable charger which you got with the car, but upgraded in terms of features & value
+
+
+INSTALLATION REQUIREMENTS
+--------------------------
+To safely install and operate the Aveo 3.6, the following requirements must be met:
+
+Power Socket: A dedicated 16 ampere electrical socket is required. This socket must have sufficient connected load capacity to handle the charger's power requirements.
+
+Electrical Wiring: The wiring must use a minimum cable size of 4 square millimeters. This ensures safe current carrying capacity.
+
+Earthing System: Proper earthing (grounding) is mandatory for safe operation. The earthing must comply with local electrical safety codes.
+
+Protection Devices: Two protection devices are required for installation:
+- Miniature Current Breaker (MCB) of 20A 2 pole
+- Surge Protection Device (SPD) 270V 20kA-40kA to protect against power surges
+
+WARRANTY COVERAGE
+-----------------
+Zevpoint provides warranty coverage for the Aveo 3.6 as follows:
+
+Cable and Housing Components: 5 year warranty period
+Electronic Components and Other Parts: 2 year warranty period
+
+PRODUCT COMPARISON
+------------------
+The Aveo 3.6 is the base model in Zevpoint's 3.6 kW portable charger range. A plus variant called Aveo 3.6+ is also available with additional features like mobile app.
+
+TECHNICAL SUPPORT
+-----------------
+For questions about the Zevpoint Aveo 3.6 charger specifications, installation, or operation, contact Zevpoint technical support.
+

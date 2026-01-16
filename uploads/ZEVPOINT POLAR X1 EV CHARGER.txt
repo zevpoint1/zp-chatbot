@@ -1,0 +1,341 @@
+===============================================
+PRODUCT DOCUMENT: Zevpoint Polar X1 EV Charger
+Document ID: ZEVPOINT-POLARX1-001
+===============================================
+
+PRODUCT IDENTIFICATION
+----------------------
+Product Name: Polar X1 (also referred to as Polar Max 11kW)
+Manufacturer: Zevpoint
+Category: Wall-Mounted AC EV Charger (Wallbox) - Three-Phase Capable
+Power Rating: 11 kilowatts
+Model Type: Smart wall-mounted charger with three-phase support
+Price: Rs. 39,999.00 (estimated, inclusive of all taxes)
+Product Tagline: Ultra-fast charging for home and business use
+Market Position: High-performance wall charger for speed, efficiency, and durability
+
+PRODUCT DESCRIPTION
+-------------------
+The Zevpoint Polar X1 is a premium wall-mounted electric vehicle charger designed to deliver ultra-fast 11 kilowatt charging for electric vehicles. This professional-grade wallbox combines speed, efficiency, and durability, making it ideal for both home and business use where faster charging is desired.
+
+The Polar X1 is Zevpoint's mid-tier wall-mounted charger in the Polar series, positioned between the entry-level Polar Pro (7.5kW single-phase) and the flagship Polar Max (22kW three-phase). The Polar X1 delivers 11kW charging capability using three-phase electrical power, providing significantly faster charging than single-phase 7.5kW wall chargers.
+
+Experience seamless EV charging with the Polar X1. The charger is designed for EV enthusiasts who value speed, innovation, and convenience. Perfect for users with larger battery electric vehicles who need faster charging to minimize charging time, or for households with high daily driving distances where 7.5kW charging is insufficient.
+
+The Polar X1 is equipped with an emergency stop switch for added safety, designed for peace of mind and convenience in both residential and commercial installations. The charger features the versatility of 3-in-1 charging modes—Plug and Charge, RFID access control, or the intuitive Zevpoint Home Mobile App with advanced Bluetooth connectivity.
+
+Managing your charging sessions is effortless with the Polar X1, whether you're at home or managing multiple users at a workplace. Upgrade to the Polar X1 for a high-performance, eco-friendly charging solution that combines power, reliability, and style in an elegant wall-mounted package.
+
+THREE-PHASE POWER CAPABILITY
+-----------------------------
+The Polar X1's key differentiator is its three-phase electrical power support:
+
+Three-Phase Operation:
+The Polar X1 delivers its full 11 kilowatt charging power when connected to three-phase electrical supply. Three-phase power consists of three alternating current wires (R, Y, B or L1, L2, L3) plus neutral and earth, providing 400 volts line-to-line voltage. Three-phase supply enables significantly higher power delivery compared to single-phase systems while using lower current per phase.
+
+Where Three-Phase is Available:
+Three-phase electrical supply is commonly found in commercial buildings and offices, industrial facilities and manufacturing plants, larger residential properties and villas, properties in industrial-zoned areas, buildings with elevators or central HVAC, agricultural properties and farms, and hospitality facilities like hotels and resorts. Many newer apartment complexes and gated communities also have three-phase infrastructure.
+
+Three-Phase Advantages for 11kW Charging:
+At 11 kilowatts on three-phase 400V supply, the Polar X1 draws only 16 amperes per phase. This is the same per-phase current as a 3.6kW single-phase charger. The balanced load across three phases reduces heat generation and stress on electrical wiring. Three-phase operation is more efficient and enables higher total power without requiring thick cables or high-current single-phase circuits.
+
+Single-Phase Compatibility:
+While designed primarily for three-phase operation to deliver full 11kW power, the Polar X1 may also be compatible with single-phase supply at reduced power output (typically 7.5kW maximum). Verify with Zevpoint for specific single-phase operating capabilities if three-phase power is not available.
+
+Identifying Three-Phase Supply:
+Check your electrical distribution panel - three-phase has three separate main circuit breakers instead of one or two. Your electricity meter will show three voltage readings for three-phase supply. Your electricity bill should indicate if connection is single-phase or three-phase. Contact your electricity distribution company to confirm supply type and voltage.
+
+THREE-IN-ONE CHARGING MODES
+----------------------------
+The Polar X1 offers versatile 3-in-1 charging mode functionality:
+
+Mode 1 - Plug and Charge (Automatic):
+Simplest charging mode with automatic start when vehicle is plugged in. No buttons, no apps, no RFID cards required. Just plug in and charging begins immediately. Ideal for private home use where only owner uses the charger. Provides fastest and most convenient charging experience with zero user interaction.
+
+Mode 2 - RFID Card Authorization:
+RFID (Radio Frequency Identification) card reader built into Polar X1 for access-controlled charging. Users must tap authorized RFID card on charger to initiate charging session. Ideal for shared charging locations, workplace installations, residential buildings with shared parking, or any scenario requiring restricted access to authorized users only. Multiple RFID cards can be programmed into charger memory.  Cards can be added or removed through Zevpoint Home app.
+
+Mode 3 - Zevpoint Home Mobile App Control:
+Advanced Bluetooth connectivity enables comprehensive app-based control through Zevpoint Home mobile application. Start and stop charging remotely from smartphone, monitor charging in real-time, set charging schedules for off-peak rates, view charging history and energy consumption, adjust charging current, and manage RFID authorizations. App provides complete control over Polar X1 functionality.
+
+Mode Selection and Configuration:
+Users select charging mode based on preferences and use case through app configuration. Different modes can be used for different scenarios - Plug and Charge for owner's vehicle, RFID mode for guests or employees. The 3-in-1 versatility makes Polar X1 suitable from simple home use to complex workplace charging.
+
+BLUETOOTH CONNECTIVITY AND APP FEATURES
+----------------------------------------
+The Polar X1 includes Bluetooth connectivity for smartphone control:
+
+Bluetooth Connection:
+Charger communicates with smartphone via Bluetooth Low Energy (BLE). Typical Bluetooth range is 10 to 30 meters depending on obstacles. No WiFi network required - charger operates independently using Bluetooth for app communication.
+
+Zevpoint Home Mobile App:
+Works with Zevpoint Home app available for iOS (Apple App Store) and Android (Google Play Store). Comprehensive control and monitoring for Polar X1.
+
+App Features:
+- Start and Stop Charging: Remote control without physical charger access
+- Real-Time Monitoring: Live status including current, voltage, power, duration
+- Charging Schedules: Program automatic start/stop times for off-peak rates
+- Energy Tracking: Monitor consumption, track costs, view detailed history
+- Current Adjustment: Remotely adjust charging current from 6A to 32A per phase
+- RFID Management: Add, remove, manage authorized cards
+- Charging Mode Selection: Switch between Plug & Charge, RFID, or App modes
+- Session History: Complete history with date, duration, energy data
+- Notifications: Alerts for charge start, completion, faults
+- Settings: Configure parameters, update firmware
+
+No Internet Required:
+Bluetooth connectivity means Polar X1 works completely offline. No WiFi needed, no internet connection required, no monthly fees. Reliable even in locations with poor connectivity.
+
+EMERGENCY STOP SWITCH
+----------------------
+The Polar X1 features physical emergency stop switch:
+
+Emergency Switch Location:
+Emergency stop button prominently located on Polar X1 wallbox front face for easy access in emergencies.
+
+When to Use Emergency Stop:
+Genuine emergency situations including electrical fault or sparking, unusual smell or smoke, vehicle charging port malfunction, immediate need to disconnect power, safety hazard in area, vehicle needs urgent relocation, or any emergency requiring instant disconnection.
+
+How Emergency Stop Works:
+Pressing emergency stop immediately terminates charging and cuts power. Hardware-level disconnect works independently of software. Physical switch provides fail-safe shutdown even if software or app has issues. Faster than unplugging or using app.
+
+After Emergency Stop:
+Once resolved, emergency stop button must be reset (twist or pull) before charging can resume. Prevents accidental restart. Charger won't resume until properly reset and manually restarted.
+
+ELECTRICAL SPECIFICATIONS
+--------------------------
+The Polar X1 operates with the following parameters:
+
+Power Output: 11 kilowatts maximum output (on three-phase 400V supply)
+Maximum Current: 16 amperes per phase (three-phase), 32 amperes total across three phases
+Current Adjustment: Adjustable from 6A to 32A per phase via app control
+Input Voltage: 400 volts AC three-phase (line-to-line voltage)
+Input Frequency: 50 Hertz (standard for India)
+Phase Configuration: Three-phase electrical system (3 phases + neutral + earth)
+Connector Standard: Type 2 (IEC 62196-2) to vehicle
+Charging Cable: 20 feet (approximately 6 meters) integrated Type 2 cable - longer than standard 5-meter cables
+Cable Management: Integrated cable holder on wallbox
+
+The 20-foot cable provides exceptional flexibility for various parking configurations, matching the Duos charger's longer cable length.
+
+PHYSICAL CHARACTERISTICS
+-------------------------
+The Polar X1 wallbox has the following properties:
+
+Dimensions: Wallbox dimensions optimized for three-phase electronics (specific measurements similar to other Polar series)
+Weight: Approximately 6-7 kilograms
+Mounting: Permanent wall mounting installation
+Form Factor: Professional wallbox design with robust construction
+Build Material: Durable fire-retardant ABS housing for indoor/outdoor use
+Operating Temperature: Functions from minus 35 degrees Celsius to plus 60 degrees Celsius
+Environmental Protection: IP66 rating for water jet resistance and complete dust protection
+IK Rating: IK10 impact resistance for vandal-proof installation
+Display: IPS display screen showing real-time charging parameters
+Controls: Physical buttons on wallbox plus app control via Bluetooth
+LED Indicators: Smart LED indicator lights provide status updates at a glance
+
+The IP66 weatherproofing and IK10 impact resistance make Polar X1 suitable for both indoor garage installation and outdoor exposed locations.
+
+INSTALLATION REQUIREMENTS
+--------------------------
+Polar X1 requires professional permanent installation with three-phase power:
+
+Mounting Location:
+Wall mounting at appropriate height (1.2 to 1.5 meters typically). Within 20 feet cable reach of vehicle parking spot. Protected from direct weather if possible (outdoor installation supported). Adequate ventilation around wallbox. Solid wall capable of supporting 6-7 kg weight.
+
+Three-Phase Power Supply:
+Dedicated three-phase electrical supply with 400V line-to-line voltage required for full 11kW operation. Three-phase consists of three live wires (R, Y, B), neutral, and earth. Supply must be balanced with equal voltage across phases. Circuit must support continuous 16A per phase load.
+
+Electrical Wiring for Three-Phase:
+Minimum 6 square millimeter 5-core copper cable (3 phases + neutral + earth) for installation from distribution board to Polar X1. In hot climates or long runs, upgrade to 10 square millimeter. Cable insulation rated for 90°C minimum. UV-resistant or conduit protection for outdoor runs. Three-phase wiring requires qualified electrician familiar with three-phase systems.
+
+Earthing System:
+Proper earthing mandatory with resistance below 5 ohms (preferably below 3 ohms for three-phase). Earthing system must comply with local codes for three-phase installations. Robust earthing critical for higher power charging.
+
+Circuit Protection for Three-Phase:
+25 ampere four-pole MCB (Miniature Circuit Breaker) mandatory - disconnects all three phases plus neutral. Surge Protection Device (SPD) rated for three-phase 400V systems. RCD (Residual Current Device) rated at 30mA for three-phase. Three-phase protection devices essential for safety.
+
+Voltage Stabilizer:
+If location has frequent three-phase power fluctuations or phase imbalance, install three-phase voltage stabilizer rated for 12-15 kVA capacity. Three-phase stabilizers balance voltage across phases and protect against instability.
+
+Professional Installation Required:
+Three-phase installations require licensed electrician with three-phase experience. Installation involves complex electrical work including three-phase MCB, wiring, testing. Electrical permit may be required per local jurisdiction. Inspection may be mandatory after installation.
+
+CHARGING PERFORMANCE AND SPEED
+-------------------------------
+The Polar X1 delivers fast 11kW charging performance:
+
+Charging Speed:
+At full 11 kilowatt output, Polar X1 adds approximately 45 to 55 kilometers of driving range per hour for most modern EVs. Actual range depends on vehicle efficiency, battery condition, temperature, driving patterns.
+
+Comparison to 7.5kW Chargers:
+Polar X1 at 11kW charges approximately 45% faster than 7.5kW chargers. Vehicle requiring 6 hours with 7.5kW charger can charge in approximately 4 hours with Polar X1.
+
+Comparison to 22kW Chargers:
+Most Indian market EVs have onboard chargers limited to 7.5kW or 11kW maximum. Installing 22kW Polar Max won't charge faster than 11kW Polar X1 if vehicle's onboard charger is limited to 11kW. Polar X1 provides optimal speed for most current EVs without overspending on 22kW capability.
+
+Overnight Charging:
+11kW power enables complete overnight charging even for large battery EVs. Most vehicles fully charged within 5-7 hours, fitting comfortably in overnight period.
+
+
+USE CASES AND APPLICATIONS
+---------------------------
+The Polar X1 is ideal for multiple scenarios:
+
+Large-Battery EV Owners:
+Perfect for owners of 60+ kWh battery EVs who need faster charging than 7.5kW provides. Significantly reduces charging time for large batteries.
+
+High-Mileage Drivers:
+Ideal for users with daily driving distances of 150+ kilometers who need reliable fast charging to replenish battery daily.
+
+Multi-EV Households:
+Households with multiple EVs benefit from faster charging to serve multiple vehicles. Reduces wait time when vehicles need sequential charging.
+
+Workplace Charging:
+Commercial offices with three-phase power can install Polar X1 for employee fast charging. RFID access control enables multi-user management.
+
+Hospitality and Hotels:
+Hotels and resorts with three-phase infrastructure can offer fast charging to guests. Premium charging speed differentiates from standard 7.5kW installations.
+
+Fleet Charging:
+Small fleets with three-phase depot power benefit from faster vehicle turnaround. 11kW enables charging multiple vehicles in shorter timeframes.
+
+Future-Proofing:
+Even if current EV supports only 7.5kW, installing Polar X1 prepares for future vehicles with 11kW capability without replacing charger.
+
+Premium Home Installations:
+Homeowners with three-phase supply who want fastest possible home charging without going to commercial 22kW level.
+
+PRODUCT COMPARISON WITH OTHER ZEVPOINT CHARGERS
+------------------------------------------------
+The Polar X1 differs from other Zevpoint wall chargers:
+
+Polar X1 vs Polar Pro:
+- Power: Polar X1 delivers 11kW, Polar Pro delivers 7.5kW (45% faster)
+- Phase: Polar X1 requires three-phase, Polar Pro uses single-phase
+- Installation: Polar X1 needs three-phase infrastructure (uncommon in standard homes)
+- Cable: Polar X1 has 20 feet cable, Polar Pro has 5 meters (Polar X1 has much longer cable)
+- Price: Polar X1 costs more (Rs. 39,999 vs Rs. 29,999) for faster charging
+- Use Case: Polar X1 for three-phase properties needing fastest charging, Polar Pro for standard single-phase homes
+
+Polar X1 vs Polar Max 22kW:
+- Power: Polar Max delivers 22kW, Polar X1 delivers 11kW
+- Charging Speed: Polar Max is faster IF vehicle supports 22kW, but most Indian EVs limited to 11kW maximum
+- Installation: Both require three-phase, Polar Max needs more robust infrastructure
+- Current: Polar Max draws 32A per phase, Polar X1 draws 16A per phase (Polar X1 easier on electrical system)
+- Price: Polar Max costs more (Rs. 44,999 vs Rs. 39,999)
+- Use Case: Polar X1 optimal for current EVs, Polar Max for future-proofing or commercial installations
+
+Polar X1 vs Duos 7.5kW:
+- Power: Polar X1 delivers 11kW three-phase, Duos delivers 7.5kW single-phase
+- OCPP: Duos has OCPP support, Polar X1 does not
+- Cable: Both have 20 feet cable (same long reach)
+- Features: Duos has Home/Commercial toggle, Polar X1 is home/office focused
+- Phase: Polar X1 requires three-phase, Duos uses single-phase
+- Price: Polar X1 costs more for faster charging capability
+- Use Case: Polar X1 for fast three-phase charging, Duos for OCPP networked charging
+
+Polar X1 vs Aveo X1 Portable:
+- Installation: Polar X1 is permanent wall-mounted, Aveo X1 is portable
+- Power: Both deliver 11kW three-phase (same charging speed)
+- Cable: Polar X1 has 20 feet integrated cable, Aveo X1 has 5+1 meters with extension
+- Appearance: Polar X1 has clean wallbox look, Aveo X1 is portable unit
+- Portability: Aveo X1 can move locations, Polar X1 is fixed installation
+- Price: Polar X1 costs more (Rs. 39,999 vs Rs. 29,999) for permanent wallbox installation
+- Use Case: Polar X1 for permanent three-phase home/office installation, Aveo X1 for portable three-phase charging
+
+Key Differentiation:
+Polar X1 occupies sweet spot in Polar series as fast three-phase wall charger without going to extreme 22kW. Appeals to users with three-phase power who want optimal charging speed for current EV market without overspending on future 22kW capability.
+
+DISPLAY SCREEN FEATURES
+------------------------
+The Polar X1 includes IPS display screen:
+
+Display Technology:
+IPS (In-Plane Switching) display provides superior viewing angles and color accuracy compared to standard LCD displays.
+
+Display Information:
+- Input voltage on all three phases
+- Charging current per phase
+- Total power output in kilowatts
+- Charging session duration
+- Energy delivered this session (kWh)
+- Total lifetime energy delivered
+- Charging status with clear indicators
+- Fault codes and error messages
+- Three-phase balance indicators
+- User ID when using RFID
+
+Display Benefits:
+Provides professional monitoring at a glance. Verify balanced three-phase operation by checking current across phases. Confirm 11kW power delivery during charging. Troubleshoot issues using fault code display.
+
+SAFETY AND PROTECTION FEATURES
+-------------------------------
+The Polar X1 includes comprehensive safety:
+
+Overheat Prevention: Thermal monitoring prevents damage
+Short Circuit Protection: Instant fault disconnection
+Ground Protection: Continuous earth monitoring
+Leakage Protection: RCD functionality prevents shock hazards
+Over-Temperature Protection: Automatic current reduction or shutdown
+Overvoltage Protection: Grid surge protection on all phases
+Undervoltage Protection: Brownout protection per phase
+Phase Imbalance Protection: Monitors three-phase balance
+Emergency Stop Switch: Physical hardware disconnect
+Water Resistance: IP66 for outdoor installation
+Dust Resistance: IP66 complete sealing
+Impact Resistance: IK10 vandal-proof construction
+RFID Access Control: Prevents unauthorized use
+Cable Lock: Connector locks to vehicle during charging
+
+CERTIFICATIONS AND COMPLIANCE
+------------------------------
+The Polar X1 meets industry standards:
+
+CE Certified: European safety compliance
+TUV Certified: Independent safety testing
+UL Certified: North American standards
+Indian Standards: Meets Indian electrical codes
+Three-Phase Compliance: Meets standards for three-phase equipment
+Type 2 Standard: IEC 62196-2 compliance
+Trusted Product: Zevpoint quality trusted by 12,000+ EV owners
+
+MAINTENANCE AND CARE
+--------------------
+Maintaining the Polar X1:
+
+Regular Inspection:
+Monthly inspection of wallbox, 20-foot cable, connector. Verify display functions. Check all three-phase connections are secure.
+
+Three-Phase Monitoring:
+Periodically verify balanced current across all three phases on display. Significant imbalance may indicate wiring issues requiring electrician attention.
+
+Cable Care:
+Inspect 20-foot cable for damage. Ensure cable holder securely stores cable. Long cable requires careful management.
+
+Emergency Stop Testing:
+Periodically test emergency stop function. Reset properly after each test.
+
+Professional Service:
+For electrical issues, phase imbalance problems, or damage, contact Zevpoint. Three-phase equipment should only be serviced by qualified electricians.
+
+COMPETITIVE ADVANTAGES
+----------------------
+Polar X1 unique benefits:
+
+Optimal Three-Phase Power: 11kW sweet spot for current Indian EV market
+Long Cable: 20-foot cable provides exceptional parking flexibility
+IPS Display: Superior display quality with excellent viewing angles
+3-in-1 Modes: Plug & Charge, RFID, App for maximum versatility
+Emergency Stop: Physical safety switch for peace of mind
+IP66 + IK10: Weatherproof and vandal-resistant construction
+Bluetooth Control: App management without WiFi requirement
+Fast Yet Practical: 45% faster than 7.5kW without 22kW overkill
+Current EV Optimized: Matches most Indian market EV onboard charger limits
+Professional Grade: Suitable for both premium homes and commercial offices
+Balanced Load: 16A per phase is gentle on three-phase electrical systems
+Elegant Design: Modern wallbox appearance enhances space aesthetics
+
+===============================================
+END OF DOCUMENT
+===============================================

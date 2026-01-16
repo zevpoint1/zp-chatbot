@@ -1,0 +1,196 @@
+===============================================
+PRODUCT DOCUMENT: Zevpoint Titan EV Charger
+Document ID: ZEVPOINT-TITAN-001
+Last Updated: December 2024
+===============================================
+
+PRODUCT IDENTIFICATION
+----------------------
+Product Name: Titan (also written as Titan 19.2kW)
+Manufacturer: Zevpoint
+Category: Portable AC EV Charger - Type 1 Connector
+Power Rating: 19.2 kilowatts (80 amperes at 240 volts)
+Connector Type: Type 1 (SAE J1772) - North American Standard
+Price: Not publicly listed (specialty product)
+Market Position: Ultra-fast 80A charger for specific North American import vehicles
+
+IMPORTANT: TYPE 1 CONNECTOR - LIMITED APPLICABILITY IN INDIA
+-------------------------------------------------------------
+The Titan charger uses Type 1 (SAE J1772) connector standard which is NOT the standard used in India. This product has very specific and limited use cases in the Indian market.
+
+Type 1 vs Type 2 Difference:
+Type 1 (SAE J1772) is the North American and Japanese charging standard. Type 2 (IEC 62196-2) is the Indian and European charging standard. These are physically incompatible connector types - Type 1 will not fit Type 2 vehicle inlets.
+
+Indian Market Standard:
+Virtually all electric vehicles sold in India use Type 2 connectors including Tata Nexon EV, MG ZS EV, Mahindra XUV400, Hyundai Ioniq 5, and all other modern Indian-market EVs. Type 2 is the mandated standard in India.
+
+When Titan is Used:
+The Titan is ONLY for specific North American import vehicles that have Type 1 charging inlets. This is an extremely rare use case in India.
+
+SPECIFIC COMPATIBLE VEHICLES (NORTH AMERICAN IMPORTS ONLY)
+-----------------------------------------------------------
+The Titan charger is specifically designed for North American electric vehicles imported to India:
+
+Primary Target Vehicles:
+- GMC Hummer EV (electric pickup truck)
+- Cadillac Lyriq (luxury electric SUV)
+- Ford F-150 Lightning (electric pickup truck)
+- Chevrolet Silverado EV (electric pickup truck)
+- Lucid Air (luxury electric sedan)
+- Other North American market EVs with Type 1 inlets
+
+These are NOT Standard Indian Market Vehicles:
+These vehicles are typically imported by individuals, diplomatic missions, or specialty importers. They are not sold through standard Indian automotive dealerships. They retain their original North American Type 1 charging inlet.
+
+Why These Vehicles Need Titan:
+Standard Indian chargers have Type 2 connectors which physically cannot connect to these vehicles' Type 1 inlets. The Titan provides the Type 1 connector these imported vehicles require.
+
+ULTRA-FAST 80 AMPERE CHARGING POWER
+------------------------------------
+The Titan delivers maximum Type 1 charging power:
+
+19.2 Kilowatt Power Output:
+Delivers 80 amperes at 240 volts single-phase. This represents the maximum power possible for Type 1 AC charging. The 19.2kW power level matches the upper limit of the SAE J1772 standard specification.
+
+Maximum Type 1 Charging Speed:
+The Titan provides the fastest possible AC charging for Type 1 vehicles. For vehicles that can accept 80A charging (like Hummer EV), this is significantly faster than lower-power chargers. Adds approximately 80-100 kilometers of range per hour for most vehicles.
+
+Charging Performance:
+Large-battery vehicles like Hummer EV (200+ kWh battery) benefit from maximum 80A power. Can charge large trucks and SUVs overnight at maximum available AC speed. Significantly faster than standard 32A or 40A chargers.
+
+ELECTRICAL SPECIFICATIONS
+--------------------------
+The Titan operates with the following parameters:
+
+Power Output: 19.2 kilowatts maximum
+Maximum Current: 80 amperes
+Input Voltage: 220-240 volts AC single-phase
+Connector Standard: Type 1 (SAE J1772)
+Cable Length: 5 + 1 meters (6 meters total with extension)
+Dimensions: 388mm x 202mm x 109mm
+Environmental Protection: IP67 rating for water and dust resistance
+Operating Temperature: -25°C to +55°C
+Form Factor: Portable charger with carry handle
+
+CRITICAL INSTALLATION REQUIREMENTS
+-----------------------------------
+The Titan requires heavy-duty electrical installation:
+
+IMPORTANT - WIRE COLOR CODE:
+**RED wire is NEUTRAL**
+**BLACK wire is PHASE (Line/Live)**
+This is CRITICAL - reversed from some regional standards. Always verify polarity before connecting power.
+
+Electrical Wiring:
+Minimum 16 square millimeter 3-core copper cable mandatory. In hot environments or long runs, upgrade to 25 square millimeter copper cable. Wire sizing critical for 80A continuous load.
+
+Circuit Protection:
+100 ampere double-pole MCB (Miniature Circuit Breaker) required. Surge Protection Device (SPD) mandatory. MCB must be rated for continuous 80A operation without nuisance tripping.
+
+Earthing Requirements:
+Proper earthing absolutely mandatory. Earthing resistance should be below 5 ohms. 80A power level requires robust earthing for safety.
+
+Voltage Stabilizer:
+If location has frequent voltage fluctuations, appropriate voltage stabilizer required. Essential for protecting vehicle and charger from power quality issues.
+
+Professional Installation:
+80A charger installation requires licensed electrician. Verify wire color code (red=neutral, black=phase) before connection. Test installation before first use.
+
+SAFETY FEATURES
+---------------
+The Titan includes comprehensive safety protection:
+
+Overheat Protection: Prevents damage from excessive temperature
+Short Circuit Protection: Immediate fault disconnection  
+Ground Fault Detection: Continuous earth monitoring
+Water Resistance: IP67 rating for outdoor use
+Dust Resistance: IP67 complete sealing
+Load Protection: Prevents overload conditions
+
+WHEN TO RECOMMEND TITAN VS STANDARD CHARGERS
+---------------------------------------------
+Recommend Titan ONLY when:
+- Customer has North American import vehicle with Type 1 inlet
+- Vehicle specifically requires Type 1 (SAE J1772) connector
+- Customer explicitly requests Type 1 charger
+- Vehicle examples: Hummer EV, F-150 Lightning, Cadillac Lyriq, Lucid Air
+
+DO NOT Recommend Titan when:
+- Customer has standard Indian market EV (use Type 2 chargers instead)
+- Customer has any Tata, MG, Mahindra, Hyundai, BYD vehicle (all use Type 2)
+- Customer is unsure about connector type (verify vehicle first)
+
+HOW TO VERIFY IF CUSTOMER NEEDS TITAN:
+Ask: "What vehicle do you have?"
+If they say Tata Nexon, MG ZS, Mahindra XUV400, Hyundai Ioniq 5, or any standard Indian EV - they need Type 2, NOT Titan.
+If they say Hummer EV, F-150 Lightning, Cadillac Lyriq, or other North American vehicle - they may need Titan.
+
+COMPARISON WITH TYPE 2 CHARGERS
+--------------------------------
+Titan vs Standard Zevpoint Chargers:
+
+Connector Type:
+- Titan: Type 1 (SAE J1772) - North American standard
+- All other Zevpoint AC chargers: Type 2 - Indian/European standard
+- These connectors are physically incompatible
+
+Power Level:
+- Titan: 19.2kW (80A) - maximum Type 1 power
+- Aveo X1: 11kW three-phase (Type 2)
+- Spyder AIO: 16kW max (Type 2)
+- All use maximum power for their respective connector types
+
+Market Application:
+- Titan: Specialty product for imported North American vehicles only
+- Other chargers: Standard products for Indian market vehicles
+
+IMPORTANT NOTES FOR CUSTOMER SERVICE
+-------------------------------------
+
+Before Recommending Titan:
+1. Verify customer has Type 1 vehicle (North American import)
+2. Confirm vehicle model and year
+3. Verify vehicle was imported from North America, not purchased in India
+4. Most customers will NOT need Titan - it is specialty product
+
+If Customer Has Standard Indian EV:
+Direct them to Type 2 chargers (Aveo series, Polar series, Duos, Spyder AIO). Do NOT recommend Titan as it will not work with their vehicle.
+
+If Customer is Unsure:
+Ask them to check their vehicle's charging inlet. Type 1 has 5 pins in specific pattern. Type 2 has 7 pins in circular pattern. If purchased vehicle in India, it is almost certainly Type 2.
+
+Pricing and Availability:
+Titan is specialty product - contact Zevpoint directly for pricing and availability. Not stocked in standard inventory due to limited demand.
+
+PRODUCT POSITIONING
+-------------------
+The Titan serves a niche market:
+
+Ultra-Specialty Product:
+The Titan is not marketed prominently because its use case is extremely limited in India. Only relevant for the small number of North American import vehicles.
+
+Why Product Exists:
+Provides charging solution for diplomatic missions, expat communities, specialty car collectors, and others who have imported North American EVs to India. Without Titan, these vehicles would have very limited charging options in India.
+
+Not Advertised to General Public:
+Product information provided only when specifically relevant to customer's situation. Avoids confusion with standard Type 2 chargers used by 99%+ of Indian EV owners.
+
+COMPETITIVE ADVANTAGES
+----------------------
+For its specific use case, Titan offers:
+
+Maximum Type 1 Power: 80A represents maximum SAE J1772 charging capability
+IP67 Protection: Robust weatherproofing for outdoor installation
+Portable Design: Can be moved between locations unlike wall-mounted chargers
+Complete Solution: Only Type 1 option in Zevpoint lineup
+Specialty Support: Enables North American vehicle owners to charge in India
+
+CRITICAL SUMMARY
+----------------
+**The Titan is a specialty Type 1 (SAE J1772) charger for North American import vehicles ONLY. It is NOT compatible with standard Indian market electric vehicles. Before recommending Titan, always verify customer has a North American import vehicle with Type 1 charging inlet. For all standard Indian EVs (Tata, MG, Mahindra, Hyundai, BYD, etc.), recommend Type 2 chargers instead.**
+
+**Installation requires professional electrician and attention to wire color code: RED=Neutral, BLACK=Phase.**
+
+===============================================
+END OF DOCUMENT
+===============================================

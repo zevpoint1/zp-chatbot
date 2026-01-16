@@ -1,0 +1,327 @@
+===============================================
+PRODUCT DOCUMENT: Zevpoint Polar Max EV Charger
+Document ID: ZEVPOINT-POLARMAX-001
+Last Updated: December 2024
+===============================================
+
+PRODUCT IDENTIFICATION
+----------------------
+Product Name: Polar Max (also referred to as Polar Max 22kW)
+Manufacturer: Zevpoint
+Category: Wall-Mounted AC EV Charger (Wallbox) - Ultra-Fast Three-Phase
+Power Rating: 22 kilowatts
+Model Type: Premium smart wall-mounted charger with maximum power capability
+Price: Rs. 39,999.00 (inclusive of all taxes)
+Product Tagline: Ultra-fast charging built for speed and durability
+Market Position: Flagship Polar series charger with highest power output
+
+PRODUCT DESCRIPTION
+-------------------
+The Zevpoint Polar Max is the flagship wall-mounted electric vehicle charger in the Polar series, designed to deliver ultra-fast 22 kilowatt charging for electric vehicles. This premium wallbox represents the pinnacle of home and business charging capability, combining maximum speed, efficiency, and durability in an elegant wall-mounted package.
+
+Experience seamless EV charging with the Polar Max 22 kW EV Charger. Designed specifically for speed, efficiency, and durability, it delivers the fastest possible AC charging for your electric vehicle, making it ideal for both high-end home installations and demanding business use where charging time minimization is critical.
+
+The Polar Max is perfect for EV enthusiasts who value speed, innovation, and convenience above all else. It represents a future-ready charging solution that provides maximum performance with zero compromise. For users with premium electric vehicles featuring high-capacity batteries and advanced onboard chargers capable of accepting 22kW input, the Polar Max delivers unmatched charging speed.
+
+The Polar Max is equipped with an emergency stop switch for added safety, designed for peace of mind and convenience in both premium residential and commercial installations. Enjoy the versatility of its 3-in-1 charging modes—Plug and Charge, RFID access control, or the intuitive Zevpoint Home Mobile App with advanced Bluetooth and WiFi connectivity options.
+
+Managing your charging sessions is effortless with the Polar Max, whether you're charging at your premium home, managing multiple users at a commercial facility, or operating a small charging network. Upgrade to the Polar Max for the ultimate high-performance, eco-friendly charging solution that combines maximum power, reliability, and sophisticated style.
+
+MAXIMUM 22KW THREE-PHASE POWER
+-------------------------------
+The Polar Max's defining feature is its maximum 22 kilowatt power output using three-phase electrical supply:
+
+22kW Three-Phase Operation:
+The Polar Max delivers its full 22 kilowatt charging power when connected to robust three-phase electrical supply. This represents the maximum practical power for AC home/business charging, matching the capability of commercial public charging stations. At 22kW on three-phase 400V supply, the Polar Max draws 32 amperes per phase across three phases, utilizing the full capacity of a standard 32A three-phase circuit.
+
+Understanding 22kW Power Level:
+22 kilowatts is approximately three times faster than standard 7.5kW single-phase chargers and twice as fast as 11kW three-phase chargers. This power level represents the upper limit of Type 2 AC charging capability before transitioning to DC fast charging. Most premium and luxury electric vehicles with advanced onboard chargers can accept 22kW input, though many mid-range EVs are limited to 7.5kW or 11kW.
+
+Three-Phase Power Requirements:
+Three-phase electrical supply is absolutely mandatory for 22kW operation. Three-phase power is commonly available in commercial and industrial buildings, large residential properties and villas, premium apartment complexes, properties in industrial zones, hotels and hospitality facilities, and some newer residential developments. Standard homes typically have only single-phase power and would require electrical service upgrade to three-phase for 22kW charging capability.
+
+Current Draw Per Phase:
+At maximum 22kW power, the Polar Max draws 32 amperes per phase. This is the same per-phase current as a 7.5kW single-phase charger, but across three phases simultaneously. The balanced load across three phases is more efficient and generates less heat than equivalent single-phase high-power charging.
+
+Vehicle Compatibility Consideration:
+Not all electric vehicles can accept 22kW charging. Many Indian market EVs have onboard chargers limited to 3.6kW, 7.5kW, or 11kW maximum. Installing a 22kW Polar Max will only charge as fast as the vehicle's onboard charger allows. Premium vehicles like certain Tesla models, Audi e-tron, Mercedes EQC, BMW iX, and some European imports support 22kW charging. Verify your vehicle's maximum AC charging rate before purchasing 22kW charger.
+
+Future-Proofing Benefit:
+Even if your current vehicle supports only 11kW, installing the Polar Max 22kW prepares your charging infrastructure for future vehicles with 22kW capability. This avoids need to upgrade charger when you purchase a premium EV in the future.
+
+THREE-IN-ONE CHARGING MODES
+----------------------------
+The Polar Max offers sophisticated 3-in-1 charging mode functionality:
+
+Mode 1 - Plug and Charge (Automatic):
+Maximum simplicity with automatic charging initiation when vehicle is plugged in. No user interaction required beyond plugging in connector. Ideal for private installations where only owner uses the charger. Fastest and most convenient experience for personal use.
+
+Mode 2 - RFID Card Authorization:
+Built-in RFID (Radio Frequency Identification) card reader for access-controlled charging. Users must present authorized RFID card to initiate charging session. Essential for multi-user commercial installations, workplace charging with cost allocation, premium residential complexes with shared infrastructure, or any scenario requiring tracking of who is using the charger. Multiple RFID cards can be programmed with individual user IDs.
+
+Mode 3 - Zevpoint Home Mobile App Control:
+Advanced connectivity enables comprehensive app-based management through Zevpoint Home application. Remote start and stop from smartphone, real-time monitoring of all charging parameters, intelligent scheduling for time-of-use electricity rates, detailed energy consumption tracking and reporting, adjustable current control for load management, RFID card administration, and push notifications for status updates.
+
+WiFi and Bluetooth Connectivity:
+The Polar Max features enhanced connectivity options including both WiFi and Bluetooth for maximum flexibility. WiFi enables remote access and management from anywhere with internet connection. Bluetooth provides local control without internet dependency. Dual connectivity ensures reliable management in various network conditions.
+
+ADVANCED CONNECTIVITY AND APP FEATURES
+---------------------------------------
+The Polar Max includes premium connectivity options:
+
+Dual Connectivity:
+WiFi Connectivity: Built-in WiFi for internet connection and cloud-based management
+Bluetooth Connectivity: Local Bluetooth for offline control and configuration
+Ethernet Option: May include ethernet port for hardwired network connection (most reliable for commercial use)
+
+Zevpoint Home Mobile App:
+Comprehensive smart charging management through mobile application. Available for iOS (Apple App Store) and Android (Google Play Store).
+
+Advanced App Features:
+- Remote Charging Control: Start and stop from anywhere via WiFi
+- Real-Time Monitoring: Live power, current, voltage, energy, and session time
+- Smart Scheduling: Program charging based on electricity rate schedules
+- Load Management: Adjust current dynamically to balance electrical load
+- Historical Analytics: Detailed reports on energy consumption and costs
+- RFID User Management: Add, remove, track individual user access
+- Multi-Mode Switching: Toggle between Plug & Charge, RFID, and App modes
+- Firmware Updates: Over-the-air (OTA) updates for new features and improvements
+- Multi-Charger Management: Manage multiple Polar Max units if you have several
+- Usage Alerts: Notifications for completion, faults, unauthorized access attempts
+- Cost Tracking: Monitor electricity costs per session and per user
+
+Cloud Integration:
+WiFi connectivity enables cloud-based features not possible with Bluetooth-only chargers. Remote monitoring from anywhere in world, usage data backup and synchronization, advanced analytics and reporting, and integration with smart home systems.
+
+ELECTRICAL SPECIFICATIONS
+--------------------------
+The Polar Max operates with the following maximum parameters:
+
+Power Output: 22 kilowatts maximum output (on three-phase 400V supply)
+Maximum Current: 32 amperes per phase on three-phase configuration
+Current Adjustment: Adjustable from 6A to 32A per phase via app control for load management
+Input Voltage: 400 volts AC three-phase (line-to-line voltage)
+Input Frequency: 50 Hertz (standard for India)
+Phase Configuration: Three-phase electrical system (3 phases + neutral + earth)
+Connector Standard: Type 2 (IEC 62196-2) to vehicle
+Charging Cable: 20 feet (approximately 6 meters) integrated Type 2 cable permanently attached
+Cable Material: TPU (Thermoplastic Polyurethane) for durability and flexibility
+Cable Management: Integrated cable holder keeps cable organized when not in use
+
+The 20-foot cable length provides exceptional flexibility for various parking configurations, significantly longer than standard 5-meter cables on basic chargers.
+
+PHYSICAL CHARACTERISTICS
+-------------------------
+The Polar Max wallbox has the following physical properties:
+
+Dimensions: Premium wallbox dimensions designed to house high-power electronics
+Weight: Approximately 7-8 kilograms (heavier than lower-power models due to robust components)
+Mounting: Permanent wall mounting installation with substantial mounting hardware
+Form Factor: Professional premium wallbox design with elegant styling
+Build Material: Durable fire-retardant ABS housing suitable for demanding environments
+Color: Modern finish (typically white or sleek design matching premium aesthetic)
+Operating Temperature: Functions in extreme temperatures from minus 35 degrees Celsius to plus 60 degrees Celsius
+Environmental Protection: IP66 rating for water jet resistance and complete dust protection
+IK Rating: IK10 impact resistance for vandal-proof installation in commercial settings
+Display: High-resolution display screen showing comprehensive charging data
+Controls: Physical emergency stop button, app control, and onboard interface
+LED Indicators: Status indication lights for at-a-glance monitoring
+
+The IP66 and IK10 ratings ensure the Polar Max can withstand harsh outdoor conditions and potential vandalism in commercial installations.
+
+INSTALLATION REQUIREMENTS
+--------------------------
+The Polar Max requires robust professional installation with three-phase infrastructure:
+
+Mounting Location:
+Permanent wall mounting at appropriate height. Within 20 feet of vehicle parking location. For commercial installations, consider high-visibility location, security lighting, surveillance coverage, accessibility compliance, and weather protection (though outdoor rated).
+
+Three-Phase Power Supply Requirements:
+Dedicated robust three-phase electrical supply with 400V line-to-line voltage mandatory for full 22kW operation. Three-phase supply must be capable of continuous 32A per phase draw. Balanced three-phase supply is critical - significant imbalance will reduce performance. Most residential areas require electrical service upgrade to three-phase. Verify with electricity distribution company that three-phase supply and adequate capacity is available.
+
+Electrical Wiring for 22kW Three-Phase:
+Minimum 6 square millimeter 5-core copper cable (3 phases + neutral + earth) for permanent installation from main distribution board to Polar Max location. For hot climate regions, enclosed runs, or distances over 20 meters, upgrade to 10 square millimeter copper cable. Cable must be rated for continuous 32A per conductor. Fire-retardant cable insulation rated for 90°C minimum. UV-resistant jacketing or protective conduit for outdoor cable runs. Professional cable installation with proper securing and protection mandatory.
+
+Earthing System Requirements:
+Robust earthing absolutely mandatory with resistance below 5 ohms (commercial installations should target below 3 ohms). Three-phase high-power systems require exceptional earthing quality. Earthing system must comply with local electrical codes for commercial-grade installations. Professional earth resistance testing required before commissioning. Consider separate earth electrode if existing building earth is marginal.
+
+Circuit Protection for 22kW Three-Phase:
+40 ampere four-pole MCB (Miniature Circuit Breaker) mandatory - must disconnect all three phases plus neutral simultaneously. Commercial-grade MCB with appropriate breaking capacity for three-phase faults. Three-phase Surge Protection Device (SPD) rated for 400V systems mandatory. Three-phase RCD (Residual Current Device) rated at 30mA for leakage protection. Circuit protection must be sized for continuous 32A per phase operation without nuisance tripping.
+
+Voltage Stabilizer Considerations:
+If location experiences three-phase power quality issues including voltage fluctuations, phase imbalance, or brownouts, install three-phase voltage stabilizer rated for 25-30 kVA capacity to handle Polar Max requirements. Three-phase stabilizers correct imbalances across phases and protect against voltage instability. Essential in areas with unreliable grid power quality.
+
+Professional Installation Mandatory:
+22kW three-phase charger installation requires licensed electrician with extensive three-phase experience. Commercial-grade electrical work including load calculations, protection coordination, cable sizing. Electrical permit required in most jurisdictions for 22kW charger installation. Professional electrical inspection typically mandatory after installation. Building management approval may be required for commercial or multi-unit installations.
+
+Network Infrastructure:
+For full smart features, reliable internet connectivity required at installation location. Ethernet connection strongly recommended for commercial installations (more reliable than WiFi). Adequate network bandwidth for real-time communication and firmware updates. Consider redundant connectivity (WiFi + ethernet) for critical commercial installations.
+
+CHARGING PERFORMANCE AND SPEED
+-------------------------------
+The Polar Max delivers maximum AC charging performance:
+
+Maximum Charging Speed:
+At full 22 kilowatt output, Polar Max adds approximately 90 to 110 kilometers of driving range per hour for electric vehicles with 22kW-capable onboard chargers. This represents the fastest possible AC (Type 2) charging speed. Actual range depends on vehicle efficiency, battery condition, temperature, and driving patterns.
+
+Performance with Non-22kW Vehicles:
+If vehicle's onboard charger is limited to 11kW, Polar Max will charge at 11kW (not faster). If limited to 7.5kW, will charge at 7.5kW. Charger automatically adapts to vehicle's maximum capability. Cannot charge faster than vehicle can accept.
+
+Comparison to Other Power Levels:
+- Polar Max 22kW vs 7.5kW chargers: Nearly 3 times faster
+- Polar Max 22kW vs 11kW chargers: Exactly 2 times faster
+- Polar Max 22kW vs DC fast charging 50kW: DC still faster but Polar Max is comparable for overnight charging
+
+Time Savings Example:
+A 60 kWh battery EV taking 8 hours to fully charge with 7.5kW charger will charge in approximately 3 hours with Polar Max 22kW - saving 5 hours charging time.
+
+Commercial Advantage:
+For commercial installations, 22kW charging enables much higher utilization rates. Can serve more customers per day with faster turnover. Reduces charging queue times in workplace or retail settings.
+
+USE CASES AND APPLICATIONS
+---------------------------
+The Polar Max is ideal for premium and commercial scenarios:
+
+Premium Luxury Vehicle Owners:
+Perfect for owners of high-end EVs with 22kW onboard chargers including certain Tesla Model S/X, Audi e-tron, Mercedes EQC/EQE/EQS, BMW iX/i4/i7, Porsche Taycan, and other premium European models. Maximizes charging speed capability of premium vehicles.
+
+Ultra-High-Mileage Drivers:
+For users driving 200+ kilometers daily who need fastest possible overnight charging to fully replenish large batteries.
+
+Commercial Workplace Charging:
+Offices and businesses with three-phase power offering premium employee charging. Faster charging enables serving more employees during work hours. RFID tracking allocates costs to individual users.
+
+Fleet Operations:
+Commercial fleets benefit from maximum charging speed to minimize vehicle downtime. Can charge more vehicles per charging point per day. Critical for taxi, ride-sharing, delivery fleets.
+
+Premium Residential Developments:
+Luxury apartments, villas, and gated communities with three-phase infrastructure. 22kW charging is premium amenity attracting high-end residents.
+
+Hospitality and Resorts:
+Hotels and resorts offering premium charging to guests. 22kW enables relatively quick charging even during short stays. Differentiates property from competitors.
+
+Automotive Dealerships:
+Car dealerships selling premium EVs install Polar Max for customer demonstrations and test vehicle charging.
+
+Parking Facilities:
+Premium parking garages and facilities offering fast charging as value-added service. Higher charging fees justified by faster speed.
+
+Future Vehicle Preparation:
+Even if current vehicle doesn't support 22kW, installing Polar Max prepares for inevitable transition to higher-power vehicles. Avoids future charger replacement costs.
+
+PRODUCT COMPARISON WITH OTHER ZEVPOINT CHARGERS
+------------------------------------------------
+The Polar Max differs significantly from other Polar series chargers:
+
+Polar Max vs Polar Pro:
+- Power: Polar Max 22kW vs Polar Pro 7.5kW (nearly 3x faster)
+- Phase: Polar Max requires three-phase, Polar Pro uses single-phase
+- Installation: Polar Max needs robust three-phase infrastructure uncommon in standard homes
+- Cable: Polar Max has 20 feet, Polar Pro has 5 meters (Polar Max much longer)
+- Connectivity: Polar Max has WiFi + Bluetooth, Polar Pro has Bluetooth only
+- Price: Polar Max costs significantly more (Rs. 39,999 vs Rs. 29,999)
+- Use Case: Polar Max for premium vehicles/commercial use, Polar Pro for standard homes
+
+Polar Max vs Polar X1:
+- Power: Polar Max 22kW vs Polar X1 11kW (exactly 2x faster)
+- Current: Polar Max draws 32A per phase, Polar X1 draws 16A per phase
+- Installation: Both need three-phase but Polar Max requires more robust capacity
+- Vehicle Compatibility: Polar Max only beneficial if vehicle supports 22kW (many don't)
+- Cable: Both have 20 feet cable (same length)
+- Price: Polar Max costs more (Rs. 39,999 vs approximately Rs. 35,999)
+- Use Case: Polar Max for 22kW-capable vehicles, Polar X1 optimal for most current EVs
+
+Polar Max vs Duos 22kW:
+- Power: Both deliver 22kW three-phase (same speed)
+- OCPP: Duos 22 has OCPP for networked charging, Polar Max does not
+- Features: Duos has Home/Commercial toggle, Polar Max is straightforward three-mode
+- Target: Duos 22 for networked commercial operations, Polar Max for premium standalone installations
+- Price: Both similar price points at Rs. 39,999-44,999 range
+
+Key Differentiation:
+Polar Max is Zevpoint's flagship wall charger, representing maximum AC charging capability. Appeals to users with premium 22kW-capable vehicles, commercial installations requiring fastest possible AC charging, future-proofing for next-generation vehicles, and those who want absolute best without compromise.
+
+EMERGENCY STOP SWITCH
+----------------------
+The Polar Max features robust emergency stop switch:
+
+Emergency Switch Function:
+Physical emergency stop button enables instant manual disconnection. Critical safety feature for high-power 22kW charging. Especially important in commercial settings with multiple users.
+
+Commercial Requirement:
+Emergency stop switches often required by electrical codes and insurance policies for commercial high-power charging installations. Polar Max includes this as standard safety equipment.
+
+DISPLAY SCREEN FEATURES
+------------------------
+The Polar Max includes high-resolution display:
+
+Comprehensive Display:
+Shows all critical charging parameters including voltage on all three phases, current per phase with balance indication, total power output (up to 22kW), session duration and energy delivered, user ID when using RFID, network status, and fault codes.
+
+Commercial-Grade Information:
+Display suitable for commercial environments where users need clear status information. Professional appearance matching premium vehicle charging.
+
+SAFETY AND PROTECTION FEATURES
+-------------------------------
+The Polar Max includes comprehensive advanced safety:
+
+Overheat Prevention: Advanced thermal management for high-power operation
+Short Circuit Protection: Instant fault disconnection
+Ground Protection: Continuous robust earth monitoring
+Leakage Protection: Sensitive RCD functionality
+Over-Temperature Protection: Multi-stage temperature management
+Overvoltage/Undervoltage Protection: Grid quality monitoring on all phases
+Phase Imbalance Protection: Monitors three-phase balance, reduces power if imbalanced
+Emergency Stop Switch: Physical hardware disconnect
+Water Resistance: IP66 for harsh weather
+Dust Resistance: IP66 complete sealing
+Impact Resistance: IK10 vandal-proof for commercial settings
+RFID Access Control: Prevents unauthorized use
+Cable Lock: Prevents theft during charging
+Built-in RCD: May include integrated residual current protection
+
+CERTIFICATIONS AND COMPLIANCE
+------------------------------
+The Polar Max meets highest standards:
+
+CE Certified: European safety and quality
+TUV Certified: Independent testing authority certification
+UL Certified: North American standards
+Indian Standards: BIS and electrical code compliance
+Commercial Grade: Suitable for public installation
+Type 2 Standard: IEC 62196-2 full compliance
+High-Power Certified: Tested for continuous 22kW operation
+
+MAINTENANCE AND CARE
+--------------------
+Maintaining the Polar Max:
+
+Regular Inspection:
+Monthly inspection of wallbox, 20-foot cable, and connector. Verify display shows balanced three-phase operation. Check all electrical connections remain secure.
+
+Three-Phase Monitoring:
+Continuously monitor phase balance on display. Significant imbalance requires electrician attention immediately. High-power operation sensitive to phase imbalance.
+
+Professional Service:
+Only qualified electricians should service 22kW three-phase equipment. Annual preventive maintenance recommended for commercial installations. Keep charging area clear and safe.
+
+COMPETITIVE ADVANTAGES
+----------------------
+Polar Max unique benefits:
+
+Maximum AC Power: 22kW represents peak AC charging capability
+20-Foot Cable: Exceptional reach for flexible parking
+Dual Connectivity: WiFi + Bluetooth for reliability
+Premium Vehicle Optimized: Matches capability of luxury EV onboard chargers
+Commercial Ready: Suitable for public/commercial installations
+Future-Proof: Prepares for next-generation 22kW-capable vehicles
+IP66 + IK10: Weatherproof and vandal-resistant
+3-in-1 Modes: Maximum operational flexibility
+OTA Updates: Firmware improvements over WiFi
+Smart Load Management: Dynamic current adjustment
+Professional Grade: Matches commercial station quality
+Flagship Product: Top of Polar series lineup
+
+===============================================
+END OF DOCUMENT
+===============================================

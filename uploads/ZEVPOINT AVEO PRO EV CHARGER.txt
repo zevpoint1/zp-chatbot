@@ -1,0 +1,233 @@
+===============================================
+PRODUCT DOCUMENT: Zevpoint Aveo Pro EV Charger
+Document ID: ZEVPOINT-AVEOPRO-001
+Last Updated: December 2024
+===============================================
+
+PRODUCT IDENTIFICATION
+----------------------
+Product Name: Aveo Pro
+Manufacturer: Zevpoint
+Category: Smart Portable AC EV Charger
+Power Rating: 7.5 kilowatts 
+Model Series: Aveo Professional Series
+Price: Rs. 22,999.00 (inclusive of all taxes)
+
+PRODUCT DESCRIPTION
+-------------------
+The Zevpoint Aveo Pro is a professional-grade smart portable AC electric vehicle charger with 7.5 kilowatt power output. This is a high-performance portable charger designed for users who need faster charging speeds while maintaining portability. The Aveo Pro features advanced smart connectivity with WiFi and Bluetooth, comprehensive app control through the Zevpoint Home app, and IP66 environmental protection rating. The charger is built for both home installation and portable travel use, offering professional-grade performance in a compact package. Aveo pro comes with dual control option via physical touch buttons or via mobile app.
+
+The Aveo Pro represents a significant upgrade over standard 3.6 kW portable chargers, providing more than double the charging speed for electric vehicles that support higher charging rates. This makes it ideal for users with larger battery EVs who want to minimize charging time while retaining the flexibility of a portable charger.
+
+SMART CONNECTIVITY FEATURES
+---------------------------
+The Aveo Pro is equipped with comprehensive smart charging capabilities:
+
+WiFi Connectivity: Built-in WiFi module enables remote monitoring and control from anywhere with internet connection
+Bluetooth Connectivity: Local Bluetooth for device pairing, initial setup via Wifi, then after Bluetooth allows offline control of device within bluetooth distance range, when WiFi is unavailable
+Mobile App Integration: Full compatibility with Zevpoint Home app available on Apple App Store and Google Play Store
+
+Smart App Features and Capabilities:
+- Remote control and monitoring of charging sessions from smartphone
+- Real-time tracking of charging status, current, voltage, and power consumption
+- Advanced scheduling system to program charging start and stop times
+- Complete charging history with detailed session records and energy usage statistics
+- Adjustable current settings controllable through the app from 8A to 32A
+- Used Energy tracking and consumption analysis
+- Multiple charger management if you own several Zevpoint devices
+
+
+The adjustable current feature on the Aveo Pro is particularly valuable for protecting home electrical systems. Users can reduce charging current during peak usage times or in locations with limited electrical capacity, preventing circuit breaker trips and ensuring safe operation.
+
+App Setup Process: Download the Zevpoint Home app from the Apple App Store or Google Play Store, create an account or sign in with existing credentials, enable Bluetooth and WiFi on your smartphone, power on the Aveo Pro charger, use the app to scan and connect to the charger via Bluetooth, configure WiFi network settings through the app, and complete the pairing process.
+
+ELECTRICAL SPECIFICATIONS
+--------------------------
+The Aveo Pro charger operates with the following electrical parameters:
+
+Input Voltage: Accepts 220 to 240 volts AC single phase
+Input Current: 32A
+Current Adjustment: Adjustable current control to any desired level between 8A and 32A. This sophisticated current control allows precise power management based on available electrical capacity.
+Phase Configuration: Single phase electrical system
+Connector Standard: Type 2 connector following IEC 62196 international standard
+Charging Cable: 5 meter length Type 2 cable with integrated connector
+
+PHYSICAL CHARACTERISTICS
+-------------------------
+The Aveo Pro has the following physical dimensions and properties:
+
+Size: 297 millimeters length by 106 millimeters width by 54 millimeters height
+Weight: 3.5 kilograms total weight
+Form Factor: Compact rectangular design with integrated digital display screen
+Build Quality: Robust housing with professional-grade construction
+Environmental Protection: IP66 rating for superior water immersion protection and complete dust protection
+Display: Integrated LED display screen showing real-time charging parameters including voltage, current, power, and charging time
+Physical Touch buttons: Physical touch buttons to control charging current & time
+
+INCLUDED ACCESSORIES AND PACKAGE CONTENTS
+------------------------------------------
+The Aveo Pro complete package includes the following items:
+- Aveo Pro charger unit with integrated 5 meter Type 2 cable
+- 32 ampere CEE industrial socket for professional installation
+- Wall mounting bracket for permanent installation at home or workplace
+- Premium carry bag for portable use and travel protection
+- User manual with detailed installation instructions and safety guidelines
+- Quick start guide for first-time setup
+- Cable management accessories
+
+
+SAFETY AND PROTECTION FEATURES
+-------------------------------
+The Aveo Pro incorporates multiple layers of advanced safety protection:
+
+Thermal Protection: Overheat prevention system with temperature monitoring prevents damage from excessive heat buildup during extended charging sessions
+Electrical Protection: Short circuit protection with instant automatic disconnection in fault conditions
+Overcurrent Protection: Prevents damage from excessive current draw beyond rated capacity
+Overvoltage Protection: Guards against input voltage spikes and power surges from the electrical grid
+Undervoltage Protection: Prevents operation when input voltage drops below safe levels
+Ground Fault Protection: Proper grounding support with continuous earth monitoring ensures electrical safety
+Leakage Protection: Residual current detection prevents electric shock hazards
+Weather Protection: IP66 water immersion protection allows operation in heavy rain and wet conditions
+Environmental Protection: IP66 complete dust sealing prevents particle ingress in dusty environments
+Smart Monitoring: App-based safety oversight provides additional protection through remote monitoring
+
+The comprehensive safety features make the Aveo Pro suitable for outdoor installation and use in challenging environmental conditions.
+
+INSTALLATION REQUIREMENTS
+--------------------------
+To safely install and operate the Aveo Pro at its full 7.5 kilowatt capacity, the following requirements must be met:
+
+Power Socket Requirements:
+A dedicated 32 ampere electrical socket is required for optimal performance. The Aveo Pro package includes a 32A CEE industrial socket. This socket must be installed by a qualified electrician and must have adequate connected load capacity to support continuous 32 ampere draw. The socket circuit should be dedicated exclusively to the EV charger with no other loads sharing the circuit.
+
+Electrical Wiring Requirements:
+Use a minimum of 6 square millimeter, 3-core copper cable for standard installations. The three cores are: Line (Live), Neutral, and Earth (Ground). In hot climate regions or for installations in enclosed spaces with limited ventilation, upgrade to 10 square millimeter copper cable to handle heat dissipation better and ensure long-term reliability. Cable run length should be minimized to reduce voltage drop. For cable runs exceeding 20 meters, consult a qualified electrician for appropriate cable sizing.
+
+Earthing System Requirements:
+Proper earthing (grounding) is absolutely mandatory for safe operation of the Aveo Pro. The power socket must be connected to a reliable earth ground with resistance below 5 ohms. The earthing system must comply with local electrical safety codes and national electrical regulations. Never operate the charger without proper earthing as this creates severe electrical safety hazards.
+
+Circuit Protection Requirements:
+Install a 40 ampere double-pole or two-pole MCB (Miniature Circuit Breaker) on the dedicated charger circuit. The double-pole MCB provides disconnection of both line and neutral for complete isolation during faults. Additionally install a Surge Protection Device (SPD) to protect against voltage spikes and lightning-induced surges from the electrical grid. The SPD should be rated for Type 2 protection with appropriate voltage clamping levels.
+
+Voltage Stabilizer Considerations:
+If your location experiences frequent input power fluctuations, brownouts, or voltage instability, use an appropriate voltage stabilizer. The stabilizer should be rated for at least 8 kVA capacity to handle the Aveo Pro's power requirements with adequate safety margin. This is particularly important in areas with unreliable grid power or frequent voltage variations.
+
+Network Requirements for Smart Features:
+For full smart charging functionality, WiFi network connectivity is required at the installation location. The charger should be positioned within reliable WiFi signal range of your wireless router. The Aveo Pro supports 2.4 GHz WiFi networks (check router compatibility). Ensure your WiFi network has stable internet connectivity for remote access and app control features.
+
+Installation Location Considerations:
+The Aveo Pro can be permanently wall-mounted using the included bracket or kept portable for travel use. For wall mounting, choose a location that is: within 5 meters of your vehicle's charging port when parked, protected from direct harsh weather if possible (though IP67 rating allows outdoor use), accessible for cable management, within WiFi signal range, and has adequate space for cable storage when not in use.
+
+CHARGING PERFORMANCE AND SPEED
+-------------------------------
+The Aveo Pro delivers professional-grade charging performance:
+
+Charging Speed: At full 7.5 kilowatt output, the Aveo Pro can add approximately 50-55 kilometers of range per hour of charging for most modern electric vehicles. Actual range added depends on vehicle efficiency, battery condition, and environmental factors.
+
+Comparison to Standard Charging: The Aveo Pro charges more than twice as fast as standard 3.6 kW portable chargers, significantly reducing overall charging time and making it practical for daily use without overnight charging.
+
+
+TRAVEL AND PORTABILITY FEATURES
+--------------------------------
+Despite its higher power output, the Aveo Pro maintains excellent portability:
+
+Compact Design: At 3.5 kg weight and compact dimensions, the Aveo Pro is easy to carry and store in vehicle trunk
+Premium Carry Bag: Included carry bag provides protection during transport and travel
+Cable Management: 5 meter cable length provides flexibility while remaining manageable for portable use
+Quick Setup: Simple plug-and-charge operation requires no tools for portable deployment
+Durable Construction: IP66 rating ensures reliability during travel and outdoor use
+Wide Temperature Range: Operates reliably from minus 35°C to plus 60°C across diverse climate conditions
+Universal Compatibility: Type 2 connector works with all Type 2 equipped electric vehicles sold in India and Europe
+
+The Aveo Pro is ideal for users who frequently travel long distances and need faster charging capability at multiple destinations while maintaining the convenience of a portable charger.
+
+USE CASES AND APPLICATIONS
+---------------------------
+The Aveo Pro is suitable for multiple charging scenarios:
+
+Primary Home Charging: Wall-mounted installation for daily charging at faster speeds than standard portable chargers. Ideal for households with high daily driving distances.
+
+Multi-Vehicle Households: Single portable charger can be shared between multiple electric vehicles in the household, reducing total equipment cost.
+
+Limited Load Situations: Adjustable current control allows operation in locations with restricted electrical capacity by reducing power draw to match available supply.
+
+Fleet Applications: Suitable for small fleet operators who need portable charging capability for multiple vehicles at different locations.
+
+Rental Properties: Perfect for renters who cannot install permanent charging infrastructure and need portable solution that can move with them.
+
+Unable to install wall chargers: For people who do not have dedicated space to install a wall charger setup, and prefer flexibility of removing the charger after use
+
+DISPLAY SCREEN INFORMATION
+---------------------------
+The Aveo Pro features an integrated digital display screen that provides real-time charging information:
+
+Display Parameters:
+- Input voltage (volts)
+- Charging current (amperes)
+- Power output (kilowatts)
+- Charging duration (hours and minutes)
+- Energy delivered in session (kilowatt-hours)
+- Charging status indicators
+- Fault codes and error messages
+
+The display provides valuable information for monitoring charging performance without requiring smartphone access, making it easy to verify proper operation at a glance.
+
+Video demonstrations & tutorial of smart features, covers unboxing, demo & more. Link for the videos : https://www.youtube.com/playlist?list=PL_5jfOb-nyjIRc1nEMXJ6KsWfXietTdE4
+
+PRODUCT COMPARISON WITH OTHER AVEO MODELS
+------------------------------------------
+The Aveo Pro differs from other Aveo series models in several key aspects:
+
+Aveo Pro vs Aveo 3.6 Base Model:
+- Power: Aveo Pro delivers 7.5 kW versus 3.6 kW (more than double the charging speed)
+- Socket: Aveo Pro includes 32A CEE socket versus 16A standard plug
+- Wiring: Aveo Pro requires 6 sq mm cable versus 4 sq mm
+- Display: Aveo Pro has integrated digital display, base model does not
+- Smart Features: Aveo Pro has full smart connectivity, base model has no app control
+- Price: Aveo Pro costs more but delivers significantly faster charging
+
+Aveo Pro vs Aveo 3.6 Plus:
+- Power: Aveo Pro delivers 7.5 kW versus 3.6 kW (more than double the charging speed)
+- Current: Aveo Pro uses 32A versus 16A adjustable on Plus model
+- Socket: Aveo Pro includes 32A CEE versus 16A plug on Plus
+- Installation: Aveo Pro requires more robust electrical installation with heavier wiring
+- Use Case: Aveo Pro is for users needing faster charging, Plus is for basic portable & travel needs
+
+Aveo Pro vs Aveo X1 (11kW):
+- Power: Aveo X1 delivers 11 kW versus 7.5 kW on Pro
+- Phase: Aveo X1 can use three-phase power, Aveo Pro is single-phase only
+- Portability: Both are portable but Aveo Pro is more practical for single-phase household electrical systems
+- Price: Aveo X1 costs more for the additional power capacity
+
+The Aveo Pro occupies a sweet spot in the Zevpoint portable charger lineup, offering significantly faster charging than 3.6 kW models while remaining compatible with standard single-phase household electrical installations that most Indian homes have.
+
+
+CERTIFICATIONS AND COMPLIANCE
+------------------------------
+The Aveo Pro meets international safety and quality standards:
+
+CE Certified: Complies with European safety, health, and environmental protection requirements
+TUV Certified: Independently tested and certified by TUV technical inspection authority for safety and quality
+Indian Standards: Meets relevant Indian electrical safety standards
+Type Approval: Type 2 connector meets IEC 62196 international standard
+Trusted Product: Part of Zevpoint's product line trusted by over 12,000 EV owners across India
+
+COMPETITIVE ADVANTAGES
+----------------------
+The Aveo Pro offers several unique advantages in the portable EV charger market:
+
+Power and Portability: Rare combination of 7.5 kW fast charging in truly portable form factor
+Included Socket: 32A CEE socket included in package saves additional purchase cost
+Smart Features: Full WiFi and Bluetooth connectivity with comprehensive app control
+Display Screen: Integrated digital display for real-time monitoring without phone dependency
+Professional Build: IP67 rating and robust construction for long-term reliability
+Complete Package: Wall bracket, carry bag, and socket included for immediate use
+Adjustable Current: Sophisticated current control from app protects electrical systems
+Single Phase: Works with standard household electrical systems unlike some 7 kW chargers requiring three-phase
+Indian Design: Built specifically for Indian electrical infrastructure and climate conditions
+Support Network: Extensive customer support and doorstep service availability
+
+Zevpoint provides warranty coverage as follows:
+
+Cable and Housing Components: 5 year warranty period
+Electronic Components and Other Parts: 2 year warranty period

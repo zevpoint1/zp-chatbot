@@ -1,0 +1,351 @@
+===============================================
+PRODUCT DOCUMENT: Zevpoint Nova 120 DC Fast Charger
+Document ID: ZEVPOINT-NOVA120-001
+Last Updated: December 2024
+===============================================
+
+PRODUCT IDENTIFICATION
+----------------------
+Product Name: Nova 120 (also written as Nova 120kW)
+Manufacturer: Zevpoint
+Category: DC Fast Charger (Direct Current Charging Station) - Heavy-Duty with Mixed Vehicle Support
+Power Rating: 120 kilowatts DC
+Model Type: High-power commercial DC fast charger with dual-gun capability and heavy vehicle support
+Charger Type: Fixed installation floor-mounted DC charging station
+Connector Type: Dual CCS2 (Combined Charging System Type 2) guns
+Display Size: 10-inch LCD touchscreen
+Product Tagline: Ultra-Fast Power, Built for the Future
+Market Position: High-power DC fast charger optimized for cars, buses, and trucks
+
+PRODUCT DESCRIPTION
+-------------------
+The Zevpoint Nova 120 is a professional 120 kilowatt DC fast charger engineered for EV owners, fleets, and businesses that demand speed and reliability. This ARAI-certified high-power charging station delivers unmatched charging efficiency with the power and capability to serve not just passenger cars, but also electric buses and trucks - making it Zevpoint's first truly multi-vehicle-type DC fast charger.
+
+For EV owners, fleets, and businesses that demand speed and reliability, the Nova 120 delivers ultra-fast power built for the future of electric mobility. Designed to handle high vehicle turnover in demanding commercial environments, it supports dual-gun simultaneous charging with intelligent power distribution, enabling two vehicles to charge at high speed concurrently.
+
+The Nova 120 provides exactly double the charging power of the mid-range Nova 60, delivering 120 kilowatts of ultra-fast charging capability. This positions it as the high-power DC fast charger in Zevpoint's lineup - fast enough for rapid passenger car charging while having sufficient power to effectively charge large-battery electric buses and commercial trucks. The 120kW power level represents serious commercial fast charging capability.
+
+With robust power output, the Nova 120 is not just for cars - this charger is specifically optimized for electric buses and trucks in addition to passenger vehicles. This makes it the ideal choice for automotive dealerships, highway charging corridors, logistics and transportation hubs, commercial fleet depots serving mixed vehicle types, and large residential societies with diverse EV populations.
+
+With OCPP 1.6 integration for professional network management, RFID control for access management, and seamless UPI and card payment support via the Zevpoint app, the Nova 120 ensures effortless commercial operation. Built with rugged housing for industrial durability, an intuitive 10-inch LCD touchscreen display for user-friendly operation, and smart LED indicators for at-a-glance status, it combines industrial strength with exceptional user experience.
+
+Backed by a comprehensive 2-year on-site warranty and 48-hour priority service commitment, the Nova 120 is the premium charging solution for high-demand commercial and public environments where maximum speed and vehicle versatility are essential.
+
+ELECTRIC BUSES AND TRUCKS SUPPORT
+----------------------------------
+The Nova 120's defining capability is support for heavy electric vehicles:
+
+Multi-Vehicle Type Capability:
+Unlike the Navigator 30 and Nova 60 which are optimized primarily for passenger cars, the Nova 120 is specifically designed and rated to charge electric buses, trucks, and commercial vehicles in addition to passenger cars. The 120kW power level provides meaningful charging speed even for vehicles with very large battery packs (200-400 kWh typical for buses and trucks).
+
+Electric Bus Charging:
+Electric buses typically have battery capacities ranging from 200 kWh to 400 kWh or more. At 120kW charging power, the Nova 120 can add approximately 120 kilometers of range per hour to most electric buses. A typical electric bus with 300 kWh battery can charge from 20% to 80% (180 kWh) in approximately 1.5 to 2 hours. This makes the Nova 120 suitable for depot charging, route charging, and opportunity charging applications for electric bus fleets.
+
+Electric Truck Charging:
+Commercial electric trucks and delivery vehicles have battery capacities typically ranging from 150 kWh to 300 kWh. The Nova 120 provides sufficient power for practical truck charging during loading/unloading breaks, driver rest periods, or overnight depot charging. Medium-duty delivery trucks can charge from 20% to 80% in approximately 1 to 1.5 hours.
+
+Heavy Vehicle Use Cases:
+The Nova 120 is ideal for public transit bus depots requiring fast turnaround, logistics companies with electric delivery truck fleets, municipal vehicle fleets (buses, refuse trucks, service vehicles), commercial transportation operations, airport shuttle and coach services, and hotel/resort shuttle fleets.
+
+Passenger Car Ultra-Fast Charging:
+For passenger cars, the Nova 120 provides ultra-fast charging that's approximately twice as fast as the Nova 60. Premium electric vehicles with large batteries and high charging acceptance rates benefit most from 120kW power. Cars that can accept full 120kW charge in approximately half the time of 60kW charging.
+
+120KW ULTRA-FAST DC CHARGING POWER
+-----------------------------------
+The Nova 120's power output characteristics:
+
+120 Kilowatt DC Power:
+Delivers up to 120 kilowatts of direct current power to compatible electric vehicles. This represents high-power DC fast charging - exactly double the Nova 60 and four times the Navigator 30. The 120kW level provides ultra-fast charging for passenger cars and practical fast charging for large-battery buses and trucks.
+
+Charging Speed Performance - Passenger Cars:
+At 120kW full power to a single passenger car, the Nova 120 typically adds approximately 500 to 600 kilometers of driving range per hour for vehicles that can accept full 120kW power. This is approximately twice as fast as the Nova 60's maximum speed. When charging two passenger cars simultaneously with power split, each receives 60kW - equivalent to a dedicated Nova 60 charger.
+
+Charging Speed Performance - Buses and Trucks:
+For electric buses with 300-400 kWh batteries, the Nova 120 typically adds approximately 100 to 120 kilometers of range per hour. For electric trucks with 150-250 kWh batteries, adds approximately 150 to 200 kilometers of range per hour. Heavy vehicles typically cannot accept the full 120kW due to their battery management system limits, but benefit from the high available power.
+
+Typical Charging Times - Passenger Cars (Single Vehicle, Full 120kW):
+- Small battery EV (30-40 kWh): 20% to 80% in approximately 8-12 minutes
+- Medium battery EV (50-60 kWh): 20% to 80% in approximately 12-18 minutes
+- Large battery EV (70-80 kWh): 20% to 80% in approximately 18-25 minutes
+- Premium EV (100 kWh): 20% to 80% in approximately 25-35 minutes
+
+Typical Charging Times - Buses and Trucks:
+- Electric bus (300 kWh): 20% to 80% (180 kWh) in approximately 90-120 minutes
+- Electric truck (200 kWh): 20% to 80% (120 kWh) in approximately 60-90 minutes
+- Delivery van (100 kWh): 20% to 80% (60 kWh) in approximately 30-45 minutes
+
+Comparison to Other Power Levels:
+- Navigator 30: Nova 120 charges 4x faster (when using full power on one vehicle)
+- Nova 60: Nova 120 charges 2x faster (when using full power on one vehicle)
+- Nova 240: Nova 240 charges 2x faster than Nova 120
+- AC Chargers: Nova 120 is approximately 15-20 times faster than 7.5kW AC charging
+
+DUAL-GUN SIMULTANEOUS CHARGING
+-------------------------------
+The Nova 120 features advanced dual-gun architecture:
+
+Dual CCS2 Charging Guns:
+Two independent CCS2 charging guns enabling simultaneous charging of two vehicles. Each gun has its own cable, connector, user interface, and authentication. Both guns can operate simultaneously with intelligent power distribution.
+
+Dynamic Power Allocation:
+When two vehicles are connected, the Nova 120's 120kW total power is dynamically distributed based on what each vehicle can accept. Common scenarios include 60kW to each vehicle (equal split for two passenger cars), 120kW to single bus or truck when one gun is in use, 80kW to bus and 40kW to car (mixed vehicle types), or 100kW to premium car and 20kW to vehicle at high state of charge.
+
+Mixed Vehicle Type Charging:
+The Nova 120 can charge different vehicle types simultaneously - for example, an electric bus on one gun and a passenger car on the other gun. The power distribution automatically adjusts based on what each vehicle can accept. This flexibility is valuable in mixed-use locations serving diverse vehicle populations.
+
+High Throughput Advantage:
+Dual-gun capability with 120kW total power enables the Nova 120 to serve significantly more vehicles per day than single-gun alternatives. During peak periods, two vehicles can charge simultaneously at high speed. Critical for high-traffic commercial locations and fleet depot operations.
+
+CCS2 CONNECTOR COMPATIBILITY
+-----------------------------
+The Nova 120 uses dual CCS2 standard:
+
+Dual CCS2 Configuration:
+Both charging guns use the CCS2 (Combined Charging System Type 2) standard. CCS2 is the DC fast charging standard for India and most global markets, providing maximum compatibility.
+
+Vehicle Compatibility - Passenger Cars:
+Compatible with all CCS2-compliant passenger electric vehicles including all Tata, MG, Mahindra, Hyundai, BYD, Citroen models, plus premium vehicles from Volvo, Mercedes, BMW, Audi, Porsche, and virtually all modern EVs sold in India.
+
+Vehicle Compatibility - Buses and Trucks:
+Compatible with electric buses and trucks using CCS2 standard including BYD electric buses (eBuzz, K9), Tata Motors electric buses, Ashok Leyland electric buses, Switch Mobility electric buses, JBM Auto electric buses, Olectra electric buses, and most modern electric commercial vehicles in India.
+
+High-Power CCS2 Support:
+The Nova 120's CCS2 implementation supports high current and voltage required for fast charging of large-battery vehicles. Liquid-cooled cables handle the high currents without overheating even during extended bus/truck charging sessions.
+
+OCPP 1.6 PROTOCOL SUPPORT
+--------------------------
+The Nova 120 includes professional OCPP networking:
+
+OCPP 1.6 Compliance:
+Full support for OCPP 1.6 (Open Charge Point Protocol version 1.6) enables integration with any OCPP-compatible Charge Point Management System (CPMS). Essential for commercial fleet management and public charging network operation.
+
+Advanced Fleet Management Features:
+Remote monitoring and control of both guns independently. Real-time status updates and diagnostics for each charging session. Dual-gun load balancing and smart charging optimization. Transaction management for simultaneous sessions. Detailed usage analytics by vehicle type (cars vs buses/trucks). Fleet charging reports with energy consumption by vehicle. Integration with fleet management systems. Remote firmware updates and configuration.
+
+Commercial Network Operation:
+The Nova 120's OCPP 1.6 support enables professional charging network deployment including integration with payment and billing systems, reservation systems for both guns, dynamic pricing based on vehicle type or time of day, load management across multiple Nova 120 stations, comprehensive energy reporting, and remote diagnostics minimizing downtime.
+
+PAYMENT AND ACCESS CONTROL
+---------------------------
+The Nova 120 supports comprehensive commercial payment:
+
+RFID Card Authentication:
+Dual RFID card readers (one per gun) for tap-to-charge functionality. Essential for fleet operations where different drivers charge different vehicle types. Can assign different RFID cards to bus drivers, truck drivers, car drivers. Transaction tracking by vehicle and driver.
+
+UPI Payment Integration:
+Seamless UPI payment support via Zevpoint app. Each gun displays separate QR code for payment. Enables pay-per-use for public charging. Particularly useful for non-fleet users.
+
+Card Payment Support:
+Credit and debit card payment processing. Automatic billing based on energy consumed or time used. Important for highway charging stations serving transient traffic.
+
+Fleet Billing Integration:
+Integration with fleet management and accounting systems through OCPP. Centralized billing for fleet operations. Cost allocation by department, route, or vehicle. Detailed energy consumption reports for fleet optimization.
+
+Differential Pricing:
+Operators can implement different pricing for different vehicle types - for example, per-kWh pricing for cars vs per-minute pricing for buses. Peak and off-peak pricing. Membership and loyalty programs.
+
+PHYSICAL DESIGN AND CONSTRUCTION
+---------------------------------
+The Nova 120 is built for heavy-duty commercial operation:
+
+Rugged Steel Housing:
+Industrial-grade mild steel enclosure designed for harsh commercial environments. Built to withstand heavy use from mixed vehicle types. Corrosion-resistant for coastal, industrial, or high-humidity locations. Vandal-resistant and impact-resistant construction. Professional industrial appearance suitable for all commercial locations.
+
+Dual-Gun Heavy-Duty Configuration:
+Two independent liquid-cooled charging cables rated for continuous high-current operation. Heavy-duty cable management systems. Each cable rated for both cars and heavy vehicles. Reinforced cable strain relief for extended durability.
+
+10-Inch LCD Touchscreen Display:
+Large 10-inch color LCD touchscreen (larger than Navigator 30's 7-inch or Nova 60's 7-inch display). Intuitive touch interface for easy operation. Shows comprehensive charging data for both guns. Bright display readable in direct sunlight. User-friendly for diverse users including professional drivers.
+
+Smart LED Indicators:
+Multi-color LED status lights for at-a-glance monitoring. Each gun has independent status indication. Visible from distance for large depot or parking areas.
+
+Advanced Cooling System:
+High-capacity intelligent cooling system manages heat from 120kW power electronics. Critical for reliable continuous operation in hot climates. Enables sustained high-power charging without thermal throttling.
+
+Emergency Stop Button:
+Large prominent emergency stop button immediately terminates charging on both guns. Hardware-level safety critical for heavy vehicle charging operations.
+
+INSTALLATION REQUIREMENTS
+--------------------------
+The Nova 120 requires substantial commercial electrical infrastructure:
+
+Electrical Power Supply:
+Three-phase electrical supply mandatory. Input voltage typically 400V three-phase AC. Continuous 180-200 ampere capacity on input side required for full 120kW output plus system losses. Dedicated circuit with substantial capacity essential. May require electrical service upgrade for many locations.
+
+Heavy-Duty Electrical Wiring:
+Very heavy-gauge cable from distribution panel to Nova 120 - typically 70-95 square millimeter multi-core copper cable depending on distance. Four-pole MCB rated at 200A or higher. Industrial-grade SPD rated for high-power installation. Heavy-duty RCD with DC fault detection. All protection rated for 120kW continuous operation.
+
+Robust Earthing System:
+Extremely robust earthing with resistance below 1-3 ohms mandatory. High-power 120kW charging requires exceptional earthing quality. Chemical earthing with multiple electrodes typically required. Professional earth resistance testing and periodic retesting essential.
+
+Heavy-Duty Foundation:
+Reinforced concrete foundation with heavy anchor bolts. Rated for equipment weight plus wind loading. Protective bollards mandatory to prevent vehicle impact. Proper drainage system. Foundation engineering may be required for some installations.
+
+High-Capacity Network:
+Reliable high-speed internet connection for OCPP CPMS communication. Ethernet strongly preferred (4G/LTE backup recommended). Minimum 5-10 Mbps bandwidth for dual-gun real-time communication. Static IP or dynamic DNS for reliable remote management.
+
+Large Physical Space:
+Substantial space required for vehicle parking and maneuvering, especially for buses and trucks. Minimum 6-8 meters clear space in front. Wide turning radius for large vehicles. Separate lanes or parking spaces for cars vs buses/trucks. ADA compliance considerations.
+
+Commercial Approvals:
+Electrical permit mandatory for 120kW installation. Professional electrical inspection required. Fire safety approvals especially for depot installations. Building permits for foundation work. Utility company coordination and possible service upgrade. Environmental permits for some locations.
+
+Professional Installation:
+120kW DC charger installation requires experienced commercial electrician with heavy-duty DC charging expertise. Complex high-voltage high-current systems. Zevpoint provides comprehensive on-site support including engineering site survey, load calculations, installation supervision, commissioning and testing, operator training, and CPMS integration.
+
+CHARGING PERFORMANCE AND EFFICIENCY
+------------------------------------
+Understanding Nova 120 real-world operation:
+
+Ultra-Fast Passenger Car Charging:
+Premium vehicles accepting 120kW can charge in approximately half the time of Nova 60. Most passenger cars accept 50-100kW maximum, benefiting from Nova 120's high available power. Charging sessions typically 15-30 minutes for most passenger cars.
+
+Practical Bus and Truck Charging:
+Buses and trucks rarely accept full 120kW due to battery management system thermal limits. Typical acceptance rates 60-100kW for most heavy vehicles. Even with limited acceptance, 120kW available power ensures vehicles charge at their maximum possible rate. Charging sessions typically 60-120 minutes for buses.
+
+Dynamic Power Management:
+When charging mixed vehicle types simultaneously, Nova 120 optimizes power distribution. Bus charging at 80kW while car charges at 40kW. Or two buses at 60kW each. Intelligent allocation maximizes total throughput.
+
+Session Optimization:
+For buses and trucks, operators often charge to 80% for optimal throughput and battery longevity. For highway corridor passenger car charging, 80% charge provides sufficient range to continue journey.
+
+USE CASES AND APPLICATIONS
+---------------------------
+The Nova 120's high power and heavy vehicle support enable unique applications:
+
+Public Transit Bus Depot Charging:
+City bus fleets require fast depot charging between routes. Nova 120 provides practical charging speed for large-battery buses. Dual-gun enables charging two buses simultaneously. RFID tracking allocates costs by route or bus number. Critical for electrifying public transportation.
+
+Logistics and Freight Fleet Operations:
+Electric truck fleets for delivery and logistics. Charge trucks during loading/unloading operations. Overnight depot fast charging for maximum fleet readiness. Mixed car and truck charging with single infrastructure.
+
+Highway Charging Corridors:
+Ultra-fast charging for long-distance travelers. Charge passenger cars in 15-20 minutes. Also support electric buses and coaches on highway routes. Essential for inter-city electric mobility.
+
+Mixed Vehicle Fleet Depots:
+Operations with both cars and larger vehicles. Single Nova 120 serves entire diverse fleet. Corporate campuses with employee cars and shuttle buses. Hotel properties with guest vehicles and courtesy shuttles.
+
+Automotive Dealerships - Premium:
+Dealerships selling both passenger cars and commercial vehicles. Demonstrate ultra-fast charging to premium vehicle customers. Service department fast charging for customer vehicles.
+
+Airport and Transportation Hubs:
+Charge electric airport shuttles and buses. Also serve passenger vehicles and taxis. High-turnover environment benefits from 120kW speed.
+
+Residential Society Premium Amenity:
+Large upscale developments with diverse EV ownership. Ultra-fast charging as premium amenity. Support resident cars plus community buses/shuttles.
+
+Municipal and Government Fleets:
+Mixed municipal fleets including cars, buses, trucks, service vehicles. Centralized charging infrastructure serving all vehicle types. Simplified fleet management with OCPP integration.
+
+PRODUCT COMPARISON WITH OTHER ZEVPOINT DC CHARGERS
+---------------------------------------------------
+The Nova 120 occupies the high-power position:
+
+Nova 120 vs Navigator 30:
+- Power: Nova 120 delivers 120kW, Navigator 30 delivers 30kW (4x faster)
+- Vehicle Types: Nova 120 supports buses/trucks, Navigator 30 is passenger cars only
+- Guns: Nova 120 has dual-gun, Navigator 30 has single gun
+- Display: Nova 120 has 10-inch, Navigator 30 has 7-inch
+- Infrastructure: Nova 120 requires substantially more electrical capacity
+- Use Case: Nova 120 for mixed fleets and ultra-fast, Navigator 30 for basic fast charging
+
+Nova 120 vs Nova 60:
+- Power: Nova 120 delivers 120kW, Nova 60 delivers 60kW (exactly 2x faster)
+- Vehicle Types: Nova 120 supports buses/trucks, Nova 60 optimized for cars
+- Display: Nova 120 has 10-inch, Nova 60 has 7-inch
+- Heavy Vehicle: Nova 120 rated for buses/trucks, Nova 60 is passenger cars primarily
+- Use Case: Nova 120 for mixed vehicle types and ultra-fast cars, Nova 60 for passenger car fast charging
+
+Nova 120 vs Nova 240:
+- Power: Nova 240 delivers 240kW, Nova 120 delivers 120kW (Nova 240 is 2x faster)
+- Speed: Nova 240 for ultra-fast highway corridors, Nova 120 for high-speed general use
+- Cost: Nova 240 costs significantly more, Nova 120 is more accessible
+- Infrastructure: Nova 240 requires massive electrical capacity
+- Use Case: Nova 120 for most commercial applications, Nova 240 for specialized ultra-high-throughput
+
+Nova 120 vs AC Chargers:
+- Technology: Nova 120 DC bypasses onboard charger completely
+- Speed: Nova 120 approximately 15-20 times faster than AC
+- Vehicle Types: Nova 120 charges buses/trucks, AC chargers cannot practically charge large vehicles
+- Application: Nova 120 for commercial fast charging, AC for overnight/long-duration
+
+Key Differentiation:
+Nova 120 is Zevpoint's first DC fast charger specifically designed and rated for electric buses and trucks in addition to passenger cars. The 120kW power level provides ultra-fast passenger car charging while delivering practical fast charging for heavy vehicles. This makes it the optimal choice for mixed vehicle fleets, transit operations, logistics hubs, and any location requiring both speed and vehicle versatility.
+
+DISPLAY AND USER INTERFACE
+---------------------------
+The Nova 120 provides premium user experience:
+
+10-Inch LCD Touchscreen:
+Large 10-inch color touchscreen (significantly larger than other Zevpoint DC chargers). Intuitive touch interface suitable for diverse users. Shows comprehensive data for both guns. Professional appearance matching premium pricing.
+
+Real-Time Multi-Vehicle Monitoring:
+Current power output (kW) for each gun independently. Energy delivered (kWh) for each session. Charging time elapsed per gun. Estimated time to completion. Cost tracking for each session. Vehicle type identification (if available).
+
+Heavy Vehicle Specific Features:
+Display optimized for commercial driver workflow. Large touch targets for gloved operation. Clear status indication for fleet operations. Integration with fleet management systems data.
+
+SAFETY AND PROTECTION FEATURES
+-------------------------------
+The Nova 120 includes comprehensive heavy-duty safety:
+
+Heavy-Duty Electrical Safety:
+Emergency stop for both guns. Overcurrent protection rated for 120kW continuous. Short circuit protection. Ground fault detection for DC systems. Polarity reverse protection. Insulation monitoring for heavy vehicle charging. Surge protection. Over-voltage and under-voltage protection. Leakage protection rated for high power.
+
+Advanced Thermal Safety:
+Over-temperature protection for high-power operation. Charge cable temperature detection on both cables. Advanced intelligent cooling system. Multiple thermal sensors. Thermal cutoffs throughout system.
+
+Heavy Vehicle Safety Features:
+Reinforced cable strain relief for heavy vehicle use. Heavy-duty connector locking mechanisms. Enhanced vandal resistance. Weather sealing rated for harsh commercial environments.
+
+CERTIFICATIONS AND COMPLIANCE
+------------------------------
+The Nova 120 meets heavy-duty standards:
+
+ARAI Certified:
+Automotive Research Association of India certification specifically including heavy vehicle testing. Required for commercial charging deployment serving buses and trucks.
+
+International Standards:
+IEC 61851-23: DC EV charging station requirements (high power)
+IEC 62196: CCS2 connector standard compliance
+IEC 61851-1: EV conductive charging system general requirements
+
+Heavy Vehicle Standards:
+Compliant with electric bus charging requirements. Truck and commercial vehicle charging standards. Fleet charging facility requirements.
+
+WARRANTY AND SERVICE
+--------------------
+The Nova 120 includes premium commercial support:
+
+2-Year On-Site Warranty:
+Complete DC charger including both guns covered for 2 years. On-site service critical for heavy floor-mounted 120kW equipment. Warranty covers all components including power modules, displays, cables, connectors.
+
+48-Hour Priority Service:
+Critical uptime commitment for revenue-generating installations. Particularly important for fleet depot operations where downtime affects entire fleet. Zevpoint priority response within 48 hours. Spare parts availability for common service items.
+
+Fleet Operation Support:
+Specialized support for fleet charging operations. Training for fleet maintenance staff. Integration assistance with fleet management systems. Preventive maintenance programs for high-utilization installations.
+
+COMPETITIVE ADVANTAGES
+----------------------
+Nova 120 unique benefits:
+
+Bus and Truck Support: Only Zevpoint DC charger rated for heavy electric vehicles
+120kW Ultra-Fast Power: Twice as fast as Nova 60 for passenger cars
+Dual-Gun High-Power: Serve two vehicles at high speed simultaneously
+Mixed Vehicle Capability: Charge cars, buses, trucks with single infrastructure
+10-Inch Display: Largest display in Zevpoint DC lineup
+Heavy-Duty Construction: Built for demanding commercial and fleet operations
+OCPP Fleet Integration: Professional fleet management capability
+Dynamic Power Sharing: Intelligent allocation across vehicle types
+ARAI Heavy Vehicle Certified: Certified for commercial vehicle charging
+Advanced Cooling: Sustained high-power operation in hot climates
+2-Year On-Site Warranty: Premium support for critical infrastructure
+48-Hour Service: Minimizes fleet downtime
+Transit and Logistics Ready: Purpose-built for commercial transportation
+Future-Proof Investment: Supports emerging heavy EV adoption
+
+===============================================
+END OF DOCUMENT
+===============================================

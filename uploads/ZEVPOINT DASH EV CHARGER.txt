@@ -1,0 +1,425 @@
+===============================================
+PRODUCT DOCUMENT: Zevpoint Dash EV Charger
+Document ID: ZEVPOINT-DASH-001
+===============================================
+
+PRODUCT IDENTIFICATION
+----------------------
+Product Name: Dash 7.5 (also referred to as Dash)
+Manufacturer: Zevpoint
+Category: Portable AC EV Charger (Non-Smart)
+Power Rating: 7.5 kilowatts
+Model Type: Portable charger without smart connectivity
+Price: Rs. 20,999.00 (inclusive of all taxes)
+Product Tagline: Bold and Powerful
+
+PRODUCT DESCRIPTION
+-------------------
+The Zevpoint Dash is a compact and efficient portable AC electric vehicle charger with 7.5 kilowatt power output. This charger is designed for users who need fast charging capability in a portable format without the complexity of smart connectivity features. The Dash represents a value-focused approach to fast portable charging, delivering professional-grade 7.5 kW charging performance at an accessible price point.
+
+The Dash is perfect for home charging, office use, or on-the-go charging scenarios. It features an integrated digital display screen for real-time monitoring of charging parameters, making it easy to track charging status without requiring a smartphone. The charger is lightweight and designed for convenience and ease of use, with switchable current settings that allow optimization of charging performance for different outlet capacities.
+
+The Dash is compatible with a wide range of electric vehicles sold in India and internationally, featuring the universal Type 2 connector standard. It is equipped with comprehensive safety features including overload protection, short circuit protection, leakage protection, ground protection, over-temperature protection, and environmental protection against water and dust.
+
+ELECTRICAL SPECIFICATIONS
+--------------------------
+The Zevpoint Dash charger operates with the following electrical parameters:
+
+Power Output: 7.5 kilowatts maximum output
+Maximum Current: 32 amperes at full power
+Current Adjustment: Switchable current settings from 6 amperes to 32 amperes. The charger allows manual selection of current levels to match available electrical capacity and prevent circuit overloading.
+Input Voltage: Accepts 220-240 volts AC single phase
+Phase Configuration: Single phase electrical system
+Connector Standard: Type 2 connector following IEC 62196-2 international standard
+Socket Type: 32 ampere industrial socket (included with packaging)
+Charging Cable: 5 meter length Type 2 cable with integrated connector
+
+The switchable current settings on the Dash provide flexibility for different electrical installations. Users can select lower current settings like 6A,8A, 10A,13A, 16A, 20A, or 24A when full 32A capacity is not available, allowing the charger to work safely in locations with limited electrical capacity.
+
+PHYSICAL CHARACTERISTICS
+-------------------------
+The Zevpoint Dash has the following physical dimensions and properties:
+
+Size: 220 millimeters length by 110 millimeters width by 50 millimeters height
+Weight: 3.5 kilograms total weight
+Form Factor: Compact rectangular design with integrated control panel and display screen
+Build Quality: Durable housing with robust construction for long-term use
+Environmental Protection: IP66 rating for water jet resistance and complete dust protection
+Display: Integrated LED display screen showing real-time charging parameters
+Color: Professional pearl white finish suitable for both home and commercial environments
+Portability: Lightweight design with ergonomic form factor for easy carrying
+
+INCLUDED ACCESSORIES AND PACKAGE CONTENTS
+------------------------------------------
+The Zevpoint Dash complete package includes the following items:
+- Dash charger unit with integrated 5 meter Type 2 cable
+- 32 ampere industrial socket for professional installation
+- Premium carry bag for portable transportation and storage
+- Wall mounting bracket for permanent home or workplace installation
+- User manual with detailed installation instructions and safety guidelines
+- Quick start guide for first-time setup and operation
+- Cable management accessories for organized storage
+
+The inclusion of both the carry bag for portability and wall bracket for permanent installation makes the Dash versatile for multiple use scenarios. The included 32A socket ensures professional-grade electrical connection without requiring separate purchase.
+
+DISPLAY SCREEN FEATURES
+------------------------
+The Zevpoint Dash features an integrated digital display screen that provides comprehensive real-time charging information:
+
+Display Parameters Shown:
+- Input voltage from electrical supply (volts)
+- Charging current being delivered (amperes)
+- Instantaneous power output (kilowatts)
+- Charging session duration (hours and minutes)
+- Total energy delivered in current session (kilowatt-hours)
+- Charging status indicators (charging, standby, fault)
+- Current setting selection display
+- Fault codes and error messages when issues occur
+- Temperature monitoring indicators
+
+Display Benefits:
+The integrated display eliminates the need for smartphone apps or external monitoring devices. Users can verify proper charging operation at a glance by viewing the display. The screen provides confidence that charging is proceeding normally and helps troubleshoot any issues by displaying fault codes.
+
+The display is clearly visible in various lighting conditions including bright sunlight and low light, with LED backlighting for night visibility. Display information updates in real-time allowing users to monitor changes in charging parameters.
+
+EMERGENCY EARTHING BYPASS FEATURE
+----------------------------------
+The Zevpoint Dash includes a unique emergency earthing bypass feature that provides charging capability in locations with problematic earth connections:
+
+Feature Description:
+The Dash charger has an option to temporarily bypass or switch off the earthing protection system. This feature is specifically designed for emergency situations only where proper earthing is unavailable but charging is urgently needed.
+
+When to Use Earthing Bypass:
+This feature should only be used in genuine emergency situations such as:
+- Remote locations where proper earthing infrastructure is not available
+- Temporary charging situations where earth quality cannot be verified
+- Emergency scenarios where vehicle charging is critical and no alternative charging location exists
+
+Important Safety Warning:
+Zevpoint strongly recommends against using the earthing bypass feature except in true emergency situations. Proper earthing is a fundamental electrical safety requirement that protects users from electric shock hazards. Operating the charger without proper earthing significantly increases risk of electrical accidents.
+
+Normal Operation Requirement:
+Under all normal operating conditions, the Dash charger must be used with proper earthing. The earthing bypass feature should be considered an emergency-only option, not a standard operating mode. Users should always prioritize finding a properly earthed power supply over using the bypass feature.
+
+How It Works:
+The earthing bypass can be activated through a manual switch or control on the charger unit. When activated, the charger continues to operate but earth protection monitoring is disabled. The display will typically show an indicator that earthing bypass mode is active.
+
+Legal and Safety Disclaimer:
+Use of the earthing bypass feature is at the user's own risk. Zevpoint recommends this feature only for emergency situations and assumes no liability for accidents or damage resulting from operation without proper earthing. Local electrical safety regulations may prohibit operation of electrical equipment without earthing.
+
+SAFETY AND PROTECTION FEATURES
+-------------------------------
+The Zevpoint Dash incorporates multiple layers of comprehensive safety protection:
+
+Overload Protection: Prevents damage from excessive current draw beyond rated capacity. Automatically reduces current or disconnects if overload is detected.
+
+Short Circuit Protection: Instant automatic disconnection in short circuit fault conditions to prevent fire hazards and equipment damage.
+
+Leakage Protection: Advanced residual current detection prevents electric shock hazards by monitoring for current leakage to ground.
+
+Ground Protection: Continuous earth monitoring ensures proper grounding connection is maintained. Alerts user if ground connection is lost (can be bypassed in emergency situations only).
+
+Over-Temperature Protection: Thermal monitoring system prevents damage from excessive heat buildup. Reduces charging current or stops charging if temperature exceeds safe limits.
+
+Overvoltage Protection: Guards against input voltage spikes and surges from electrical grid that could damage charger or vehicle.
+
+Undervoltage Protection: Prevents operation when input voltage drops below safe levels, protecting both charger and vehicle battery.
+
+Water Resistance: IP66 rating provides protection against powerful water jets from any direction. Suitable for outdoor use in rain and wet conditions.
+
+Dust Resistance: IP66 complete dust sealing prevents particle ingress even in very dusty environments. Suitable for construction sites and dusty locations.
+
+Cable Protection: Integrated cable strain relief prevents damage from repeated bending and pulling.
+
+Connector Protection: Automatic connector locking ensures secure connection throughout charging session.
+
+The comprehensive safety features make the Dash suitable for use in various environments and weather conditions while maintaining electrical safety standards.
+
+INSTALLATION REQUIREMENTS
+--------------------------
+To safely install and operate the Zevpoint Dash at its full 7.5 kilowatt capacity, the following requirements must be met:
+
+Power Socket Requirements:
+A dedicated 32 ampere electrical socket is required for optimal performance. The Dash package includes a 32A industrial socket that must be installed by a qualified electrician. This socket must have adequate connected load capacity to support continuous 32 ampere draw at 230 volts. The socket circuit should be dedicated exclusively to the EV charger with no other appliances or loads sharing the circuit. Socket installation must follow local electrical codes and safety standards.
+
+Electrical Wiring Requirements:
+For standard installations, use a minimum of 6 square millimeter, 3-core copper cable. The three cores are: Line (Live), Neutral, and Earth (Ground). Cable insulation should be rated for at least 90 degrees Celsius operating temperature. For installations in hot climate regions or enclosed spaces with limited ventilation, upgrade to 10 square millimeter copper cable to handle heat dissipation better and ensure long-term reliability. Cable run length should be minimized to reduce voltage drop. For cable runs exceeding 20 meters, consult a qualified electrician for appropriate cable sizing to compensate for voltage drop.
+
+Earthing System Requirements:
+Proper earthing (grounding) is mandatory for safe operation of the Dash charger under normal conditions. The power socket must be connected to a reliable earth ground with resistance below 5 ohms. The earthing system must comply with local electrical safety codes and national electrical regulations. Earth electrode should be inspected and tested to ensure adequate grounding. While the Dash has an emergency earthing bypass feature, this should only be used in genuine emergency situations - never as standard operating practice.
+
+Circuit Protection Requirements:
+Install a 40 ampere double-pole or two-pole MCB (Miniature Circuit Breaker) on the dedicated charger circuit. The double-pole MCB provides complete isolation of both line and neutral during faults. Additionally install a Surge Protection Device (SPD) to protect against voltage spikes from electrical grid and lightning-induced surges. The SPD should be rated for Type 2 protection (distribution board protection) with voltage clamping levels appropriate for local grid conditions.
+
+Voltage Stabilizer Considerations:
+If your location experiences frequent input power fluctuations, brownouts, voltage sags, or voltage instability, use an appropriate voltage stabilizer. The stabilizer should be rated for at least 8 kVA capacity (preferably 10 kVA) to handle the Dash's power requirements with adequate safety margin. This is particularly important in areas with unreliable grid power, frequent voltage variations, or where voltage often drops below 200V or exceeds 250V.
+
+Installation Location Considerations:
+The Dash can be permanently wall-mounted using the included bracket or kept portable for travel use. For wall mounting, choose a location that provides: proximity within 5 meters to vehicle charging port when parked, protection from direct harsh weather when possible (though IP66 rating allows outdoor installation), accessibility for cable management and storage, adequate ventilation around charger unit to prevent heat buildup, and convenient access for current setting adjustment when needed.
+
+CHARGING PERFORMANCE AND SPEED
+-------------------------------
+The Zevpoint Dash delivers professional-grade charging performance:
+
+Charging Speed: At full 7.5 kilowatt output, the Dash can add approximately 30 to 35 kilometers of driving range per hour of charging for most modern electric vehicles. Actual range added depends on vehicle efficiency, battery state of health, ambient temperature, and driving conditions.
+
+Full Charge Time Examples:
+- For a 40 kWh battery EV like Tata Nexon EV: approximately 5 to 6 hours from near-empty to full charge
+- For a 50 kWh battery EV like MG ZS EV: approximately 6 to 7 hours from near-empty to full charge
+- For a 60 kWh battery EV: approximately 8 to 9 hours from near-empty to full charge
+- For smaller 30 kWh battery EVs: approximately 4 to 5 hours from near-empty to full charge
+
+Comparison to Standard Charging: The Dash charges more than twice as fast as standard 3.6 kW portable chargers. A vehicle that would take 12 hours to charge with a 3.6 kW charger can be fully charged in approximately 5 to 6 hours with the Dash.
+
+Comparison to Public Fast Charging: While DC fast chargers can charge much faster (50-150 kW), the Dash provides sufficient speed for overnight home charging or full-day workplace charging. For most daily driving needs of 40-80 kilometers, the Dash can fully replenish the battery overnight.
+
+Current Adjustment Impact: When operating at reduced current settings like 16A instead of 32A, charging speed is proportionally reduced. At 16A, the Dash delivers approximately 3.6 kW, similar to standard portable chargers. At 24A, it delivers approximately 5.5 kW. Users can balance charging speed against electrical capacity by adjusting current.
+
+
+
+TRAVEL AND PORTABILITY FEATURES
+--------------------------------
+Despite its fast charging capability, the Zevpoint Dash maintains excellent portability:
+
+Compact Design: At 3.5 kg weight and compact dimensions (220mm x 110mm x 50mm), the Dash is easy to carry in vehicle trunk or store in luggage.
+
+Premium Carry Bag: Included carry bag provides protection during transport and travel. Bag has padding to protect charger from impacts and scratches.
+
+Cable Management: 5 meter cable length provides flexibility to reach vehicle charging port from various parking positions while remaining manageable for portable deployment.
+
+Quick Setup: Simple plug-and-charge operation requires no tools, no app setup, no WiFi configuration. Just plug into appropriate socket and connect to vehicle.
+
+Durable Construction: IP66 rating ensures reliability during travel and outdoor use. Can withstand rain, dust, and rough handling during transportation.
+
+Wide Temperature Range: Operates reliably from minus 25°C to plus 55°C, suitable for travel across diverse climate zones in India from cold mountain regions to hot plains.
+
+No Connectivity Required: Unlike smart chargers, the Dash requires no WiFi network, no smartphone app, no account setup. Works independently anywhere with appropriate electrical supply.
+
+Universal Compatibility: Type 2 connector works with all Type 2 equipped electric vehicles sold in India and most international markets.
+
+Manual Controls: All functions including current adjustment controlled via physical buttons or switches on the charger itself. No dependency on external devices.
+
+The Dash is ideal for users who frequently travel and need reliable, fast charging capability without the complexity of smart features or connectivity requirements.
+
+USE CASES AND APPLICATIONS
+---------------------------
+The Zevpoint Dash is suitable for multiple charging scenarios:
+
+Primary Home Charging: Permanently install using wall bracket for daily fast charging at home. Significantly faster than standard portable chargers while more affordable than smart connected chargers.
+
+Budget-Conscious Fast Charging: For users who need 7.5 kW charging speed but don't require smart connectivity features, the Dash provides excellent value.
+
+Secondary/Backup Charger: Keep as backup when primary wall-mounted charger is unavailable, under maintenance, or malfunctioning. Also useful for households with multiple EVs.
+
+Travel and Road Trips: Carry in vehicle for charging at destinations, hotels, friend's homes, or anywhere with appropriate 32A power availability. 
+
+Rental Properties: Ideal for renters who cannot install permanent charging infrastructure. Portable design allows taking charger when moving to new residence.
+
+Emergency Charging: Earthing bypass feature enables charging in remote or emergency situations where proper earthing may not be available (use with caution).
+
+Fleet Applications: Suitable for small fleet operators who need multiple chargers for different locations but don't require centralized smart management.
+
+Technical Users: Appeals to users who prefer manual control over automated smart features, or who don't want charger dependent on WiFi connectivity or smartphone apps.
+
+Offline Locations: Perfect for locations without reliable internet connectivity where smart chargers would be impractical.
+
+PRODUCT COMPARISON WITH OTHER ZEVPOINT CHARGERS
+------------------------------------------------
+The Zevpoint Dash differs from other Zevpoint portable chargers in several important aspects:
+
+Dash vs Aveo 3.6 Base Model:
+- Power: Dash delivers 7.5 kW versus 3.6 kW (more than double the charging speed)
+- Current: Dash supports up to 32A versus 16A maximum on Aveo 3.6
+- Socket: Dash includes 32A industrial socket versus 16A standard plug on Aveo 3.6
+- Wiring: Dash requires 6 sq mm cable versus 4 sq mm for Aveo 3.6
+- Display: Dash has integrated digital display, Aveo 3.6 does not
+- Smart Features: Neither model has WiFi/Bluetooth/app connectivity
+- Price: Dash costs more but delivers significantly faster charging
+- Use Case: Dash for users needing fast charging, Aveo 3.6 for basic portable needs
+
+Dash vs Aveo 3.6 Plus:
+- Power: Dash delivers 7.5 kW versus 3.6 kW (more than double the speed)
+- Smart Features: Aveo 3.6 Plus has WiFi/Bluetooth/app, Dash does not
+- Display: Both have integrated displays for monitoring
+- Current: Dash goes up to 32A, Aveo 3.6 Plus limited to 16A
+- Installation: Dash requires more robust electrical installation
+- Convenience: Aveo 3.6 Plus offers remote monitoring, Dash is manual operation
+- Price: Dash and Aveo 3.6 Plus are similarly priced
+- Use Case: Choose Dash for speed without smart features, choose Plus for basic charging with smart connectivity
+
+Dash vs Aveo Pro:
+- Power: Both deliver 7.5 kW fast charging at same speed
+- Smart Features: Aveo Pro has WiFi/Bluetooth/app connectivity, Dash provides manual control
+- Display: Both have integrated displays showing charging parameters
+- Current: Both support up to 32A maximum current
+- Socket: Both include 32A industrial socket in package
+- Installation: Both require identical electrical infrastructure (6-10 sq mm wiring, 40A MCB)
+- Earthing Bypass: Dash has emergency earthing bypass feature, Aveo Pro does not
+- Price: Dash costs approximately Rs. 2,000 less than Aveo Pro
+- Use Case: Choose Dash for simple fast charging without smart features, choose Aveo Pro for smart connectivity and app control
+
+Dash vs Aveo X1 (11kW):
+- Power: Aveo X1 delivers 11 kW versus 7.5 kW on Dash
+- Phase: Aveo X1 can use three-phase power, Dash is single-phase only
+- Installation: Aveo X1 requires three-phase electrical supply which is uncommon in most Indian homes
+- Compatibility: Dash works with standard single-phase household power
+- Price: Aveo X1 costs more for the additional power capacity
+- Use Case: Dash is more practical for single-phase homes, X1 for locations with three-phase supply
+
+Key Differentiation:
+The Dash occupies a unique position in Zevpoint's lineup as the most affordable 7.5 kW portable charger without smart connectivity. It appeals to users who:
+- Need fast charging speed but don't want smart features
+- Prefer manual control over automated systems
+- Want to avoid dependency on WiFi and smartphones
+- Value simplicity and reliability over connectivity
+- Need the emergency earthing bypass capability
+- Want to save money by not paying for unused smart features
+
+CURRENT ADJUSTMENT OPERATION
+-----------------------------
+The Zevpoint Dash features manual current adjustment that users can control:
+
+Available Current Settings:
+The Dash typically offers switchable current settings at various levels from 8 amperes minimum to 32 amperes maximum. Common available settings include: 8A, 10A, 13A, 16A, 20A, 24A, 28A, and 32A.
+
+How to Adjust Current:
+Current adjustment is controlled via physical touch button on the charger unit itself. The current setting selection is displayed on the integrated LED screen. Users can change current setting before starting a charging session or during charging if needed.
+
+When to Reduce Current:
+Lower current settings should be used when:
+- Home electrical circuit cannot support full 32A load safely
+- Other high-power appliances are operating simultaneously (air conditioning, electric cooking, water heaters)
+- Socket is rated for less than 32A capacity
+- Experiencing circuit breaker trips at higher current levels
+- Electrical wiring is uncertain or older
+
+
+Setting Recommendations:
+For homes with dedicated 32A circuit and proper wiring: Use 32A for fastest charging
+For homes with adequate but not robust electrical systems: Use 24A as safe compromise
+For older homes or shared circuits: Use 16A to prevent electrical issues
+For minimal electrical capacity situations: Use 8A or 10A as last resort
+
+The current adjustment feature provides flexibility to safely match charging power to available electrical capacity, preventing circuit damage and ensuring reliable operation.
+
+TECHNICAL SPECIFICATIONS SUMMARY
+---------------------------------
+Complete technical specifications for the Zevpoint Dash charger:
+
+Electrical:
+- Rated Power: 7.5 kW
+- Maximum Current: 32A
+- Input Voltage: 230V AC
+- Phase: Single phase
+- Connector: Type 2 (IEC 62196-2)
+- Cable Length: 5 meters
+- Socket: 32A industrial (included)
+
+Physical:
+- Dimensions: 220mm (L) x 110mm (W) x 50mm (H)
+- Weight: 3.5 kg
+- Ingress Protection: IP66
+- Display: Integrated LED screen
+- Controls: Physical buttons/switches
+
+Safety:
+- Overload Protection: Yes
+- Short Circuit Protection: Yes
+- Leakage Protection: Yes
+- Ground Protection: Yes (with emergency bypass)
+- Over-Temperature Protection: Yes
+- Overvoltage Protection: Yes
+- Undervoltage Protection: Yes
+- Water Resistance: IP66
+- Dust Resistance: IP66
+
+Compatibility:
+- Vehicle Type: All EVs with Type 2 inlet
+- Charging Standard: IEC 62196-2
+- Region: India, Europe, and most international markets
+
+Package Includes:
+- Dash charger with 5m cable
+- 32A industrial socket
+- Wall mounting bracket
+- Carry bag
+- User manual
+- Quick start guide
+
+CERTIFICATIONS AND COMPLIANCE
+------------------------------
+The Zevpoint Dash meets international safety and quality standards:
+
+CE Certified: Complies with European safety, health, and environmental protection requirements
+TUV Certified: Independently tested and certified by TUV technical inspection authority
+Indian Standards: Meets relevant Indian electrical safety standards and BIS requirements
+Type Approval: Type 2 connector meets IEC 62196-2 international standard
+Quality Testing: Undergoes rigorous quality control and endurance testing
+
+
+MAINTENANCE AND CARE
+--------------------
+To ensure long service life of the Zevpoint Dash charger:
+
+Regular Inspection: Periodically inspect cable for damage, wear, or cuts. Check connector for dirt or corrosion.
+
+Cleaning: Wipe charger housing with dry cloth. Clean connector contacts with clean dry cloth if dirty. Never use water directly on charger unit.
+
+Cable Storage: Avoid sharp bends in cable. Use cable management accessories when storing. Don't drive over cable or place heavy objects on it.
+
+Display Care: Clean display screen with soft dry cloth. Avoid scratching screen surface.
+
+Socket Maintenance: Periodically check socket connection is secure. Verify socket is not overheating during use.
+
+Protection from Elements: While IP66 rated, store charger indoors when not in use to maximize lifespan. Use carry bag for protection during transport.
+
+Temperature Considerations: Avoid storing in extremely hot locations like inside car dashboard in summer. Allow charger to cool down after extended charging sessions before storing.
+
+Professional Service: For any electrical issues, unusual noises, error messages, or damage, contact Zevpoint service team for professional inspection and repair.
+
+
+COMPETITIVE ADVANTAGES
+----------------------
+The Zevpoint Dash offers several unique advantages:
+
+Price-Performance: Best value in 7.5 kW portable charging segment - fast charging without premium smart features cost
+
+Simplicity: No apps, no WiFi, no accounts - just plug and charge. Appeals to users who want straightforward operation.
+
+Display Screen: Real-time monitoring without smartphone dependency. Easy visibility of charging parameters.
+
+Emergency Earthing Bypass: Unique feature for emergency charging situations where proper earthing is unavailable.
+
+Complete Package: Includes 32A socket, carry bag, and wall bracket - everything needed for immediate use.
+
+Robust Build: IP66 protection and wide temperature range ensure reliability in challenging conditions.
+
+Current Flexibility: Manual current adjustment from 8A to 32A accommodates various electrical capacities.
+
+No Connectivity Required: Works anywhere with appropriate electrical supply - no internet or cellular needed.
+
+Proven Reliability: Built with Zevpoint quality standards trusted by thousands of EV owners.
+
+Portable Yet Powerful: Combines 7.5 kW fast charging with true portability in compact 3.5 kg package.
+
+For video of features demonstration, unboxing and more, you can checkout the Zevpoint's YouTube channel : https://www.youtube.com/playlist?list=PL_5jfOb-nyjKFgSZpRQZyx3WupT3HChRQ
+
+USE CASES AND APPLICATIONS
+---------------------------
+The Dash is suitable for multiple charging scenarios:
+
+Primary Home Charging: For daily charging at faster speeds than standard portable chargers. Ideal for households with high daily driving distances.
+
+Multi-Vehicle Households: Single portable charger can be shared between multiple electric vehicles in the household, reducing total equipment cost.
+
+Limited Load Situations: Adjustable current control allows operation in locations with restricted electrical capacity by reducing power draw to match available supply.
+
+Fleet Applications: Suitable for small fleet operators who need portable charging capability for multiple vehicles at different locations.
+
+Rental Properties: Perfect for renters who cannot install permanent charging infrastructure and need portable solution that can move with them.
+
+Unable to install wall chargers: For people who do not have dedicated space to install a wall charger setup, and prefer flexibility of removing the charger after use
+
+===============================================
+END OF DOCUMENT
+===============================================

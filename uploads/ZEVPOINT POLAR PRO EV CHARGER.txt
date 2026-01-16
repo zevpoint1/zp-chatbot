@@ -1,0 +1,348 @@
+===============================================
+PRODUCT DOCUMENT: Zevpoint Polar Pro EV Charger
+Document ID: ZEVPOINT-POLARPRO-001
+===============================================
+
+PRODUCT IDENTIFICATION
+----------------------
+Product Name: Polar Pro
+Manufacturer: Zevpoint
+Category: Wall-Mounted AC EV Charger (Wallbox)
+Power Rating: 7.5 kilowatts
+Model Type: Smart wall-mounted charger with emergency stop switch
+Price: Rs. 29,999.00 (inclusive of all taxes)
+Product Color: Arctic White
+Product Tagline: 7.5 kW Wallbox with Emergency Stop
+Design Philosophy: Where functionality meets elegance
+
+PRODUCT DESCRIPTION
+-------------------
+The Zevpoint Polar Pro is a sophisticated wall-mounted electric vehicle charger finished in elegant Arctic White that combines functionality with aesthetic appeal. This permanent installation wallbox is designed to elevate your charging experience while adding a modern aesthetic touch to your home garage, office parking area, or any EV-friendly space.
+
+The Polar Pro is Zevpoint's entry-level wall-mounted charger in the Polar series, offering professional-grade 7.5 kilowatt fast charging capability in a permanently installed format. Unlike portable chargers that you carry with you, the Polar Pro is designed for fixed installation on a wall at your primary charging location, providing a clean, organized, and elegant charging solution.
+
+The Polar Pro is equipped with a unique emergency stop switch for added safety, providing peace of mind and convenience. This physical emergency switch allows instant manual disconnection of charging in emergency situations, a safety feature not commonly found on entry-level wall chargers.
+
+The charger is engineered for reliability and style, making it the perfect addition to any EV-friendly space. The Arctic White finish provides a clean, modern look that complements contemporary home and office architecture. The compact wallbox design keeps cables organized and creates a professional charging installation.
+
+The Polar Pro delivers fast, reliable charging with its 7.5 kilowatt capacity, crafted to meet all your electric vehicle charging needs for daily use. It represents the ideal balance between performance, features, safety, and affordability in a wall-mounted charging solution.
+
+THREE-IN-ONE CHARGING MODES
+----------------------------
+The Polar Pro offers versatile 3-in-1 charging mode functionality, providing multiple ways to control and initiate charging:
+
+Mode 1 - Plug and Charge (Automatic):
+The simplest charging mode where the charger automatically starts charging as soon as you plug the connector into your vehicle. No buttons to press, no apps to open, no RFID cards to scan. Just plug in and charging begins immediately. This mode is ideal for private home use where only the vehicle owner uses the charger. Provides fastest and most convenient charging experience with zero user interaction required beyond plugging in.
+
+Mode 2 - RFID Card Authorization:
+The Polar Pro includes RFID (Radio Frequency Identification) card reader functionality for access-controlled charging. Users must tap an authorized RFID card on the charger to initiate charging session. This mode is ideal for shared charging locations, workplace charging installations where you want to track who is using the charger, residential buildings with shared parking, or any scenario where you want to restrict charging access to authorized users only. The Polar Pro can store multiple authorized RFID cards in its memory. RFID cards can be programmed, added, or removed through the Zevpoint Home app.
+
+Mode 3 - Zevpoint Home Mobile App Control:
+The Polar Pro features advanced Bluetooth connectivity for comprehensive app-based control through the Zevpoint Home mobile application. Users can start and stop charging sessions remotely from their smartphone, monitor charging progress in real-time, set charging schedules for off-peak electricity rates, view charging history and energy consumption, adjust charging current settings, and manage RFID card authorizations all through the intuitive app interface. The app works via Bluetooth connection, so you need to be within Bluetooth range (typically 10-30 meters) of the charger.
+
+Mode Selection:
+Users can select which of the three charging modes to use based on their preferences and use case. The mode can be configured through the Zevpoint Home app. Different modes can be used for different charging sessions - for example, use Plug and Charge mode for your own vehicle at home, but enable RFID mode when guests visit and you want to track their charging usage.
+
+The 3-in-1 charging versatility makes the Polar Pro suitable for diverse installation scenarios from simple private home use to more complex shared or workplace installations.
+
+BLUETOOTH CONNECTIVITY AND APP FEATURES
+----------------------------------------
+The Polar Pro is equipped with Bluetooth connectivity enabling smartphone control:
+
+Bluetooth Connection:
+The charger communicates with your smartphone via Bluetooth Low Energy (BLE) connection. Bluetooth range is typically 10 to 30 meters depending on obstacles and interference. No WiFi network required - charger operates independently using Bluetooth for app communication.
+
+Zevpoint Home Mobile App:
+The Polar Pro works with the Zevpoint Home app available for both iOS (Apple App Store) and Android (Google Play Store). The app provides comprehensive control and monitoring capabilities for the Polar Pro wall charger.
+
+App Features and Capabilities:
+Start and Stop Charging: Remotely initiate or terminate charging sessions from your phone without physically accessing the charger
+Real-Time Monitoring: View live charging status including current, voltage, power output, and charging duration
+Charging Schedules: Program charging to automatically start and stop at specific times to take advantage of off-peak electricity rates
+Energy Tracking: Monitor total energy consumption, track costs, and view detailed charging history
+Current Adjustment: Remotely adjust charging current from 8A to 32A based on available electrical capacity
+RFID Management: Add, remove, or manage authorized RFID cards for access control
+Charging Mode Selection: Switch between Plug & Charge, RFID, or App control modes
+Session History: View complete history of all charging sessions with date, duration, and energy data
+Notifications: Receive alerts when charging starts, completes, or if faults occur
+Settings: Configure charger parameters, update firmware, and customize behavior
+
+App Setup Process:
+Download Zevpoint Home app from app store, create account or sign in, enable Bluetooth on smartphone, power on Polar Pro charger, use app to scan and pair with charger via Bluetooth, complete setup and configuration, start using app features.
+
+No Internet Required:
+Unlike WiFi-based chargers, the Polar Pro's Bluetooth connectivity means it works completely offline. No need for WiFi network, no internet connection required, no monthly connectivity fees. This makes it reliable even in locations with poor internet connectivity.
+
+EMERGENCY STOP SWITCH
+----------------------
+The Polar Pro features a unique physical emergency stop switch, a safety feature not commonly found on entry-level wall chargers:
+
+Emergency Switch Location:
+The emergency stop button is prominently located on the front face of the Polar Pro wallbox for easy access in emergency situations.
+
+When to Use Emergency Stop:
+The emergency stop switch should be used in genuine emergency situations including: electrical fault or sparking, unusual smell or smoke from charger, vehicle charging port malfunction, immediate need to disconnect power, safety hazard around charging area, vehicle needs to be moved urgently, or any other emergency requiring instant charging disconnection.
+
+How Emergency Stop Works:
+Pressing the emergency stop button immediately terminates the charging session and cuts power to the vehicle. This is a hardware-level disconnect that works independently of any software or app controls. The physical switch provides fail-safe emergency shutdown even if charger software or app experiences issues. Emergency stop is faster than unplugging cable or using app to stop charging.
+
+After Using Emergency Stop:
+Once emergency situation is resolved, the emergency stop button must be reset (twisted or pulled depending on design) before charging can resume. This prevents accidental restart of charging after emergency stop activation. Charger will not resume charging until emergency stop is properly reset and charging is manually restarted.
+
+Why Emergency Stop Matters:
+The emergency stop switch provides important safety benefits for home charging installations. It gives users physical control to immediately stop charging in any situation. This is particularly valuable for installations where children might access the area, elderly users who prefer physical controls, locations where multiple people may need to stop charging quickly, or compliance with electrical safety codes requiring emergency disconnect.
+
+Zevpoint recommends that all household members who might be near the charger be familiar with emergency stop location and operation.
+
+ELECTRICAL SPECIFICATIONS
+--------------------------
+The Polar Pro charger operates with the following electrical parameters:
+
+Power Output: 7.5 kilowatts maximum output
+Maximum Current: 32 amperes
+Current Adjustment: Switchable adjustable current from 8A to 32A. Can be adjusted via physical controls on charger or remotely through Zevpoint Home app.
+Input Voltage: 220 to 240 volts AC single-phase
+Input Frequency: 50 Hertz (standard for India)
+Phase Configuration: Single-phase electrical system
+Connector Standard: Type 2 (IEC 62196) to vehicle
+Charging Cable: 5 meter length integrated Type 2 cable permanently attached to wallbox
+Cable Management: Integrated cable holder on wallbox keeps cable organized when not in use
+Power Factor: High power factor greater than 0.95 for efficient energy conversion
+Efficiency: Greater than 92% conversion efficiency minimizing energy waste
+
+The adjustable current feature allows the Polar Pro to adapt to available electrical capacity. Users can reduce charging current during times when other household appliances are operating, or in situations where full 32A capacity is not available.
+
+PHYSICAL CHARACTERISTICS
+-------------------------
+The Polar Pro wallbox has the following physical properties:
+
+Dimensions: 322 millimeters height by 188 millimeters width by 119 millimeters depth
+Weight: 6.5 kilograms total weight (heavier than portable chargers due to robust wallbox construction)
+Mounting: Designed for permanent wall mounting installation
+Form Factor: Compact wallbox design with integrated cable holder
+Color: Arctic White finish with modern aesthetic styling
+Build Material: Durable housing with premium construction for outdoor installation
+Operating Temperature: Functions in extreme temperatures from minus 35 degrees Celsius to plus 60 degrees Celsius
+Storage Temperature: Not applicable (permanent installation)
+Environmental Protection: IP rating suitable for outdoor installation (water and dust resistant)
+Display: LCD display screen showing charging parameters
+Controls: Physical buttons/controls on wallbox plus app control via Bluetooth
+
+The compact wallbox design keeps installation neat and organized. The 5-meter attached cable provides sufficient reach for most parking configurations while cable holder prevents cable from lying on ground when not in use.
+
+INSTALLATION REQUIREMENTS
+--------------------------
+The Polar Pro requires professional permanent installation:
+
+Mounting Location:
+Wall mounting at appropriate height (typically 1.2 to 1.5 meters from ground). Location should be within 5 meters of vehicle parking spot when parked. Choose location protected from direct weather if possible (though outdoor installation is supported). Ensure adequate ventilation around wallbox. Surface must be solid wall capable of supporting 6.5 kg weight plus cable weight.
+
+Power Supply Requirements:
+Dedicated single-phase electrical supply with 220-240V voltage. Circuit must have adequate connected load capacity to support continuous 32A draw. Dedicated circuit recommended - avoid sharing with other high-power appliances. Circuit should be independently protected with proper circuit breaker.
+
+Electrical Wiring Requirements:
+Use minimum 6 square millimeter 3-core copper cable (line, neutral, earth) for permanent installation from distribution board to wallbox location. In hot climate regions or enclosed spaces, upgrade to 10 square millimeter copper cable for better heat dissipation. Cable insulation should be rated for at least 90 degrees Celsius operating temperature. For outdoor cable runs, use UV-resistant cable insulation or protect cable in conduit. Cable run length should be minimized to reduce voltage drop.
+
+Earthing System Requirements:
+Proper earthing (grounding) is absolutely mandatory for wall-mounted charger safety. Wallbox must be connected to reliable earth ground with resistance below 5 ohms. Earthing system must comply with local electrical safety codes. Earth electrode should be tested to ensure adequate grounding.
+
+Circuit Protection Requirements:
+Install 40 ampere double-pole or two-pole MCB (Miniature Circuit Breaker) on dedicated charger circuit. The double-pole MCB provides complete isolation of both line and neutral during faults. Install Surge Protection Device (SPD) to protect against voltage spikes and lightning-induced surges. Install RCD (Residual Current Device) or RCCB rated at 30mA for leakage protection. The combination of MCB, SPD, and RCD provides comprehensive protection.
+
+Voltage Stabilizer Considerations:
+If location experiences frequent power fluctuations, voltage instability, or brownouts, install appropriate voltage stabilizer. Stabilizer should be rated for at least 8-10 kVA capacity to handle Polar Pro power requirements. This is particularly important in areas with unreliable grid power.
+
+Professional Installation Required:
+Wall-mounted chargers should only be installed by qualified licensed electricians. Installation involves permanent electrical work including circuit breaker installation, wiring runs, and wallbox mounting. DIY installation not recommended and may void warranty. Zevpoint offers doorstep installation service in select cities.
+
+Installation Permit and Inspection:
+Check local electrical codes for permit requirements. Some jurisdictions require electrical permit for wall charger installation. After installation, electrical inspection may be required to verify compliance with safety codes. Consult local electrical authority for requirements.
+
+CHARGING PERFORMANCE AND SPEED
+-------------------------------
+The Polar Pro delivers professional wall charger performance:
+
+Charging Speed:
+At full 7.5 kilowatt output, the Polar Pro can add approximately 30 to 35 kilometers of driving range per hour of charging for most modern electric vehicles. Actual range added depends on vehicle efficiency, battery condition, ambient temperature, and driving patterns.
+
+Full Charge Time Examples:
+- 40 kWh battery EV like Tata Nexon EV: approximately 5 to 6 hours from near-empty to full charge
+- 50 kWh battery EV like MG ZS EV: approximately 6 to 7 hours from near-empty to full charge  
+- 60 kWh battery EV: approximately 8 to 9 hours from near-empty to full charge
+- 75 kWh battery EV: approximately 10 to 11 hours from near-empty to full charge
+
+Overnight Charging:
+The Polar Pro's 7.5 kW power is optimal for overnight home charging. Most electric vehicles can be fully charged overnight (8-10 hours) even from very low battery state. This makes the Polar Pro perfect for daily commuting scenarios where vehicle charges overnight at home.
+
+Scheduled Charging Benefit:
+Using app scheduling feature, users can program Polar Pro to charge during off-peak electricity hours (typically late night to early morning) when electricity rates are lower. Vehicle is fully charged by morning departure time while minimizing electricity costs.
+
+Comparison to Portable Chargers:
+The Polar Pro matches portable 7.5 kW chargers in charging speed but offers benefits of permanent installation including organized cable management, no need to retrieve charger from storage, weatherproof installation, and elegant appearance.
+
+Wall Mounted chargers have better heat dissipation as compared to portable chargers, larger screen, RFID functionality and other features which also is the reason why they are more expensive than portable chargers
+
+
+
+USE CASES AND APPLICATIONS
+---------------------------
+The Polar Pro wall charger is ideal for multiple installation scenarios:
+
+Primary Home Charging:
+Perfect for homeowners with dedicated garage or parking space. Permanent wall installation provides clean, organized charging solution. Arctic White color complements modern home architecture. Cable management keeps garage tidy. Daily charging for commuting needs.
+
+Apartment Complex Installations:
+Suitable for apartment buildings with assigned parking. RFID access control allows multiple residents to share charger with usage tracking. Building management can control access and monitor usage. Wall-mounted installation saves parking space compared to floor-standing units.
+
+Workplace Charging:
+Install at office parking for employee charging. RFID cards can be issued to employees for access control. App monitoring allows tracking of usage by employee. Emergency stop provides safety in commercial setting. Arctic White professional appearance.
+
+Rental Properties:
+Landlords can install Polar Pro to attract EV-driving tenants. RFID system allows landlord to control access. Can be configured for multiple tenants with individual RFID cards. Adds property value and appeal to EV owners.
+
+Residential Developments:
+Developers can install Polar Pro units at homes in new developments. Provides modern amenity that appeals to EV buyers. Wall-mounted design integrates cleanly with home architecture.
+
+Guest Charging:
+For homes with EV-driving guests, enable RFID or app control mode to allow guests to charge while tracking their usage. Can disable automatic Plug & Charge to prevent unauthorized use.
+
+Fleet Applications:
+Small business fleets can use Polar Pro for overnight charging of company vehicles. RFID cards can be issued to drivers. Management can monitor charging usage and costs.
+
+Second Charger:
+As backup or secondary charger for households with multiple EVs. Install second Polar Pro at different parking location. Both chargers managed through same Zevpoint Home app.
+
+PRODUCT COMPARISON WITH OTHER ZEVPOINT CHARGERS
+------------------------------------------------
+The Polar Pro differs from other Zevpoint chargers in key aspects:
+
+Polar Pro vs Portable Chargers (Aveo Pro, Dash):
+- Installation: Polar Pro is permanent wall-mounted, portable chargers are movable
+- Cable Management: Polar Pro has integrated cable holder, portables require manual storage
+- Appearance: Polar Pro provides clean elegant wallbox look, portables are functional boxes
+- Versatility: Portable chargers can move locations, Polar Pro is fixed installation
+- RFID: Polar Pro has RFID access control, portables do not (except through app on smart models)
+- Emergency Stop: Polar Pro has physical emergency switch, portables do not
+- Weight: Polar Pro is heavier at 6.5kg, portables around 3.5kg
+- Use Case: Polar Pro for permanent home/office installation, portables for flexibility
+
+Polar Pro vs Polar X1 (11kW):
+- Power: Polar X1 delivers 11kW, Polar Pro delivers 7.5kW
+- Phase: Polar X1 can use three-phase, Polar Pro is single-phase only
+- Installation: Polar X1 requires three-phase supply (uncommon in homes), Polar Pro uses standard single-phase
+- Price: Polar X1 costs more for additional power
+- Use Case: Polar Pro for standard homes with single-phase, Polar X1 for three-phase locations
+
+Polar Pro vs Polar Max (22kW):
+- Power: Polar Max delivers 22kW, Polar Pro delivers 7.5kW (triple the power)
+- Phase: Polar Max requires three-phase, Polar Pro uses single-phase
+- Installation: Polar Max needs robust three-phase infrastructure
+- Price: Polar Max costs significantly more
+- Use Case: Polar Pro for home charging, Polar Max for commercial high-power installations
+
+Polar Pro vs Duos (7.5kW):
+- Power: Both deliver 7.5kW (same charging speed)
+- Features: Duos has OCPP for networked charging and a smart toggle switch to select between home or commercial charging
+- Polar Pro has 3-in-1 modes with emergency stop
+- Design: Different wallbox designs, both professional appearance
+- Price: Similar price points
+- Use Case: Both suitable for home/office, choose based on specific feature needs
+
+Key Differentiation:
+The Polar Pro is Zevpoint's entry-level wall-mounted charger, positioning as affordable permanent installation solution with:
+- Elegant Arctic White design
+- 3-in-1 charging modes (Plug & Charge, RFID, App)
+- Unique emergency stop switch for safety
+- Bluetooth app control without WiFi requirement
+- RFID access control capability
+- Professional wallbox appearance
+- Ideal for homes and offices with single-phase power
+
+DISPLAY SCREEN FEATURES
+------------------------
+The Polar Pro includes LCD display screen for monitoring:
+
+Display Parameters:
+- Input voltage (volts)
+- Charging current (amperes)
+- Power output (kilowatts)
+- Charging duration (hours and minutes)
+- Energy delivered in session (kilowatt-hours)
+- Charging status (active, standby, completed, fault)
+- Fault codes and error messages
+
+Display Benefits:
+Provides real-time confirmation that charging is proceeding normally. Allows monitoring without opening smartphone app. Visible from distance to check charging status. Helps troubleshoot issues with fault code display.
+
+SAFETY AND PROTECTION FEATURES
+-------------------------------
+The Polar Pro incorporates comprehensive safety features:
+
+Overheat Prevention: Thermal monitoring prevents damage from excessive temperature
+Short Circuit Protection: Instant disconnection in fault conditions
+Ground Protection: Continuous earth monitoring ensures proper grounding
+Leakage Protection: Detects current leakage to prevent shock hazards
+Over-Temperature Protection: Reduces or stops charging if temperature exceeds limits
+Overvoltage Protection: Guards against voltage spikes from grid
+Undervoltage Protection: Prevents operation when voltage too low
+Water Resistance: Suitable for outdoor installation in rain
+Dust Resistance: Protected against dust ingress
+Emergency Stop Switch: Physical hardware switch for instant manual disconnection
+RFID Access Control: Prevents unauthorized use when enabled
+Cable Lock: Connector locks to vehicle during charging to prevent theft
+
+INCLUDED PACKAGE CONTENTS
+--------------------------
+The Polar Pro package includes:
+
+- Polar Pro wallbox unit with integrated 5 meter Type 2 cable
+- Wall mounting bracket and hardware
+- User manual with installation instructions
+- RFID cards (typically 1-2 cards included)
+- Cable holder/organizer integrated into wallbox
+- Mounting template for proper installation positioning
+
+CERTIFICATIONS AND COMPLIANCE
+------------------------------
+The Polar Pro meets safety standards:
+
+CE Certified: European safety and quality compliance
+TUV Certified: Independent testing for safety
+Indian Standards: Meets Indian electrical safety codes
+s
+
+MAINTENANCE AND CARE
+--------------------
+Maintaining the Polar Pro wall charger:
+
+Regular Inspection: Monthly visual inspection of wallbox, cable, and connector. Check for damage, corrosion, or wear. Verify display functions properly.
+
+Cable Care: Check cable for cuts, abrasions, or damage. Ensure cable holder properly secures cable when not in use. Don't drive over cable or place heavy objects on it.
+
+Connector Maintenance: Keep Type 2 connector pins clean. Wipe with dry cloth if dirty. Check connector lock mechanism.
+
+Wallbox Cleaning: Wipe wallbox exterior with damp cloth. Do not spray water directly on unit. Clean display screen gently.
+
+Emergency Stop Testing: Periodically test emergency stop button to ensure it functions. Reset button after test before resuming use.
+
+Professional Service: For electrical issues, display malfunctions, or damage, contact Zevpoint service team. Do not attempt to open or repair wallbox yourself.
+
+
+COMPETITIVE ADVANTAGES
+----------------------
+Polar Pro unique benefits:
+
+Emergency Stop Switch: Physical emergency button not found on most entry-level wallboxes
+3-in-1 Charging Modes: Plug & Charge, RFID, or App control - maximum flexibility
+Elegant Design: Arctic White finish elevates aesthetic appeal
+RFID Access Control: Enables shared installation with usage tracking
+Bluetooth Connectivity: App control without WiFi network requirement
+Integrated Cable Management: Clean organized installation
+Entry-Level Price: Affordable wall charger without compromising features
+Professional Appearance: Elevates home charging beyond portable boxes
+Single-Phase Friendly: Works with standard home electrical systems
+Trusted Brand: Zevpoint quality and support
+
+===============================================
+END OF DOCUMENT
+===============================================

@@ -1,0 +1,998 @@
+================================================================================
+ELECTRIC VEHICLE CHARGING DATABASE - RAG OPTIMIZED FORMAT
+================================================================================
+Document Type: EV Charger Recommendation Database
+Purpose: AC Charging Speed Specifications and Charger Recommendations for Electric Vehicles
+Last Updated: December 2025
+Data Source: Zevpoint EV Charging Solutions
+================================================================================
+
+SECTION 1: CHARGING CATEGORY DEFINITIONS
+================================================================================
+
+CATEGORY A: 3.3 kW AC CHARGING CAPACITY
+Description: Entry-level EVs with basic AC charging support
+Maximum AC Power: 3.3 kW (3300 Watts)
+Recommended Charger: 3.6 kW portable charger
+Future-Proofing Options: 7 kW, 11 kW, or 22 kW chargers (auto-adjust to vehicle capacity)
+Typical Use Case: Older EV models, compact city EVs
+
+CATEGORY B: 6-7.5 kW AC CHARGING CAPACITY
+Description: Most common AC charging standard in Indian EV market
+Maximum AC Power: 6-7.5 kW (6000-7500 Watts)
+Recommended Charger: 7.5 kW portable or wall-mount charger
+Future-Proofing Options: 11 kW or 22 kW chargers (auto-adjust to vehicle capacity)
+Typical Use Case: Mainstream EVs, popular models
+
+CATEGORY C: 11 kW AC CHARGING CAPACITY
+Description: Premium EVs with enhanced AC charging capability
+Maximum AC Power: 11 kW (11000 Watts)
+Recommended Charger: 11 kW portable or wall-mount charger
+Future-Proofing Options: 22 kW charger (auto-adjusts to vehicle capacity)
+Typical Use Case: Luxury and premium electric vehicles
+
+CATEGORY D: 22 kW AC CHARGING CAPACITY
+Description: High-end EVs with maximum AC charging speed (rare in current market)
+Maximum AC Power: 22 kW (22000 Watts)
+Recommended Charger: 22 kW wall-mount charger
+Alternative Options: 11-16 kW portable chargers
+Typical Use Case: Ultra-premium and luxury electric vehicles
+
+================================================================================
+SECTION 2: VEHICLE DATABASE BY MANUFACTURER
+================================================================================
+
+--------------------------------------------------------------------------------
+MANUFACTURER: TATA MOTORS
+--------------------------------------------------------------------------------
+
+VEHICLE: Tata Nexon Prime
+Years: 2019-2022
+Variants: All Variants
+Battery Capacity: 30.00 kWh
+Maximum AC Charging Speed: 3.3 kW
+Charging Category: Category A (3.3 kW)
+Recommended Charger Power: 3.6 kW portable charger
+Future-Proofing: 7 kW, 11 kW, or 22 kW chargers compatible (auto-adjust)
+RAG Response Template: "Tata Nexon Prime supports AC charging up to 3.3 kW. A 3.6 kW portable charger is the fastest suitable option for your current vehicle. Higher-powered chargers (7 kW, 11 kW, or 22 kW) can be used for future EVs and will automatically adjust to match your vehicle's charging capacity."
+
+VEHICLE: Tata Tigor EV (Early Model)
+Years: 2019-2020
+Variants: All Variants
+Battery Capacity: 26.00 kWh
+Maximum AC Charging Speed: 3.3 kW
+Charging Category: Category A (3.3 kW)
+Recommended Charger Power: 3.6 kW portable charger
+Future-Proofing: 7 kW, 11 kW, or 22 kW chargers compatible (auto-adjust)
+RAG Response Template: "Tata Tigor (2019-2020 model) supports AC charging up to 3.3 kW. A 3.6 kW portable charger is the fastest suitable option for your current vehicle. Higher-powered chargers can be used for future EVs and will automatically adjust."
+
+VEHICLE: Tata Tigor EV (Updated Model)
+Years: 2021 or latest
+Variants: XZ Plus, XZ Plus LUX
+Battery Capacity: 26.00 kWh
+Maximum AC Charging Speed: 7.0 kW
+Charging Category: Category B (6-7.5 kW)
+Recommended Charger Power: 7.5 kW portable or wall-mount charger
+Future-Proofing: 11 kW or 22 kW chargers compatible (auto-adjust)
+RAG Response Template: "Tata Tigor (2021 or latest) supports AC charging up to 7 kW. A 7.5 kW portable or wall-mount charger is ideal for fastest charging on your current EV. 11 kW or 22 kW chargers can be considered for future-proofing and will auto-adjust."
+
+VEHICLE: Tata Nexon EV MR (Medium Range)
+Years: 2023 or latest
+Variants: All Variants
+Battery Capacity: 30.00 kWh
+Maximum AC Charging Speed: 7.0 kW
+Charging Category: Category B (6-7.5 kW)
+Recommended Charger Power: 7.5 kW portable or wall-mount charger
+Future-Proofing: 11 kW or 22 kW chargers compatible (auto-adjust)
+RAG Response Template: "Tata Nexon EV MR supports AC charging up to 7 kW. A 7.5 kW portable or wall-mount charger is ideal for fastest charging. 11 kW or 22 kW chargers can be considered for future-proofing."
+
+VEHICLE: Tata Nexon EV LR (Long Range)
+Years: 2023 or latest
+Variants: All Variants
+Battery Capacity: 45.00 kWh
+Maximum AC Charging Speed: 7.0 kW
+Charging Category: Category B (6-7.5 kW)
+Recommended Charger Power: 7.5 kW portable or wall-mount charger
+Future-Proofing: 11 kW or 22 kW chargers compatible (auto-adjust)
+RAG Response Template: "Tata Nexon EV LR supports AC charging up to 7 kW. A 7.5 kW portable or wall-mount charger is ideal for fastest charging. 11 kW or 22 kW chargers can be considered for future-proofing."
+
+VEHICLE: Tata Nexon Max
+Years: 2022 or latest
+Variants: All Variants
+Battery Capacity: 40.50 kWh
+Maximum AC Charging Speed: 7.0 kW
+Charging Category: Category B (6-7.5 kW)
+Recommended Charger Power: 7.5 kW portable or wall-mount charger
+Future-Proofing: 11 kW or 22 kW chargers compatible (auto-adjust)
+RAG Response Template: "Tata Nexon Max supports AC charging up to 7 kW. A 7.5 kW portable or wall-mount charger is ideal for fastest charging."
+
+VEHICLE: Tata Tiago EV
+Years: 2022 or latest
+Variants: All Variants
+Battery Capacity: 19.00 kWh
+Maximum AC Charging Speed: 7.0 kW
+Charging Category: Category B (6-7.5 kW)
+Recommended Charger Power: 7.5 kW portable or wall-mount charger
+Future-Proofing: 11 kW or 22 kW chargers compatible (auto-adjust)
+RAG Response Template: "Tata Tiago EV supports AC charging up to 7 kW. A 7.5 kW portable or wall-mount charger is ideal for fastest charging."
+
+VEHICLE: Tata Punch EV (Standard Battery)
+Years: 2024 or latest
+Variants: All Variants
+Battery Capacity: 25.00 kWh
+Maximum AC Charging Speed: 7.0 kW
+Charging Category: Category B (6-7.5 kW)
+Recommended Charger Power: 7.5 kW portable or wall-mount charger
+Future-Proofing: 11 kW or 22 kW chargers compatible (auto-adjust)
+RAG Response Template: "Tata Punch EV supports AC charging up to 7 kW. A 7.5 kW portable or wall-mount charger is ideal for fastest charging."
+
+VEHICLE: Tata Punch EV (Long Range Battery)
+Years: 2024 or latest
+Variants: All Variants
+Battery Capacity: 35.00 kWh
+Maximum AC Charging Speed: 7.0 kW
+Charging Category: Category B (6-7.5 kW)
+Recommended Charger Power: 7.5 kW portable or wall-mount charger
+Future-Proofing: 11 kW or 22 kW chargers compatible (auto-adjust)
+RAG Response Template: "Tata Punch EV supports AC charging up to 7 kW. A 7.5 kW portable or wall-mount charger is ideal for fastest charging."
+
+VEHICLE: Tata Curvv EV (Standard Battery)
+Years: 2024 or latest
+Variants: All Variants
+Battery Capacity: 45.00 kWh
+Maximum AC Charging Speed: 7.0 kW
+Charging Category: Category B (6-7.5 kW)
+Recommended Charger Power: 7.5 kW portable or wall-mount charger
+Future-Proofing: 11 kW or 22 kW chargers compatible (auto-adjust)
+RAG Response Template: "Tata Curvv EV supports AC charging up to 7 kW. A 7.5 kW portable or wall-mount charger is ideal for fastest charging."
+
+VEHICLE: Tata Curvv EV (Extended Battery)
+Years: 2024 or latest
+Variants: All Variants
+Battery Capacity: 55.00 kWh
+Maximum AC Charging Speed: 7.0 kW
+Charging Category: Category B (6-7.5 kW)
+Recommended Charger Power: 7.5 kW portable or wall-mount charger
+Future-Proofing: 11 kW or 22 kW chargers compatible (auto-adjust)
+RAG Response Template: "Tata Curvv EV supports AC charging up to 7 kW. A 7.5 kW portable or wall-mount charger is ideal for fastest charging."
+
+VEHICLE: Tata Harrier EV (Standard Battery)
+Years: 2025 or latest
+Variants: All Variants
+Battery Capacity: 65.00 kWh
+Maximum AC Charging Speed: 7.0 kW
+Charging Category: Category B (6-7.5 kW)
+Recommended Charger Power: 7.5 kW portable or wall-mount charger
+Future-Proofing: 11 kW or 22 kW chargers compatible (auto-adjust)
+RAG Response Template: "Tata Harrier EV supports AC charging up to 7 kW. A 7.5 kW portable or wall-mount charger is ideal for fastest charging."
+
+VEHICLE: Tata Harrier EV (Extended Battery)
+Years: 2025 or latest
+Variants: All Variants
+Battery Capacity: 75.00 kWh
+Maximum AC Charging Speed: 7.0 kW
+Charging Category: Category B (6-7.5 kW)
+Recommended Charger Power: 7.5 kW portable or wall-mount charger
+Future-Proofing: 11 kW or 22 kW chargers compatible (auto-adjust)
+RAG Response Template: "Tata Harrier EV supports AC charging up to 7 kW. A 7.5 kW portable or wall-mount charger is ideal for fastest charging."
+
+--------------------------------------------------------------------------------
+MANUFACTURER: MG (MORRIS GARAGES)
+--------------------------------------------------------------------------------
+
+VEHICLE: MG Comet EV (Non-Fast Charging Variant)
+Years: 2023 or latest
+Variants: All Variants (Non-FC)
+Battery Capacity: 17.30 kWh
+Maximum AC Charging Speed: 3.3 kW
+Charging Category: Category A (3.3 kW)
+Recommended Charger Power: 3.6 kW portable charger
+Future-Proofing: 7 kW, 11 kW, or 22 kW chargers compatible (auto-adjust)
+RAG Response Template: "MG Comet EV (non-FC variant) supports AC charging up to 3.3 kW. A 3.6 kW portable charger is the fastest suitable option."
+
+VEHICLE: MG Comet EV (Fast Charging Variant)
+Years: 2024 or latest
+Variants: FC Variant (Fast Charging)
+Battery Capacity: 17.30 kWh
+Maximum AC Charging Speed: 7.0 kW
+Charging Category: Category B (6-7.5 kW)
+Recommended Charger Power: 7.5 kW portable or wall-mount charger
+Future-Proofing: 11 kW or 22 kW chargers compatible (auto-adjust)
+RAG Response Template: "MG Comet EV (FC variant) supports AC charging up to 7 kW. A 7.5 kW portable or wall-mount charger is ideal for fastest charging."
+
+VEHICLE: MG ZS EV (Original Model)
+Years: 2020-2022
+Variants: All Variants
+Battery Capacity: 49.00 kWh
+Maximum AC Charging Speed: 7.0 kW
+Charging Category: Category B (6-7.5 kW)
+Recommended Charger Power: 7.5 kW portable or wall-mount charger
+Future-Proofing: 11 kW or 22 kW chargers compatible (auto-adjust)
+RAG Response Template: "MG ZS EV supports AC charging up to 7 kW. A 7.5 kW portable or wall-mount charger is ideal for fastest charging."
+
+VEHICLE: MG ZS EV Facelift
+Years: 2022 or latest
+Variants: All Variants
+Battery Capacity: 49.00 kWh
+Maximum AC Charging Speed: 7.0 kW
+Charging Category: Category B (6-7.5 kW)
+Recommended Charger Power: 7.5 kW portable or wall-mount charger
+Future-Proofing: 11 kW or 22 kW chargers compatible (auto-adjust)
+RAG Response Template: "MG ZS EV Facelift supports AC charging up to 7 kW. A 7.5 kW portable or wall-mount charger is ideal for fastest charging."
+
+VEHICLE: MG Windsor (Base/Non-Pro Variant)
+Years: 2024 or latest
+Variants: Base Variant, Non-Pro Variant
+Battery Capacity: 38.00 kWh
+Maximum AC Charging Speed: 7.0 kW
+Charging Category: Category B (6-7.5 kW)
+Recommended Charger Power: 7.5 kW portable or wall-mount charger
+Future-Proofing: 11 kW or 22 kW chargers compatible (auto-adjust)
+RAG Response Template: "MG Windsor supports AC charging up to 7 kW. A 7.5 kW portable or wall-mount charger is ideal for fastest charging."
+
+VEHICLE: MG Windsor (Pro Variant)
+Years: 2024 or latest
+Variants: Pro Variants
+Battery Capacity: 52.90 kWh
+Maximum AC Charging Speed: 7.0 kW
+Charging Category: Category B (6-7.5 kW)
+Recommended Charger Power: 7.5 kW portable or wall-mount charger
+Future-Proofing: 11 kW or 22 kW chargers compatible (auto-adjust)
+RAG Response Template: "MG Windsor Pro supports AC charging up to 7 kW. A 7.5 kW portable or wall-mount charger is ideal for fastest charging."
+
+VEHICLE: MG Cyberster
+Years: 2025 or latest
+Variants: Cyberster GT
+Battery Capacity: 77.00 kWh
+Maximum AC Charging Speed: 7.0 kW
+Charging Category: Category B (6-7.5 kW)
+Recommended Charger Power: 7.5 kW portable or wall-mount charger
+Future-Proofing: 11 kW or 22 kW chargers compatible (auto-adjust)
+RAG Response Template: "MG Cyberster supports AC charging up to 7 kW. A 7.5 kW portable or wall-mount charger is ideal for fastest charging."
+
+VEHICLE: MG M9
+Years: 2025 or latest
+Variants: M9 Presidential Limo
+Battery Capacity: 90.00 kWh
+Maximum AC Charging Speed: 11.0 kW
+Charging Category: Category C (11 kW)
+Recommended Charger Power: 11 kW portable or wall-mount charger
+Future-Proofing: 22 kW charger compatible (auto-adjusts)
+RAG Response Template: "MG M9 supports AC charging up to 11 kW. An 11 kW portable or wall-mount charger is recommended for fastest charging."
+
+--------------------------------------------------------------------------------
+MANUFACTURER: BYD (BUILD YOUR DREAMS)
+--------------------------------------------------------------------------------
+
+VEHICLE: BYD Atto 3 (Standard Battery)
+Years: 2022 or latest
+Variants: All Variants
+Battery Capacity: 49.92 kWh
+Maximum AC Charging Speed: 7.0 kW
+Charging Category: Category B (6-7.5 kW)
+Recommended Charger Power: 7.5 kW portable or wall-mount charger
+Future-Proofing: 11 kW or 22 kW chargers compatible (auto-adjust)
+RAG Response Template: "BYD Atto 3 supports AC charging up to 7 kW. A 7.5 kW portable or wall-mount charger is ideal for fastest charging."
+
+VEHICLE: BYD Atto 3 (Extended Battery)
+Years: 2022 or latest
+Variants: All Variants
+Battery Capacity: 60.48 kWh
+Maximum AC Charging Speed: 7.0 kW
+Charging Category: Category B (6-7.5 kW)
+Recommended Charger Power: 7.5 kW portable or wall-mount charger
+Future-Proofing: 11 kW or 22 kW chargers compatible (auto-adjust)
+RAG Response Template: "BYD Atto 3 supports AC charging up to 7 kW. A 7.5 kW portable or wall-mount charger is ideal for fastest charging."
+
+VEHICLE: BYD E6 (Early Model with 22kW Support)
+Years: 2021-2022
+Variants: All Variants
+Battery Capacity: 71.70 kWh
+Maximum AC Charging Speed: 22.0 kW
+Charging Category: Category D (22 kW)
+Recommended Charger Power: 22 kW wall-mount charger
+Alternative Options: 11 kW or 16 kW portable chargers
+RAG Response Template: "BYD E6 (2021-2022) supports AC charging up to 22 kW. A 22 kW wall-mount charger is recommended for fastest charging. Portable options up to 11-16 kW can also be used."
+
+VEHICLE: BYD E6 (Updated Model)
+Years: 2023 or latest
+Variants: All Variants
+Battery Capacity: 71.70 kWh
+Maximum AC Charging Speed: 7.0 kW
+Charging Category: Category B (6-7.5 kW)
+Recommended Charger Power: 7.5 kW portable or wall-mount charger
+Future-Proofing: 11 kW or 22 kW chargers compatible (auto-adjust)
+RAG Response Template: "BYD E6 (2023 or latest) supports AC charging up to 7 kW. A 7.5 kW portable or wall-mount charger is ideal for fastest charging."
+
+VEHICLE: BYD Emax 7 (Standard Battery)
+Years: 2024 or latest
+Variants: All Variants
+Battery Capacity: 55.40 kWh
+Maximum AC Charging Speed: 7.0 kW
+Charging Category: Category B (6-7.5 kW)
+Recommended Charger Power: 7.5 kW portable or wall-mount charger
+Future-Proofing: 11 kW or 22 kW chargers compatible (auto-adjust)
+RAG Response Template: "BYD Emax 7 supports AC charging up to 7 kW. A 7.5 kW portable or wall-mount charger is ideal for fastest charging."
+
+VEHICLE: BYD Emax 7 (Extended Battery)
+Years: 2024 or latest
+Variants: All Variants
+Battery Capacity: 71.80 kWh
+Maximum AC Charging Speed: 7.0 kW
+Charging Category: Category B (6-7.5 kW)
+Recommended Charger Power: 7.5 kW portable or wall-mount charger
+Future-Proofing: 11 kW or 22 kW chargers compatible (auto-adjust)
+RAG Response Template: "BYD Emax 7 supports AC charging up to 7 kW. A 7.5 kW portable or wall-mount charger is ideal for fastest charging."
+
+VEHICLE: BYD Seal (Standard Battery)
+Years: 2024 or latest
+Variants: All Variants
+Battery Capacity: 61.44 kWh
+Maximum AC Charging Speed: 7.0 kW
+Charging Category: Category B (6-7.5 kW)
+Recommended Charger Power: 7.5 kW portable or wall-mount charger
+Future-Proofing: 11 kW or 22 kW chargers compatible (auto-adjust)
+RAG Response Template: "BYD Seal supports AC charging up to 7 kW. A 7.5 kW portable or wall-mount charger is ideal for fastest charging."
+
+VEHICLE: BYD Seal (Extended Battery)
+Years: 2024 or latest
+Variants: All Variants
+Battery Capacity: 82.56 kWh
+Maximum AC Charging Speed: 7.0 kW
+Charging Category: Category B (6-7.5 kW)
+Recommended Charger Power: 7.5 kW portable or wall-mount charger
+Future-Proofing: 11 kW or 22 kW chargers compatible (auto-adjust)
+RAG Response Template: "BYD Seal supports AC charging up to 7 kW. A 7.5 kW portable or wall-mount charger is ideal for fastest charging."
+
+VEHICLE: BYD Sealion 7
+Years: 2024 or latest
+Variants: All Variants
+Battery Capacity: 82.56 kWh
+Maximum AC Charging Speed: 7.0 kW
+Charging Category: Category B (6-7.5 kW)
+Recommended Charger Power: 7.5 kW portable or wall-mount charger
+Future-Proofing: 11 kW or 22 kW chargers compatible (auto-adjust)
+RAG Response Template: "BYD Sealion 7 supports AC charging up to 7 kW. A 7.5 kW portable or wall-mount charger is ideal for fastest charging."
+
+--------------------------------------------------------------------------------
+MANUFACTURER: MAHINDRA
+--------------------------------------------------------------------------------
+
+VEHICLE: Mahindra XUV400 (Standard Battery)
+Years: 2023 or latest
+Variants: All Variants
+Battery Capacity: 34.50 kWh
+Maximum AC Charging Speed: 7.0 kW
+Charging Category: Category B (6-7.5 kW)
+Recommended Charger Power: 7.5 kW portable or wall-mount charger
+Future-Proofing: 11 kW or 22 kW chargers compatible (auto-adjust)
+RAG Response Template: "Mahindra XUV400 supports AC charging up to 7 kW. A 7.5 kW portable or wall-mount charger is ideal for fastest charging."
+
+VEHICLE: Mahindra XUV400 (Extended Battery)
+Years: 2023 or latest
+Variants: All Variants
+Battery Capacity: 39.40 kWh
+Maximum AC Charging Speed: 7.0 kW
+Charging Category: Category B (6-7.5 kW)
+Recommended Charger Power: 7.5 kW portable or wall-mount charger
+Future-Proofing: 11 kW or 22 kW chargers compatible (auto-adjust)
+RAG Response Template: "Mahindra XUV400 supports AC charging up to 7 kW. A 7.5 kW portable or wall-mount charger is ideal for fastest charging."
+
+VEHICLE: Mahindra BE6 (Standard Battery)
+Years: 2025 or latest
+Variants: All Variants
+Battery Capacity: 59.00 kWh
+Maximum AC Charging Speed: 11.0 kW
+Charging Category: Category C (11 kW)
+Recommended Charger Power: 11 kW portable or wall-mount charger
+Future-Proofing: 22 kW charger compatible (auto-adjusts)
+RAG Response Template: "Mahindra BE6 supports AC charging up to 11 kW. An 11 kW portable or wall-mount charger is recommended for fastest charging."
+
+VEHICLE: Mahindra BE6 (Extended Battery)
+Years: 2025 or latest
+Variants: All Variants
+Battery Capacity: 79.00 kWh
+Maximum AC Charging Speed: 11.0 kW
+Charging Category: Category C (11 kW)
+Recommended Charger Power: 11 kW portable or wall-mount charger
+Future-Proofing: 22 kW charger compatible (auto-adjusts)
+RAG Response Template: "Mahindra BE6 supports AC charging up to 11 kW. An 11 kW portable or wall-mount charger is recommended for fastest charging."
+
+VEHICLE: Mahindra XEV 9E (Standard Battery)
+Years: 2025 or latest
+Variants: All Variants
+Battery Capacity: 59.00 kWh
+Maximum AC Charging Speed: 11.0 kW
+Charging Category: Category C (11 kW)
+Recommended Charger Power: 11 kW portable or wall-mount charger
+Future-Proofing: 22 kW charger compatible (auto-adjusts)
+RAG Response Template: "Mahindra XEV 9E supports AC charging up to 11 kW. An 11 kW portable or wall-mount charger is recommended for fastest charging."
+
+VEHICLE: Mahindra XEV 9E (Extended Battery)
+Years: 2025 or latest
+Variants: All Variants
+Battery Capacity: 79.00 kWh
+Maximum AC Charging Speed: 11.0 kW
+Charging Category: Category C (11 kW)
+Recommended Charger Power: 11 kW portable or wall-mount charger
+Future-Proofing: 22 kW charger compatible (auto-adjusts)
+RAG Response Template: "Mahindra XEV 9E supports AC charging up to 11 kW. An 11 kW portable or wall-mount charger is recommended for fastest charging."
+
+--------------------------------------------------------------------------------
+MANUFACTURER: HYUNDAI
+--------------------------------------------------------------------------------
+
+VEHICLE: Hyundai Kona
+Years: 2019-2024
+Variants: All Variants
+Battery Capacity: 39.20 kWh
+Maximum AC Charging Speed: 7.0 kW
+Charging Category: Category B (6-7.5 kW)
+Recommended Charger Power: 7.5 kW portable or wall-mount charger
+Future-Proofing: 11 kW or 22 kW chargers compatible (auto-adjust)
+RAG Response Template: "Hyundai Kona supports AC charging up to 7 kW. A 7.5 kW portable or wall-mount charger is ideal for fastest charging."
+
+VEHICLE: Hyundai Ioniq 5
+Years: 2023 or latest
+Variants: All Variants
+Battery Capacity: 72.40 kWh
+Maximum AC Charging Speed: 11.0 kW
+Charging Category: Category C (11 kW)
+Recommended Charger Power: 11 kW portable or wall-mount charger
+Future-Proofing: 22 kW charger compatible (auto-adjusts)
+RAG Response Template: "Hyundai Ioniq 5 supports AC charging up to 11 kW. An 11 kW portable or wall-mount charger is recommended for fastest charging."
+
+VEHICLE: Hyundai Creta EV (Standard Battery)
+Years: 2025 or latest
+Variants: All Variants
+Battery Capacity: 42.00 kWh
+Maximum AC Charging Speed: 11.0 kW
+Charging Category: Category C (11 kW)
+Recommended Charger Power: 11 kW portable or wall-mount charger
+Future-Proofing: 22 kW charger compatible (auto-adjusts)
+RAG Response Template: "Hyundai Creta EV supports AC charging up to 11 kW. An 11 kW portable or wall-mount charger is recommended for fastest charging."
+
+VEHICLE: Hyundai Creta EV LR (Long Range)
+Years: 2025 or latest
+Variants: All Variants
+Battery Capacity: 51.40 kWh
+Maximum AC Charging Speed: 11.0 kW
+Charging Category: Category C (11 kW)
+Recommended Charger Power: 11 kW portable or wall-mount charger
+Future-Proofing: 22 kW charger compatible (auto-adjusts)
+RAG Response Template: "Hyundai Creta EV LR supports AC charging up to 11 kW. An 11 kW portable or wall-mount charger is recommended for fastest charging."
+
+--------------------------------------------------------------------------------
+MANUFACTURER: KIA
+--------------------------------------------------------------------------------
+
+VEHICLE: Kia EV6 (Standard Battery)
+Years: 2022-2024
+Variants: All Variants
+Battery Capacity: 58.00 kWh
+Maximum AC Charging Speed: 11.0 kW
+Charging Category: Category C (11 kW)
+Recommended Charger Power: 11 kW portable or wall-mount charger
+Future-Proofing: 22 kW charger compatible (auto-adjusts)
+RAG Response Template: "Kia EV6 supports AC charging up to 11 kW. An 11 kW portable or wall-mount charger is recommended for fastest charging."
+
+VEHICLE: Kia EV6 (Extended Battery)
+Years: 2022-2024
+Variants: All Variants
+Battery Capacity: 77.40 kWh
+Maximum AC Charging Speed: 11.0 kW
+Charging Category: Category C (11 kW)
+Recommended Charger Power: 11 kW portable or wall-mount charger
+Future-Proofing: 22 kW charger compatible (auto-adjusts)
+RAG Response Template: "Kia EV6 supports AC charging up to 11 kW. An 11 kW portable or wall-mount charger is recommended for fastest charging."
+
+VEHICLE: Kia EV6 (2025 Standard Battery)
+Years: 2025 or latest
+Variants: All Variants
+Battery Capacity: 63.00 kWh
+Maximum AC Charging Speed: 11.0 kW
+Charging Category: Category C (11 kW)
+Recommended Charger Power: 11 kW portable or wall-mount charger
+Future-Proofing: 22 kW charger compatible (auto-adjusts)
+RAG Response Template: "Kia EV6 (2025) supports AC charging up to 11 kW. An 11 kW portable or wall-mount charger is recommended for fastest charging."
+
+VEHICLE: Kia EV6 (2025 Extended Battery)
+Years: 2025 or latest
+Variants: All Variants
+Battery Capacity: 84.00 kWh
+Maximum AC Charging Speed: 11.0 kW
+Charging Category: Category C (11 kW)
+Recommended Charger Power: 11 kW portable or wall-mount charger
+Future-Proofing: 22 kW charger compatible (auto-adjusts)
+RAG Response Template: "Kia EV6 (2025) supports AC charging up to 11 kW. An 11 kW portable or wall-mount charger is recommended for fastest charging."
+
+VEHICLE: Kia Carens Clavis EV (Standard Battery)
+Years: 2025 or latest
+Variants: All Variants
+Battery Capacity: 42.00 kWh
+Maximum AC Charging Speed: 11.0 kW
+Charging Category: Category C (11 kW)
+Recommended Charger Power: 11 kW portable or wall-mount charger
+Future-Proofing: 22 kW charger compatible (auto-adjusts)
+RAG Response Template: "Kia Carens Clavis EV supports AC charging up to 11 kW. An 11 kW portable or wall-mount charger is recommended for fastest charging."
+
+VEHICLE: Kia Carens Clavis EV (Extended Battery)
+Years: 2025 or latest
+Variants: All Variants
+Battery Capacity: 51.40 kWh
+Maximum AC Charging Speed: 11.0 kW
+Charging Category: Category C (11 kW)
+Recommended Charger Power: 11 kW portable or wall-mount charger
+Future-Proofing: 22 kW charger compatible (auto-adjusts)
+RAG Response Template: "Kia Carens Clavis EV supports AC charging up to 11 kW. An 11 kW portable or wall-mount charger is recommended for fastest charging."
+
+--------------------------------------------------------------------------------
+MANUFACTURER: CITROEN
+--------------------------------------------------------------------------------
+
+VEHICLE: Citroen eC3
+Years: 2023 or latest
+Variants: All Variants
+Battery Capacity: 29.20 kWh
+Maximum AC Charging Speed: 3.3 kW
+Charging Category: Category A (3.3 kW)
+Recommended Charger Power: 3.6 kW portable charger
+Future-Proofing: 7 kW, 11 kW, or 22 kW chargers compatible (auto-adjust)
+RAG Response Template: "Citroen eC3 supports AC charging up to 3.3 kW. A 3.6 kW portable charger is the fastest suitable option for your current vehicle."
+
+--------------------------------------------------------------------------------
+MANUFACTURER: VAYVE MOBILITY
+--------------------------------------------------------------------------------
+
+VEHICLE: Vayve EVA
+Years: 2025 or latest
+Variants: Vega
+Battery Capacity: 18.00 kWh
+Maximum AC Charging Speed: 3.3 kW
+Charging Category: Category A (3.3 kW)
+Recommended Charger Power: 3.6 kW portable charger
+Future-Proofing: 7 kW, 11 kW, or 22 kW chargers compatible (auto-adjust)
+RAG Response Template: "Vayve EVA supports AC charging up to 3.3 kW. A 3.6 kW portable charger is the fastest suitable option for your current vehicle."
+
+--------------------------------------------------------------------------------
+MANUFACTURER: VINFAST
+--------------------------------------------------------------------------------
+
+VEHICLE: VinFast VF6
+Years: 2025 or latest
+Variants: All Variants
+Battery Capacity: 59.60 kWh
+Maximum AC Charging Speed: 7.0 kW
+Charging Category: Category B (6-7.5 kW)
+Recommended Charger Power: 7.5 kW portable or wall-mount charger
+Future-Proofing: 11 kW or 22 kW chargers compatible (auto-adjust)
+RAG Response Template: "VinFast VF6 supports AC charging up to 7 kW. A 7.5 kW portable or wall-mount charger is ideal for fastest charging."
+
+VEHICLE: VinFast VF7 (Standard - Earth Variant)
+Years: 2025 or latest
+Variants: Earth
+Battery Capacity: 59.60 kWh
+Maximum AC Charging Speed: 7.0 kW
+Charging Category: Category B (6-7.5 kW)
+Recommended Charger Power: 7.5 kW portable or wall-mount charger
+Future-Proofing: 11 kW or 22 kW chargers compatible (auto-adjust)
+RAG Response Template: "VinFast VF7 Earth supports AC charging up to 7 kW. A 7.5 kW portable or wall-mount charger is ideal for fastest charging."
+
+VEHICLE: VinFast VF7 (Extended - Wind/Sky Variants)
+Years: 2025 or latest
+Variants: Wind, Wind Infinity, Sky, Sky Infinity
+Battery Capacity: 70.80 kWh
+Maximum AC Charging Speed: 7.0 kW
+Charging Category: Category B (6-7.5 kW)
+Recommended Charger Power: 7.5 kW portable or wall-mount charger
+Future-Proofing: 11 kW or 22 kW chargers compatible (auto-adjust)
+RAG Response Template: "VinFast VF7 (Wind/Sky variants) supports AC charging up to 7 kW. A 7.5 kW portable or wall-mount charger is ideal for fastest charging."
+
+--------------------------------------------------------------------------------
+MANUFACTURER: VOLVO
+--------------------------------------------------------------------------------
+
+VEHICLE: Volvo XC40 Recharge (Standard Battery)
+Years: 2021-2023
+Variants: All Variants
+Battery Capacity: 69.00 kWh
+Maximum AC Charging Speed: 11.0 kW
+Charging Category: Category C (11 kW)
+Recommended Charger Power: 11 kW portable or wall-mount charger
+Future-Proofing: 22 kW charger compatible (auto-adjusts)
+RAG Response Template: "Volvo XC40 Recharge supports AC charging up to 11 kW. An 11 kW portable or wall-mount charger is recommended for fastest charging."
+
+VEHICLE: Volvo XC40 Recharge (Extended Battery)
+Years: 2021-2023
+Variants: All Variants
+Battery Capacity: 78.00 kWh
+Maximum AC Charging Speed: 11.0 kW
+Charging Category: Category C (11 kW)
+Recommended Charger Power: 11 kW portable or wall-mount charger
+Future-Proofing: 22 kW charger compatible (auto-adjusts)
+RAG Response Template: "Volvo XC40 Recharge supports AC charging up to 11 kW. An 11 kW portable or wall-mount charger is recommended for fastest charging."
+
+VEHICLE: Volvo EX40
+Years: 2024 or latest
+Variants: All Variants
+Battery Capacity: 69.00 kWh
+Maximum AC Charging Speed: 11.0 kW
+Charging Category: Category C (11 kW)
+Recommended Charger Power: 11 kW portable or wall-mount charger
+Future-Proofing: 22 kW charger compatible (auto-adjusts)
+RAG Response Template: "Volvo EX40 supports AC charging up to 11 kW. An 11 kW portable or wall-mount charger is recommended for fastest charging."
+
+VEHICLE: Volvo EX30
+Years: 2025 or latest
+Variants: EX30 RWD Ultra
+Battery Capacity: 69.00 kWh
+Maximum AC Charging Speed: 11.0 kW
+Charging Category: Category C (11 kW)
+Recommended Charger Power: 11 kW portable or wall-mount charger
+Future-Proofing: 22 kW charger compatible (auto-adjusts)
+RAG Response Template: "Volvo EX30 supports AC charging up to 11 kW. An 11 kW portable or wall-mount charger is recommended for fastest charging."
+
+--------------------------------------------------------------------------------
+MANUFACTURER: JAGUAR
+--------------------------------------------------------------------------------
+
+VEHICLE: Jaguar I-Pace
+Years: 2022 or latest
+Variants: All Variants
+Battery Capacity: 90.00 kWh
+Maximum AC Charging Speed: 11.0 kW
+Charging Category: Category C (11 kW)
+Recommended Charger Power: 11 kW portable or wall-mount charger
+Future-Proofing: 22 kW charger compatible (auto-adjusts)
+RAG Response Template: "Jaguar I-Pace supports AC charging up to 11 kW. An 11 kW portable or wall-mount charger is recommended for fastest charging."
+
+--------------------------------------------------------------------------------
+MANUFACTURER: BMW
+--------------------------------------------------------------------------------
+
+VEHICLE: BMW i5
+Years: 2023-2025
+Variants: All Variants
+Battery Capacity: 83.90 kWh
+Maximum AC Charging Speed: 11.0 kW
+Charging Category: Category C (11 kW)
+Recommended Charger Power: 11 kW portable or wall-mount charger
+Future-Proofing: 22 kW charger compatible (auto-adjusts)
+RAG Response Template: "BMW i5 supports AC charging up to 11 kW. An 11 kW portable or wall-mount charger is recommended for fastest charging."
+
+VEHICLE: BMW i4 (Standard Battery)
+Years: 2022 or latest
+Variants: All Variants
+Battery Capacity: 80.70 kWh
+Maximum AC Charging Speed: 11.0 kW
+Charging Category: Category C (11 kW)
+Recommended Charger Power: 11 kW portable or wall-mount charger
+Future-Proofing: 22 kW charger compatible (auto-adjusts)
+RAG Response Template: "BMW i4 supports AC charging up to 11 kW. An 11 kW portable or wall-mount charger is recommended for fastest charging."
+
+VEHICLE: BMW i4 (Extended Battery)
+Years: 2022 or latest
+Variants: All Variants
+Battery Capacity: 83.90 kWh
+Maximum AC Charging Speed: 11.0 kW
+Charging Category: Category C (11 kW)
+Recommended Charger Power: 11 kW portable or wall-mount charger
+Future-Proofing: 22 kW charger compatible (auto-adjusts)
+RAG Response Template: "BMW i4 supports AC charging up to 11 kW. An 11 kW portable or wall-mount charger is recommended for fastest charging."
+
+VEHICLE: BMW iX1
+Years: 2023 or latest
+Variants: All Variants
+Battery Capacity: 66.40 kWh
+Maximum AC Charging Speed: 11.0 kW
+Charging Category: Category C (11 kW)
+Recommended Charger Power: 11 kW portable or wall-mount charger
+Future-Proofing: 22 kW charger compatible (auto-adjusts)
+RAG Response Template: "BMW iX1 supports AC charging up to 11 kW. An 11 kW portable or wall-mount charger is recommended for fastest charging."
+
+VEHICLE: BMW iX xDrive50
+Years: 2021 or latest
+Variants: All Variants
+Battery Capacity: 111.50 kWh
+Maximum AC Charging Speed: 11.0 kW
+Charging Category: Category C (11 kW)
+Recommended Charger Power: 11 kW portable or wall-mount charger
+Future-Proofing: 22 kW charger compatible (auto-adjusts)
+RAG Response Template: "BMW iX xDrive50 supports AC charging up to 11 kW. An 11 kW portable or wall-mount charger is recommended for fastest charging."
+
+VEHICLE: BMW i7
+Years: 2023 or latest
+Variants: All Variants
+Battery Capacity: 101.70 kWh
+Maximum AC Charging Speed: 22.0 kW
+Charging Category: Category D (22 kW)
+Recommended Charger Power: 22 kW wall-mount charger
+Alternative Options: 11 kW or 16 kW portable chargers
+RAG Response Template: "BMW i7 supports AC charging up to 22 kW. A 22 kW wall-mount charger is recommended for fastest charging. Portable options up to 11-16 kW can also be used."
+
+--------------------------------------------------------------------------------
+MANUFACTURER: AUDI
+--------------------------------------------------------------------------------
+
+VEHICLE: Audi e-tron GT Quattro (11kW Variant)
+Years: 2021 or latest
+Variants: 11kW variant (Standard AC Charging)
+Battery Capacity: 93.40 kWh
+Maximum AC Charging Speed: 11.0 kW
+Charging Category: Category C (11 kW)
+Recommended Charger Power: 11 kW portable or wall-mount charger
+Future-Proofing: 22 kW charger compatible (auto-adjusts)
+RAG Response Template: "Audi e-tron GT Quattro (11kW variant) supports AC charging up to 11 kW. An 11 kW portable or wall-mount charger is recommended for fastest charging."
+
+VEHICLE: Audi e-tron GT Quattro (22kW Variant)
+Years: 2021 or latest
+Variants: 22kW Optional Variant (Enhanced AC Charging)
+Battery Capacity: 93.40 kWh
+Maximum AC Charging Speed: 22.0 kW
+Charging Category: Category D (22 kW)
+Recommended Charger Power: 22 kW wall-mount charger
+Alternative Options: 11 kW or 16 kW portable chargers
+RAG Response Template: "Audi e-tron GT Quattro (22kW variant) supports AC charging up to 22 kW. A 22 kW wall-mount charger is recommended for fastest charging. Portable options up to 11-16 kW can also be used."
+
+--------------------------------------------------------------------------------
+MANUFACTURER: TESLA
+--------------------------------------------------------------------------------
+
+VEHICLE: Tesla Model Y (Rear Wheel Drive)
+Years: 2025 or latest
+Variants: Model Y RWD (Rear Wheel Drive)
+Battery Capacity: 62.50 kWh
+Maximum AC Charging Speed: 11.0 kW
+Charging Category: Category C (11 kW)
+Recommended Charger Power: 11 kW portable or wall-mount charger
+Future-Proofing: 22 kW charger compatible (auto-adjusts)
+RAG Response Template: "Tesla Model Y RWD supports AC charging up to 11 kW. An 11 kW portable or wall-mount charger is recommended for fastest charging."
+
+VEHICLE: Tesla Model Y (Long Range RWD)
+Years: 2025 or latest
+Variants: Model Y Long Range Rear Wheel Drive (LR RWD)
+Battery Capacity: 83.00 kWh
+Maximum AC Charging Speed: 11.0 kW
+Charging Category: Category C (11 kW)
+Recommended Charger Power: 11 kW portable or wall-mount charger
+Future-Proofing: 22 kW charger compatible (auto-adjusts)
+RAG Response Template: "Tesla Model Y Long Range RWD supports AC charging up to 11 kW. An 11 kW portable or wall-mount charger is recommended for fastest charging."
+
+--------------------------------------------------------------------------------
+MANUFACTURER: MERCEDES-BENZ
+--------------------------------------------------------------------------------
+
+VEHICLE: Mercedes-Benz EQE
+Years: 2025 or latest
+Variants: EQE 500
+Battery Capacity: 90.56 kWh
+Maximum AC Charging Speed: 11.0 kW
+Charging Category: Category C (11 kW)
+Recommended Charger Power: 11 kW portable or wall-mount charger
+Future-Proofing: 22 kW charger compatible (auto-adjusts)
+RAG Response Template: "Mercedes-Benz EQE 500 supports AC charging up to 11 kW. An 11 kW portable or wall-mount charger is recommended for fastest charging."
+
+VEHICLE: Mercedes-Benz EQA
+Years: 2025 or latest
+Variants: EQA
+Battery Capacity: 70.50 kWh
+Maximum AC Charging Speed: 11.0 kW
+Charging Category: Category C (11 kW)
+Recommended Charger Power: 11 kW portable or wall-mount charger
+Future-Proofing: 22 kW charger compatible (auto-adjusts)
+RAG Response Template: "Mercedes-Benz EQA supports AC charging up to 11 kW. An 11 kW portable or wall-mount charger is recommended for fastest charging."
+
+VEHICLE: Mercedes-Benz EQB (350 Variant)
+Years: 2025 or latest
+Variants: EQB 350 Automatic
+Battery Capacity: 66.50 kWh
+Maximum AC Charging Speed: 11.0 kW
+Charging Category: Category C (11 kW)
+Recommended Charger Power: 11 kW portable or wall-mount charger
+Future-Proofing: 22 kW charger compatible (auto-adjusts)
+RAG Response Template: "Mercedes-Benz EQB 350 supports AC charging up to 11 kW. An 11 kW portable or wall-mount charger is recommended for fastest charging."
+
+VEHICLE: Mercedes-Benz EQB (250+ Variant)
+Years: 2025 or latest
+Variants: EQB 250+
+Battery Capacity: 70.50 kWh
+Maximum AC Charging Speed: 11.0 kW
+Charging Category: Category C (11 kW)
+Recommended Charger Power: 11 kW portable or wall-mount charger
+Future-Proofing: 22 kW charger compatible (auto-adjusts)
+RAG Response Template: "Mercedes-Benz EQB 250+ supports AC charging up to 11 kW. An 11 kW portable or wall-mount charger is recommended for fastest charging."
+
+VEHICLE: Mercedes-Benz EQS 580
+Years: 2025 or latest
+Variants: EQS 580
+Battery Capacity: 122.00 kWh
+Maximum AC Charging Speed: 22.0 kW
+Charging Category: Category D (22 kW)
+Recommended Charger Power: 22 kW wall-mount charger
+Alternative Options: 11 kW or 16 kW portable chargers
+RAG Response Template: "Mercedes-Benz EQS 580 supports AC charging up to 22 kW. A 22 kW wall-mount charger is recommended for fastest charging. Portable options up to 11-16 kW can also be used."
+
+VEHICLE: Mercedes-Benz EQS 450
+Years: 2025 or latest
+Variants: EQS 450
+Battery Capacity: 118.00 kWh
+Maximum AC Charging Speed: 22.0 kW
+Charging Category: Category D (22 kW)
+Recommended Charger Power: 22 kW wall-mount charger
+Alternative Options: 11 kW or 16 kW portable chargers
+RAG Response Template: "Mercedes-Benz EQS 450 supports AC charging up to 22 kW. A 22 kW wall-mount charger is recommended for fastest charging. Portable options up to 11-16 kW can also be used."
+
+--------------------------------------------------------------------------------
+MANUFACTURER: MINI COOPER
+--------------------------------------------------------------------------------
+
+VEHICLE: Mini Cooper Countryman Electric
+Years: 2024 or latest
+Variants: Mini Countryman Electric
+Battery Capacity: 64.60 kWh
+Maximum AC Charging Speed: 11.0 kW
+Charging Category: Category C (11 kW)
+Recommended Charger Power: 11 kW portable or wall-mount charger
+Future-Proofing: 22 kW charger compatible (auto-adjusts)
+RAG Response Template: "Mini Cooper Countryman Electric supports AC charging up to 11 kW. An 11 kW portable or wall-mount charger is recommended for fastest charging."
+
+--------------------------------------------------------------------------------
+MANUFACTURER: MARUTI SUZUKI
+--------------------------------------------------------------------------------
+
+VEHICLE: Maruti Suzuki E-Vitara
+Years: 2026 launch plan
+Variants: Information Not Available
+Battery Capacity: Information Not Available
+Maximum AC Charging Speed: Information Not Available
+Charging Category: Information Not Available
+Recommended Charger Power: Not Specified
+RAG Response Template: "Maruti Suzuki has not yet officially shared information regarding the supported charging speeds for the E-Vitara to recommend a charger model. If you require any specific powered charger, you can let us know and we can connect you with a Zevpoint expert."
+
+================================================================================
+SECTION 3: QUICK REFERENCE LOOKUP TABLES
+================================================================================
+
+--------------------------------------------------------------------------------
+3.1 VEHICLES BY AC CHARGING SPEED CATEGORY
+--------------------------------------------------------------------------------
+
+CATEGORY A (3.3 kW AC Charging):
+- Tata Nexon Prime (2019-2022)
+- Tata Tigor EV (2019-2020)
+- MG Comet EV (non-FC variant)
+- Citroen eC3
+- Vayve EVA
+
+CATEGORY B (6-7.5 kW AC Charging - Most Common):
+- Tata Nexon EV MR/LR (2023+)
+- Tata Nexon Max (2022+)
+- Tata Tiago EV
+- Tata Tigor EV (2021+)
+- Tata Punch EV
+- Tata Curvv EV
+- Tata Harrier EV
+- MG Comet EV (FC variant)
+- MG ZS EV (all models)
+- MG Windsor
+- MG Cyberster
+- Mahindra XUV400
+- BYD Atto 3
+- BYD E6 (2023+)
+- BYD Emax 7
+- BYD Seal
+- BYD Sealion 7
+- Hyundai Kona
+- VinFast VF6
+- VinFast VF7
+
+CATEGORY C (11 kW AC Charging):
+- Hyundai Ioniq 5
+- Hyundai Creta EV
+- Kia EV6 (all variants)
+- Kia Carens Clavis EV
+- Volvo XC40 Recharge
+- Volvo EX40
+- Volvo EX30
+- Jaguar I-Pace
+- BMW i5
+- BMW i4
+- BMW iX1
+- BMW iX xDrive50
+- Audi e-tron GT Quattro (11kW variant)
+- Mahindra BE6
+- Mahindra XEV 9E
+- MG M9
+- Tesla Model Y
+- Mercedes-Benz EQE
+- Mercedes-Benz EQA
+- Mercedes-Benz EQB
+- Mini Cooper Countryman Electric
+
+CATEGORY D (22 kW AC Charging):
+- BYD E6 (2021-2022)
+- BMW i7
+- Audi e-tron GT Quattro (22kW optional variant)
+- Mercedes-Benz EQS 580
+- Mercedes-Benz EQS 450
+
+--------------------------------------------------------------------------------
+3.2 VEHICLES BY MANUFACTURER (ALPHABETICAL)
+--------------------------------------------------------------------------------
+
+AUDI: e-tron GT Quattro
+BMW: i4, i5, i7, iX1, iX xDrive50
+BYD: Atto 3, E6, Emax 7, Seal, Sealion 7
+CITROEN: eC3
+HYUNDAI: Creta EV, Ioniq 5, Kona
+JAGUAR: I-Pace
+KIA: Carens Clavis EV, EV6
+MAHINDRA: BE6, XEV 9E, XUV400
+MARUTI SUZUKI: E-Vitara (upcoming)
+MERCEDES-BENZ: EQA, EQB, EQE, EQS 450, EQS 580
+MG: Comet EV, Cyberster, M9, Windsor, ZS EV
+MINI: Countryman Electric
+TATA: Curvv EV, Harrier EV, Nexon (all variants), Punch EV, Tiago EV, Tigor EV
+TESLA: Model Y
+VAYVE MOBILITY: EVA
+VINFAST: VF6, VF7
+VOLVO: EX30, EX40, XC40 Recharge
+
+================================================================================
+SECTION 4: TECHNICAL INFORMATION AND BEST PRACTICES
+================================================================================
+
+4.1 AC CHARGING FUNDAMENTALS
+- AC charging uses alternating current from home/commercial power supplies
+- Vehicle's onboard charger converts AC to DC for battery charging
+- Maximum charging speed limited by vehicle's onboard charger capacity
+- Higher-rated chargers auto-adjust to vehicle's maximum supported speed
+
+4.2 CHARGER COMPATIBILITY PRINCIPLES
+- All EV chargers are backward compatible
+- A 22 kW charger will work with a 3.3 kW vehicle (charges at 3.3 kW)
+- An 11 kW charger will work with a 7 kW vehicle (charges at 7 kW)
+- 7 kW, 7.2kW, 7.4 kW, 7.5 kW are used interachangeably to describe the same charger. These are 32 A chargers and the output power depends on the voltage
+- Always safe to install higher-capacity charger for future-proofing
+
+4.3 INSTALLATION CONSIDERATIONS
+- Portable chargers: Plug-and-play, no installation required
+- Wall-mount chargers: Require professional electrical installation
+- Higher power chargers (11 kW, 22 kW) may require electrical panel upgrades
+- Always consult certified electrician for installation
+
+4.4 CHARGING TIME CALCULATION
+- Charging Time (hours) = Battery Capacity (kWh) ÷ Charging Power (kW)
+- Example: 50 kWh battery ÷ 7 kW charger = ~7 hours (0-100%)
+- Actual times may vary based on battery state, temperature, and vehicle settings
+
+================================================================================
+SECTION 5: CUSTOMER SUPPORT AND ESCALATION
+================================================================================
+
+WHEN TO ESCALATE TO EXPERT:
+1. Vehicle information not available in database
+2. Customer has specific installation requirements
+3. Customer needs assistance with electrical panel assessment
+4. Complex multi-vehicle charging setup
+5. Commercial/fleet charging requirements
+6. Any technical questions beyond standard recommendations
+
+ESCALATION TEMPLATE:
+"The vehicle information is currently not available in our database. Let me connect you with a Zevpoint expert who can further help with your specific charger requirements and provide personalized recommendations."
+
+AVAILABLE VEHICLE INFORMATION DISCLAIMER:
+"Currently, the vehicle charging specifications for [Vehicle Model] are not available. I recommend connecting with a Zevpoint expert who can provide the most accurate charger recommendations for your specific vehicle."
+
+================================================================================
+END OF DOCUMENT
+================================================================================
+
+METADATA:
+Total Vehicles: 73 models + 1 upcoming
+Total Manufacturers: 19
+Charging Categories: 4 (3.3 kW, 7 kW, 11 kW, 22 kW)
+Geographic Focus: Indian EV Market
+Data Currency: December 2025
+Data Provider: Zevpoint EV Charging Solutions
+================================================================================

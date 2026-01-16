@@ -1,0 +1,91 @@
+EV CHARGER RECOMMENDATIONS BY VEHICLE AC CHARGING CAPACITY
+
+CATEGORY A
+MAX AC CHARGING: 3.3 kW
+
+RAG TEMPLATE
+{Car Model} supports AC charging up to 3.3 kW. A 3.6 kW portable charger is the fastest suitable option. Higher-powered chargers can be used for future EVs and will automatically adjust output.
+
+APPLICABLE VEHICLES
+Tata Nexon Prime
+Tata Tigor
+MG Comet (non-FC)
+Citroen eC3
+Vayve EVA
+
+CATEGORY B
+MAX AC CHARGING: 6–7.5 kW
+
+RAG TEMPLATE
+{Car Model} supports AC charging up to 7 kW. A 7.5 kW portable or wall-mount charger is ideal for fastest charging. 11 kW or 22 kW chargers can be used for future-proofing and will automatically adjust output.
+
+APPLICABLE VEHICLES
+Tata Nexon EV (2023 or latest)
+Tata Nexon Max (2022 or latest)
+Tata Tiago
+Tata Punch
+Tata Curvv
+Tata Tigor (2021 or latest)
+MG ZS EV
+MG Windsor
+Mahindra XUV400
+BYD Seal
+Tata Harrier EV
+VinFast VF6
+VinFast VF7
+MG Cyberster
+BYD Atto 3
+BYD E6
+BYD Emax 7
+Tata Curvv EV
+MG Comet FC
+Hyundai Kona
+BYD Sealion 7
+
+CATEGORY C
+MAX AC CHARGING: 11 kW
+
+RAG TEMPLATE
+{Car Model} supports AC charging up to 11 kW. An 11 kW portable or wall-mount charger is recommended for fastest charging. A 22 kW charger can also be used and will automatically limit power.
+
+APPLICABLE VEHICLES
+Hyundai Ioniq 5
+Kia EV6
+Volvo XC40 Recharge
+Volvo EX40
+Volvo EX30
+Jaguar I-Pace
+BMW i5
+BMW i4
+BMW iX1
+BMW iX Drive 50
+Audi e-tron GT Quattro
+Mahindra BE6
+Mahindra XEV 9E
+Hyundai Creta EV
+Kia Carens Clavis EV
+MG M9
+Tesla Model Y
+Mercedes-Benz EQE
+Mercedes-Benz EQA
+Mercedes-Benz EQB
+Mini Cooper Countryman Electric
+
+CATEGORY D
+MAX AC CHARGING: 22 kW
+
+RAG TEMPLATE
+{Car Model} supports AC charging up to 22 kW. A 22 kW wall-mount charger is recommended for fastest charging. Portable chargers up to 11–16 kW can also be used.
+
+APPLICABLE VEHICLES
+BYD e6 (2022 or older)
+BMW i7
+Audi e-tron GT Quattro
+Mercedes-Benz EQS 580
+Mercedes-Benz EQS 450
+
+CATEGORY E
+VEHICLE INFORMATION NOT AVAILABLE
+
+RESPONSE TEMPLATE
+Currently, vehicle charging information is not available. Please connect with a Zevpoint expert for assistance in selecting the right EV charger.

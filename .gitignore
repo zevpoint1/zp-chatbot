@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Azure Functions
+.python_packages/
+local.settings.json
+.funcignore
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+tmp/
+
+# Embedded repositories (separate repos)
+chatbot_ui/
+zp-chatbot-repo/
+
+# Azure
+.azure/
+
+# Claude
+.claude/
+
+# Cache
+.cache/
+*.cache

@@ -1,0 +1,99 @@
+https<!DOCTYPE html>
+<html>
+<head>
+    <title>Chatbot Test - Simple</title>
+    <style>
+        body { font-family: Arial; max-width: 800px; margin: 50px auto; padding: 20px; }
+        .box { border: 1px solid #ccc; padding: 15px; margin: 10px 0; }
+        button { padding: 10px 20px; font-size: 16px; cursor: pointer; background: #4a90e2; color: white; border: none; border-radius: 5px; }
+        input { width: 100%; padding: 10px; font-size: 16px; margin: 10px 0; }
+        #response { background: #f0f0f0; padding: 15px; margin-top: 20px; white-space: pre-wrap; border-radius: 5px; font-family: monospace; }
+        .error { color: red; }
+        .success { color: green; }
+    </style>
+</head>
+<body>
+    <h1>🤖 EV Chatbot - Local Test</h1>
+    
+    <div class="box">
+        <h2>Server Status</h2>
+        <p>Flask Server: <span id="status">Checking...</span></p>
+        <button onclick="checkServer()">Check Server</button>
+    </div>
+    
+    <div class="box">
+        <h2>Ask a Question</h2>
+        <input type="text" id="question" placeholder="e.g., What EV chargers do you have?" value="What are the best EV chargers?">
+        <button onclick="askQuestion()">Send Question</button>
+    </div>
+    
+    <div id="response"></div>
+    
+    <script>
+    const API_URL = "http://localhost:5000/api/HttpTrigger";
+    
+    function updateResponse(text, isError = false) {
+        const div = document.getElementById("response");
+        div.innerHTML = text;
+        div.className = isError ? "error" : "success";
+    }
+    
+    async function checkServer() {
+        updateResponse("Testing connection...");
+        try {
+            const response = await fetch(API_URL, {
+                method: "OPTIONS",
+                headers: { "Content-Type": "application/json" }
+            });
+            if (response.ok) {
+                document.getElementById("status").innerHTML = "✅ Connected";
+                updateResponse("✅ Server is running!", false);
+            } else {
+                updateResponse(`❌ Server responded with status ${response.status}`, true);
+            }
+        } catch (err) {
+            document.getElementById("status").innerHTML = "❌ Disconnected";
+            updateResponse(`❌ Connection failed: ${err.message}`, true);
+        }
+    }
+    
+    async function askQuestion() {
+        const question = document.getElementById("question").value;
+        if (!question.trim()) {
+            updateResponse("❌ Please enter a question", true);
+            return;
+        }
+        
+        updateResponse("🤔 Thinking...");
+        
+        try {
+            const response = await fetch(API_URL, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ message: question })
+            });
+            
+            const data = await response.json();
+            
+            if (response.ok) {
+                let result = `✅ RESPONSE:\n${data.response}\n\n`;
+                if (data.sources && data.sources.length > 0) {
+                    result += `📚 Sources: ${data.sources.join(", ")}\n`;
+                }
+                if (data.confidence) {
+                    result += `📊 Confidence: ${(data.confidence * 100).toFixed(0)}%`;
+                }
+                updateResponse(result, false);
+            } else {
+                updateResponse(`❌ Server error: ${data.error || "Unknown error"}`, true);
+            }
+        } catch (err) {
+            updateResponse(`❌ Request failed: ${err.message}`, true);
+        }
+    }
+    
+    // Check server on page load
+    window.addEventListener("load", checkServer);
+    </script>
+</body>
+</html>

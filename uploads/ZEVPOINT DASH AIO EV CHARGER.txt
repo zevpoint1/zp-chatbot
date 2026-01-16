@@ -1,0 +1,425 @@
+===============================================
+PRODUCT DOCUMENT: Zevpoint Dash AIO EV Charger
+Document ID: ZEVPOINT-DASHAIO-001
+===============================================
+
+PRODUCT IDENTIFICATION
+----------------------
+Product Name: Dash AIO (All-in-One) EV Charger
+Manufacturer: Zevpoint
+Category: All-in-One Dual-Connector Portable AC EV Charger
+Power Rating: 7.5 kilowatts (also referred to as 7.2 kW)
+Model Type: Next-generation portable charger with dual-connector system
+Price: Rs. 24,999.00 (inclusive of all taxes)
+Product Tagline: Fast and Versatile Charging
+Market Position: Maximum flexibility, power, and convenience in one compact solution
+
+PRODUCT DESCRIPTION
+-------------------
+The Zevpoint Dash AIO is a next-generation 7.5 kilowatt portable electric vehicle charger designed to deliver maximum flexibility, power, and convenience — all in one compact solution. Built for life on the move, the Dash AIO redefines charging versatility with its innovative dual-connector system that provides unprecedented flexibility for EV owners.
+
+The Dash AIO represents an evolution of the standard Dash charger, adding all-in-one versatility through its dual-connector capability. This charger is perfect for users who need the simplicity of the standard Dash but want additional flexibility to charge in different locations with different power socket types without carrying multiple adapters or chargers.
+
+The Dash AIO is lightweight, robust, and compatible with a wide range of electric vehicles. It's perfect for home garages, workplace parking, or road trips where you may encounter different types of electrical outlets. The charger is equipped with advanced safety features and engineered for reliability, delivering a secure, efficient, and future-ready charging experience that puts complete control back in your hands.
+
+Like the standard Dash, the Dash AIO is a non-smart charger without WiFi or Bluetooth connectivity. This simplicity appeals to users who want reliable fast charging without the complexity of app-based features. The focus is on robust hardware, dual-connector flexibility, and straightforward operation.
+
+UNIQUE DUAL-CONNECTOR SYSTEM
+-----------------------------
+The Dash AIO's revolutionary dual-connector system provides exceptional versatility:
+
+Two Connector Types Included:
+The Dash AIO comes with two different power connectors that can be swapped based on your charging location and available power socket type:
+
+16 Ampere Type M 3-Pin Standard Plug:
+This is the standard Indian household plug configuration (Type M, also known as South African plug type). It works with regular 16 ampere household electrical sockets found in virtually every home, office, and building in India. This plug delivers up to 3.6 kilowatt charging power with adjustable current from 8A to 16A. This connector is ideal for overnight charging at home, charging at friend's or relative's homes, hotel rooms during travel, or any location with standard household electrical outlets.
+
+32 Ampere CEE Industrial Plug:
+This is a professional-grade industrial plug configuration designed for high-power applications. It works with dedicated 32 ampere industrial sockets and delivers the full 7.5 kilowatt fast charging power with adjustable current from 8A to 32A. This connector is ideal for dedicated home charging installations with proper wiring, workplace charging locations with industrial power, service centers or commercial facilities, and any location with robust electrical infrastructure.
+
+How the Dual-Connector System Works:
+The Dash AIO has a modular plug interface where either connector can be attached to the main charger body. Users simply swap connectors based on the available power socket at their charging location. When the 16A plug is connected, the charger automatically limits maximum current to 16A to protect the household socket. When the 32A plug is connected, the charger allows up to 32A current for full 7.5 kW fast charging.
+
+Connector Swapping:
+Swapping between connectors is quick and simple. Disconnect charger from power socket, press release mechanism on current connector, remove connector from charger body, align and insert desired connector, push firmly until it clicks into place, verify secure connection, and connect to appropriate power socket. The entire swap process takes less than 30 seconds and requires no tools.
+
+Why Dual-Connector is Revolutionary:
+Traditional portable chargers include only one plug type, meaning users must purchase separate chargers or expensive adapter accessories to work with different socket types. The Dash AIO eliminates this problem by including both plug types in one package. This is particularly valuable in India where homes may have standard 16A sockets while workplaces may have industrial 32A sockets. With Dash AIO, one charger handles all scenarios.
+
+ELECTRICAL SPECIFICATIONS
+--------------------------
+The Dash AIO charger operates with flexible electrical parameters depending on connected plug type:
+
+Maximum Power Output: 7.5 kilowatts (when using 32A CEE industrial plug)
+Standard Power Output: 3.6 kilowatts (when using 16A standard plug)
+
+32A Plug Configuration:
+- Maximum Current: 32 amperes
+- Current Adjustment: Switchable from 8A to 32A
+- Input Voltage: 230 volts AC single-phase
+- Power Range: Approximately 1.6 kW to 7.5 kW depending on current setting
+
+16A Plug Configuration:
+- Maximum Current: 16 amperes
+- Current Adjustment: Switchable from 8A to 16A
+- Input Voltage: 230 volts AC single-phase
+- Power Range: Approximately 1.6 kW to 3.6 kW depending on current setting
+
+
+- Phase Configuration: Single-phase electrical system
+- Connector Standard: Type 2 (IEC 62196-2) to vehicle
+- Charging Cable: 5 meter length Type 2 cable with integrated connector
+
+The intelligent current adjustment capability allows the Dash AIO to optimize charging for available electrical capacity. Users can reduce current when socket capacity is uncertain or when other appliances are operating simultaneously on the same circuit.
+
+PHYSICAL CHARACTERISTICS
+-------------------------
+The Dash AIO has the following physical dimensions and properties:
+
+Size: 220 millimeters length by 110 millimeters width by 50 millimeters height
+Weight: 3.5 kilograms total weight (including both connectors)
+Form Factor: Compact rectangular design with integrated control panel and display screen
+Build Quality: Durable housing with robust construction for long-term use
+Environmental Protection: IP66 rating for water jet resistance and complete dust protection
+Display: Integrated LED display screen showing real-time charging parameters
+Color: Professional finish suitable for both home and commercial environments
+Portability: Lightweight design with ergonomic form factor for easy carrying
+
+INCLUDED ACCESSORIES AND PACKAGE CONTENTS
+------------------------------------------
+The Dash AIO complete all-in-one package includes:
+
+Primary Components:
+- Dash AIO charger unit with integrated 5 meter Type 2 cable
+- 16 ampere Type M 3-pin standard plug connector
+- 32 ampere CEE industrial plug connector
+- 32 ampere CEE industrial socket for installation (the matching socket for the 32A plug)
+
+Both plug connectors are included in the package, providing complete flexibility without requiring separate purchases. This represents significant value as purchasing these connectors separately would cost additional money.
+
+Installation and Storage Accessories:
+- Wall mounting bracket for permanent installation option
+- Premium carry bag for portable transportation and protection
+- User manual with detailed instructions for both connector types
+- Quick start guide for first-time setup
+- Cable management accessories for organized storage
+- Installation guide covering both 16A and 32A configurations
+
+The inclusion of both connectors plus the 32A socket makes the Dash AIO package comprehensive and ready for any charging scenario out of the box.
+
+DISPLAY SCREEN FEATURES
+------------------------
+The Dash AIO features an integrated LED display screen that provides real-time charging information:
+
+Display Parameters Shown:
+- Input voltage from electrical supply (volts)
+- Charging current being delivered (amperes)
+- Instantaneous power output (kilowatts)
+- Charging session duration (hours and minutes)
+- Total energy delivered in current session (kilowatt-hours)
+- Charging status indicators (charging active, standby, fault)
+- Current setting selection display
+- Fault codes and error messages when issues occur
+- Temperature monitoring indicators
+- Connector type detection (shows whether 16A or 32A plug is connected)
+
+Display Benefits:
+The integrated display eliminates need for smartphone apps or external monitoring devices. Users can verify proper charging operation at a glance by viewing the display. The screen provides confidence that charging is proceeding normally and displays the detected connector type so users know charging parameters are appropriate. Display helps troubleshoot any issues by showing fault codes.
+
+The display is clearly visible in various lighting conditions including bright sunlight and low light, with LED backlighting for night visibility. Display information updates in real-time allowing users to monitor changes in charging parameters.
+
+SAFETY AND PROTECTION FEATURES
+-------------------------------
+The Dash AIO incorporates multiple layers of comprehensive safety protection:
+
+Overload Protection: Prevents damage from excessive current draw beyond rated capacity for connected plug type. Automatically reduces current or disconnects if overload detected.
+
+Short Circuit Protection: Instant automatic disconnection in short circuit fault conditions to prevent fire hazards and equipment damage.
+
+Leakage Protection: Advanced residual current detection prevents electric shock hazards by monitoring for current leakage to ground.
+
+Ground Protection: Continuous earth monitoring ensures proper grounding connection is maintained. Alerts user if ground connection is lost.
+
+Over-Temperature Protection: Thermal monitoring system prevents damage from excessive heat buildup. Reduces charging current or stops charging if temperature exceeds safe limits.
+
+Overvoltage Protection: Guards against input voltage spikes and surges from electrical grid that could damage charger or vehicle.
+
+Undervoltage Protection: Prevents operation when input voltage drops below safe levels, protecting against brownout conditions.
+
+Water Resistance: IP66 rating provides protection against powerful water jets from any direction. Suitable for outdoor use in rain and wet conditions.
+
+Dust Resistance: IP66 complete dust sealing prevents particle ingress even in very dusty environments.
+
+Cable Protection: Integrated cable strain relief prevents damage from repeated bending and pulling.
+
+Connector Protection: Automatic connector locking ensures secure connection throughout charging session.
+
+Intelligent Plug Detection: Charger automatically detects which plug type (16A or 32A) is connected and limits current accordingly, preventing accidental overload of lower-rated sockets.
+
+The comprehensive safety features make the Dash AIO suitable for use in various environments and weather conditions while maintaining electrical safety standards.
+
+INSTALLATION REQUIREMENTS
+--------------------------
+Installation requirements vary based on which connector you plan to use:
+
+For 16A Standard Plug Operation:
+Power Socket: Standard 16 ampere Type M 3-pin household socket (most common socket type in India)
+Wiring: Existing household wiring typically adequate (usually 2.5 to 4 square millimeter cable)
+MCB: 20 ampere single-pole MCB on circuit
+Power Output: Up to 3.6 kW
+Earthing: Proper earthing mandatory
+SPD: Surge Protection Device recommended
+Installation: Works with existing household electrical infrastructure in most homes. No special electrical work required beyond ensuring proper earthing.
+
+For 32A CEE Industrial Plug Operation:
+Power Socket: Dedicated 32 ampere CEE industrial socket (included in package, requires professional installation)
+Wiring: Minimum 6 square millimeter 3-core copper cable. In hot environments consider 10 square millimeter copper cable.
+MCB: 40 ampere double-pole MCB
+Power Output: Up to 7.5 kW
+Earthing: Proper earthing mandatory with resistance below 5 ohms
+SPD: Surge Protection Device recommended
+RCB: Residual Current Breaker recommended
+Voltage Stabilizer: If experiencing frequent power fluctuations, use appropriate voltage stabilizer (8-10 kVA capacity)
+Installation: Requires dedicated circuit installation by qualified electrician.
+
+General Installation Considerations:
+The Dash AIO's dual-connector system allows progressive installation. Users can start by using the 16A plug with existing household sockets for basic overnight charging at 3.6 kW. When ready for faster charging, have an electrician install the 32A socket with proper wiring to unlock full 7.5 kW fast charging capability. This staged approach allows purchasing one charger now and upgrading electrical infrastructure later as budget permits.
+
+Wall Mounting Installation:
+Use included mounting bracket for permanent wall installation. Choose location within 5 meters of vehicle parking spot. Ensure location has adequate ventilation. Protect from direct harsh weather if possible (though IP66 allows outdoor installation). Mount at convenient height for cable management and connector swapping.
+
+CHARGING PERFORMANCE AND SPEED
+-------------------------------
+The Dash AIO delivers variable charging performance based on connector used:
+
+Maximum Performance - 32A Plug Mode (7.5 kW):
+At full 7.5 kilowatt output using the 32A CEE industrial plug, the Dash AIO can add approximately 40 to 50 kilometers of driving range per hour of charging for most modern electric vehicles. Actual range added depends on vehicle efficiency, battery condition, ambient temperature, and driving patterns.
+
+Standard Performance - 16A Plug Mode (3.6 kW):
+At 3.6 kilowatt output using the 16A standard household plug, the Dash AIO can add approximately 25 to 30 kilometers of driving range per hour of charging. This is suitable for overnight charging scenarios.
+
+Comparison to Other Charging Options:
+With 32A plug, Dash AIO charges more than twice as fast as standard 3.6 kW portable chargers, matching the Aveo Pro and standard Dash performance. With 16A plug, Dash AIO provides basic overnight charging capability matching entry-level portable chargers.
+
+Current Adjustment Impact:
+When operating at reduced current settings, charging speed is proportionally reduced. At 16A on 32A plug: approximately 3.7 kW. At 24A on 32A plug: approximately 5.5 kW. Users can balance charging speed against available electrical capacity by adjusting current.
+
+
+VERSATILITY AND USE CASES
+--------------------------
+The Dash AIO's dual-connector system makes it suitable for the widest range of charging scenarios:
+
+Progressive Home Installation:
+Start using 16A plug with existing household sockets for overnight charging. When ready for faster charging, install 32A socket with proper wiring. One charger serves both basic and fast charging needs as electrical infrastructure improves.
+
+Travel Flexibility:
+Carry Dash AIO when traveling with confidence it will work anywhere. At locations like hotels, use 16A plug with room outlet for overnight charging. At destinations with robust electrical systems use 32A plug for faster charging. One charger handles all travel scenarios.
+
+Multi-Location Charging:
+Use 16A plug at home for overnight charging. Use 32A plug at workplace where industrial power is available. Move charger between locations using appropriate plug for each. No need to buy separate chargers for home and work.
+
+Friend and Family Visits:
+Easily charge at friend's or relative's homes using 16A plug with their standard household outlets. No need for them to have special charging infrastructure installed.
+
+Emergency Backup:
+Keep as backup charger. 16A plug works virtually anywhere as emergency charging solution. 32A plug provides fast charging when dedicated infrastructure available.
+
+Rental Properties:
+Ideal for renters who cannot install permanent charging infrastructure. Use 16A plug initially. If landlord allows 32A socket installation, unlock fast charging. Take charger when moving.
+
+Fleet and Service Vehicles:
+Service professionals who need to charge at customer locations or various job sites benefit from dual-connector flexibility to work with whatever power is available.
+
+Budget-Conscious Fast Charging:
+For users who want 7.5 kW fast charging capability but don't need or want smart features like WiFi and apps. Dash AIO costs significantly less than smart chargers while providing dual-connector versatility.
+
+PRODUCT COMPARISON WITH OTHER ZEVPOINT CHARGERS
+------------------------------------------------
+The Dash AIO differs from other Zevpoint chargers in several key aspects:
+
+Dash AIO vs Standard Dash:
+- Connectors: Dash AIO has dual connectors (16A + 32A), standard Dash has single 32A connector only
+- Versatility: Dash AIO works with household and industrial sockets, standard Dash requires industrial socket
+- Control: Both are controlled using touch buttons
+- Display: Both have integrated LED displays
+- Power: Both deliver 7.5 kW maximum with 32A
+- Socket Included: Both include 32A socket in package
+- Use Case: Dash AIO for maximum flexibility, standard Dash for dedicated fast charging only
+
+Dash AIO vs Aveo 3.6 Base:
+- Power: Dash AIO delivers up to 7.5 kW versus 3.6 kW (double the speed with 32A plug)
+- Connectors: Dash AIO has swappable dual connectors, Aveo 3.6 has fixed 16A plug
+- Flexibility: Dash AIO works at both 3.6 kW and 7.5 kW, Aveo 3.6 limited to 3.6 kW
+- Smart Features: Both are controlled manually via touch buttons
+- Display: Dash AIO has display, Aveo 3.6 does not
+- Use Case: Dash AIO for users wanting flexibility to upgrade to fast charging, Aveo 3.6 for basic portable needs
+
+Dash AIO vs Aveo 3.6 Plus:
+- Power: Dash AIO delivers up to 7.5 kW versus 3.6 kW (double the speed)
+- Smart Features: Aveo 3.6 Plus has WiFi/Bluetooth/app, Dash AIO is controlled manually
+- Connectors: Dash AIO has dual connectors, Aveo 3.6 Plus has single 16A plug
+- Display: Both have displays
+- Use Case: Dash AIO for fast charging without smart features, Aveo 3.6 Plus for smart slow charging
+
+Dash AIO vs Aveo Pro:
+- Power: Both deliver 7.5 kW maximum (same fast charging speed)
+- Smart Features: Aveo Pro has WiFi/Bluetooth/app, Dash AIO is controlled manually
+- Connectors: Dash AIO has dual connectors (16A + 32A), Aveo Pro has single 32A connector
+- Display: Both have displays showing real-time parameters
+- Versatility: Dash AIO's dual connectors provide more flexibility despite lacking smart features
+- Use Case: Dash AIO for non-smart fast charging with connector flexibility, Aveo Pro for smart fast charging
+
+Dash AIO vs Spyder AIO:
+- Power: Spyder AIO delivers up to 16 kW (three-phase) versus Dash AIO 7.5 kW (single-phase)
+- Connectors: Spyder AIO has three plug types, Dash AIO has two
+- Phases: Spyder AIO works single and three-phase, Dash AIO single-phase only
+- Display: Spyder AIO has color LCD touchscreen, Dash AIO has LED display
+- Smart Features: Neither has WiFi/Bluetooth, but Spyder has touchscreen scheduling
+- Use Case: Dash AIO for affordable dual-connector fast charging, Spyder AIO for premium multi-phase versatility
+
+Key Differentiation:
+The Dash AIO occupies a unique position in Zevpoint's lineup as the most affordable charger with dual-connector versatility. It appeals to users who:
+- Want fast charging (7.5 kW) with connector flexibility but don't need smart features
+- Value simplicity and reliability over app-based connectivity
+- Need to charge in different locations with different socket types
+- Want progressive upgrade path from household socket to industrial socket
+- Appreciate versatility but don't want to pay premium for three-phase capability
+- Prefer non-smart charger without dependency on WiFi and smartphones
+- Want "all-in-one" versatility without paying for full Spyder AIO feature set
+
+CONNECTOR SWAPPING DETAILED GUIDE
+----------------------------------
+Step-by-step instructions for swapping between 16A and 32A connectors:
+
+Before Swapping:
+Ensure charger is disconnected from power socket and not actively charging. Allow charger to cool down if it was recently used for extended charging session. Have both connectors available (stored in carry bag when not in use).
+
+Removing Current Connector:
+Locate the connector release mechanism on the charger body where plug attaches. Press or turn the release mechanism according to charger design (consult user manual for specific model). While holding release, gently pull connector straight out from charger body. Do not twist or bend connector during removal. Store removed connector in carry bag for protection.
+
+Installing Desired Connector:
+Select the connector appropriate for your target power socket (16A for household, 32A for industrial). Align connector pins with charger body socket. Ensure proper orientation (connector will only fit one way). Push connector firmly straight into charger body. You should hear or feel a click when connector is fully seated and locked. Gently tug connector to verify it is securely locked in place.
+
+After Installation:
+Inspect connection point to ensure good fit with no gaps. Check that connector pins are clean and undamaged. Plug charger into appropriate power socket. Verify on display that charger recognizes connector type. Begin charging as normal.
+
+Important Safety Notes:
+Never swap connectors while charger is plugged into power socket or while actively charging. Never force connector if it doesn't fit easily - check orientation. Always verify secure locking before using charger. Keep unused connector clean and dry in carry bag.
+
+CURRENT ADJUSTMENT OPERATION
+-----------------------------
+The Dash AIO features manual current adjustment:
+
+Available Current Settings:
+With 32A Plug: Typically offers switchable current settings from 6A to 32A, often at intervals like 6A,8A, 10A, 13A, 16A, 20A, 24A, 28A, 32A.
+With 16A Plug: Current is automatically limited to maximum 16A. Settings typically 6A, 10A, 13A, 16A.
+
+How to Adjust Current:
+Current adjustment is controlled via physical buttons or switches on the charger unit. The current setting is displayed on the integrated LED screen. Users can change current setting before starting a charging session or during charging if needed.
+
+When to Reduce Current:
+Use lower current settings when home electrical circuit cannot support full current safely, other high-power appliances operating simultaneously (air conditioning, water heaters, cooking appliances), socket capacity is uncertain or socket is older, experiencing circuit breaker trips at higher current, voltage drops noticeably under load (lights dimming), or electrical wiring quality is uncertain.
+
+
+
+TECHNICAL SPECIFICATIONS SUMMARY
+---------------------------------
+Complete technical specifications for the Dash AIO charger:
+
+Electrical - 32A Plug Mode:
+- Rated Power: 7.5 kW
+- Maximum Current: 32A
+- Current Range: 8A to 32A adjustable
+- Input Voltage: 230V AC
+- Phase: Single phase
+
+Electrical - 16A Plug Mode:
+- Rated Power: 3.6 kW
+- Maximum Current: 16A
+- Current Range: 6A to 16A adjustable
+- Input Voltage: 230V AC
+- Phase: Single phase
+
+Universal Specifications:
+- Connector to Vehicle: Type 2 (IEC 62196-2)
+- Cable Length: 5 meters
+- Plug Types Included: 16A Type M 3-pin + 32A CEE industrial
+- Socket Included: 32A CEE industrial socket
+
+Physical:
+- Dimensions: 220mm (L) x 110mm (W) x 50mm (H)
+- Weight: 3.5 kg (with both connectors)
+- Ingress Protection: IP66
+- Display: Integrated LED screen
+- Controls: Physical buttons
+
+Safety:
+- Overload Protection: Yes
+- Short Circuit Protection: Yes
+- Leakage Protection: Yes
+- Ground Protection: Yes
+- Over-Temperature Protection: Yes
+- Overvoltage Protection: Yes
+- Undervoltage Protection: Yes
+- Water Resistance: IP66
+- Dust Resistance: IP66
+- Plug Detection: Automatic connector type detection
+
+Compatibility:
+- Vehicle Type: All EVs with Type 2 inlet
+- Charging Standard: IEC 62196-2
+- Region: India and international markets
+
+Package Includes:
+- Dash AIO charger with 5m cable
+- 16A Type M 3-pin plug connector
+- 32A CEE industrial plug connector
+- 32A CEE industrial socket
+- Wall mounting bracket
+- Carry bag
+- User manual
+- Quick start guide
+
+CERTIFICATIONS AND COMPLIANCE
+------------------------------
+The Dash AIO meets international safety and quality standards:
+
+CE Certified: Complies with European safety requirements
+TUV Certified: Independently tested for safety and quality
+Indian Standards: Meets Indian electrical safety standards
+Type Approval: Type 2 connector meets IEC 62196-2 standard
+
+
+
+COMPETITIVE ADVANTAGES
+----------------------
+The Dash AIO offers unique advantages:
+
+Dual-Connector Versatility: Only affordable charger with both 16A household and 32A industrial connectors included
+
+Progressive Upgrade Path: Start with 16A, upgrade to 32A later - one charger grows with infrastructure
+
+No Smart Complexity: Simple reliable operation without WiFi/Bluetooth/apps for users who prefer manual control
+
+Best Value Dual-Connector: Most affordable way to get connector flexibility
+
+Complete Package: Both connectors plus 32A socket included - no additional purchases
+
+Fast Charging Capable: Full 7.5 kW when using 32A connector
+
+Universal Compatibility: Works virtually anywhere with 16A plug, works with industrial power with 32A plug
+
+Integrated Display: Real-time monitoring without smartphone
+
+IP66 Protection: Reliable outdoor operation
+
+Proven Platform: Based on trusted Dash design with added versatility
+
+Budget-Friendly AIO: All-in-one versatility without premium Spyder AIO price
+
+
+
+
+===============================================
+END OF DOCUMENT
+===============================================

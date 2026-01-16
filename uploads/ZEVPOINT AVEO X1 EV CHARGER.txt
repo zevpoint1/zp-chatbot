@@ -1,0 +1,471 @@
+===============================================
+PRODUCT DOCUMENT: Zevpoint Aveo X1 EV Charger
+Document ID: ZEVPOINT-AVEOX1-001
+===============================================
+
+PRODUCT IDENTIFICATION
+----------------------
+Product Name: Aveo X1 
+Manufacturer: Zevpoint
+Category: Smart Portable AC EV Charger - Three Phase Capable
+Power Rating: 11 kilowatts
+Model Series: Aveo Premium Series
+Price: Rs. 29,999.00 (inclusive of all taxes)
+
+
+PRODUCT DESCRIPTION
+-------------------
+The Zevpoint Aveo X1 is a premium smart portable AC electric vehicle charger with 11 kilowatt power output. This charger takes portable EV charging to the next level with significantly faster charging capability compared to standard portable chargers.
+
+The Aveo X1 is built for EV users who want faster, safer, and smarter charging—whether at home, or any other location with dedicated power setup. It is designed for both single-phase and three-phase electrical systems, making it the most versatile portable charger in the Zevpoint range. The three-phase capability enables the full 11 kW power output, while the charger can also operate on single-phase power at reduced capacity of 3.6kW.
+
+The Aveo X1 features comprehensive smart connectivity with WiFi and Bluetooth, full app control through the Zevpoint Home app, integrated digital display screen for real-time monitoring, and IP66 environmental protection rating. The charger includes professional-grade safety features and is suitable for users with high daily driving distances who need maximum portable charging speed.
+
+The Aveo X1 is particularly valuable for users who own electric cars which support up to 11kW charging speed & have access to three-phase electrical supply at home or workplace, as this unlocks the full charging potential. For users without three-phase power, the Aveo X1 can still operate on single-phase at 3.6 kW, providing flexibility across different electrical installations.
+
+SMART CONNECTIVITY FEATURES
+---------------------------
+The Aveo X1 is equipped with advanced smart charging capabilities:
+
+WiFi Connectivity: Built-in WiFi module enables remote monitoring and control from anywhere with internet connection. Users can start, stop, and monitor charging sessions remotely when away from the vehicle.
+
+Bluetooth Connectivity: Local Bluetooth connection for device pairing, initial setup, and offline control when WiFi is unavailable or for local management without internet dependency.
+
+Mobile App Integration: Full compatibility with Zevpoint Home app available on both Apple App Store and Google Play Store for iOS and Android devices.
+
+Smart App Features and Capabilities:
+- Remote control and monitoring of charging sessions from smartphone anywhere in the world
+- Real-time tracking of charging status including current, voltage, power, and state of charge
+- Advanced scheduling system to program charging start and stop times for off-peak electricity rates
+- Complete charging history with detailed session records showing energy usage, duration, and costs
+- Adjustable current settings controllable through the app for load management
+- Push notifications for charging status updates, completion alerts, and fault warnings
+- Energy cost tracking and consumption analysis with graphical reports
+- Multiple charger management if you own several Zevpoint devices across different locations
+- Firmware updates over-the-air to add new features and improvements
+- User profiles and access control for shared chargers in different scenarios
+
+App Setup Process: Download the Zevpoint Home app from the Apple App Store or Google Play Store, create a new account or sign in with existing Zevpoint account credentials, enable Bluetooth and WiFi on your smartphone, power on the Aveo X1 charger, use the app to scan and connect to the charger via Bluetooth, configure WiFi network settings through the app interface, complete the pairing process, and begin using all smart features.
+
+ELECTRICAL SPECIFICATIONS
+--------------------------
+The Aveo X1 charger operates with the following electrical parameters:
+
+Power Output: 11 kilowatts maximum output (when using three-phase power supply)
+Maximum Current: 16 amperes per phase on three-phase supply
+Input Voltage: 400 to 440 volts AC (three-phase system)
+Single Phase Operation: Can also operate on single-phase 230V supply at reduced power (approximately 3.6 kW)
+Phase Configuration: Three-phase electrical system for full power, single-phase compatible at reduced power
+Current Adjustment: Infinitely adjustable current control to any desired level between minimum 8A and 16A per phase. This sophisticated current control allows precise power management based on available electrical capacity.
+Connector Standard: Type 2 connector following IEC 62196 international standard
+Socket Type: 16 ampere 5-pin industrial socket for three-phase connection (included with packaging)
+Charging Cable: 5 meters main cable length plus 1 meter extension capability (total 6 meters when extended)
+
+The Aveo X1's three-phase capability is its distinguishing feature. Three-phase electrical supply is common in commercial buildings, industrial facilities, and some residential properties with high power requirements. The 11 kW output on three-phase allows significantly faster charging than single-phase portable chargers limited to 7.5 kW.
+
+PHYSICAL CHARACTERISTICS
+-------------------------
+The Aveo X1 has the following physical dimensions and properties:
+
+Size: 297 millimeters length by 106 millimeters width by 54 millimeters height
+Weight: 3.5 kilograms total weight (same as Aveo Pro despite higher power rating)
+Form Factor: Compact rectangular design with integrated digital display screen and control panel
+Build Quality: Premium robust housing with professional-grade construction for demanding use
+Environmental Protection: IP66 rating for superior water immersion protection and complete dust sealing
+Display: Integrated high-resolution LED display screen showing real-time charging parameters
+Color: Premium finish with professional appearance suitable for both residential and commercial environments
+Portability: Despite high power rating, maintains compact portable form factor for easy transport
+
+INCLUDED ACCESSORIES AND PACKAGE CONTENTS
+------------------------------------------
+The Aveo X1 complete package includes the following items:
+- Aveo X1 charger unit with integrated 5-meter Type 2 cable plus 1-meter power extension
+- 16 ampere 5-pin industrial socket for three-phase installation
+- Wall mounting bracket for permanent installation at home or workplace
+- Premium carry bag for portable transportation and protection during travel
+- User manual with detailed installation instructions covering both three-phase and single-phase setup
+- Quick start guide for first-time setup and smart app pairing
+- Cable management accessories for organized storage
+- Installation guide specifically for three-phase electrical requirements
+
+The inclusion of the 16A 5-pin three-phase socket is essential as these specialized sockets are not commonly available and the included socket ensures professional three-phase connection.
+
+DISPLAY SCREEN FEATURES
+------------------------
+The Aveo X1 features an advanced integrated digital display screen that provides comprehensive real-time charging information:
+
+Display Parameters Shown:
+- Input voltage from electrical supply on all three phases (volts)
+- Charging current being delivered per phase (amperes)
+- Total instantaneous power output (kilowatts)
+- Charging session duration with precise timing (hours, minutes, seconds)
+- Total energy delivered in current session (kilowatt-hours)
+- Cumulative lifetime energy delivered (total kWh charged)
+- Charging status indicators (charging active, standby, completed, fault)
+- Current setting selection display showing selected amperage
+- Fault codes and detailed error messages when issues occur
+- Temperature monitoring indicators for charger internal temperature
+- Phase balance indicators showing load across three phases
+- Power factor display
+- Network connectivity status (WiFi connected, Bluetooth active)
+
+Display Benefits:
+The high-resolution display provides professional-grade monitoring without requiring smartphone access. Users can verify proper three-phase operation by observing balanced current across all phases. The screen provides confidence that charging is proceeding normally at full 11 kW power. Display helps troubleshoot installation issues such as missing phases or voltage imbalances.
+
+The display is clearly visible in all lighting conditions including bright outdoor sunlight and low light environments, with intelligent LED backlighting that adjusts brightness automatically. Display information updates in real-time with sub-second refresh rates allowing users to monitor dynamic changes during charging.
+
+SAFETY AND PROTECTION FEATURES
+-------------------------------
+The Aveo X1 incorporates multiple layers of advanced safety protection systems:
+
+Thermal Protection: Multi-zone overheat prevention system with temperature monitoring on critical components prevents damage from excessive heat buildup during extended high-power charging sessions
+
+Electrical Protection: Instantaneous short circuit protection with automatic disconnection in fault conditions prevents fire hazards and equipment damage
+
+Overcurrent Protection: Per-phase current monitoring prevents damage from excessive current draw beyond rated capacity on any individual phase
+
+Overvoltage Protection: Guards against input voltage spikes and power surges from the electrical grid on all three phases
+
+Undervoltage Protection: Prevents operation when input voltage drops below safe levels on any phase, protecting against brownout conditions
+
+Phase Imbalance Protection: Monitors three-phase balance and reduces power or stops charging if significant phase imbalance is detected, protecting both charger and vehicle
+
+Ground Fault Protection: Continuous earth monitoring with residual current detection prevents electric shock hazards
+
+Leakage Protection: Advanced residual current device (RCD) functionality detects minute current leakage to ground
+
+Weather Protection: IP66 water immersion protection allows operation in heavy rain, wet conditions, and temporary water exposure
+
+Environmental Protection: IP66 complete dust sealing prevents particle ingress in very dusty environments
+
+Smart Monitoring: App-based safety oversight provides additional protection layer through remote monitoring and fault notifications
+
+The comprehensive safety features make the Aveo X1 suitable for demanding commercial use and outdoor installation in challenging environmental conditions.
+
+INSTALLATION REQUIREMENTS
+--------------------------
+To safely install and operate the Aveo X1 at its full 11 kilowatt capacity, the following requirements must be met:
+
+Power Supply Requirements - Three Phase Operation:
+A dedicated three-phase electrical supply with 400-440V line-to-line voltage is required for full 11 kW operation. Three-phase power consists of three live wires (R, Y, B or L1, L2, L3), one neutral wire, and one earth wire. The supply must be balanced with equal voltage across all three phases. Three-phase supply is typically available in commercial buildings, industrial facilities, agricultural installations, and some high-power residential properties. Most standard Indian homes have only single-phase supply and would require electrical service upgrade to add three-phase for full 11 kW operation.
+
+Power Socket Requirements:
+A dedicated 16 ampere 5-pin industrial socket is required for three-phase connection. The Aveo X1 package includes this specialized socket. The socket must be installed by a qualified electrician with experience in three-phase installations. Socket pin configuration is: 3 phase wires, 1 neutral wire, 1 earth wire. The socket circuit should be dedicated exclusively to the EV charger with no other loads sharing the circuit. Socket installation must follow local electrical codes and three-phase wiring standards.
+
+Electrical Wiring Requirements - Three Phase:
+Use a minimum of 4 square millimeter, 5-core copper cable for three-phase installations. The five cores are: Three phase wires (R, Y, B), one neutral wire, and one earth wire. Cable insulation should be rated for at least 90 degrees Celsius operating temperature with UV resistance for outdoor runs. In hot climate regions, enclosed spaces with limited ventilation, or long cable runs, upgrade to 6 square millimeter copper cable to handle heat dissipation better and reduce voltage drop. Cable run length should be minimized to reduce voltage drop across three phases. For cable runs exceeding 30 meters, consult a qualified electrician for appropriate cable sizing calculations.
+
+Earthing System Requirements:
+Proper earthing (grounding) is absolutely mandatory for safe operation of the Aveo X1 at high power levels. The power socket must be connected to a reliable earth ground. The earthing system must comply with local electrical safety codes and national electrical regulations for three-phase installations. Earth electrode should be inspected and tested annually to ensure adequate grounding is maintained. Three-phase systems require robust earthing due to higher power levels.
+
+Circuit Protection Requirements - Three Phase:
+Install a 20 ampere four-pole MCB (Miniature Circuit Breaker) on the dedicated three-phase charger circuit. The four-pole MCB provides simultaneous disconnection of all three phase wires and neutral during faults. Additionally install a three-phase Surge Protection Device (SPD) to protect against voltage spikes on all phases from electrical grid and lightning-induced surges. The SPD should be rated for Type 2 protection with appropriate voltage clamping levels for 400V three-phase systems. Consider installing a three-phase RCCB (Residual Current Circuit Breaker) for additional leakage protection.
+
+Voltage Stabilizer Considerations:
+If your location experiences frequent three-phase power fluctuations, phase imbalance, or voltage instability, use an appropriate three-phase voltage stabilizer. The stabilizer should be rated for at least 12 kVA capacity (preferably 15 kVA) to handle the Aveo X1's power requirements with adequate safety margin. Three-phase stabilizers are more critical than single-phase as they also balance voltage across phases. This is particularly important in areas with unreliable three-phase supply or where one phase is heavily loaded.
+
+
+Network Requirements for Smart Features:
+WiFi network connectivity is required at installation location for full smart features. The charger should be positioned within reliable WiFi signal range of wireless router. The Aveo X1 supports 2.4 GHz WiFi networks (verify router compatibility). Ensure WiFi network has stable internet connectivity for remote access and cloud-based app features. Bluetooth connection works without WiFi for local control.
+
+Installation Location Considerations:
+The Aveo X1 can be permanently wall-mounted using included bracket or kept portable for travel use. For wall mounting, choose a location that provides: proximity within 5-6 meters to vehicle charging port when parked, protection from direct harsh weather if possible (though IP66 rating allows outdoor installation), adequate ventilation around charger unit especially important for high-power operation, convenient access for cable management, within WiFi signal range, and protection from potential physical damage. For three-phase installations, location must be near three-phase supply point.
+
+CHARGING PERFORMANCE AND SPEED
+-------------------------------
+The Aveo X1 delivers the fastest portable charging performance in Zevpoint's lineup:
+
+Charging Speed - Three Phase Full Power:
+At full 11 kilowatt output on three-phase power, the Aveo X1 can add approximately 65 to 70 kilometers of driving range per hour of charging for most modern electric vehicles. This is significantly faster than standard 7.5 kW chargers. Actual range added depends on vehicle efficiency, battery condition, ambient temperature, and driving patterns.
+
+Charging Speed - Single Phase Reduced Power:
+When operating on single-phase at 3.6 kW, the Aveo X1 adds approximately 25 to 30 kilometers of range per hour, matching the Aveo Pro performance.
+
+Comparison to Other Portable Chargers:
+The Aveo X1 charges approximately 45% faster than 7.5 kW portable chargers and nearly three times faster than standard 3.6 kW portable chargers. A vehicle that would take 5 hours to charge with 7.5 kW charger can be fully charged in approximately 3.5 hours with the Aveo X1 on three-phase.
+
+Comparison to Wall Chargers:
+The Aveo X1 matches the performance of 11 kW wall-mounted chargers while maintaining portability. This makes it ideal for users who want wall-charger performance but need the flexibility to move the charger between locations.
+
+Comparison to Public Fast Charging:
+While DC fast chargers are faster (50-150 kW), the Aveo X1 provides sufficient speed for overnight home charging or full workday charging. For daily driving needs of 100-150 kilometers, the Aveo X1 can fully replenish the battery in 3-4 hours.
+
+Current Adjustment Impact:
+When operating at reduced current settings below 16A per phase, charging speed is proportionally reduced. At 12A per phase on three-phase, the Aveo X1 delivers approximately 8 kW. At 8A per phase, approximately 5.5 kW. Users can balance charging speed against available electrical capacity.
+
+
+
+TRAVEL AND PORTABILITY FEATURES
+--------------------------------
+Despite being the highest-power portable charger, the Aveo X1 maintains good portability:
+
+Compact Design: At 3.5 kg weight and compact dimensions, the Aveo X1 is remarkably light for an 11 kW charger. Easy to carry in vehicle trunk or transport in luggage.
+
+Premium Carry Bag: Included carry bag provides excellent protection during transport and travel with reinforced padding to protect charger from impacts.
+
+Cable Management: 5 meter base cable with 1 meter extension provides total 6 meters of reach when needed, offering flexibility to reach vehicle charging port from various parking positions.
+
+Three-Phase Adapter: For travel between locations with different electrical systems, the Aveo X1 can be used with appropriate adapters or socket changes to work on both three-phase and single-phase supplies.
+
+Quick Setup: Despite three-phase capability, setup is straightforward - plug into appropriate socket and connect to vehicle. Smart features configure automatically.
+
+Durable Construction: IP66 rating ensures maximum reliability during travel and outdoor use in rain, dust, and challenging conditions.
+
+Smart Connectivity Anywhere: WiFi and Bluetooth work anywhere, allowing smart features when traveling. Can switch between different WiFi networks easily.
+
+Universal Vehicle Compatibility: Type 2 connector works with all Type 2 equipped electric vehicles, providing maximum flexibility when traveling or charging different vehicles.
+
+The Aveo X1 is ideal for users who frequently travel between properties (like weekend homes or vacation homes) where three-phase power is available and want consistent fast charging without installing permanent infrastructure at each location.
+
+USE CASES AND APPLICATIONS
+---------------------------
+The Aveo X1 is suitable for multiple advanced charging scenarios:
+
+High-Mileage Home Charging: For EV owners with high daily driving distances (100+ km per day) who need fastest possible home charging to fully replenish battery overnight. Three-phase homes can benefit from 11 kW speed.
+
+Multiple Property Owners: Ideal for users who own multiple properties (city home and weekend home, business locations, etc.) and want to move one fast charger between locations rather than installing permanent chargers everywhere.
+
+Fleet Applications: Suitable for small commercial fleets that need high-power portable charging capability at depots or customer locations with three-phase power.
+
+Large Battery EVs: Owners of large-battery EVs which can support 11kW charging speed. The 11 kW significantly reduces charging time for large batteries.
+
+Contractor and Service Professional: Electricians, EV installers, or service professionals who need to demonstrate or test high-power charging at customer sites with three-phase availability.
+
+Event Charging: Portable high-power charging for special events, exhibitions, or demonstrations where three-phase power is available and fast charging is needed.
+
+Rental Property with Three-Phase: Ideal for renters living in properties with three-phase supply (common in industrial-zoned residential areas) who need portable charging solution.
+
+
+DISPLAY SCREEN ADVANCED FEATURES
+---------------------------------
+The Aveo X1's display screen provides professional-grade information particularly valuable for three-phase operation:
+
+Phase Monitoring:
+The display shows detailed information for each of the three phases individually, allowing users to verify balanced operation and identify any phase-related issues. Users can see if one phase has higher voltage or current than others.
+
+Real-Time Power Calculation:
+The display calculates and shows total three-phase power in real-time, updating continuously as vehicle charging requirements change. This helps users confirm they're achieving full 11 kW output.
+
+Energy Metering:
+Integrated energy meter tracks total kilowatt-hours delivered over charger lifetime and per session. Valuable for electricity cost tracking and comparing against utility bills.
+
+Fault Diagnostics:
+Advanced fault code system helps diagnose installation or operational issues. Display shows specific error codes with brief explanations. Common codes include phase missing, phase imbalance, undervoltage, overvoltage, overcurrent, and temperature warnings.
+
+Historical Data:
+Display can show summary statistics from previous charging sessions including total energy delivered, number of sessions, average power, etc.
+
+PRODUCT COMPARISON WITH OTHER ZEVPOINT CHARGERS
+------------------------------------------------
+The Aveo X1 differs from other Zevpoint portable chargers in several critical aspects:
+
+Aveo X1 vs Aveo 3.6 Base Model:
+- Power: Aveo X1 delivers 11 kW versus 3.6 kW (three times faster charging)
+- Phases: Aveo X1 uses three-phase versus single-phase only
+- Current: Aveo X1 uses 16A on three phases versus 16A single phase
+- Installation: Aveo X1 requires three-phase electrical supply versus standard single-phase
+- Socket: Aveo X1 uses 16A 5-pin three-phase versus 16A standard plug
+- Smart Features: Aveo X1 has full WiFi/Bluetooth/app, base model does not
+- Display: Aveo X1 has advanced display with phase monitoring
+- Price: Aveo X1 costs significantly more but delivers triple the charging speed
+- Use Case: Aveo X1 for properties with three-phase power needing maximum speed
+
+Aveo X1 vs Aveo 3.6 Plus:
+- Power: Aveo X1 delivers 11 kW versus 3.6 kW (three times faster)
+- Phases: Aveo X1 three-phase capable versus single-phase only
+- Smart Features: Both have WiFi/Bluetooth/app connectivity
+- Installation: Aveo X1 requires specialized three-phase installation
+- Speed: Aveo X1 charges three times faster for large-battery EVs
+- Use Case: Aveo X1 for three-phase properties needing maximum portable charging speed
+
+Aveo X1 vs Aveo Pro:
+- Power: Aveo X1 delivers 11 kW versus 7.5 kW (45% faster charging)
+- Phases: Aveo X1 three-phase capable versus single-phase only
+- Current: Aveo X1 uses 16A on three phases versus 32A single phase
+- Smart Features: Both have identical WiFi/Bluetooth/app features
+- Socket: Aveo X1 uses 16A 5-pin three-phase versus 32A single-phase industrial socket
+- Wiring: Aveo X1 requires 5-core cable versus 3-core for Aveo Pro
+- MCB: Aveo X1 requires 25A four-pole versus 40A two-pole
+- Weight: Both weigh identical 3.5 kg despite power difference
+- Cable: Aveo X1 has 5+1 meter (6m total), Aveo Pro has 5 meter
+- Price: Aveo X1 costs approximately Rs. 7,000 more than Aveo Pro
+- Use Case: Aveo X1 for three-phase properties, Aveo Pro for single-phase fast charging
+
+Aveo X1 vs Dash:
+- Power: Aveo X1 delivers 11 kW versus 7.5 kW (45% faster)
+- Smart Features: Aveo X1 has WiFi/Bluetooth/app, Dash does not
+- Phases: Aveo X1 three-phase capable versus single-phase only
+- Display: Both have integrated displays but Aveo X1 shows phase details
+- Use Case: Aveo X1 for smart three-phase charging, Dash for simple single-phase
+
+Key Differentiation:
+The Aveo X1 is Zevpoint's premium portable charger occupying a unique position as the only three-phase capable portable charger in the lineup. It appeals to users who:
+- Have access to three-phase electrical supply (commercial buildings, industrial properties, agricultural installations, some high-power residential properties)
+- Own large-battery EVs that benefit significantly from 11 kW charging speed
+- Want maximum portable charging speed without permanent wall-charger installation
+- Need flexibility to move high-power charging between multiple three-phase locations
+- Value smart features combined with highest portable charging performance
+- Plan to upgrade from single-phase to three-phase and want future-proof charger
+- Want wall-charger performance (11 kW) with portability benefits
+
+THREE-PHASE ELECTRICAL SYSTEM EXPLANATION
+------------------------------------------
+Since the Aveo X1's key feature is three-phase capability, understanding three-phase power is important:
+
+What is Three-Phase Power:
+Three-phase electrical power consists of three alternating current wires that are offset by 120 degrees in their electrical cycles. Combined with neutral and earth, this creates a 5-wire system. Three-phase provides more stable power delivery and higher total power capacity than single-phase using smaller wire sizes.
+
+Where Three-Phase is Available:
+- Commercial buildings and office complexes
+- Industrial facilities and manufacturing plants
+- Some high-power residential properties
+- Properties in industrial zones
+- Buildings with elevators or large HVAC systems
+- Hospitality facilities like hotels and resorts
+
+How to Identify Three-Phase Supply:
+Check your electrical panel - three-phase has three separate circuit breakers for main supply instead of one or two. Look at your electricity meter - three-phase meters show three voltage readings. Consult your electricity bill which should indicate single-phase or three-phase connection. Contact your electricity distribution company to confirm.
+
+Voltage Specifications:
+In India, three-phase supply provides 400-440V line-to-line (between any two phases) and 230V line-to-neutral (from any phase to neutral). This higher voltage combined with three phases allows 11 kW power with only 16A per phase.
+
+Advantages for EV Charging:
+Three-phase allows higher power with lower current per wire, reducing cable size and heat generation. Provides smoother power delivery to the charger. Enables 11 kW portable charging which is otherwise impossible on single-phase within 32A limits.
+
+Converting to Three-Phase:
+Homeowners can request three-phase connection from their electricity distribution company. Costs vary by location but typically involve application fee, wiring upgrades, and higher fixed charges on electricity bills. Approval depends on factors like property type, location, and intended use.
+
+
+TECHNICAL SPECIFICATIONS SUMMARY
+---------------------------------
+Complete technical specifications for the Zevpoint Aveo X1 charger:
+
+Electrical - Three Phase:
+- Rated Power: 11.0 kW
+- Maximum Current: 16A per phase
+- Input Voltage: 400-440V AC (line-to-line)
+- Input Frequency: 50 Hz
+- Phase: Three-phase + Neutral + Earth
+- Efficiency: >92%
+- Power Factor: >0.95
+- Connector: Type 2 (IEC 62196)
+- Cable Length: 5 meters + 1 meter extension (6m total)
+- Socket: 16A 5-pin industrial (included)
+
+Electrical - Single Phase:
+- Rated Power: 3.6 kW (reduced mode)
+- Maximum Current: 16A
+- Input Voltage: 230V AC
+- Socket: 32A industrial (not included, use separate)
+
+Physical:
+- Dimensions: 297mm (L) x 106mm (W) x 54mm (H)
+- Weight: 3.5 kg
+- Ingress Protection: IP66
+- Operating Temperature: -35°C to +60°C
+- Storage Temperature: -40°C to +70°C
+- Display: High-resolution LED screen with multi-phase monitoring
+- Controls: Physical buttons plus app control
+
+Smart Features:
+- WiFi: 2.4 GHz connectivity
+- Bluetooth: BLE for local control
+- App: Zevpoint Home (iOS/Android)
+- Scheduling: Advanced time-based scheduling
+- Monitoring: Real-time remote monitoring
+- Updates: Over-the-air firmware updates
+
+Safety:
+- Overload Protection: Yes, per-phase
+- Short Circuit Protection: Yes
+- Leakage Protection: Yes, RCD functionality
+- Ground Protection: Yes
+- Phase Imbalance Protection: Yes (unique to three-phase)
+- Over-Temperature Protection: Yes
+- Overvoltage Protection: Yes, per-phase
+- Undervoltage Protection: Yes, per-phase
+- Water Resistance: IP66
+- Dust Resistance: IP66
+
+Compatibility:
+- Vehicle Type: All EVs with Type 2 inlet
+- Charging Standard: IEC 62196
+- Region: India, Europe, and most international markets
+
+Package Includes:
+- Aveo X1 charger with 5+1m cable
+- 16A 5-pin three-phase industrial socket
+- Wall mounting bracket
+- Premium carry bag
+- User manual (includes three-phase installation guide)
+- Quick start guide
+- Cable management accessories
+
+CERTIFICATIONS AND COMPLIANCE
+------------------------------
+The Aveo X1 meets international safety and quality standards:
+
+CE Certified: Complies with European safety, health, and environmental protection requirements
+TUV Certified: Independently tested and certified by TUV technical inspection authority
+Indian Standards: Meets relevant Indian electrical safety standards for three-phase equipment
+Three-Phase Compliance: Meets standards for three-phase electrical equipment safety
+Type Approval: Type 2 connector meets IEC 62196 international standard
+Quality Testing: Undergoes extensive testing including three-phase load testing and phase balance testing
+Trusted Brand: Part of Zevpoint's product line trusted by over 12,000 EV owners across India
+
+MAINTENANCE AND CARE
+--------------------
+To ensure long service life of the Aveo X1 charger:
+
+Regular Inspection: Inspect cable, connector, and three-phase socket connections monthly. Check for signs of overheating, discoloration, or loose connections.
+
+Three-Phase Specific Checks: Verify all three phases show similar voltage on display. Check that current is balanced across phases during charging. Any significant imbalance may indicate wiring issues.
+
+Cleaning: Wipe charger housing with dry cloth. Clean connector contacts with clean dry cloth if dirty. For three-phase socket, ensure all five pins are clean and corrosion-free.
+
+Display Care: Clean high-resolution display screen with soft dry cloth. Avoid scratching or applying pressure to screen.
+
+Cable Storage: Avoid sharp bends in longer 6-meter cable. Use cable management accessories when storing. Don't drive over cable or place heavy objects on it.
+
+Socket Maintenance: Three-phase sockets require special attention. Periodically verify all pins make good contact. Check socket for signs of overheating. Have socket inspected by electrician annually.
+
+Professional Service: For any electrical issues, phase imbalance problems, unusual noises, error messages, or damage, contact Zevpoint service team for professional inspection. Three-phase equipment should only be serviced by qualified electricians.
+
+PRODUCT KEYWORDS FOR SEARCH
+----------------------------
+Search terms and keywords customers use to find Aveo X1: 11 kW portable EV charger, three-phase portable charger, 3-phase EV charger portable, fastest portable EV charger, Aveo X1 Zevpoint, smart 11kW charger, Type 2 11kW portable, three-phase Type 2 charger, premium portable charger, high-power portable charging, 11kW with app control, commercial portable charger.
+
+COMPETITIVE ADVANTAGES
+----------------------
+The Aveo X1 offers unique advantages as a three-phase portable charger:
+
+Highest Portable Power: Only 11 kW portable charger in Zevpoint lineup - fastest possible portable charging
+
+Three-Phase Capability: Rare capability in portable chargers - unlocks high power without excessive single-phase current
+
+Dual-Mode Operation: Works on both three-phase (11 kW) and single-phase (3.6 kW) for maximum flexibility
+
+Complete Smart Features: Full WiFi/Bluetooth/app connectivity with advanced monitoring including phase balance
+
+Premium Display: High-resolution screen with three-phase monitoring capabilities
+
+Professional Build: IP66 rating and robust construction for commercial-grade durability
+
+Lightweight Design: Remarkably light at 3.5 kg considering 11 kW power capacity
+
+Extended Cable: 6 meter total cable length provides excellent reach flexibility
+
+Wall-Charger Performance: Matches 11 kW wall chargers while remaining portable - best of both worlds
+
+Complete Package: Includes specialized three-phase socket, bracket, carry bag
+
+Zevpoint Quality: Backed by Zevpoint's reputation and support network
+
+
+Video Links:
+
+For complete demonstrations of smart features, covering unboxing, demo & More you can refer to the following videos : https://www.youtube.com/playlist?list=PL_5jfOb-nyjIgzBD4Jp7jUlOO5RARHNPQ
+
+===============================================
+END OF DOCUMENT
+===============================================

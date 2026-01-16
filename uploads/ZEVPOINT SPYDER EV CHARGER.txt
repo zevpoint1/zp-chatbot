@@ -1,0 +1,421 @@
+===============================================
+PRODUCT DOCUMENT: Zevpoint Spyder AIO EV Charger
+Document ID: ZEVPOINT-SPYDERAIO-001
+===============================================
+
+PRODUCT IDENTIFICATION
+----------------------
+Product Name: Spyder AIO (All-in-One)
+Manufacturer: Zevpoint
+Category: All-in-One Multi-Phase Multi-Connector AC EV Charger
+Power Rating: Up to 16 kilowatts (three-phase) or 7.5 kilowatts (single-phase)
+Model Type: Premium all-in-one solution combining portable and wall-mounted functionality
+Price: Rs. 42,999.00 (inclusive of all taxes)
+Product Tagline: India's First Multi-Phase, Multi-Connector EV Charger
+Market Position: Elegance and Versatility Redefined
+
+PRODUCT DESCRIPTION
+-------------------
+The Zevpoint Spyder AIO is a groundbreaking electric vehicle charger designed to provide the ultimate all-in-one EV charging solution. This is India's first EV charger offering both single-phase and three-phase charging capabilities combined with support for multiple interchangeable connectors in a single device.
+
+The Spyder AIO represents the pinnacle of versatility and convenience in EV charging, truly living up to its "All In One" name. With a powerful output of up to 16 kilowatts on three-phase power, the Spyder AIO ensures quick and efficient charging for electric vehicles wherever you are. The charger is designed for maximum flexibility, working equally well at home, office, or on the go.
+
+Why settle for one charging solution when you can have everything in one device? The Spyder AIO eliminates the need to purchase separate chargers for different scenarios. It functions as a portable charger when needed and can be wall-mounted for permanent installation. It works on single-phase power at homes and three-phase power at commercial locations. It includes multiple plug adapters to work with different power socket configurations. This unprecedented versatility makes the Spyder AIO the most flexible EV charger available in the Indian market.
+
+The Spyder AIO is designed for users who demand premium quality, elegant design, maximum versatility, and uncompromising performance. It features an advanced color LCD touchscreen display, smart scheduling capabilities, comprehensive safety features, IP66 environmental protection, built-in RCD (Residual Current Device), and exceptional build quality with premium materials.
+
+UNIQUE ALL-IN-ONE FEATURES
+---------------------------
+The Spyder AIO's revolutionary all-in-one design provides unprecedented versatility:
+
+Multi-Phase Capability:
+Single-Phase Operation: Works on standard 220-230V single-phase household power delivering up to 7.5 kW charging speed. Compatible with virtually all Indian homes and apartments.
+
+Three-Phase Operation: Works on 400V three-phase industrial and commercial power delivering up to 16 kW charging speed. Compatible with commercial buildings, offices, industrial facilities, and properties with three-phase electrical supply.
+
+Automatic Phase Detection: The Spyder AIO automatically detects whether it's connected to single-phase or three-phase power and adjusts operation accordingly. No manual switching or configuration needed.
+
+Multi-Connector System:
+The Spyder AIO includes three different interchangeable power plugs that can be swapped based on your charging location and available power socket:
+
+16 Ampere Standard Plug: For basic 16A single-phase sockets found in many locations. Delivers up to 3.6 kW power. Adjustable current from 6A to 16A.
+
+32 Ampere Single-Phase Industrial Plug: For high-power 32A single-phase sockets. Delivers up to 7.5 kW power on single-phase. Adjustable current from 6A to 32A.
+
+32 Ampere Three-Phase Industrial Plug: For three-phase 32A sockets with 5-pin configuration. Delivers up to 16 kW power on three-phase supply. Adjustable current from 6A to 24A per phase.
+
+The switchable plug system means you carry one charger that adapts to any power socket configuration you encounter. Simply swap the plug connector to match the available socket at your location.
+
+Dual Mounting Options:
+Portable Mode: Use the Spyder AIO as a portable charger with the included premium carry bag. Perfect for travel, moving between locations, or keeping in vehicle trunk.
+
+Wall-Mounted Mode: Permanently mount the Spyder AIO on a wall using the included mounting bracket. Ideal for home garage installation or workplace charging stations.
+
+The dual functionality eliminates the need to choose between portable convenience and permanent installation benefits - the Spyder AIO provides both.
+
+ELECTRICAL SPECIFICATIONS
+--------------------------
+The Spyder AIO charger operates with flexible electrical parameters:
+
+Maximum Power Output: 16 kilowatts (on three-phase 400V supply)
+Single-Phase Power Output: Up to 7.5 kilowatts (on single-phase 230V supply at 32A)
+Three-Phase Configuration: 32 amperes at 400V three-phase
+Single-Phase Configuration: 32 amperes at 230V single-phase
+16A Plug Mode: Up to 16 amperes at 230V single-phase (3.6 kW maximum)
+
+Current Adjustment Ranges:
+- 16A Plug: Adjustable from 6A to 16A (approximately 1.4 kW to 3.6 kW)
+- 32A Single-Phase Plug: Adjustable from 6A to 32A (approximately 1.4 kW to 7.5 kW)
+- 32A Three-Phase Plug: Adjustable from 6A to 24A per phase (approximately 4 kW to 16 kW)
+
+Input Voltage: 220V single-phase or 400V three-phase (automatic detection)
+Input Frequency: 50 Hertz (standard for India and most international markets)
+Connector Standard: Type 2 (IEC 62196-2) to vehicle
+Charging Cable: 6 meter length Type 2 cable with integrated connector
+
+The comprehensive current adjustment capability across all three plug types allows the Spyder AIO to optimize charging for any available electrical capacity, from basic 16A outlets to high-power three-phase industrial supplies.
+
+PHYSICAL CHARACTERISTICS
+-------------------------
+The Spyder AIO has the following physical properties:
+
+Dimensions: Compact design optimized for both portability and permanent installation
+Weight: Lightweight construction for easy portability despite high power capacity
+Build Material: Premium durable ABS (Acrylonitrile Butadiene Styrene) material ensuring reliability and longevity
+Form Factor: Elegant design with professional appearance suitable for residential and commercial environments
+Environmental Protection: IP66 rating for water jet resistance and complete dust protection
+Color: Premium finish with elegant styling that complements modern home and office environments
+Display: Color LCD touchscreen display (not standard LED display) for intuitive control and monitoring
+Portability: Designed for easy carrying with ergonomic form factor
+
+The wide temperature range makes the Spyder AIO suitable for use anywhere in India from hot desert regions to cold mountain areas, and the IP66 rating ensures reliable operation in challenging outdoor conditions.
+
+INCLUDED ACCESSORIES AND PACKAGE CONTENTS
+------------------------------------------
+The Spyder AIO complete all-in-one package includes everything needed for any charging scenario:
+
+Primary Components:
+- Spyder AIO charger unit with integrated 6 meter Type 2 cable
+- 16 ampere standard power plug adapter
+- 32 ampere single-phase CEE industrial socket and plug adapter
+- 32 ampere three-phase 5-pin CEE industrial socket and plug adapter
+- All three plug adapters are included, enabling use with any power socket type
+
+Installation and Storage Accessories:
+- Professional wall mounting bracket for permanent installation
+- Premium carry bag with reinforced padding for portable use and protection during travel
+- Cable management accessories for organized storage
+- User manual with comprehensive installation instructions for all plug types and phase configurations
+- Quick start guide for first-time setup
+- Installation guides covering single-phase and three-phase electrical requirements
+
+The inclusion of all three power plug types with their respective sockets is a major value addition. Most chargers require separate purchase of different plugs or sockets, but the Spyder AIO includes everything in one complete package, justifying its all-in-one designation.
+
+COLOR LCD TOUCHSCREEN DISPLAY
+------------------------------
+The Spyder AIO features an advanced color LCD touchscreen display representing a significant upgrade over standard LED displays:
+
+Display Technology:
+Full-color LCD touchscreen (not basic LED display) provides intuitive touch-based control similar to smartphone interface. The touchscreen eliminates need for physical buttons and allows direct interaction with displayed information.
+
+Display Parameters Shown:
+- Input voltage from electrical supply (shows all three phases on three-phase mode)
+- Charging current being delivered (per phase on three-phase)
+- Instantaneous power output in kilowatts
+- Charging session duration with precise timing
+- Total energy delivered in current session (kilowatt-hours)
+- Cumulative lifetime energy delivered
+- Real-time charging status with graphical indicators
+- Current setting selection with touch adjustment
+- Schedule programming interface
+- Fault codes and detailed error messages
+- Temperature monitoring
+- Power monitoring with real-time graphs
+- Phase balance indicators (three-phase mode)
+- Plug type detection display
+
+Touch Control Functions:
+- Adjust charging current by touching and sliding on screen
+- Set charging schedules by touching calendar interface
+- Start and stop charging sessions with touch control
+- View charging history by touching history menu
+- Access settings and configuration through touch menus
+- Switch between different display screens with swipe gestures
+
+Display Benefits:
+The color touchscreen provides premium user experience matching modern consumer electronics. Users can control all charger functions without physical buttons or external devices. The large color screen is clearly visible in all lighting conditions including bright sunlight and low light with automatic brightness adjustment. Touch interface makes the Spyder AIO feel like a premium luxury product rather than industrial equipment.
+
+SMART SCHEDULING FEATURES
+--------------------------
+The Spyder AIO includes intelligent scheduling capabilities built into the touchscreen interface:
+
+Schedule Charging Function:
+Users can set charging to start and stop automatically at specific times. This is particularly valuable for taking advantage of off-peak electricity rates where available, or for ensuring vehicle is fully charged at specific departure times.
+
+
+SAFETY AND PROTECTION FEATURES
+-------------------------------
+The Spyder AIO incorporates comprehensive advanced safety protection systems:
+
+Built-in RCD (Residual Current Device):
+The Spyder AIO includes an integrated RCD, also known as RCCB (Residual Current Circuit Breaker). This advanced safety feature continuously monitors for current leakage and disconnects power if dangerous leakage is detected. The built-in RCD protects against electric shock hazards and is a premium safety feature not found in most portable chargers.
+
+Over-Voltage Protection:
+Guards against input voltage spikes and surges from electrical grid that could damage charger or vehicle. Protects on all phases in three-phase mode.
+
+Under-Voltage Protection:
+Prevents operation when input voltage drops below safe levels, protecting against brownout conditions and ensuring consistent charging performance.
+
+Overload Protection:
+Prevents damage from excessive current draw beyond rated capacity. Monitors load on each phase separately in three-phase mode.
+
+Short Circuit Protection:
+Instantaneous automatic disconnection in short circuit fault conditions prevents fire hazards and equipment damage.
+
+Leakage Protection:
+Advanced residual current detection integrated with built-in RCD prevents electric shock hazards by monitoring minute current leakage to ground.
+
+Over-Temperature Protection:
+Multi-zone thermal monitoring system prevents damage from excessive heat buildup during high-power charging. Automatically reduces current or stops charging if temperature exceeds safe limits.
+
+Water Resistance:
+IP66 rating provides protection against powerful water jets from any direction. Suitable for outdoor use in heavy rain and wet conditions.
+
+Dust Resistance:
+IP66 complete dust sealing prevents particle ingress even in very dusty environments like construction sites or rural areas.
+
+Ground Protection:
+Continuous earth monitoring ensures proper grounding connection is maintained throughout charging session.
+
+Automatic Connector Detection:
+The Spyder AIO automatically detects which power plug is connected and adjusts operation accordingly. This prevents accidental use of wrong current settings for attached plug, eliminating risk of burnout or electrical hazards.
+
+The comprehensive safety features combined with built-in RCD make the Spyder AIO one of the safest EV chargers available, suitable for demanding commercial use and outdoor installation in challenging conditions.
+
+INSTALLATION REQUIREMENTS
+--------------------------
+Installation requirements vary based on which plug type and phase configuration you plan to use:
+
+For 16A Standard Plug Operation:
+Power Socket: Standard 16 ampere 3-pin socket (most common household socket in India)
+Wiring: Minimum 2.5 square millimeter cable (existing household wiring usually adequate)
+MCB: 20 ampere single-pole MCB
+Power Output: Up to 3.6 kW
+Earthing: Proper earthing mandatory
+SPD: Surge Protection Device recommended
+This configuration works with existing household electrical infrastructure in most homes.
+
+For 32A Single-Phase Plug Operation:
+Power Socket: Dedicated 32 ampere single-phase industrial socket (CEE socket included in package)
+Wiring: Minimum 6 square millimeter 3-core copper cable. In hot environments consider 10 square millimeter.
+MCB: 40 ampere double-pole MCB
+Power Output: Up to 7.5 kW
+Earthing: Proper earthing mandatory with resistance below 5 ohms
+SPD: Surge Protection Device mandatory
+RCB: Residual Current Breaker recommended (in addition to built-in RCD)
+This configuration requires dedicated circuit installation by qualified electrician.
+
+For 32A Three-Phase Plug Operation:
+Power Socket: Dedicated 32 ampere three-phase 5-pin industrial socket (included in package)
+Wiring: Minimum 6 square millimeter 5-core copper cable (3 phases + neutral + earth). In hot environments consider 10 square millimeter.
+MCB: 40 ampere four-pole MCB (disconnects all three phases plus neutral)
+Power Output: Up to 16 kW
+Voltage: 400V three-phase supply required
+Earthing: Robust earthing mandatory with resistance below 5 ohms
+SPD: Three-phase Surge Protection Device mandatory
+RCB: Three-phase Residual Current Breaker recommended
+This configuration requires three-phase electrical supply and professional installation by electrician experienced with three-phase systems.
+
+General Installation Considerations:
+The Spyder AIO's versatility allows starting with basic 16A installation and upgrading to higher power as electrical infrastructure improves. For example: install 16A initially for 3.6 kW charging, upgrade to 32A single-phase for 7.5 kW when budget allows, further upgrade to three-phase for 16 kW if three-phase supply becomes available.
+
+Voltage Stabilizer:
+If location experiences frequent power fluctuations, use appropriate voltage stabilizer. For single-phase 7.5 kW use 8-10 kVA stabilizer. For three-phase 16 kW use 15-20 kVA three-phase stabilizer.
+
+Wall Mounting Installation:
+Use included mounting bracket. Choose location within 6 meters of parking spot. Ensure location has adequate ventilation. Protect from direct harsh weather if possible (though IP66 allows outdoor installation). Mount at convenient height for touchscreen access (approximately 1.2-1.5 meters from ground).
+
+CHARGING PERFORMANCE AND SPEED
+-------------------------------
+The Spyder AIO delivers variable charging performance based on configuration:
+
+Maximum Performance - Three-Phase 16kW Mode:
+At full 16 kilowatt output on three-phase power, the Spyder AIO can add approximately 65 to 80 kilometers of driving range per hour of charging for most modern electric vehicles. This represents the fastest portable charging available.
+
+Single-Phase 7.5kW Performance:
+At 7.5 kilowatt on single-phase 32A, adds approximately 40 to 50 kilometers range per hour. Full charge times approximately 5 to 6 hours for 40 kWh battery, 6 to 7 hours for 50 kWh battery.
+
+16A Plug 3.6kW Performance:
+At 3.6 kilowatt on 16A plug, adds approximately 25 to 30 kilometers range per hour. Full charge times approximately 10 to 12 hours for 40 kWh battery, suitable for overnight charging.
+
+Performance Comparison:
+The Spyder AIO at 16 kW on three-phase charges more than twice as fast as 7.5 kW single-phase portable chargers and over four times faster than standard 3.6 kW portable chargers. This makes it competitive with many wall-mounted chargers while maintaining portability.
+
+
+
+VERSATILITY AND USE CASES
+--------------------------
+The Spyder AIO's comprehensive features make it suitable for the widest range of use cases:
+
+Home Charging Multiple Scenarios:
+Start with 16A plug for overnight charging, upgrade to 32A single-phase for faster evening charging, switch to three-phase if property gets upgraded to three-phase supply. One charger grows with your electrical infrastructure.
+
+Multi-Property Owners:
+Move single Spyder AIO between city apartment (single-phase), weekend home (possibly three-phase), and vacation property. Eliminates need for multiple charger purchases.
+
+Travel Flexibility:
+Carry Spyder AIO for travel with confidence it will work with any power socket encountered. Hotel rooms (16A), friend's garage (32A single-phase), workplace (three-phase). One charger handles all scenarios.
+
+Commercial Versatility:
+Businesses can install Spyder AIO to serve employees or customers with different needs. Works on property's existing electrical system whether single or three-phase. Can be temporarily moved to different locations on property.
+
+Fleet Applications:
+Small commercial fleets benefit from Spyder AIO's ability to work with varying power availability across different depot locations or customer sites.
+
+Rental Properties:
+Ideal for renters who need charging at home but cannot install permanent infrastructure. Take Spyder AIO when moving. Use different plug for new property if electrical system differs.
+
+Future-Proofing Investment:
+Purchase Spyder AIO now even with only 16A power available. As electrical infrastructure improves over years, unlock higher power without buying new charger.
+
+Emergency and Backup:
+Keep as emergency backup charger. The 16A plug works virtually anywhere including at relative's homes, hotels, or anywhere with standard power socket.
+
+Luxury and Premium Positioning:
+The Spyder AIO appeals to users who want premium product with elegant design and comprehensive features, similar to purchasing luxury consumer electronics rather than basic industrial equipment.
+
+PRODUCT COMPARISON WITH OTHER ZEVPOINT CHARGERS
+------------------------------------------------
+The Spyder AIO differs significantly from all other Zevpoint chargers:
+
+Spyder AIO vs Aveo X1 (11kW Three-Phase):
+- Max Power: Spyder AIO 16 kW versus Aveo X1 11 kW (45% more power)
+- Versatility: Spyder AIO includes 3 plug types, Aveo X1 single plug type
+- Display: Spyder AIO has color LCD touchscreen, Aveo X1 has LED display
+- Mounting: Spyder AIO includes wall bracket and carry bag, Aveo X1 includes these too
+- Price: Spyder AIO costs more but includes much more versatility
+- Use Case: Spyder AIO for maximum versatility and premium experience, Aveo X1 for straightforward three-phase charging
+- Wall Mounting: Both include brackets and bags
+- Smart Features: Aveo Pro has WiFi/Bluetooth/app, Spyder AIO has touchscreen controls
+
+Spyder AIO vs Aveo Pro (7.5kW Single-Phase Smart):
+- Max Power: Spyder AIO 16 kW (three-phase) versus Aveo Pro 7.5 kW
+- Phases: Spyder AIO works single or three-phase, Aveo Pro single-phase only
+- Plug Options: Spyder AIO has 3 interchangeable plugs, Aveo Pro has single plug
+- Display: Spyder AIO has color touchscreen, Aveo Pro has LED display
+- Smart Features: Aveo Pro has WiFi/Bluetooth/app, Spyder AIO has touchscreen controls
+- Wall Mounting: Both include brackets and bags
+- Use Case: Spyder AIO for ultimate flexibility, Aveo Pro for straightforward smart single-phase charging
+
+Spyder AIO vs Dash (7.5kW Non-Smart):
+- Max Power: Spyder AIO 16 kW versus Dash 7.5 kW
+- Phases: Spyder AIO works both phases, Dash single-phase only
+- Display: Spyder AIO has color touchscreen, Dash has basic LED display
+- Plug Options: Spyder AIO has 3 interchangeable plugs, Dash single plug
+- Controls: Spyder AIO has touchscreen controls, Dash has touch button controls
+- Use Case: Spyder AIO for premium versatile solution, Dash for budget fast charging
+
+Key Differentiation:
+The Spyder AIO occupies a unique premium position in Zevpoint's lineup as the only truly versatile all-in-one charger. It is ideal for users who:
+- Want maximum versatility with one charger for all scenarios
+- Value premium design and luxury features like color touchscreen
+- Need both portable and wall-mounted functionality in one device
+- Have or plan to have three-phase power but also need single-phase compatibility
+- Want built-in RCD for maximum safety
+- Appreciate elegant design that looks premium rather than industrial
+- Don't want to buy multiple chargers for different situations
+- Are willing to invest more upfront for long-term versatility
+- Want India's first multi-phase multi-connector charger
+
+TOUCHSCREEN OPERATION GUIDE
+----------------------------
+Operating the Spyder AIO's color touchscreen:
+
+Starting a Charging Session:
+Connect appropriate power plug to socket, plug Type 2 connector into vehicle, touch screen to wake it, screen displays current settings and status, touch Start Charging button, charging begins automatically, monitor progress on color display.
+
+Adjusting Current:
+Touch current setting area on screen, slider appears, drag slider to desired current level, current limits depend on connected plug type, confirm selection by touching OK, charger adjusts current in real-time.
+
+Setting Charging Schedule:
+Touch Schedule menu on main screen, touch Add New Schedule, use on-screen calendar to select days, use time picker to set start time and stop time, touch Save to store schedule, schedule activates automatically on selected days, touch Edit Schedule to modify or delete schedules.
+
+Viewing Charging History:
+Touch History menu button, scroll through list of past sessions, tap individual session to see details including date, duration, energy delivered, and cost, charts show usage patterns over time.
+
+Monitoring Real-Time Power:
+Main screen shows live power consumption graph, voltage and current update continuously, energy meter shows kilowatt-hours delivered, tap power display to see detailed breakdown by phase (three-phase mode).
+
+Troubleshooting with Touchscreen:
+If charging stops or error occurs, touchscreen displays fault code with explanation, tap fault message to see detailed troubleshooting guidance, common faults include loose connection, inadequate power, temperature too high, screen guides user through resolution steps.
+
+PLUG SWAPPING INSTRUCTIONS
+---------------------------
+How to change between the three different power plugs:
+
+Plug Removal:
+Ensure charger is disconnected from power socket, locate plug release mechanism on charger body, press release button or turn locking collar (depending on model), gently pull plug adapter away from charger, store removed plug in carry bag.
+
+Plug Installation:
+Select appropriate plug adapter for target socket type, align plug adapter with connection port on charger, push plug adapter firmly into charger until it clicks into place, verify secure connection by gently tugging plug, connect to power socket to test.
+
+Automatic Detection:
+When plug is changed, Spyder AIO automatically detects new plug type on first connection and adjusts current limits accordingly. No manual configuration required. Touchscreen confirms detected plug type.
+
+Plug Storage:
+Store unused plug adapters in carry bag dedicated compartments. Keep plugs clean and dry. Check pins periodically for corrosion or damage.
+
+CERTIFICATIONS AND COMPLIANCE
+------------------------------
+The Spyder AIO meets international standards:
+
+CE Certified: Complies with European safety, health, and environmental protection requirements
+RoHS Certified: Restriction of Hazardous Substances - environmentally friendly materials
+TUV Certified: Independently tested and certified by TUV technical inspection authority
+Indian Standards: Meets relevant Indian electrical safety standards for both single-phase and three-phase equipment
+IEC 62196-2 Compliance: Type 2 connector meets international charging standard
+Quality Assurance: Undergoes extensive testing including multi-phase testing, touchscreen durability testing, and environmental testing
+
+
+
+COMPETITIVE ADVANTAGES
+----------------------
+The Spyder AIO offers unique market advantages:
+
+India's First: First and only charger in India offering both multi-phase and multi-connector capabilities in single device
+
+Ultimate Versatility: Three plug types, single and three-phase operation, portable and wall-mounted - handles any scenario
+
+Color Touchscreen: Premium color LCD touchscreen not available on any other Zevpoint portable charger
+
+Built-in RCD: Integrated residual current device provides premium safety not found in most portable chargers
+
+Highest Power: 16 kW maximum output is highest in Zevpoint portable/all-in-one lineup
+
+Complete Package: All three plug types with sockets included - no additional purchases needed
+
+Future-Proof: Grows with your electrical infrastructure from 16A to three-phase without new charger purchase
+
+Premium Design: Elegant appearance and luxury features rival high-end consumer electronics
+
+Wide Temperature Range: -40°C to +70°C widest operating range in lineup
+
+Long Cable: 6 meter cable longer than most portable chargers
+
+One Charger Solution: Eliminates need for multiple chargers for different scenarios - true cost savings
+
+Smart Scheduling: Built-in touchscreen scheduling without requiring smartphone app or WiFi
+
+Wall and Portable: Only charger needed for both permanent installation and travel
+
+
+For detailed video demonstration,unboxing & more , you can check the zevpoint's YouTube channel, following is the link: https://www.youtube.com/playlist?list=PL_5jfOb-nyjIjVFXM7qYHZ4y-ydXv3Y9o
+
+Zevpoint provides warranty coverage  as follows:
+
+Cable and Housing Components: 5 year warranty period
+Electronic Components and Other Parts: 2 year warranty period
+
+===============================================
+END OF DOCUMENT
+===============================================

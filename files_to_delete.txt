@@ -1,0 +1,44 @@
+# Test files
+test_conversation.py
+test_minimal_server.py
+test_pipeline.py
+test_qdrant.py
+test_rate_limit.bat
+test_rate_limit.sh
+test_system.py
+test_chatbot.html
+test_api_direct.html
+simple_test.html
+end2endtest.py
+
+# Diagnostic scripts
+create_collection_rest.py
+diagnose_qdrant.py
+setup_qdrant.py
+list_models.py
+upload_to_qdrant.py
+ingest_folder.py
+
+# Documentation (keeping in case you need reference)
+# getting_started.md
+# OPTIMIZATION_GUIDE.md
+# README_OPTIMIZATIONS.md
+
+# Deployment helpers (already used)
+deploy-ui.bat
+check-deployment.bat
+check-my-deployment.bat
+deploy-to-github.md
+verify-deployment.md
+index-github.html
+.gitignore-github-pages
+
+# Build/cache files
+deployment.zip
+
+# Log files
+server.log
+server_debug.log
+
+# Temp files
+C:tempresponse1.json
