@@ -419,12 +419,23 @@ GROUND YOUR RESPONSE: Reference specific products from above with their exact pr
     # ------------------------------------------------------------
     final_parts.append(
         """
-RESPONSE RULES:
-- Maximum 1-2 sentences per response
-- One question per turn (if needed)
-- No praise, no filler
-- Only mention prices when customer asks
-- Plain text only (no markdown: *, **, #, ##)
+=== HARD STOP RULES (MUST FOLLOW) ===
+
+RESPONSE LENGTH: STRICTLY 1-2 SENTENCES MAXIMUM.
+- Count your sentences before responding. If more than 2, DELETE and rewrite shorter.
+- NO bullet lists unless comparing exactly 2 products.
+- NO multiple paragraphs.
+
+PRICE RULE: NEVER mention prices unless customer explicitly asks "price", "cost", "how much", "kitna".
+
+POWER MATCHING: NEVER recommend a charger with LOWER power than the vehicle supports.
+- If vehicle supports 7kW, recommend 7kW or higher ONLY.
+- 3.6kW chargers are ONLY for vehicles that support max 3.3kW.
+- VIOLATION: Recommending 3.6kW Aveo for a 7kW-capable car.
+
+PRODUCT RULE: When user wants app control + 7kW, recommend Aveo Pro 7.5kW (has WiFi/Bluetooth app).
+
+FORMAT: Plain text only. No *, **, #, or markdown.
 """
     )
 
