@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zevpoint Chatbot - Azure Backend</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f1f1f1;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        #chat-container {
+            width: 400px;
+            height: 600px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        #chat-header {
+            background: #4a90e2;
+            padding: 15px;
+            color: white;
+            font-size: 18px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        #messages {
+            flex: 1;
+            padding: 15px;
+            overflow-y: auto;
+            background: #fafafa;
+        }
+
+        .message {
+            margin-bottom: 12px;
+            max-width: 80%;
+            padding: 10px;
+            border-radius: 12px;
+            font-size: 14px;
+            line-height: 1.4;
+        }
+
+        .user {
+            background: #dcf8c6;
+            margin-left: auto;
+            text-align: right;
+        }
+
+        .bot {
+            background: #e6e6e6;
+            margin-right: auto;
+        }
+
+        #input-area {
+            display: flex;
+            padding: 10px;
+            background: #fff;
+        }
+
+        #input-box {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+
+        #send-btn {
+            padding: 10px 15px;
+            margin-left: 8px;
+            background: #4a90e2;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        #send-btn:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+
+        #typing {
+            padding: 0 15px;
+            font-size: 12px;
+            color: gray;
+            display: none;
+        }
+
+        #status-bar {
+            padding: 8px 15px;
+            background: #e8f5e9;
+            color: #2e7d32;
+            font-size: 12px;
+            border-top: 1px solid #ddd;
+            display: none;
+        }
+
+        #status-bar.error {
+            background: #ffebee;
+            color: #c62828;
+        }
+
+        #clear-btn {
+            padding: 5px 10px;
+            margin-left: 8px;
+            background: #f44336;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 11px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="chat-container">
+    <div id="chat-header">
+        Zevpoint EV Charger Assistant
+        <button id="clear-btn" title="Clear conversation">🗑️ Clear</button>
+    </div>
+    <div id="messages"></div>
+    <div id="typing">Zevpoint Advisor is typing...</div>
+    <div id="status-bar"></div>
+
+    <div id="input-area">
+        <input type="text" id="input-box" placeholder="Type your message..." />
+        <button id="send-btn">Send</button>
+    </div>
+</div>
+
+<script>
+    // Azure Function URL
+    const apiUrl = "https://zp-chatbot-v2-ewapbch4bmcgh6eu.southindia-01.azurewebsites.net/api/HttpTrigger";
+
+    const messagesDiv = document.getElementById("messages");
+    const inputBox = document.getElementById("input-box");
+    const sendBtn = document.getElementById("send-btn");
+    const clearBtn = document.getElementById("clear-btn");
+    const typingIndicator = document.getElementById("typing");
+    const statusBar = document.getElementById("status-bar");
+
+    // Session management
+    let sessionId = localStorage.getItem("chatbot_session_id") || null;
+
+    // Show connection status
+    showStatus("✅ Connected to Azure (South India)", "success");
+    setTimeout(() => statusBar.style.display = "none", 3000);
+
+    function showStatus(message, type = "success") {
+        statusBar.textContent = message;
+        statusBar.className = type === "error" ? "error" : "";
+        statusBar.style.display = "block";
+    }
+
+    function addMessage(content, role) {
+        const div = document.createElement("div");
+        div.className = "message " + role;
+        div.innerText = content;
+        messagesDiv.appendChild(div);
+        messagesDiv.scrollTop = messagesDiv.scrollHeight;
+    }
+
+    async function sendMessage() {
+        const userMessage = inputBox.value.trim();
+        if (!userMessage) return;
+
+        addMessage(userMessage, "user");
+        inputBox.value = "";
+        typingIndicator.style.display = "block";
+        sendBtn.disabled = true;
+
+        try {
+            const payload = {
+                message: userMessage,
+                user_id: "web_user"
+            };
+
+            // Include session_id if available
+            if (sessionId) {
+                payload.session_id = sessionId;
+            }
+
+            console.log("Sending to Azure:", apiUrl);
+            console.log("Payload:", payload);
+
+            const response = await fetch(apiUrl, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(payload)
+            });
+
+            if (!response.ok) {
+                throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+            }
+
+            const data = await response.json();
+            console.log("Azure Response:", data);
+
+            // Store session_id from server response
+            // Handle both local (session_id) and Azure (metadata.session_id) formats
+            const newSessionId = data.session_id || data.metadata?.session_id;
+            if (newSessionId) {
+                sessionId = newSessionId;
+                localStorage.setItem("chatbot_session_id", sessionId);
+            }
+
+            typingIndicator.style.display = "none";
+            sendBtn.disabled = false;
+            addMessage(data.response, "bot");
+
+            // Log additional info
+            if (data.confidence !== undefined) {
+                console.log(`Confidence: ${(data.confidence * 100).toFixed(1)}%`);
+            }
+            if (data.sources && data.sources.length > 0) {
+                console.log(`Sources: ${data.sources.join(', ')}`);
+            }
+            if (data.metadata) {
+                console.log("Metadata:", data.metadata);
+            }
+
+            showStatus("✅ Message sent", "success");
+            setTimeout(() => statusBar.style.display = "none", 2000);
+
+        } catch (err) {
+            typingIndicator.style.display = "none";
+            sendBtn.disabled = false;
+
+            console.error("Error details:", err);
+
+            if (err.message.includes("Failed to fetch") || err.message.includes("NetworkError")) {
+                addMessage("⚠️ Cannot connect to Azure. Check CORS settings and function URL.", "bot");
+                showStatus("❌ Connection error - Check CORS settings", "error");
+            } else {
+                addMessage(`⚠️ Error: ${err.message}`, "bot");
+                showStatus(`❌ Error: ${err.message}`, "error");
+            }
+        }
+    }
+
+    function clearConversation() {
+        if (confirm("Clear conversation history?")) {
+            sessionId = null;
+            localStorage.removeItem("chatbot_session_id");
+            messagesDiv.innerHTML = "";
+            showStatus("🗑️ Conversation cleared", "success");
+            setTimeout(() => statusBar.style.display = "none", 2000);
+
+            // Add welcome message
+            addMessage("Hi! I'm Zevpoint's EV charging assistant. Which electric vehicle do you drive?", "bot");
+        }
+    }
+
+    sendBtn.onclick = sendMessage;
+    clearBtn.onclick = clearConversation;
+
+    inputBox.addEventListener("keypress", function (e) {
+        if (e.key === "Enter") sendMessage();
+    });
+
+    // Expose clear function globally for debugging
+    window.clearChat = clearConversation;
+
+    // Welcome message on load
+    window.addEventListener('load', function() {
+        addMessage("Hi! I'm Zevpoint's EV charging assistant. Which electric vehicle do you drive?", "bot");
+    });
+</script>
+
+</body>
+</html>
