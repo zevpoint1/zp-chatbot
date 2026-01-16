@@ -10,6 +10,7 @@ Product Name: Nova 240 (also written as Nova 240kW)
 Manufacturer: Zevpoint
 Category: DC Ultra-Fast Charger (Direct Current Charging Station) - Maximum Power
 Power Rating: 240 kilowatts DC
+Price: Rs 12,99,000 + GST
 Model Type: Ultra-high-power commercial DC ultra-fast charger with heavy-duty capability
 Charger Type: Fixed installation floor-mounted DC charging station
 Connector Type: Dual CCS2 (Combined Charging System Type 2) guns

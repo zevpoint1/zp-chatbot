@@ -36,6 +36,8 @@ Payment Terms:
 - 60% balance before dispatch
 Doorstep delivery available across India
 
+GST Rate on DC Chargers is 5%
+
 COMMERCIAL AC CHARGERS (For Parking/Fleet)
 ------------------------------------------
 - Duos 7.5: 7.5kW, OCPP, commercial features, Rs.34,999

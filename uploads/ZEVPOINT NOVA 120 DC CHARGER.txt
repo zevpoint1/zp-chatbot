@@ -10,6 +10,7 @@ Product Name: Nova 120 (also written as Nova 120kW)
 Manufacturer: Zevpoint
 Category: DC Fast Charger (Direct Current Charging Station) - Heavy-Duty with Mixed Vehicle Support
 Power Rating: 120 kilowatts DC
+Price: Rs 8,49,000 + GST
 Model Type: High-power commercial DC fast charger with dual-gun capability and heavy vehicle support
 Charger Type: Fixed installation floor-mounted DC charging station
 Connector Type: Dual CCS2 (Combined Charging System Type 2) guns

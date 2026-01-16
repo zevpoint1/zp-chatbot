@@ -9,6 +9,7 @@ Product Name: Nova 60 (also written as Nova 60kW)
 Manufacturer: Zevpoint
 Category: DC Fast Charger (Direct Current Charging Station) with Dual-Gun Capability
 Power Rating: 60 kilowatts DC
+Price: Rs 5,99,000 + GST
 Model Type: Mid-range commercial DC fast charger with dual-gun simultaneous charging
 Charger Type: Fixed installation floor-mounted DC charging station
 Connector Type: Dual CCS2 (Combined Charging System Type 2) guns

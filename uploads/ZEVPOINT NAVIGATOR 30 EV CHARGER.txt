@@ -9,6 +9,7 @@ Product Name: Navigator 30 (also written as Navigator 30kW)
 Manufacturer: Zevpoint
 Category: DC Fast Charger (Direct Current Charging Station)
 Power Rating: 30 kilowatts DC
+Price: Rs 2,99,000 + GST
 Model Type: Compact commercial DC fast charger with OCPP support
 Charger Type: Fixed installation floor-mounted or wall-mounted DC charging station
 Connector Type: CCS2 (Combined Charging System Type 2)
