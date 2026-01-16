@@ -706,7 +706,7 @@ def upload_chunks(chunks: List[Dict[str, Any]]) -> bool:
 # 🔹 Main ingestion function
 # -------------------------------------------------------------------
 
-def ingest(source: str, chunk_size: int = 300, overlap: int = 75) -> bool:
+def ingest(source: str, chunk_size: int = 500, overlap: int = 125) -> bool:
     """
     Ingest local files or URLs into the RAG system.
     
@@ -784,7 +784,7 @@ def ingest(source: str, chunk_size: int = 300, overlap: int = 75) -> bool:
 # 🔹 Batch Ingestion
 # -------------------------------------------------------------------
 
-def ingest_directory(directory: str, pattern: str = "*", chunk_size: int = 300, overlap: int = 75) -> Dict[str, Any]:
+def ingest_directory(directory: str, pattern: str = "*", chunk_size: int = 500, overlap: int = 125) -> Dict[str, Any]:
     """
     Ingest all matching files from a directory.
     
@@ -902,15 +902,15 @@ Examples:
     parser.add_argument(
         "--chunk-size", "-c",
         type=int,
-        default=300,
-        help="Target chunk size in words (default: 300)"
+        default=500,
+        help="Target chunk size in words (default: 500)"
     )
-    
+
     parser.add_argument(
         "--overlap", "-o",
         type=int,
-        default=75,
-        help="Overlap between chunks in words (default: 75)"
+        default=125,
+        help="Overlap between chunks in words (default: 125)"
     )
     
     args = parser.parse_args()

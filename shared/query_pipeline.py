@@ -98,8 +98,8 @@ class Config:
     COLLECTION = os.getenv("QDRANT_COLLECTION", "ev_kb")
     
     # Retrieval parameters
-    TOP_K = int(os.getenv("TOP_K", "2"))
-    TOP_K_EXPAND = int(os.getenv("TOP_K_EXPAND", "40"))
+    TOP_K = int(os.getenv("TOP_K", "12"))
+    TOP_K_EXPAND = int(os.getenv("TOP_K_EXPAND", "50"))
         
     # Hybrid scoring weights
     VECTOR_WEIGHT = float(os.getenv("VECTOR_WEIGHT", "0.65"))
@@ -923,30 +923,30 @@ def build_context_and_sources(
     context_parts: List[str] = []
     sources: List[str] = []
     total_tokens = 0
-    
+
     for idx, hit in enumerate(hits):
         payload = hit.get("payload", {}) or {}
-        
+
         # Extract text content
         text = payload.get("text", "") or payload.get("content", "")
         if not text:
             continue
-        
+
         # Extract metadata
         score = float(hit.get("hybrid_score", hit.get("score", 0)))
         source_file = payload.get("source_file") or str(hit.get("id", f"unknown_{idx}"))
         chunk_index = payload.get("chunk_index")
-        
+
         # Build source reference
         source_ref = (
             f"{source_file}#chunk{chunk_index}"
             if chunk_index is not None
             else source_file
         )
-        
+
         # Estimate tokens for this chunk
         chunk_tokens = estimate_tokens(text)
-        
+
         # Check if adding this chunk would exceed limit
         if total_tokens + chunk_tokens > max_tokens:
             logger.info(
@@ -954,24 +954,26 @@ def build_context_and_sources(
                 f"Using {len(context_parts)} chunks."
             )
             break
-        
-        # Format context entry
+
+        # Format context entry with clear structure
+        # Rank helps LLM prioritize higher-relevance content
         context_entry = (
-            f"--- SOURCE: {source_ref} (score: {score:.3f}) ---\n"
-            f"{text}"
+            f"[DOCUMENT {idx + 1}] Source: {source_ref} | Relevance: {score:.2f}\n"
+            f"{text}\n"
+            f"[END DOCUMENT {idx + 1}]"
         )
-        
+
         context_parts.append(context_entry)
         sources.append(source_ref)
         total_tokens += chunk_tokens
-    
+
     context = "\n\n".join(context_parts)
-    
+
     logger.info(
         f"Built context from {len(sources)} chunks, "
         f"~{total_tokens} tokens (~{len(context)} chars)"
     )
-    
+
     return context, sources, total_tokens
 
 

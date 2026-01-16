@@ -365,7 +365,7 @@ Rules:
                 "TASK:\n"
                 "Recommend the most suitable product from context.\n"
                 "Explain differences briefly if alternatives exist.\n"
-                "Do not list prices unless explicitly asked.\n"
+                "Only mention prices if customer asks.\n"
             )
 
         elif phase == "closing":
@@ -419,28 +419,12 @@ GROUND YOUR RESPONSE: Reference specific products from above with their exact pr
     # ------------------------------------------------------------
     final_parts.append(
         """
-FINAL RESPONSE RULES:
-- Maximum 2-3 sentences for simple queries (up to 5 for comparisons)
-- One question per turn (if required)
+RESPONSE RULES:
+- Maximum 1-2 sentences per response
+- One question per turn (if needed)
 - No praise, no filler
-- Reference known vehicle naturally
-- Move forward or conclude cleanly
-
-SALES-FORWARD IMPERATIVES:
-- Assume buying intent - guide toward purchase, installation, or delivery
-- Use assumptive language: "I can help you with installation" NOT "Do you want help?"
-- After pricing, add value detail + next step
-- Reduce questions - make recommendations instead
-- Create momentum toward close in every response
-- Example: "The Aveo Pro (Rs. 22,999) gives full charge overnight for your Nexon. I can help with installation setup or proceed with ordering."
-
-CRITICAL FORMATTING RULE - ABSOLUTELY NO MARKDOWN:
-- NEVER use *, **, ___, #, ## or any markdown symbols
-- Use PLAIN TEXT only
-- For product names: Write "Zevpoint Dash" NOT "**Zevpoint Dash**"
-- For emphasis: Use CAPS or quotes, NOT asterisks
-- Example CORRECT: The Zevpoint Dash (Rs. 20,999) is ideal for your needs
-- Example WRONG: The **Zevpoint Dash** (Rs. 20,999) is *ideal* for your needs
+- Only mention prices when customer asks
+- Plain text only (no markdown: *, **, #, ##)
 """
     )
 
