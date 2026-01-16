@@ -10,7 +10,7 @@ Manufacturer: Zevpoint
 Category: Wall-Mounted AC EV Charger (Wallbox) - Three-Phase Capable
 Power Rating: 11 kilowatts
 Model Type: Smart wall-mounted charger with three-phase support
-Price: Rs. 39,999.00 (estimated, inclusive of all taxes)
+Price: Rs. 34,999.00 (inclusive of all taxes)
 Product Tagline: Ultra-fast charging for home and business use
 Market Position: High-performance wall charger for speed, efficiency, and durability
 

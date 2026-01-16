@@ -22,11 +22,11 @@ Multi-power:
 - Spyder AIO: Rs.42,999, works 3.6kW to 16kW, touchscreen, 3 plug types
 
 Wall-Mounted AC Chargers:
-- Polar Pro: 7.5 kW, Rs.24,999, Bluetooth app
+- Polar Pro: 7.5 kW, Rs.29,999, Bluetooth app
 - Polar X1: 11 kW, Rs.34,999, 3-phase, WiFi+Bluetooth
-- Polar Max: 22 kW, Rs.44,999, 3-phase, fastest wall charger
+- Polar Max: 22 kW, Rs.39,999, 3-phase, fastest wall charger
 - Duos 7.5: 7.5 kW, Rs.34,999, commercial features, OCPP
-- Duos 22: 22 kW, Rs.54,999, commercial, OCPP
+- Duos 22: 22 kW, Rs.44,999, commercial, OCPP
 
 VEHICLE CATEGORIES
 
