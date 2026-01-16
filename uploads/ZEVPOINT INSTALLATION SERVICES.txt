@@ -1,0 +1,105 @@
+===============================================
+ZEVPOINT INSTALLATION SERVICES
+Document ID: ZEVPOINT-INSTALL-001
+Last Updated: January 2025
+===============================================
+
+SERVICE OVERVIEW
+----------------
+Zevpoint offers professional EV charger installation services across India, covering all pin codes.
+
+INSTALLATION SERVICE
+--------------------
+Cost: Rs. 2,500 + 18% GST = Rs. 2,950
+Book Online: https://rzp.io/l/zp-installation
+
+What's Included:
+- Professional installation by certified technician
+- Cable laying labor up to 10 meters
+
+Additional Charges:
+- Cable laying beyond 10m: Rs. 45 per meter (GST included)
+
+Timeline: Team contacts within 24-48 hours after payment, technician aligned within 48-72 hours
+
+Customer Must Provide:
+- Electrical cable (appropriate gauge as per charger requirements)
+- MCB (Miniature Circuit Breaker)
+- SPD (Surge Protection Device) - if required
+- Safe, unobstructed access to installation site
+- Purchase invoice number
+
+PRE-INSTALLATION SITE SURVEY
+----------------------------
+Cost: Rs. 1,000 + 18% GST = Rs. 1,180
+Book Online: https://rzp.io/rzp/zp-survey
+
+What's Included:
+- Technician visit for site assessment
+- Accurate estimates for cabling, wiring requirements
+- Customized installation recommendations
+
+Timeline: Engineer assigned within 48-72 hours after payment
+
+INSTALLATION REQUIREMENTS BY CHARGER
+------------------------------------
+
+3.6 kW CHARGERS (Aveo 3.6, Aveo 3.6 Plus):
+- Power Supply: Single-phase 220-240V
+- Socket: 16A dedicated socket
+- Cable: 4 sq mm, 3-core copper cable
+- MCB: 20A double-pole
+- Earthing: Required
+
+7.5 kW CHARGERS (Dash, Dash AIO, Aveo Pro, Polar Pro):
+- Power Supply: Single-phase 220-240V
+- Socket: 32A dedicated socket (CEE socket included with portable chargers)
+- Cable: 6 sq mm, 3-core copper cable (10 sq mm in hot climates)
+- MCB: 40A double-pole
+- SPD: Required
+- Earthing: Required
+
+11 kW CHARGERS (Aveo X1, Polar X1):
+- Power Supply: Three-phase 400-440V (required for full 11kW)
+- Socket: 16A 5-pin socket (included with Aveo X1)
+- Cable: 6 sq mm, 5-core copper cable (10 sq mm in hot climates)
+- MCB: 25A four-pole
+- SPD: Required
+- Earthing: Required
+
+22 kW CHARGERS (Polar Max):
+- Power Supply: Three-phase 400V (mandatory)
+- Cable: 6 sq mm, 5-core copper cable (10 sq mm in hot climates)
+- MCB: 40A four-pole
+- SPD: Required
+- RCD: Required
+- Earthing: Required
+
+SPYDER AIO (Up to 16kW):
+- Single-phase mode (up to 7.2kW): 6 sq mm, 3-core copper cable
+- Three-phase mode (up to 16kW): 6 sq mm, 5-core copper cable
+- Socket: 32A CEE socket (included for single and three-phase)
+- RCB and SPD: Required
+- Earthing: Required
+
+GENERAL INSTALLATION NOTES
+--------------------------
+- All installations require proper earthing
+- Voltage stabilizer recommended if location has frequent power fluctuations
+- In hot climate regions, upgrade to 10 sq mm cable for safety
+- Cable length from charger: 5-6 meters typically
+
+CANCELLATION POLICY
+-------------------
+Installation: Full refund if cancelled 24+ hours before scheduled time
+Survey: Full refund if cancelled 48+ hours before scheduled visit
+Cancellations within the above windows may incur charges.
+
+CONTACT
+-------
+Email: support@zevpoint.com
+Phone: 9779752450
+
+===============================================
+END OF DOCUMENT
+===============================================

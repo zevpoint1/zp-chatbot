@@ -79,6 +79,8 @@ def extract_conversation_context(conversation_history: Optional[List[Dict[str, s
         "preference": None,  # portable, wall-mounted
         "wants_app": None,  # True, False, None (unknown)
         "product_mentioned": None,
+        "has_charger": False,  # True if customer already owns a charger
+        "needs_installation_only": False,  # True if customer only needs installation
     }
 
     if not conversation_history:
@@ -185,6 +187,28 @@ def extract_conversation_context(conversation_history: Optional[List[Dict[str, s
             context["product_mentioned"] = product.title()
             break
 
+    # Detect if customer already has a charger
+    has_charger_patterns = [
+        "already have", "i have the charger", "have a charger", "have charger",
+        "got the charger", "bought the charger", "purchased", "own a charger",
+        "have 7kw", "have 3.6kw", "have 11kw", "have 22kw"
+    ]
+    for pattern in has_charger_patterns:
+        if pattern in user_text:
+            context["has_charger"] = True
+            break
+
+    # Detect if customer needs installation only
+    install_only_patterns = [
+        "need installation", "only installation", "just installation",
+        "installation only", "install my charger", "get it installed",
+        "looking for installation", "want installation"
+    ]
+    for pattern in install_only_patterns:
+        if pattern in user_text:
+            context["needs_installation_only"] = True
+            break
+
     return context
 
 
@@ -264,6 +288,11 @@ Phase: {phase.upper()}
 
     if conv_ctx["product_mentioned"]:
         state_info += f"Product discussed: {conv_ctx['product_mentioned']}\n"
+
+    if conv_ctx["has_charger"] or conv_ctx["needs_installation_only"]:
+        state_info += "\nCUSTOMER ALREADY HAS A CHARGER - NEEDS INSTALLATION ONLY\n"
+        state_info += "RULE: Do NOT recommend new chargers. Focus on installation service.\n"
+        state_info += "RULE: Ask which charger they have (if not known) to provide correct installation requirements.\n"
 
     parts.append(state_info)
 
