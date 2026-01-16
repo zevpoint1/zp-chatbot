@@ -264,6 +264,103 @@ SYNONYM_MAP = {
     # Add domain-specific expansions here
 }
 
+# Product and vehicle patterns for context extraction
+PRODUCT_PATTERNS = [
+    r'\b(aveo\s*(pro|x1|3\.6|plus)?)\b',
+    r'\b(dash\s*(aio)?)\b',
+    r'\b(spyder)\b',
+    r'\b(duos\s*(7\.5|22)?)\b',
+    r'\b(polar\s*(pro|x1|max)?)\b',
+    r'\b(nova\s*(60|120|240)?)\b',
+    r'\b(titan)\b',
+    r'\b(navigator)\b',
+]
+
+VEHICLE_PATTERNS = [
+    r'\b(nexon|curvv|tiago|tigor|punch)\b',
+    r'\b(xuv\s*400|e20|everito)\b',
+    r'\b(zs\s*ev|comet|windsor)\b',
+    r'\b(kona|ioniq)\b',
+    r'\b(ec3|atto|e6)\b',
+]
+
+
+def extract_context_from_history(
+    conversation_history: Optional[List[Dict[str, str]]] = None
+) -> Dict[str, str]:
+    """
+    Extract relevant entities from conversation history for query enrichment.
+    Returns dict with 'product' and 'vehicle' keys if found.
+    """
+    context = {'product': None, 'vehicle': None}
+
+    if not conversation_history:
+        return context
+
+    # Combine all messages for context extraction (most recent first)
+    all_text = ""
+    for msg in reversed(conversation_history[-6:]):  # Last 3 exchanges
+        all_text += " " + msg.get('content', '').lower()
+
+    # Extract most recent product mention
+    for pattern in PRODUCT_PATTERNS:
+        match = re.search(pattern, all_text, re.IGNORECASE)
+        if match:
+            context['product'] = match.group(0).strip()
+            break
+
+    # Extract most recent vehicle mention
+    for pattern in VEHICLE_PATTERNS:
+        match = re.search(pattern, all_text, re.IGNORECASE)
+        if match:
+            context['vehicle'] = match.group(0).strip()
+            break
+
+    return context
+
+
+def enrich_query_with_context(
+    query: str,
+    conversation_history: Optional[List[Dict[str, str]]] = None
+) -> str:
+    """
+    Enrich a short/vague query with context from conversation history.
+    This improves retrieval for follow-up questions like "what's the price".
+    """
+    if not conversation_history:
+        return query
+
+    query_lower = query.lower().strip()
+
+    # Check if query is vague (short or lacks specific entities)
+    query_words = query_lower.split()
+    is_vague = (
+        len(query_words) <= 5 and
+        not any(re.search(p, query_lower) for p in PRODUCT_PATTERNS) and
+        not any(re.search(p, query_lower) for p in VEHICLE_PATTERNS)
+    )
+
+    if not is_vague:
+        return query
+
+    # Extract context from history
+    context = extract_context_from_history(conversation_history)
+
+    # Enrich query with context
+    enrichments = []
+    if context['product']:
+        enrichments.append(context['product'])
+    if context['vehicle']:
+        enrichments.append(context['vehicle'])
+
+    if enrichments:
+        enriched = f"{query} {' '.join(enrichments)}"
+        logger.info(f"Query enriched with context: '{query}' -> '{enriched}'")
+        return enriched
+
+    return query
+
+
 # Compiled patterns for efficiency
 DATE_PATTERN = re.compile(
     r"date\s*[:=]\s*([0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?)",
@@ -1126,11 +1223,18 @@ def answer_question(
         # 3. Preprocess: extract filters + normalize
         preprocess_start = time.time()
         clean_query, filters = extract_filters(user_question)
-        normalized_query = normalize_query(clean_query)
+
+        # Enrich vague queries with context from conversation history
+        # This helps retrieval for follow-up questions like "what's the price"
+        enriched_query = enrich_query_with_context(clean_query, conversation_history)
+
+        normalized_query = normalize_query(enriched_query)
         deterministic_rewrite = rewrite_query_simple(normalized_query)
         metrics.preprocessing_time = time.time() - preprocess_start
-        
-        logger.info(f"Normalized: {normalized_query}")
+
+        logger.info(f"Original query: {clean_query}")
+        if enriched_query != clean_query:
+            logger.info(f"Enriched query: {enriched_query}")
         logger.info(f"Deterministic rewrite: {deterministic_rewrite}")
         if filters:
             logger.info(f"Filters: {filters}")
