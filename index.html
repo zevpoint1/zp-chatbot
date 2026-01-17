@@ -211,6 +211,12 @@ async function sendMessage() {
     const userMessage = inputBox.value.trim();
     if (!userMessage) return;
 
+    // Clear delayed nudge timer since user is active
+    if (window.delayedNudgeTimer) {
+        clearTimeout(window.delayedNudgeTimer);
+        window.delayedNudgeTimer = null;
+    }
+
     addMessage(userMessage, "user");
     inputBox.value = "";
     showStatus("");
@@ -248,6 +254,20 @@ async function sendMessage() {
             setTimeout(() => {
                 addMessage(data.nudge, "bot");
             }, 4500); // 4.5 second delay for natural conversation flow
+        }
+
+        // Handle delayed nudge (re-engagement after inactivity)
+        if (data.delayed_nudge && data.delayed_nudge.trim()) {
+            console.log("Delayed nudge received:", data.delayed_nudge);
+            // Clear any existing delayed nudge timer
+            if (window.delayedNudgeTimer) {
+                clearTimeout(window.delayedNudgeTimer);
+            }
+            // Set timer for 60 seconds of inactivity
+            window.delayedNudgeTimer = setTimeout(() => {
+                addMessage(data.delayed_nudge, "bot");
+                window.delayedNudgeTimer = null;
+            }, 60000); // 60 second delay for re-engagement
         }
 
     } catch (err) {
