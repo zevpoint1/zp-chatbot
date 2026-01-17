@@ -63,6 +63,13 @@ VEHICLE_PATTERNS = [
     r'\b(ev6|carens)\b',
 ]
 
+# ========================
+# Ambiguous Vehicle Detection
+# ========================
+# Import from centralized vehicle data module - single source of truth
+# This auto-detects ambiguity based on vehicle charging capacities
+from shared.vehicle_data import detect_ambiguous_vehicle  # noqa: F401 - re-exported
+
 
 # ========================
 # Compiled Patterns
@@ -453,15 +460,26 @@ def enrich_query_with_context(
 
     query_lower = query.lower().strip()
 
+    # Check if query already has specific product/vehicle
+    has_product = any(re.search(p, query_lower) for p in PRODUCT_PATTERNS)
+    has_vehicle = any(re.search(p, query_lower) for p in VEHICLE_PATTERNS)
+
+    # Check if this is a price/cost query - these ALWAYS need product context
+    price_keywords = ["price", "pricing", "cost", "rate", "kitna", "kitne", "quote", "how much", "kya price"]
+    is_price_query = any(kw in query_lower for kw in price_keywords)
+
     # Check if query is vague (short or lacks specific entities)
     query_words = query_lower.split()
     is_vague = (
         len(query_words) <= AppConfig.VAGUE_QUERY_MAX_WORDS and
-        not any(re.search(p, query_lower) for p in PRODUCT_PATTERNS) and
-        not any(re.search(p, query_lower) for p in VEHICLE_PATTERNS)
+        not has_product and
+        not has_vehicle
     )
 
-    if not is_vague:
+    # For price queries without product, ALWAYS try to enrich even if not "vague"
+    needs_enrichment = is_vague or (is_price_query and not has_product)
+
+    if not needs_enrichment:
         return query
 
     # Extract context from history
@@ -469,29 +487,37 @@ def enrich_query_with_context(
 
     # Enrich query with context
     enrichments = []
-    if context['product']:
+
+    # For price queries, product context is critical
+    if is_price_query and context['product']:
         enrichments.append(context['product'])
-    if context['vehicle']:
-        enrichments.append(context['vehicle'])
+        enrichments.append("price cost rs rupees")
+        logger.info(f"Price query enriched with product: {context['product']}")
+    else:
+        # General enrichment
+        if context['product']:
+            enrichments.append(context['product'])
+        if context['vehicle']:
+            enrichments.append(context['vehicle'])
 
-    # Also detect what type of info user is asking for and add relevant terms
-    info_type_expansions = {
-        # Price-related
-        ("price", "pricing", "cost", "rate", "kitna", "kitne", "quote"): "price cost rs",
-        # Installation-related
-        ("install", "installation", "setup", "fitting"): "installation service requirements",
-        # Warranty-related
-        ("warranty", "guarantee"): "warranty years coverage",
-        # Specification-related
-        ("spec", "specification", "details", "features", "info"): "specifications features",
-        # Delivery-related
-        ("delivery", "shipping", "dispatch"): "delivery dispatch days",
-    }
+        # Also detect what type of info user is asking for and add relevant terms
+        info_type_expansions = {
+            # Price-related
+            ("price", "pricing", "cost", "rate", "kitna", "kitne", "quote"): "price cost rs rupees",
+            # Installation-related
+            ("install", "installation", "setup", "fitting"): "installation service requirements",
+            # Warranty-related
+            ("warranty", "guarantee"): "warranty years coverage",
+            # Specification-related
+            ("spec", "specification", "details", "features", "info"): "specifications features",
+            # Delivery-related
+            ("delivery", "shipping", "dispatch"): "delivery dispatch days",
+        }
 
-    for keywords, expansion in info_type_expansions.items():
-        if any(kw in query_lower for kw in keywords):
-            enrichments.append(expansion)
-            break
+        for keywords, expansion in info_type_expansions.items():
+            if any(kw in query_lower for kw in keywords):
+                enrichments.append(expansion)
+                break
 
     if enrichments:
         enriched = f"{query} {' '.join(enrichments)}"

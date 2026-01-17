@@ -1,7 +1,10 @@
 import os
 import re
 import logging
-from typing import List, Dict, Optional
+from typing import List, Dict, Optional, TYPE_CHECKING
+
+if TYPE_CHECKING:
+    from shared.key_facts import KeyFacts
 
 logger = logging.getLogger(__name__)
 
@@ -69,19 +72,47 @@ def detect_intent(text: str) -> list:
 
 
 # ----------------------------------------------------------------------
-# Conversation Context Extraction
+# Dynamic Conversation Memory (LLM-based)
+# ----------------------------------------------------------------------
+def get_conversation_memory(
+    conversation_history: Optional[List[Dict[str, str]]] = None,
+    current_question: str = ""
+) -> Dict:
+    """
+    Get dynamic conversation memory using LLM extraction.
+    Falls back to simple heuristics if LLM fails.
+    """
+    try:
+        from shared.conversation_memory import extract_conversation_memory
+        return extract_conversation_memory(conversation_history, current_question)
+    except Exception as e:
+        logger.warning(f"Failed to import conversation_memory: {e}")
+        return {
+            "facts": [],
+            "answered_questions": [],
+            "do_not_ask": [],
+            "summary": ""
+        }
+
+
+# ----------------------------------------------------------------------
+# Legacy Context Extraction (kept for backward compatibility)
 # ----------------------------------------------------------------------
 def extract_conversation_context(conversation_history: Optional[List[Dict[str, str]]] = None) -> Dict:
-    """Extract key information from conversation history."""
+    """
+    Legacy function - extracts basic context using pattern matching.
+    Kept for backward compatibility with existing code.
+    The new build_prompt uses get_conversation_memory() instead.
+    """
     context = {
         "vehicle": None,
-        "vehicle_category": None,  # A, B, C, D
-        "preference": None,  # portable, wall-mounted
-        "wants_app": None,  # True, False, None (unknown)
+        "vehicle_category": None,
+        "preference": None,
+        "wants_app": None,
         "product_mentioned": None,
-        "has_charger": False,  # True if customer already owns a charger
-        "needs_installation_only": False,  # True if customer only needs installation
-        "has_three_phase": None,  # True, False, None (unknown)
+        "has_charger": False,
+        "needs_installation_only": False,
+        "has_three_phase": None,
     }
 
     if not conversation_history:
@@ -93,156 +124,42 @@ def extract_conversation_context(conversation_history: Optional[List[Dict[str, s
         if msg.get("role") == "user":
             user_text += " " + msg.get("content", "").lower()
 
-    # Vehicle detection with categories
-    # Include common typos and variations
+    # Quick vehicle detection for phase determination
     vehicle_map = {
-        # Category A (3.3 kW)
         "nexon prime": ("Nexon Prime", "A"),
         "tiago": ("Tiago EV", "A"),
-        "tigor": ("Tigor EV", "A"),
-        "comet": ("MG Comet", "A"),
-        "ec3": ("Citroen eC3", "A"),
-
-        # Category B (7 kW)
-        "nexon ev": ("Nexon EV", "B"),
-        "nexon max": ("Nexon Max", "B"),
         "nexon": ("Nexon EV", "B"),
         "punch": ("Punch EV", "B"),
         "curvv": ("Curvv EV", "B"),
-        "harrier": ("Harrier EV", "B"),
-        "zs ev": ("MG ZS EV", "B"),
-        "zs": ("MG ZS EV", "B"),
-        "windsor": ("MG Windsor", "B"),
-        "xuv400": ("XUV400", "B"),
-        "xuv 400": ("XUV400", "B"),
-        "kona": ("Hyundai Kona", "B"),
-        "atto": ("BYD Atto 3", "B"),
-        "seal": ("BYD Seal", "B"),
-
-        # Category C (11 kW) - with common typos
-        "creta ev": ("Hyundai Creta EV", "C"),
         "creta": ("Hyundai Creta EV", "C"),
         "ioniq": ("Ioniq 5", "C"),
-        "ev6": ("Kia EV6", "C"),
-        "be 6": ("Mahindra BE6", "C"),
         "be6": ("Mahindra BE6", "C"),
-        "xev 9e": ("XEV 9e", "C"),
-        "xev9e": ("XEV 9e", "C"),
-        "xe9": ("XEV 9e", "C"),
-        "xev9": ("XEV 9e", "C"),
-        "9e": ("XEV 9e", "C"),
-        "i4": ("BMW i4", "C"),
-        "xc40": ("Volvo XC40", "C"),
-        "model y": ("Tesla Model Y", "C"),
     }
 
-    # Also check assistant responses for confirmed vehicles
-    # This catches cases where user typed shorthand but bot confirmed full name
-    assistant_text = ""
-    for msg in conversation_history:
-        if msg.get("role") == "assistant":
-            assistant_text += " " + msg.get("content", "").lower()
-
-    # Combined text for searching (user input + bot confirmations)
-    combined_text = user_text + " " + assistant_text
-
-    # Check for Nexon Prime specifically (before generic nexon)
-    if "nexon prime" in combined_text or ("prime" in user_text and "nexon" in combined_text):
-        context["vehicle"] = "Nexon Prime"
-        context["vehicle_category"] = "A"
-    elif "nexon max" in combined_text or ("max" in user_text and "nexon" in combined_text):
-        context["vehicle"] = "Nexon Max"
-        context["vehicle_category"] = "B"
-    else:
-        # First check user text, then check if bot confirmed a vehicle
-        for keyword, (vehicle, category) in vehicle_map.items():
-            if keyword in user_text:
-                context["vehicle"] = vehicle
-                context["vehicle_category"] = category
-                break
-
-        # If not found in user text, check bot's confirmations
-        if not context["vehicle"]:
-            for keyword, (vehicle, category) in vehicle_map.items():
-                if keyword in assistant_text:
-                    context["vehicle"] = vehicle
-                    context["vehicle_category"] = category
-                    break
+    for keyword, (vehicle, category) in vehicle_map.items():
+        if keyword in user_text:
+            context["vehicle"] = vehicle
+            context["vehicle_category"] = category
+            break
 
     # Preference detection
     if "portable" in user_text:
         context["preference"] = "portable"
-    elif "wall" in user_text or "fixed" in user_text or "permanent" in user_text:
+    elif "wall" in user_text or "fixed" in user_text:
         context["preference"] = "wall-mounted"
 
-    # App preference
-    if "app" in user_text or "smart" in user_text or "wifi" in user_text or "bluetooth" in user_text:
-        context["wants_app"] = True
-    elif "simple" in user_text or "basic" in user_text or "no app" in user_text:
-        context["wants_app"] = False
-
     # Product mentions
-    products = ["aveo pro", "aveo x1", "aveo 3.6", "dash aio", "dash", "spyder", "polar pro", "polar x1", "polar max"]
+    products = ["aveo pro", "aveo x1", "dash", "spyder", "polar pro", "polar x1"]
     for product in products:
         if product in user_text:
             context["product_mentioned"] = product.title()
             break
 
-    # Detect if customer already has a charger
-    has_charger_patterns = [
-        "already have", "i have the charger", "have a charger", "have charger",
-        "got the charger", "bought the charger", "purchased", "own a charger",
-        "have 7kw", "have 3.6kw", "have 11kw", "have 22kw"
-    ]
-    for pattern in has_charger_patterns:
-        if pattern in user_text:
-            context["has_charger"] = True
-            break
-
-    # Detect if customer needs installation only
-    install_only_patterns = [
-        "need installation", "only installation", "just installation",
-        "installation only", "install my charger", "get it installed",
-        "looking for installation", "want installation"
-    ]
-    for pattern in install_only_patterns:
-        if pattern in user_text:
-            context["needs_installation_only"] = True
-            break
-
-    # Detect three-phase power confirmation
-    # Check both user text and assistant confirmations in sequence
-    if conversation_history:
-        for i, msg in enumerate(conversation_history):
-            msg_content = msg.get("content", "").lower()
-            msg_role = msg.get("role", "")
-
-            # If bot asked about three-phase
-            if msg_role == "assistant" and ("three-phase" in msg_content or "three phase" in msg_content or "3-phase" in msg_content or "3 phase" in msg_content):
-                # Check if user responded positively in the next message
-                if i + 1 < len(conversation_history):
-                    next_msg = conversation_history[i + 1]
-                    if next_msg.get("role") == "user":
-                        user_response = next_msg.get("content", "").lower().strip()
-                        # Positive responses
-                        if user_response in ["yes", "yeah", "yep", "yup", "sure", "correct", "right", "i do", "we do", "have it", "yes i do", "yes we do"] or user_response.startswith("yes"):
-                            context["has_three_phase"] = True
-                        # Negative responses
-                        elif user_response in ["no", "nope", "don't", "dont", "single", "single phase", "no i don't", "no we don't"]:
-                            context["has_three_phase"] = False
-
-    # Also check direct mentions in user text
-    if "three phase" in user_text or "three-phase" in user_text or "3 phase" in user_text or "3-phase" in user_text:
-        if "have three" in user_text or "got three" in user_text or "yes" in user_text:
-            context["has_three_phase"] = True
-        elif "no three" in user_text or "don't have three" in user_text or "single phase" in user_text:
-            context["has_three_phase"] = False
-
     return context
 
 
 def get_conversation_phase(conversation_history: Optional[List[Dict[str, str]]] = None) -> str:
-    """Determine conversation phase."""
+    """Determine conversation phase for logging."""
     ctx = extract_conversation_context(conversation_history)
 
     if not ctx["vehicle"]:
@@ -256,31 +173,29 @@ def get_conversation_phase(conversation_history: Optional[List[Dict[str, str]]] 
 
 # Backwards compatibility alias
 def extract_vehicle_info(conversation_history: Optional[List[Dict[str, str]]] = None) -> Dict:
-    """
-    Backwards compatible wrapper for extract_conversation_context.
-    Returns dict with vehicle_mentioned, vehicle_name, installation_type, selected_product, use_case.
-    """
+    """Backwards compatible wrapper."""
     ctx = extract_conversation_context(conversation_history)
     return {
         "vehicle_mentioned": ctx["vehicle"] is not None,
         "vehicle_name": ctx["vehicle"],
         "installation_type": ctx["preference"],
         "selected_product": ctx["product_mentioned"],
-        "use_case": None  # Not tracked in new version
+        "use_case": None
     }
 
 
 # ----------------------------------------------------------------------
-# Build Prompt
+# Build Prompt (Updated to use dynamic memory)
 # ----------------------------------------------------------------------
 def build_prompt(
     intents: list,
     question: str = None,
     context: str = None,
     conversation_history: Optional[List[Dict[str, str]]] = None,
-    conversation_state: str = "ACTIVE"
+    conversation_state: str = "ACTIVE",
+    key_facts: "KeyFacts" = None
 ) -> str:
-    """Build the system prompt with conversation context."""
+    """Build the system prompt with dynamic conversation memory and key facts."""
 
     # Load base prompt
     base = load_prompt_file("base")
@@ -292,46 +207,44 @@ def build_prompt(
         if sales:
             parts.append(sales)
 
-    # Extract conversation context
-    conv_ctx = extract_conversation_context(conversation_history)
+    # Add key facts section (always included - fixed token cost)
+    if key_facts:
+        key_facts_str = key_facts.to_prompt_string()
+        if key_facts_str:
+            parts.append(key_facts_str)
+            logger.info(f"Injected key_facts into prompt: {key_facts.to_dict()}")
+
+    # Get dynamic conversation memory (LLM-based)
+    memory = get_conversation_memory(conversation_history, question or "")
+
+    # Build memory context section
+    if memory and any([memory.get("facts"), memory.get("do_not_ask"), memory.get("summary")]):
+        memory_section = []
+        memory_section.append("CONVERSATION MEMORY")
+        memory_section.append("The following information has been gathered from this conversation.")
+        memory_section.append("Use this to maintain context and avoid asking questions already answered.")
+
+        if memory.get("summary"):
+            memory_section.append(f"\nSummary: {memory['summary']}")
+
+        if memory.get("facts"):
+            memory_section.append("\nKnown facts about this customer:")
+            for fact in memory["facts"]:
+                memory_section.append(f"  - {fact}")
+
+        if memory.get("do_not_ask"):
+            memory_section.append("\nCRITICAL - DO NOT ASK THESE QUESTIONS AGAIN:")
+            for rule in memory["do_not_ask"]:
+                memory_section.append(f"  - {rule}")
+
+        if memory.get("answered_questions"):
+            memory_section.append(f"\nTopics already discussed: {', '.join(memory['answered_questions'])}")
+
+        parts.append("\n".join(memory_section))
+
+    # Add conversation phase for context
     phase = get_conversation_phase(conversation_history)
-
-    # Add conversation state
-    state_info = f"""
-CURRENT CONVERSATION STATE
-Phase: {phase.upper()}
-"""
-
-    if conv_ctx["vehicle"]:
-        state_info += f"Vehicle: {conv_ctx['vehicle']} (Category {conv_ctx['vehicle_category']})\n"
-        state_info += "RULE: Do NOT ask for vehicle again.\n"
-
-    if conv_ctx["preference"]:
-        state_info += f"Preference: {conv_ctx['preference']}\n"
-        state_info += "RULE: Do NOT ask portable/wall-mounted again.\n"
-
-    if conv_ctx["wants_app"] is True:
-        state_info += "Wants: App/smart features\n"
-    elif conv_ctx["wants_app"] is False:
-        state_info += "Wants: Simple, no app needed\n"
-
-    if conv_ctx["product_mentioned"]:
-        state_info += f"Product discussed: {conv_ctx['product_mentioned']}\n"
-
-    if conv_ctx["has_charger"] or conv_ctx["needs_installation_only"]:
-        state_info += "\nCUSTOMER ALREADY HAS A CHARGER - NEEDS INSTALLATION ONLY\n"
-        state_info += "RULE: Do NOT recommend new chargers. Focus on installation service.\n"
-        state_info += "RULE: Ask which charger they have (if not known) to provide correct installation requirements.\n"
-
-    # Three-phase power status
-    if conv_ctx["has_three_phase"] is True:
-        state_info += "\nThree-phase power: CONFIRMED (customer said yes)\n"
-        state_info += "RULE: Do NOT ask about three-phase again. Customer has confirmed they have it.\n"
-    elif conv_ctx["has_three_phase"] is False:
-        state_info += "\nThree-phase power: NO (customer has single-phase)\n"
-        state_info += "RULE: Do NOT ask about three-phase again. Recommend chargers that work with single-phase.\n"
-
-    parts.append(state_info)
+    parts.append(f"\nCONVERSATION PHASE: {phase.upper()}")
 
     # Add RAG context if provided
     if context and context.strip():
@@ -360,6 +273,7 @@ FINAL REMINDER
 - No technical details unless asked
 - No future-proofing unless asked
 - Listen to what customer actually asks
+- NEVER repeat a question the customer has already answered
 """)
 
     return "\n\n".join([p for p in parts if p.strip()])
@@ -379,18 +293,29 @@ if __name__ == "__main__":
         history = [
             {"role": "user", "content": "hi"},
             {"role": "assistant", "content": "Welcome to Zevpoint! Which EV do you drive?"},
-            {"role": "user", "content": "nexon max"},
-            {"role": "assistant", "content": "The Nexon Max supports 7kW charging. Would you prefer portable or wall-mounted?"},
+            {"role": "user", "content": "BE6"},
+            {"role": "assistant", "content": "Great choice! The BE6 charges at 11kW. Do you prefer portable or wall-mounted?"},
+            {"role": "user", "content": "portable"},
+            {"role": "assistant", "content": "The Aveo X1 is our 11kW portable charger. Do you have three-phase power?"},
+            {"role": "user", "content": "yes"},
         ]
 
-        prompt = build_prompt(intents, question, context="[Sample context]", conversation_history=history)
+        print("=" * 60)
+        print("Testing Dynamic Conversation Memory")
+        print("=" * 60)
 
+        # Test memory extraction
+        memory = get_conversation_memory(history, question)
+        print("\nExtracted Memory:")
+        print(f"  Facts: {memory.get('facts', [])}")
+        print(f"  Answered: {memory.get('answered_questions', [])}")
+        print(f"  Do Not Ask: {memory.get('do_not_ask', [])}")
+        print(f"  Summary: {memory.get('summary', '')}")
+
+        print("\n" + "=" * 60)
+        print("Full Prompt:")
         print("=" * 60)
-        print(f"Question: {question}")
-        print(f"Intents: {intents}")
-        print(f"Phase: {get_conversation_phase(history)}")
-        print(f"Context: {extract_conversation_context(history)}")
-        print("=" * 60)
+        prompt = build_prompt(intents, question, context="[Sample context]", conversation_history=history)
         print(prompt)
     else:
         print("Usage: python prompt_manager.py 'your question'")

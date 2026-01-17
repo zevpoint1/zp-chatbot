@@ -215,6 +215,9 @@ def parse_answer_nudge(llm_response: str) -> Tuple[str, Optional[str]]:
     ANSWER: [response text]
     NUDGE: [follow-up text or "none"]
 
+    Also handles cases where LLM adds preamble before ANSWER:
+    e.g., "Here is my response:\nANSWER: ..."
+
     Returns:
         tuple: (answer_text, nudge_text or None)
     """
@@ -228,9 +231,11 @@ def parse_answer_nudge(llm_response: str) -> Tuple[str, Optional[str]]:
         # Extract answer part (everything before NUDGE:)
         answer_part = parts[0].strip()
 
-        # Remove ANSWER: prefix if present
-        if answer_part.startswith("ANSWER:"):
-            answer = answer_part[7:].strip()  # Remove "ANSWER:" (7 chars)
+        # Find and remove ANSWER: prefix (case-insensitive, handles preamble)
+        upper_answer = answer_part.upper()
+        if "ANSWER:" in upper_answer:
+            prefix_pos = upper_answer.find("ANSWER:")
+            answer = answer_part[prefix_pos + 7:].strip()
         else:
             answer = answer_part
 
@@ -240,9 +245,22 @@ def parse_answer_nudge(llm_response: str) -> Tuple[str, Optional[str]]:
         if nudge_text.lower() not in ("none", ""):
             nudge = nudge_text
 
-    elif "ANSWER:" in llm_response:
-        # Only ANSWER: present, no NUDGE:
-        answer = llm_response.split("ANSWER:", 1)[1].strip()
+    elif "ANSWER:" in llm_response.upper():
+        # Only ANSWER: present, no NUDGE: - find and remove prefix
+        # Handle case-insensitive matching and preamble text
+        upper_response = llm_response.upper()
+        prefix_pos = upper_response.find("ANSWER:")
+        answer = llm_response[prefix_pos + 7:].strip()
+
+    # Final safety check - recursively strip any remaining ANSWER: prefix variations
+    # This handles cases like "ANSWER: ANSWER: actual response"
+    max_iterations = 3  # Prevent infinite loop
+    for _ in range(max_iterations):
+        answer_stripped = answer.lstrip()
+        if answer_stripped.upper().startswith("ANSWER:"):
+            answer = answer_stripped[7:].strip()
+        else:
+            break
 
     return answer, nudge
 

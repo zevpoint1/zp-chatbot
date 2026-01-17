@@ -21,6 +21,7 @@ from shared.pipeline.preprocessing import (
     rewrite_query_simple,
     rewrite_query_with_llm,
     enrich_query_with_context,
+    detect_ambiguous_vehicle,
 )
 from shared.pipeline.retrieval import retrieve, rerank_hits
 from shared.pipeline.generation import (
@@ -28,6 +29,7 @@ from shared.pipeline.generation import (
     parse_answer_nudge,
     generate_llm_failure_fallback,
 )
+from shared.key_facts import KeyFacts
 
 logger = logging.getLogger(__name__)
 
@@ -36,7 +38,8 @@ def answer_question(
     user_question: str,
     conversation_history: List[Dict[str, str]] = None,
     top_k: int = None,
-    enable_llm_rewrite: bool = False
+    enable_llm_rewrite: bool = False,
+    key_facts: KeyFacts = None
 ) -> PipelineResult:
     """Main RAG pipeline orchestrator."""
     if top_k is None:
@@ -57,6 +60,27 @@ def answer_question(
         # 2. Detect intents EARLY (before any error returns)
         intents = detect_intent(user_question)
         logger.info(f"Detected intents: {intents}")
+
+        # 2.5. Check for ambiguous vehicle mentions - return clarification if needed
+        ambiguous = detect_ambiguous_vehicle(user_question, conversation_history)
+        if ambiguous:
+            logger.info(f"Ambiguous vehicle detected: {ambiguous['vehicle']}")
+            # Return early with clarification question
+            metrics.total_time = time.time() - pipeline_start
+            return PipelineResult(
+                answer=ambiguous["question"],
+                sources=[],
+                metrics=metrics,
+                filters={},
+                rewritten_queries=[],
+                retrieved_chunks=[],
+                intents=intents,
+                confidence_score=1.0,  # High confidence - we know we need clarification
+                search_time_ms=0.0,
+                llm_time_ms=0.0,
+                nudge=f"The {ambiguous['vehicle'].title()} comes in variants with different charging speeds.",
+                delayed_nudge=None
+            )
 
         # 3. Preprocess: extract filters + normalize
         preprocess_start = time.time()
@@ -137,7 +161,8 @@ def answer_question(
             intents=intents,
             question=user_question,
             context=context,
-            conversation_history=conversation_history
+            conversation_history=conversation_history,
+            key_facts=key_facts
         )
 
         logger.info("Using dynamic system prompt with RAG context")
@@ -221,6 +246,20 @@ def answer_question(
         if nudge_text:
             logger.info(f"Parsed nudge: {nudge_text[:AppConfig.NUDGE_LOG_PREVIEW_LENGTH]}...")
 
+        # Generate delayed nudge for re-engagement after ~60 seconds
+        delayed_nudge_text = None
+        try:
+            from shared.delayed_nudge import generate_delayed_nudge
+            delayed_nudge_text = generate_delayed_nudge(
+                conversation_history=conversation_history,
+                last_answer=answer_text,
+                last_nudge=nudge_text
+            )
+            if delayed_nudge_text:
+                logger.info(f"Generated delayed nudge: {delayed_nudge_text[:50]}...")
+        except Exception as e:
+            logger.warning(f"Failed to generate delayed nudge: {e}")
+
         # Estimate confidence
         top_score = top_hits[0].get("hybrid_score", 0.0) if top_hits else 0.0
         confidence = min(top_score, 1.0)
@@ -243,7 +282,8 @@ def answer_question(
             confidence_score=confidence,
             search_time_ms=metrics.search_time_ms,
             llm_time_ms=metrics.llm_generation_time * 1000,
-            nudge=nudge_text
+            nudge=nudge_text,
+            delayed_nudge=delayed_nudge_text
         )
 
     except ValidationError as e:

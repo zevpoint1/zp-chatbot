@@ -25,6 +25,7 @@ from shared.conversation_state import (
     get_followup_message,
     get_state_description
 )
+from shared.key_facts import KeyFacts, update_facts_from_new_message
 
 # Azure Table Storage
 try:
@@ -134,7 +135,7 @@ def get_table_client():
 def load_user_memory(user_id: str, session_id: str):
     table = get_table_client()
     if not table:
-        return [], "ACTIVE", 0, None, None, None
+        return [], "ACTIVE", 0, None, None, None, KeyFacts()
 
     try:
         entity = table.get_entity(user_id, session_id)
@@ -157,17 +158,22 @@ def load_user_memory(user_id: str, session_id: str):
             if bot_ts else None
         )
 
+        # Load key_facts from storage
+        key_facts_json = entity.get("key_facts", "")
+        key_facts = KeyFacts.from_json(key_facts_json) if key_facts_json else KeyFacts()
+
         return (
             history,
             state,
             followup_count,
             last_user_timestamp,
             last_bot_message,
-            last_bot_timestamp
+            last_bot_timestamp,
+            key_facts
         )
 
     except Exception:
-        return [], "ACTIVE", 0, None, None, None
+        return [], "ACTIVE", 0, None, None, None, KeyFacts()
 
 
 def save_user_memory(
@@ -176,7 +182,8 @@ def save_user_memory(
     history: List[Dict[str, str]],
     state: str,
     followup_count: int,
-    last_user_timestamp: Optional[datetime]
+    last_user_timestamp: Optional[datetime],
+    key_facts: Optional[KeyFacts] = None
 ):
     table = get_table_client()
     if not table:
@@ -197,7 +204,8 @@ def save_user_memory(
         "last_user_timestamp": last_user_timestamp.isoformat() if last_user_timestamp else None,
         "last_bot_message": last_bot_msg,
         "last_bot_timestamp": datetime.now(timezone.utc).isoformat(),
-        "updated_at": datetime.now(timezone.utc).isoformat()
+        "updated_at": datetime.now(timezone.utc).isoformat(),
+        "key_facts": key_facts.to_json() if key_facts else ""
     }
 
     table.upsert_entity(entity)
@@ -261,6 +269,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
         last_user_timestamp = None
         last_bot_message = None
         last_bot_timestamp = None
+        key_facts = KeyFacts()
 
         if use_memory:
             (
@@ -269,10 +278,15 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
                 followup_count,
                 last_user_timestamp,
                 last_bot_message,
-                last_bot_timestamp
+                last_bot_timestamp,
+                key_facts
             ) = load_user_memory(user_id, session_id)
 
             conversation_history = truncate_history(conversation_history)
+
+        # Update key_facts with new user message (lightweight regex extraction)
+        key_facts = update_facts_from_new_message(user_message, key_facts)
+        logger.info(f"Key facts: {key_facts.to_dict()}")
 
         # ----------------------------
         # Update state
@@ -305,7 +319,8 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
                     conversation_history,
                     state,
                     followup_count,
-                    last_user_timestamp
+                    last_user_timestamp,
+                    key_facts
                 )
 
                 return func.HttpResponse(
@@ -320,9 +335,13 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
             result = answer_question(
                 user_question=user_message,
                 conversation_history=conversation_history,
-                top_k=AppConfig.DEFAULT_RAG_TOP_K
+                top_k=AppConfig.DEFAULT_RAG_TOP_K,
+                key_facts=key_facts
             )
             bot_reply = result.answer
+
+            # Update key_facts from bot response (may confirm facts)
+            key_facts = update_facts_from_new_message(bot_reply, key_facts)
 
         except Exception as rag_error:
             logger.error(f"RAG pipeline error: {rag_error}", exc_info=True)
@@ -364,18 +383,22 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
                 conversation_history,
                 state,
                 followup_count,
-                last_user_timestamp
+                last_user_timestamp,
+                key_facts
             )
 
         vehicle_info = extract_vehicle_info(conversation_history)
 
         # Get nudge from result (optional follow-up message)
         nudge = result.nudge if hasattr(result, 'nudge') else None
+        # Get delayed nudge (shown after ~60 seconds of inactivity)
+        delayed_nudge = result.delayed_nudge if hasattr(result, 'delayed_nudge') else None
 
         return func.HttpResponse(
             json.dumps({
                 "response": bot_reply,
                 "nudge": nudge,
+                "delayed_nudge": delayed_nudge,
                 "sources": result.sources if hasattr(result, 'sources') else [],
                 "confidence": result.confidence_score if hasattr(result, 'confidence_score') else 0.0,
                 "metadata": {

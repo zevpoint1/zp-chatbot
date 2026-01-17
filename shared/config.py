@@ -13,11 +13,12 @@ class AppConfig:
     # --------------------------------------------------
     # Conversation & Memory Settings
     # --------------------------------------------------
-    # Maximum messages to store in conversation history
-    MAX_STORED_MESSAGES = int(os.getenv("MAX_STORED_MESSAGES", "10"))
+    # Maximum messages to store in conversation history (increased from 10 to 16 for longer sales conversations)
+    MAX_STORED_MESSAGES = int(os.getenv("MAX_STORED_MESSAGES", "16"))
 
     # Number of recent messages to include in LLM context (should be even for user/assistant pairs)
-    CONVERSATION_HISTORY_LIMIT = int(os.getenv("CONVERSATION_HISTORY_LIMIT", "6"))
+    # Increased from 6 to 10 to maintain context through typical sales flow
+    CONVERSATION_HISTORY_LIMIT = int(os.getenv("CONVERSATION_HISTORY_LIMIT", "10"))
 
     # Default top_k for RAG retrieval in HTTP handler
     DEFAULT_RAG_TOP_K = int(os.getenv("DEFAULT_RAG_TOP_K", "8"))
