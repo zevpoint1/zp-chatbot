@@ -16,6 +16,7 @@ import threading
 # Add parent directory to path for shared imports
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
+from shared.config import AppConfig
 from shared.prompt_manager import extract_vehicle_info
 from shared.query_pipeline import answer_question
 from shared.conversation_state import (
@@ -89,7 +90,7 @@ class RateLimiter:
         """Periodically cleanup old entries to prevent memory bloat"""
         with self.lock:
             now = datetime.now(timezone.utc)
-            cutoff = now - timedelta(hours=2)
+            cutoff = now - timedelta(hours=AppConfig.RATE_LIMIT_CLEANUP_HOURS)
 
             # Remove clients with no recent requests
             to_remove = []
@@ -106,8 +107,8 @@ class RateLimiter:
 
 # Initialize global rate limiter
 rate_limiter = RateLimiter(
-    max_requests_per_minute=int(os.getenv("RATE_LIMIT_PER_MINUTE", "60")),
-    max_requests_per_hour=int(os.getenv("RATE_LIMIT_PER_HOUR", "500"))
+    max_requests_per_minute=AppConfig.RATE_LIMIT_PER_MINUTE,
+    max_requests_per_hour=AppConfig.RATE_LIMIT_PER_HOUR
 )
 
 # --------------------------------------------------
@@ -123,7 +124,7 @@ def get_table_client():
         return None
 
     service = TableServiceClient.from_connection_string(conn_str)
-    return service.get_table_client("ChatHistory")
+    return service.get_table_client(AppConfig.CHAT_HISTORY_TABLE)
 
 
 # --------------------------------------------------
@@ -202,7 +203,9 @@ def save_user_memory(
     table.upsert_entity(entity)
 
 
-def truncate_history(history: List[Dict[str, str]], max_messages: int = 10):
+def truncate_history(history: List[Dict[str, str]], max_messages: int = None):
+    if max_messages is None:
+        max_messages = AppConfig.MAX_STORED_MESSAGES
     return history[-max_messages:] if len(history) > max_messages else history
 
 
@@ -233,7 +236,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
                 json.dumps({
                     "error": "Rate limit exceeded",
                     "message": reason,
-                    "retry_after": 60
+                    "retry_after": AppConfig.RATE_LIMIT_RETRY_AFTER
                 }),
                 status_code=429,
                 headers=CORS_HEADERS
@@ -317,7 +320,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
             result = answer_question(
                 user_question=user_message,
                 conversation_history=conversation_history,
-                top_k=8
+                top_k=AppConfig.DEFAULT_RAG_TOP_K
             )
             bot_reply = result.answer
 
@@ -366,9 +369,13 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
 
         vehicle_info = extract_vehicle_info(conversation_history)
 
+        # Get nudge from result (optional follow-up message)
+        nudge = result.nudge if hasattr(result, 'nudge') else None
+
         return func.HttpResponse(
             json.dumps({
                 "response": bot_reply,
+                "nudge": nudge,
                 "sources": result.sources if hasattr(result, 'sources') else [],
                 "confidence": result.confidence_score if hasattr(result, 'confidence_score') else 0.0,
                 "metadata": {
@@ -398,20 +405,37 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
 # CLEAR USER MEMORY
 # --------------------------------------------------
 
+def sanitize_odata_string(value: str) -> str:
+    """
+    Sanitize a string for use in OData filter queries.
+    Escapes single quotes by doubling them (OData standard).
+    """
+    if not value:
+        return value
+    return value.replace("'", "''")
+
+
 def clear_user_memory(user_id: str) -> bool:
     table = get_table_client()
     if not table:
         return False
 
     try:
-        # Sanitize user_id to prevent injection
-        # Azure Table Storage PartitionKey/RowKey have restricted character set
-        if not user_id or not user_id.replace("_", "").replace("-", "").isalnum():
+        # Validate user_id format
+        # Allow alphanumeric, underscore, hyphen, colon (for session IDs)
+        if not user_id:
+            logger.warning("Empty user_id provided")
+            return False
+
+        allowed_chars = set("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_-:")
+        if not all(c in allowed_chars for c in user_id):
             logger.warning(f"Invalid user_id format: {user_id}")
             return False
 
-        # Use parameterized query with query_entities filter
-        entities = table.query_entities(query_filter=f"PartitionKey eq '{user_id}'")
+        # Sanitize for OData query (escape single quotes)
+        safe_user_id = sanitize_odata_string(user_id)
+
+        entities = table.query_entities(query_filter=f"PartitionKey eq '{safe_user_id}'")
         for e in entities:
             table.delete_entity(e["PartitionKey"], e["RowKey"])
         return True
