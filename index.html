@@ -291,8 +291,16 @@ inputBox.addEventListener("keypress", e => {
 newChatBtn.onclick = () => {
     sessionId = crypto.randomUUID();
     messagesDiv.innerHTML = "";
-    showStatus("Started a new chat");
+    showStatus("");
+    showWelcomeMessage();
 };
+
+function showWelcomeMessage() {
+    addMessage("Hi! Are you looking for an EV charger?", "bot");
+}
+
+// Show welcome message on page load
+showWelcomeMessage();
 
 /* ----------------------------------
    DEBUG (REMOVE IN PROD)
