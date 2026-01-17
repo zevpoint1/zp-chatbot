@@ -180,15 +180,17 @@ class PipelineResult:
     metrics: QueryMetrics
     filters: Dict[str, str]
     rewritten_queries: List[str]
-    retrieved_chunks: List[str]   
+    retrieved_chunks: List[str]
     intents: List[str] = None
     confidence_score: Optional[float] = None
     search_time_ms: float = 0.0
     llm_time_ms: float = 0.0
-    
+    nudge: Optional[str] = None  # Optional follow-up message
+
     def to_dict(self) -> Dict[str, Any]:
         return {
             "answer": self.answer,
+            "nudge": self.nudge,
             "sources": self.sources,
             "metrics": self.metrics.to_dict(),
             "filters": self.filters,
@@ -1242,6 +1244,48 @@ def _generate_fallback_response(intents: List[str], question: str, conversation_
     )
 
 
+def _parse_answer_nudge(llm_response: str) -> tuple:
+    """
+    Parse the LLM response to extract ANSWER and NUDGE parts.
+
+    Expected format:
+    ANSWER: [response text]
+    NUDGE: [follow-up text or "none"]
+
+    Also handles cases where LLM doesn't use ANSWER: prefix but includes NUDGE:
+
+    Returns:
+        tuple: (answer_text, nudge_text or None)
+    """
+    answer = llm_response
+    nudge = None
+
+    # Check if NUDGE: is present anywhere in the response
+    if "NUDGE:" in llm_response:
+        parts = llm_response.split("NUDGE:", 1)
+
+        # Extract answer part (everything before NUDGE:)
+        answer_part = parts[0].strip()
+
+        # Remove ANSWER: prefix if present
+        if answer_part.startswith("ANSWER:"):
+            answer = answer_part[7:].strip()  # Remove "ANSWER:" (7 chars)
+        else:
+            answer = answer_part
+
+        # Extract nudge part
+        nudge_text = parts[1].strip()
+        # Check if nudge is "none" or empty
+        if nudge_text.lower() not in ("none", ""):
+            nudge = nudge_text
+
+    elif "ANSWER:" in llm_response:
+        # Only ANSWER: present, no NUDGE:
+        answer = llm_response.split("ANSWER:", 1)[1].strip()
+
+    return answer, nudge
+
+
 # ========================
 # Main Pipeline Orchestrator
 # ========================
@@ -1319,64 +1363,8 @@ def answer_question(
         metrics.retrieved_count = len(all_hits)
         
         if not all_hits:
-            logger.warning("No results retrieved from vector search - using conversation context only")
+            logger.warning("No results retrieved from vector search - continuing with LLM only")
 
-            # Still call LLM with conversation history but without RAG context
-            # This handles conversational follow-ups like "smart" or "yes"
-            try:
-                system_prompt = build_prompt(
-                    intents=intents,
-                    question=user_question,
-                    context=None,  # No RAG context
-                    conversation_history=conversation_history
-                )
-
-                messages = [{"role": "system", "content": system_prompt}]
-
-                # Add conversation history
-                if conversation_history:
-                    for msg in conversation_history[-10:]:
-                        messages.append({"role": msg["role"], "content": msg["content"]})
-
-                messages.append({"role": "user", "content": user_question})
-
-                response = client.chat.completions.create(
-                    model=Config.OPENAI_MODEL,
-                    messages=messages,
-                    temperature=Config.TEMPERATURE,
-                    max_tokens=Config.MAX_RESPONSE_TOKENS
-                )
-
-                answer = response.choices[0].message.content.strip()
-
-                return PipelineResult(
-                    answer=answer,
-                    sources=[],
-                    metrics=metrics,
-                    filters=filters,
-                    rewritten_queries=rewritten_queries,
-                    retrieved_chunks=[],
-                    intents=intents,
-                    confidence_score=0.5,  # Medium confidence without RAG
-                    search_time_ms=metrics.search_time_ms,
-                    llm_time_ms=0.0
-                )
-            except Exception as e:
-                logger.error(f"LLM fallback failed: {e}")
-                fallback_answer = _generate_fallback_response(intents, user_question, conversation_history)
-                return PipelineResult(
-                    answer=fallback_answer,
-                    sources=[],
-                    metrics=metrics,
-                    filters=filters,
-                    rewritten_queries=rewritten_queries,
-                    retrieved_chunks=[],
-                    intents=intents,
-                    confidence_score=0.0,
-                    search_time_ms=metrics.search_time_ms,
-                    llm_time_ms=0.0
-                )
-        
         # 6. Rerank
         rerank_start = time.time()
         reranked_hits = rerank_hits(user_question, all_hits)
@@ -1394,20 +1382,8 @@ def answer_question(
         metrics.context_tokens = context_tokens
         
         if not context:
-            logger.warning("No context could be built from results")
-            return PipelineResult(
-                answer="I found some potentially relevant information, but couldn't build a proper context.",
-                sources=sources,
-                metrics=metrics,
-                filters=filters,
-                rewritten_queries=rewritten_queries,
-                retrieved_chunks=[],
-                intents=intents,  # ✅ Now defined
-                confidence_score=0.2,
-                search_time_ms=metrics.search_time_ms,
-                llm_time_ms=metrics.llm_generation_time * 1000
-            )
-        
+            logger.warning("No context could be built from results - will use conversation history only")
+
         # 8. Generate answer with conversation history
         generation_start = time.time()
         
@@ -1475,7 +1451,7 @@ def answer_question(
                 if attempt == max_retries:
                     # Final attempt failed - use fallback
                     logger.error("All OpenAI API attempts failed, using fallback response")
-                    answer_text = _generate_llm_failure_fallback(context, user_question, intents)
+                    answer_text = _generate_llm_failure_fallback(context, user_question, intents, conversation_history)
                     break
 
                 # Wait before retry (exponential backoff)
@@ -1486,25 +1462,30 @@ def answer_question(
 
                 if attempt == max_retries:
                     # Final attempt failed - use fallback
-                    answer_text = _generate_llm_failure_fallback(context, user_question, intents)
+                    answer_text = _generate_llm_failure_fallback(context, user_question, intents, conversation_history)
                     break
 
                 time.sleep(2 ** attempt)
         
         metrics.llm_generation_time = time.time() - generation_start
         metrics.total_time = time.time() - pipeline_start
-        
+
+        # Parse ANSWER and NUDGE from LLM response
+        answer_text, nudge_text = _parse_answer_nudge(answer_text)
+        if nudge_text:
+            logger.info(f"Parsed nudge: {nudge_text[:50]}...")
+
         # Estimate confidence
         top_score = top_hits[0].get("hybrid_score", 0.0) if top_hits else 0.0
         confidence = min(top_score, 1.0)
-        
+
         logger.info("=" * 60)
         logger.info("RAG PIPELINE COMPLETE")
         logger.info(f"Total time: {metrics.total_time:.2f}s")
         logger.info(f"Retrieved: {metrics.retrieved_count}, Used: {metrics.chunks_used}")
         logger.info(f"Confidence: {confidence:.2f}")
         logger.info("=" * 60)
-        
+
         return PipelineResult(
             answer=answer_text,
             sources=sources,
@@ -1515,7 +1496,8 @@ def answer_question(
             intents=intents,
             confidence_score=confidence,
             search_time_ms=metrics.search_time_ms,
-            llm_time_ms=metrics.llm_generation_time * 1000
+            llm_time_ms=metrics.llm_generation_time * 1000,
+            nudge=nudge_text
         )
     
     except ValidationError as e:
