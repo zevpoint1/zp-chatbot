@@ -242,6 +242,14 @@ async function sendMessage() {
 
         addMessage(data.response || "⚠️ No response", "bot");
 
+        // Handle nudge (follow-up message) after a pause
+        if (data.nudge && data.nudge.trim()) {
+            console.log("Nudge received:", data.nudge);
+            setTimeout(() => {
+                addMessage(data.nudge, "bot");
+            }, 4500); // 4.5 second delay for natural conversation flow
+        }
+
     } catch (err) {
         setLoading(false);
         addMessage("⚠️ Unable to connect to server", "bot");
