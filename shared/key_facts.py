@@ -447,3 +447,120 @@ def update_facts_from_new_message(
     facts = existing_facts or KeyFacts()
     new_facts = extract_facts_from_message(new_message)
     return facts.merge(new_facts)
+
+
+def extract_facts_from_qa_pair(
+    bot_question: str,
+    user_answer: str,
+    existing_facts: Optional[KeyFacts] = None
+) -> KeyFacts:
+    """
+    Extract facts from Q&A pairs where user gives short contextual answers.
+
+    This handles cases like:
+    - Bot: "Do you have three-phase power?" User: "yes"
+    - Bot: "Do you prefer portable or wall-mounted?" User: "portable"
+    - Bot: "Do you live in a house or apartment?" User: "house"
+
+    The user's short answer only makes sense in context of the bot's question.
+    """
+    facts = existing_facts or KeyFacts()
+
+    if not bot_question or not user_answer:
+        return facts
+
+    answer_lower = user_answer.lower().strip()
+    question_lower = bot_question.lower()
+
+    # Detect affirmative/negative responses
+    affirmative = answer_lower in (
+        "yes", "yeah", "yep", "yup", "ha", "haan", "ji", "ji haan",
+        "correct", "right", "sure", "of course", "definitely", "absolutely",
+        "i do", "i have", "we do", "we have", "available", "yes i do", "yes i have"
+    )
+    negative = answer_lower in (
+        "no", "nope", "nah", "nahi", "na", "not really", "don't have",
+        "i don't", "we don't", "not available", "no i don't"
+    )
+
+    # Three-phase power detection
+    three_phase_keywords = ["three-phase", "three phase", "3-phase", "3 phase"]
+    if any(kw in question_lower for kw in three_phase_keywords):
+        if affirmative:
+            facts.electrical_setup["phase"] = "three"
+            logger.debug("Extracted from Q&A: three-phase = yes")
+        elif negative:
+            facts.electrical_setup["phase"] = "single"
+            logger.debug("Extracted from Q&A: three-phase = no (single phase)")
+
+    # Single-phase detection
+    single_phase_keywords = ["single-phase", "single phase", "1-phase", "1 phase"]
+    if any(kw in question_lower for kw in single_phase_keywords):
+        if affirmative:
+            facts.electrical_setup["phase"] = "single"
+        elif negative:
+            facts.electrical_setup["phase"] = "three"
+
+    # Portable vs wall-mounted preference
+    if "portable" in question_lower and "wall" in question_lower:
+        # Question asks about preference between both
+        if "portable" in answer_lower:
+            facts.charger_preference = "portable"
+            logger.debug("Extracted from Q&A: preference = portable")
+        elif any(w in answer_lower for w in ["wall", "fixed", "mounted"]):
+            facts.charger_preference = "wall-mounted"
+            logger.debug("Extracted from Q&A: preference = wall-mounted")
+    elif "portable" in question_lower:
+        if affirmative:
+            facts.charger_preference = "portable"
+        elif negative:
+            facts.charger_preference = "wall-mounted"
+    elif "wall" in question_lower and ("mount" in question_lower or "fixed" in question_lower):
+        if affirmative:
+            facts.charger_preference = "wall-mounted"
+        elif negative:
+            facts.charger_preference = "portable"
+
+    # Living situation
+    if "house" in question_lower and "apartment" in question_lower:
+        if any(w in answer_lower for w in ["house", "bungalow", "villa", "independent"]):
+            facts.living_situation = "independent house"
+            logger.debug("Extracted from Q&A: living = house")
+        elif any(w in answer_lower for w in ["apartment", "flat", "society", "condo"]):
+            facts.living_situation = "apartment"
+            logger.debug("Extracted from Q&A: living = apartment")
+    elif "house" in question_lower or "independent" in question_lower:
+        if affirmative:
+            facts.living_situation = "independent house"
+    elif "apartment" in question_lower or "flat" in question_lower or "society" in question_lower:
+        if affirmative:
+            facts.living_situation = "apartment"
+
+    # Earthing/grounding
+    earthing_keywords = ["earthing", "grounding", "earth connection", "ground connection"]
+    if any(kw in question_lower for kw in earthing_keywords):
+        if affirmative:
+            facts.electrical_setup["earthing"] = "available"
+            logger.debug("Extracted from Q&A: earthing = available")
+        elif negative:
+            facts.electrical_setup["earthing"] = "not available"
+
+    # Installation interest
+    installation_keywords = ["installation", "install", "set up", "setup", "fitting"]
+    if any(kw in question_lower for kw in installation_keywords):
+        if "need" in question_lower or "want" in question_lower or "require" in question_lower:
+            if affirmative:
+                facts.installation_interest = True
+                logger.debug("Extracted from Q&A: installation_interest = True")
+            elif negative:
+                facts.installation_interest = False
+
+    # App preference
+    if "app" in question_lower:
+        if affirmative:
+            # Could track app preference if we add that field
+            logger.debug("Customer wants app control")
+        elif negative:
+            logger.debug("Customer doesn't need app control")
+
+    return facts

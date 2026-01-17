@@ -1,0 +1,140 @@
+===============================================
+ZEVPOINT DISCOUNT AND OFFERS POLICY
+Document ID: ZEVPOINT-DISCOUNT-001
+Last Updated: January 2025
+===============================================
+
+DISCOUNT HANDLING GUIDELINES
+----------------------------
+When a customer asks about discounts, offers, or price reductions:
+
+1. ACKNOWLEDGE their expectation politely
+2. BE OPEN to offering reasonable discounts
+3. HIGHLIGHT product value and advantages
+4. OFFER alternatives like free accessories
+
+STANDARD DISCOUNT STRUCTURE (AC CHARGERS)
+-----------------------------------------
+
+For chargers priced BELOW Rs.20,000 (Aveo 3.6, Aveo 3.6 Plus):
+- Discount Range: Rs.250 to Rs.600
+- Example: Aveo 3.6 at Rs.14,999 → can offer Rs.250-500 off
+- Example: Aveo 3.6 Plus at Rs.16,999 → can offer Rs.400-600 off
+
+For chargers priced BELOW Rs.30,000 (Dash, Aveo Pro, Aveo X1):
+- Discount Range: Rs.500 to Rs.1,000
+- Example: Dash at Rs.20,999 → can offer Rs.500-800 off
+- Example: Aveo Pro at Rs.22,999 → can offer Rs.500-1,000 off
+- Example: Aveo X1 at Rs.29,999 → can offer Rs.750-1,250 off
+
+For chargers priced BELOW Rs.50,000 (Spyder AIO, Polar series, Duos):
+- Discount Range: Rs.500 to Rs.1,250
+- Example: Spyder AIO at Rs.42,999 → can offer Rs.800-1,250 off
+- Example: Polar Max at Rs.39,999 → can offer Rs.750-1,250 off
+
+FREE ACCESSORY OPTIONS (Alternative to Discount)
+------------------------------------------------
+IMPORTANT: Offer EITHER discount OR accessory - NOT BOTH together.
+Present both options and let customer choose one:
+
+Charger Holder Stand:
+- Worth: Rs.999
+- Suitable for: All portable chargers
+- Benefit: Keeps charger organized, prevents cable damage
+
+Jumper Cable (for 7kW+ portable chargers):
+- Worth: Rs.1,899
+- Suitable for: Aveo Pro, Aveo X1, Dash, Spyder AIO
+- Benefit: Emergency use, extends cable reach
+
+Offer these as: "Instead of a discount, I can include a free charger holder worth Rs.999" or "We can add a jumper cable worth Rs.1,899 at no extra cost"
+
+NO-COST EMI PURCHASES
+---------------------
+When customer is using No-Cost EMI (3-month EMI option):
+- RESIST additional discounting
+- EMI itself is a benefit (no interest charges)
+- Politely explain: "Since you're already getting the benefit of no-cost EMI, we're unable to offer additional discounts on this order"
+- Can still offer free accessories if customer insists
+
+WHEN CUSTOMER ASKS FOR MORE DISCOUNT
+------------------------------------
+If customer is not satisfied with the offered discount and asks for more:
+1. Reiterate product advantages and value
+2. Mention warranty (5 years cable, 2 years electronics)
+3. Highlight included accessories (carry bag, wall bracket, socket for 7kW models)
+4. If still insisting, connect to a specialist: "Let me connect you with our sales specialist who can discuss this further"
+
+DC CHARGER DISCOUNTS (Commercial Products)
+------------------------------------------
+For DC chargers (Navigator, Nova series), discount handling is different:
+
+Step 1 - Understand Seriousness:
+- Ask about their timeline and project requirements
+- Understand if this is for immediate purchase or future planning
+- Gauge genuine buying intent
+
+Step 2 - If Decision is Made:
+- Assure customer: "If you've decided to go with Zevpoint, we're definitely open to offering attractive pricing"
+- DC charger deals are negotiable based on quantity and project scope
+
+Step 3 - Connect to Specialist:
+- If customer insists on knowing specific discount: "For DC charger pricing and special offers, let me connect you with our commercial sales specialist who handles these projects"
+- Commercial sales can offer customized pricing based on:
+  - Number of units
+  - Installation requirements
+  - Payment terms
+  - Long-term partnership potential
+
+PRODUCT VALUE TALKING POINTS
+----------------------------
+When discussing discounts, also highlight these advantages:
+
+Quality & Reliability:
+- CE, TUV certified for safety
+- IP66 weatherproof rating
+- Trusted by 12,000+ EV owners
+
+Warranty & Support:
+- 5-year warranty on cable and housing
+- 2-year warranty on electronics
+- Lifetime technical support
+- Pan-India doorstep service
+
+What's Included:
+- Carry bag for portability
+- Wall mounting bracket
+- 32A CEE socket (for 7kW models)
+- User manual and quick start guide
+
+SAMPLE RESPONSES
+----------------
+
+Customer: "Any discount available?"
+Response: "Yes, we can offer a small discount. For the [product name], I can offer Rs.[amount] off. Alternatively, I can include a free charger holder worth Rs.999. Which would you prefer?"
+
+Customer: "Can you give more discount?"
+Response: "I understand. The [product] already includes a carry bag, wall bracket, and comes with 5-year warranty on the cable. It's excellent value. However, if you'd like to discuss further, I can connect you with our sales specialist."
+
+Customer: "I want discount on EMI purchase"
+Response: "Since you're already benefiting from our no-cost EMI option with zero interest charges, additional discounts aren't available on EMI orders. However, I can include a free charger holder with your order."
+
+Customer: "What discount on DC charger?"
+Response: "DC charger pricing is customizable based on your project requirements. Could you tell me more about your charging station plans? If you've decided to proceed, we're definitely open to offering competitive pricing. I can connect you with our commercial sales team to discuss specific numbers."
+
+IMPORTANT NOTES
+---------------
+- Never promise exact discount amounts upfront for DC chargers
+- Always position discounts as "special" or "for you"
+- Free accessories are often more valuable than small discounts
+- Maintain product value perception - don't discount too eagerly
+- If unsure, connect to specialist rather than overpromising
+
+CONTACT FOR SPECIALIST HANDOFF
+------------------------------
+Sales Specialist: +91 9779750538
+WhatsApp: wa.link/zevpoint
+
+===============================================
+END OF DOCUMENT
+===============================================

@@ -25,7 +25,7 @@ from shared.conversation_state import (
     get_followup_message,
     get_state_description
 )
-from shared.key_facts import KeyFacts, update_facts_from_new_message
+from shared.key_facts import KeyFacts, update_facts_from_new_message, extract_facts_from_qa_pair
 
 # Azure Table Storage
 try:
@@ -286,6 +286,11 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
 
         # Update key_facts with new user message (lightweight regex extraction)
         key_facts = update_facts_from_new_message(user_message, key_facts)
+
+        # Also extract facts from Q&A context (handles short answers like "yes" to bot questions)
+        if last_bot_message:
+            key_facts = extract_facts_from_qa_pair(last_bot_message, user_message, key_facts)
+
         logger.info(f"Key facts: {key_facts.to_dict()}")
 
         # ----------------------------
