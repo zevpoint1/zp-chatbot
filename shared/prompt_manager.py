@@ -81,6 +81,7 @@ def extract_conversation_context(conversation_history: Optional[List[Dict[str, s
         "product_mentioned": None,
         "has_charger": False,  # True if customer already owns a charger
         "needs_installation_only": False,  # True if customer only needs installation
+        "has_three_phase": None,  # True, False, None (unknown)
     }
 
     if not conversation_history:
@@ -209,6 +210,34 @@ def extract_conversation_context(conversation_history: Optional[List[Dict[str, s
             context["needs_installation_only"] = True
             break
 
+    # Detect three-phase power confirmation
+    # Check both user text and assistant confirmations in sequence
+    if conversation_history:
+        for i, msg in enumerate(conversation_history):
+            msg_content = msg.get("content", "").lower()
+            msg_role = msg.get("role", "")
+
+            # If bot asked about three-phase
+            if msg_role == "assistant" and ("three-phase" in msg_content or "three phase" in msg_content or "3-phase" in msg_content or "3 phase" in msg_content):
+                # Check if user responded positively in the next message
+                if i + 1 < len(conversation_history):
+                    next_msg = conversation_history[i + 1]
+                    if next_msg.get("role") == "user":
+                        user_response = next_msg.get("content", "").lower().strip()
+                        # Positive responses
+                        if user_response in ["yes", "yeah", "yep", "yup", "sure", "correct", "right", "i do", "we do", "have it", "yes i do", "yes we do"] or user_response.startswith("yes"):
+                            context["has_three_phase"] = True
+                        # Negative responses
+                        elif user_response in ["no", "nope", "don't", "dont", "single", "single phase", "no i don't", "no we don't"]:
+                            context["has_three_phase"] = False
+
+    # Also check direct mentions in user text
+    if "three phase" in user_text or "three-phase" in user_text or "3 phase" in user_text or "3-phase" in user_text:
+        if "have three" in user_text or "got three" in user_text or "yes" in user_text:
+            context["has_three_phase"] = True
+        elif "no three" in user_text or "don't have three" in user_text or "single phase" in user_text:
+            context["has_three_phase"] = False
+
     return context
 
 
@@ -293,6 +322,14 @@ Phase: {phase.upper()}
         state_info += "\nCUSTOMER ALREADY HAS A CHARGER - NEEDS INSTALLATION ONLY\n"
         state_info += "RULE: Do NOT recommend new chargers. Focus on installation service.\n"
         state_info += "RULE: Ask which charger they have (if not known) to provide correct installation requirements.\n"
+
+    # Three-phase power status
+    if conv_ctx["has_three_phase"] is True:
+        state_info += "\nThree-phase power: CONFIRMED (customer said yes)\n"
+        state_info += "RULE: Do NOT ask about three-phase again. Customer has confirmed they have it.\n"
+    elif conv_ctx["has_three_phase"] is False:
+        state_info += "\nThree-phase power: NO (customer has single-phase)\n"
+        state_info += "RULE: Do NOT ask about three-phase again. Recommend chargers that work with single-phase.\n"
 
     parts.append(state_info)
 
