@@ -222,12 +222,12 @@
             sendBtn.disabled = false;
             addMessage(data.response, "bot");
 
-            // Handle nudge (follow-up message) after a brief pause
+            // Handle nudge (follow-up message) after a pause
             if (data.nudge && data.nudge.trim()) {
                 console.log("Nudge received:", data.nudge);
                 setTimeout(() => {
                     addMessage(data.nudge, "bot");
-                }, 1500); // 1.5 second delay for breathing room
+                }, 4500); // 4.5 second delay for natural conversation flow
             }
 
             // Log additional info
